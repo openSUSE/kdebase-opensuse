@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=SUSEgreeter -caption "%c" %i %m  
-Icon=SuSElogo1
+Icon=SuSEgreeter
 Terminal=false
 Name=SUSE
 X-KDE-autostart-after=plasma

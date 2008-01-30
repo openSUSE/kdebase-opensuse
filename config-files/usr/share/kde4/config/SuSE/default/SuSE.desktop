@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=SUSEgreeter -caption "%c" %i %m  
-Icon=suse
+Icon=SUSEgreeter
 Comment=
 Terminal=0
 Name=openSUSE
