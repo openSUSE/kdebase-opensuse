@@ -1,4 +1,4 @@
-echo "+++ startkde.suse.sh running" 
+#!/bin/sh
 
 #
 # do we run in a prelinked system ?
