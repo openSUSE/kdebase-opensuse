@@ -89,11 +89,11 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
           cp /usr/share/kde4/config/SuSE/default/trash.desktop $HOME/Desktop/
     fi
 
-    if [ ! -e "$HOME/Desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
+    if [ -e "/usr/bin/firefox" -a ! -e "$HOME/Desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop $HOME/Desktop/
     fi
 
-    if [ ! -e "$HOME/Desktop/Office.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Office.desktop" ]; then
+    if [ -e "/usr/bin/oofromtemplate" -a  ! -e "$HOME/Desktop/Office.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Office.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/Office.desktop $HOME/Desktop/
     fi
 
