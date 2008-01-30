@@ -1,0 +1,224 @@
+/*
+ *
+ * Copyright (C) 2001 Adrian Schroeter <adrian@suse.de>
+ *
+ */
+
+#include <qwidget.h>
+#include <qlayout.h>
+#include <qcheckbox.h>
+#include <qstring.h>
+#include <qspinbox.h>
+#include <qregexp.h>
+#include <qlabel.h>
+#include <q3whatsthis.h>
+#include <qlayout.h>
+#include <qtimer.h>
+#include <qfile.h>
+#include <qtextstream.h>
+#include <qdom.h>
+#include <QShowEvent>
+
+#include <kapplication.h>
+#include <kconfig.h>
+#include <kglobal.h>
+#include <kstandarddirs.h>
+#include <klocale.h>
+#include <kcmodule.h>
+#include <kprocess.h>
+#include <kapplication.h>
+
+#include "greetings.h"
+
+/**** SUSEgreetings ****/
+
+SUSEgreetings::SUSEgreetings()
+    : QDialog(0, Qt::FramelessWindowHint | Qt::CustomizeWindowHint )
+{
+    QFile f;
+    QString content;
+
+    // header 
+    QString filename = KStandardDirs::locate( "data", "SUSEgreeter/greet_header.html" );
+    f.setFileName(filename);
+    if ( ! f.open(QIODevice::ReadOnly))
+    {
+	// %1 = filename
+	content = i18n("Error loading %1").arg("greet_header.html");
+    }
+    else
+    {
+	QTextStream stream(&f);
+	content = stream.readAll();
+	stream.reset();
+	f.close();
+    }
+
+    // section template
+    QString section_template;
+    filename = KStandardDirs::locate( "data", "SUSEgreeter/greet_section.html" );
+    f.setFileName(filename);
+    if ( ! f.open(QIODevice::ReadOnly))
+    {
+	// %1 = filename
+	 section_template = i18n("Error loading %1").arg("greet_section.html");
+    }
+    else
+    {
+	QTextStream stream(&f);
+	section_template = stream.readAll();
+	stream.reset();
+	f.close();
+    }
+
+    // sections
+    filename = KStandardDirs::locate( "data", "SUSEgreeter/greet.xml" );
+    f.setFileName(filename);
+    if ( ! f.open(QIODevice::ReadOnly))
+    {
+	// %1 = filename
+	content += i18n("Error loading %1").arg("greet.xml");
+    }
+    else
+    {
+        QDomDocument doc( "sections" );
+        if ( !doc.setContent( &f )) {
+           content += i18n("Error loading %1").arg("greet.xml");
+        }
+        else {
+           QDomElement docElem = doc.documentElement();
+           QDomNode n = docElem.firstChild();
+           while( !n.isNull() ) {
+               QDomElement e = n.toElement();
+               if( !e.isNull() ) {
+                   if (e.tagName()=="section") {
+                      QString section = section_template;
+                      QDomNode ex = n.firstChild();
+                      while ( !ex.isNull() ) {
+                         QDomElement e2 = ex.toElement();
+                         if( !e2.isNull() ) {
+                            if (e2.tagName()=="icon") {
+				section.replace("__ICON__", e2.text() );
+                            }
+                            else if (e2.tagName()=="title") {
+				section.replace("__TITLE__", i18n(e2.text().toAscii()) );
+}
+                            else if (e2.tagName()=="text") {
+				QString dummy = e2.text().replace('<',"&lt;").replace('>',"&gt;");
+				section.replace("__TEXT__", i18n(dummy.toAscii()).replace("&lt;","<").replace("&gt;",">"));
+                            }
+                         }
+                         ex = ex.nextSibling();
+                      }
+                      content += section;
+                   }
+               }
+               n = n.nextSibling();
+           }
+        }
+	f.close();
+    }
+
+    // footer
+    filename = KStandardDirs::locate( "data", "SUSEgreeter/greet_footer.html" );
+    f.setFileName(filename);
+    if ( ! f.open(QIODevice::ReadOnly))
+    {
+	// %1 = filename
+	content = i18n("Error loading %1").arg("greet_footer.html");
+    }
+    else
+    {
+	QTextStream stream(&f);
+	content += stream.readAll();
+	stream.reset();
+	f.close();
+    }
+    content.replace( "__ENJOY_OPENSUSE__", i18n("Have a lot of fun!"));
+    content.replace( "__CLOSE__", i18n("CLOSE"));
+
+
+    Text = new KTextBrowser( this, "TextView" );
+    Text->setText( content );
+    Text->setNotifyClick( true );
+    QHBoxLayout *top = new QHBoxLayout(this);
+    top->addWidget(Text);
+    setFixedSize( 800, 600 );
+    top->activate();
+
+    QFont font;
+    font.setPixelSize(17);
+    font.setFamily("sans serif");
+    Text->setFont( font );
+    Text->adjustSize();
+
+    top->activate();
+
+    connect( Text, SIGNAL(urlClick(const QString&)), this, SLOT(urlClick(const QString&)) );
+}
+
+void SUSEgreetings::showEvent(QShowEvent* e)
+{
+    QDialog::showEvent(e);
+
+    adjustSize();
+}
+
+void SUSEgreetings::adjustSize()
+{
+    if (Text->contentsRect().height() >= 598) {
+        QFont font = Text->font();
+        if (font.pixelSize() < 14)
+            return;
+
+        font.setPixelSize(font.pixelSize()-1);
+        Text->setFont(font);
+
+        QTimer::singleShot(0, this, SLOT(adjustSize()));
+    }
+}
+
+SUSEgreetings::~SUSEgreetings()
+{
+}
+
+void SUSEgreetings::urlClick(const QString &s){
+    // to get rid of const
+    QString url(s);
+
+    if (url.startsWith("/close")) {
+        kapp->quit();
+	return;
+    }
+
+    if (url=="http://software.opensuse.org/")
+      url="http://software.opensuse.org/search?baseproject=openSUSE%3A11.0";
+
+    if ( url.startsWith( "/you" ) ) {
+        KProcess::startDetached("kdesu", QStringList() << "/sbin/yast2" << "online_update");
+    } else if ( url.startsWith( "irc://") ) {
+        KProcess::startDetached("konversationircprotocolhandler", QStringList() << url);
+    } else {
+        KProcess::startDetached("kfmclient", QStringList() << "openURL" << url);
+    }
+
+    // give the user some feedback
+    QApplication::changeOverrideCursor(Qt::WaitCursor);
+    QTimer::singleShot(2000, this, SLOT(resetCursor()));
+};
+
+void SUSEgreetings::resetCursor(){
+    QApplication::restoreOverrideCursor();
+};
+
+int SUSEgreetings::buttons()
+{
+    return 0 ;
+}
+
+QString SUSEgreetings::quickHelp() const
+{
+    return QString("");
+}
+
+#include "greetings.moc"
