@@ -105,6 +105,10 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
           cp /usr/share/kde4/config/SuSE/default/Support.desktop $HOME/Desktop/
     fi
 
+    if [ ! -e "$HOME/Desktop/live-installer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/live-installer.desktop" -a -e "/etc/YaST2/live-install.xml" ]; then
+          cp /usr/share/kde4/config/SuSE/default/live-installer.desktop $HOME/Desktop/
+    fi
+
     mkdir -p $HOME/.skel/
     touch $HOME/.skel/kdebase4.110
 fi
