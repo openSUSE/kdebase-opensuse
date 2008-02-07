@@ -3,7 +3,7 @@
 opwd=$PWD
 tdir=`mktemp -d`
 cd $tdir || exit 1
-svn export https://svn.suse.de/svn/desktop/trunk/kdebase4-SuSE
+svn export https://svn.suse.de/svn/desktop/trunk/kdebase4-openSUSE
 #if test -d "$MY_LCN_CHECKOUT"; then
 #  echo "Updating $MY_LCN_CHECKOUT"
 #  svn up $MY_LCN_CHECKOUT
@@ -15,6 +15,6 @@ svn export https://svn.suse.de/svn/desktop/trunk/kdebase4-SuSE
 #cd kdebase-SuSE/po
 #/usr/bin/make -f Makefile.am fill_pos
 #cd ../..
-tar -cvj -f $opwd/kdebase4-SuSE-11.0.tar.bz2 kdebase4-SuSE
+tar -cvj -f $opwd/kdebase4-openSUSE-11.0.tar.bz2 kdebase4-openSUSE
 cd /
 rm -rf $tdir
