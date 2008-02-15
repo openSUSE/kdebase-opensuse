@@ -9,3 +9,4 @@ include (MacroLibrary)
 include(MacroOptionalAddSubdirectory)
 
 macro_optional_add_subdirectory(greeter)
+macro_optional_add_subdirectory(sysinfo)
