@@ -10,3 +10,4 @@ include(MacroOptionalAddSubdirectory)
 
 macro_optional_add_subdirectory(greeter)
 macro_optional_add_subdirectory(sysinfo)
+macro_optional_add_subdirectory(krpmview)

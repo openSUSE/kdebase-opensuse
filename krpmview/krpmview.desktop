@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Service
+MimeType=application/x-rpm;
+InitialPreference=7
+Icon=rpm
+Name=KRPMView
+ServiceTypes=KParts/ReadOnlyPart,Browser/View
+X-KDE-Library=libkrpmview

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Exec=kfmclient openProfile filemanagement
+Icon=kfm
+MimeType=application/x-rpm;
+InitialPreference=7
+Hidden=true
+
+Name=File Manager
