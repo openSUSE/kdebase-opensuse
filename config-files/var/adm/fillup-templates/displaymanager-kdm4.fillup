@@ -1,0 +1,26 @@
+## Path:	Desktop/Display manager
+## Description: settings to generate a proper displaymanager config
+## Config:      kdm3
+
+## Type:    string
+## Default: 
+#
+# space separated list of users for which icons should be shown in KDM
+# if empty, then take system defaults
+#
+KDM_USERS=""
+
+## Type:    string
+## Default: 
+#
+# Special greeting words in kdm
+#
+KDM_GREETSTRING=""
+
+## Type:        string
+## Default:     SUSE
+#
+# Define the theme to be used by kdm. If empty, the traditional login
+# window is used (which lacks some features)
+# 
+DISPLAYMANAGER_KDM_THEME="SUSE"
