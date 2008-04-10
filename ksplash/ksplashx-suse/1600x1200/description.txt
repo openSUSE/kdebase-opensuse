@@ -1,0 +1,3 @@
+IMAGE 0 0 background.png
+IMAGE_REL CC 5 0 CC title.png
+WAIT_STATE ready
