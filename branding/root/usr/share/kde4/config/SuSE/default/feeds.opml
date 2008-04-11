@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0" >
+ <head>
+  <text></text>
+ </head>
+ <body>
+  <outline isOpen="true" id="593732682" text="openSUSE" >
+   <outline htmlUrl="http://news.opensuse.org" title="openSUSE News" useCustomFetchInterval="false" maxArticleAge="60" fetchInterval="30" maxArticleNumber="1000" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://news.opensuse.org/?feed=rss2" id="881140551" />
+      <outline htmlUrl="http://planetsuse.org" title="Planet SUSE" useCustomFetchInterval="false" maxArticleAge="60" fetchInterval="30" maxArticleNumber="1000" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://planetsuse.org/rss20.xml" id="1781179102" text="Planet SUSE" description="Planet SUSE - http://planetsuse.org" />
+  </outline>
+  <outline isOpen="true" id="593732681" text="Novell" >
+<outline htmlUrl="http://www.novell.com/news/leadstories/inthenews.html" title="Novell: Novell in the News" useCustomFetchInterval="false" maxArticleAge="60" fetchInterval="30" maxArticleNumber="1000" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.novell.com/newsfeeds/rss/inthenews.xml" id="881140553" text="Novell: Novell in the News" description="Industry news about Novell, Inc., a leading provider of infrastructure software and services to over 52,000 enterprises in 43 countries around the globe." />
+   <outline htmlUrl="http://www.novell.com/prblogs/index.php" title="Novell Open PR" useCustomFetchInterval="false" maxArticleAge="60" fetchInterval="30" maxArticleNumber="1000" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.novell.com/prblogs/?feed=rss2" id="155344404" text="Novell Open PR" description="NOPR" />
+   <outline htmlUrl="http://www.novell.com/linux/security/securitysupport.html" title="SUSE Security Annoncements" useCustomFetchInterval="false" maxArticleAge="60" fetchInterval="30" maxArticleNumber="1000" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.novell.com/linux/security/suse_security.xml" id="1621950071" text="SUSE Security Annoncements" description="Regular information about security issues concerning SUSE LINUX" />
+   <outline htmlUrl="http://www.novell.com/communities/taxonomy/term/56/0" title="Novell User Communities - SLE Desktop" useCustomFetchInterval="false" maxArticleAge="60" fetchInterval="30" maxArticleNumber="1000" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.novell.com/communities/taxonomy/term/56/0/feed" id="1199183896" text="Novell User Communities - SLE Desktop" description="" />
+   <outline htmlUrl="http://www.novell.com/communities/taxonomy/term/55/0" title="Novell User Communities - SLE Server" useCustomFetchInterval="false" maxArticleAge="60" fetchInterval="30" maxArticleNumber="1000" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.novell.com/communities/taxonomy/term/55/0/feed" id="1719738804" text="Novell User Communities - SLE Server" description="" />
+  </outline>
+  <outline isOpen="true" id="612808860" text="KDE" >
+   <outline htmlUrl="http://dot.kde.org/" title="KDE Dot News" useCustomFetchInterval="false" maxArticleAge="0" fetchInterval="0" maxArticleNumber="0" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.kde.org/dotkdeorg.rdf" id="1597785226" text="KDE Dot News" description="KDE Dot News: KDE News on the Dot." />
+   <outline htmlUrl="http://planetkde.org/" title="Planet KDE" useCustomFetchInterval="false" maxArticleAge="0" fetchInterval="0" maxArticleNumber="0" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://planetkde.org/rss20.xml" id="896811841" text="Planet KDE" description="Planet KDE - http://planetKDE.org/" />
+   <outline htmlUrl="http://www.kde-apps.org" title="KDE Apps" useCustomFetchInterval="false" maxArticleAge="0" fetchInterval="0" maxArticleNumber="0" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.kde.org/dot/kde-apps-content.rdf" id="1304441055" text="KDE Apps" description="KDE-Apps.org: Applications for your KDE-Desktop" />
+   <outline htmlUrl="http://www.kde-look.org" title="KDE Look" useCustomFetchInterval="false" maxArticleAge="0" fetchInterval="0" maxArticleNumber="0" archiveMode="globalDefault" version="RSS" type="rss" xmlUrl="http://www.kde.org/kde-look-content.rdf" id="1082655980" text="KDE Look" description="KDE-Look.org: Eyecandy for your KDE-Desktop" />
+  </outline>
+ </body>
+</opml>
+

@@ -118,6 +118,11 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
           cp /usr/share/kde4/config/SuSE/default/bookmarks.xml $HOME/.kde4/share/apps/konqueror/bookmarks.xml
     fi
 
+    if [ ! -e "$HOME/.kde4/share/apps/akregator/data/feeds.opml" -a -e "/usr/share/kde4/config/SuSE/default/feeds.opml" ]; then
+          mkdir -p $HOME/.kde4/share/apps/akregator/data
+          cp /usr/share/kde4/config/SuSE/default/feeds.opml $HOME/.kde4/share/apps/akregator/data/feeds.opml
+    fi
+
     mkdir -p $HOME/.skel/
     touch $HOME/.skel/kdebase4.110
 fi
