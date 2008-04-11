@@ -1,0 +1,29 @@
+<!DOCTYPE xbel ><xbel folded="no" >
+ <folder folded="no" >
+  <title>SUSE</title>
+  <bookmark href="http://www.opensuse.org/" >
+   <title>openSUSE Project</title>
+  </bookmark>
+  <bookmark href="http://news.opensuse.org/" >
+   <title>openSUSE News</title>
+  </bookmark>
+  <bookmark href="http://software.opensuse.org/search?baseproject=openSUSE:11.0" >
+   <title>openSUSE Online Software Repositories</title>
+  </bookmark>
+  <bookmark href="http://www.novell.com/products/opensuse/" >
+   <title>openSUSE Product Page</title>
+  </bookmark>
+  <bookmark href="http://www.novell.com/linux" >
+   <title>SUSE Linux Enterprise</title>
+  </bookmark>
+  <bookmark href="http://www.novell.com/communities/coolsolutions/" >
+   <title>Cool Solutions Community</title>
+  </bookmark>
+  <bookmark href="http://www.novell.com/support/products/suselinux/" >
+   <title>Support</title>
+  </bookmark>
+  <bookmark href="http://www.novell.com/products/opensuse/downloads/" >
+   <title>Download, Updates</title>
+  </bookmark>
+ </folder>
+</xbel>

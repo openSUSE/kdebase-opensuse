@@ -113,6 +113,11 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
           cp /usr/share/kde4/config/SuSE/default/live-installer.desktop $HOME/Desktop/
     fi
 
+    if [ ! -e "$HOME/.kde4/share/apps/konqueror/bookmarks.xml" -a -e "/usr/share/kde4/config/SuSE/default/bookmarks.xml" ]; then
+          mkdir -p $HOME/.kde4/share/apps/konqueror
+          cp /usr/share/kde4/config/SuSE/default/bookmarks.xml $HOME/.kde4/share/apps/konqueror/bookmarks.xml
+    fi
+
     mkdir -p $HOME/.skel/
     touch $HOME/.skel/kdebase4.110
 fi
