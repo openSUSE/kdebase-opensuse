@@ -64,10 +64,12 @@ int main(int argc, char *argv[])
   int ret = a.exec();
   if(ktip){ // only run if we set this to true in the constructor. then SUSEgreeter didn't run before
       // set the ktiprc file entry to true. The global one is set to false for starting SUSEgreeter
+#if 0
       KConfig ktiprc("ktiprc");
       KConfigGroup group = ktiprc.group("TipOfDay");
       group.writeEntry("RunOnStart", true);
       ktiprc.sync();
+#endif
 
 //      kapp->dcopClient()->send("kicker", "kicker", "showKMenu()", "");
   }
