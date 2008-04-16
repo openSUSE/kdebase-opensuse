@@ -3,15 +3,32 @@
 
 debug=1
 set -e
+set -x
+
+SUSE_VERSION=1100
+export EXTRACTRC=/usr/bin/extractrc
+export XGETTEXT=/usr/bin/xgettext
+
+test -f "$EXTRACTRC" || { echo "need $EXTRACTRC"; exit 1; }
+test -f "$XGETTEXT" || { echo "need $XGETTEXT"; exit 1; }
 
 # call this script from totranslate
 
 extract_messages()
 {
+    test -n "$1" || { echo "need arg!"; exit 1; }
     extract_path=/suse/dmueller/src/release-4.1/clean/kde-l10n/scripts/extract-messages.sh
 
+    export podir=$PWD/po
+    mkdir $podir
 
-    bash -x $extract_path
+    $extract_path
+
+    msgcat $podir/*.pot > $1
+
+    test "$debug" = 0 && rm -rf $podir
+
+    unset podir
 }
 
 pwd=$PWD
@@ -31,9 +48,9 @@ source=$(cd translation/source && pwd)
 spec=$source/`basename $spec`
 
 export RPM_BUILD_DIR=$pwd/translation/orig
-rpmbuild --eval "%define _builddir $pwd/translation/orig" -bp --nodeps --eval "%define _sourcedir $source" --eval "%define suse_version 1020" --eval "%define ___build_pre patch() { echo \"$@\"; } " $spec > $pwd/translation/orig.log 2>&1
+rpmbuild --eval "%define _builddir $pwd/translation/orig" -bp --nodeps --eval "%define _sourcedir $source" --eval "%define suse_version $SUSE_VERSION" --eval "%define ___build_pre patch() { echo \"$@\"; } " $spec > $pwd/translation/orig.log 2>&1
 export RPM_BUILD_DIR=$pwd/translation/patched
-rpmbuild --eval "%define _builddir $pwd/translation/patched" -bp --nodeps --eval "%define _sourcedir $source" --eval "%define suse_version 1020" $spec > $pwd/translation/patched.log 2>&1
+rpmbuild --eval "%define _builddir $pwd/translation/patched" -bp --nodeps --eval "%define _sourcedir $source" --eval "%define suse_version $SUSE_VERSION" $spec > $pwd/translation/patched.log 2>&1
 
 # now see which files have changed
 
@@ -43,40 +60,42 @@ touch translation/orig/rc.cpp
 touch translation/patched/rc.cpp
 echo rc.cpp > translation/orig/changed_files
 echo rc.cpp > translation/patched/changed_files
-for file in $changedfiles ; do 
-	case $file in
-		*.ui|*.rc)
-			if test -f translation/orig/$file; then
-			      /opt/kde-35/bin/extractrc translation/orig/$file | grep -v 'i18n("");' >> translation/orig/rc.cpp
-			fi
-			if test -f translation/patched/$file; then
-                            /opt/kde-35/bin/extractrc translation/patched/$file | grep -v 'i18n("");' >> translation/patched/rc.cpp
-                      fi
-			;;
-		*.cpp|*.cc|*.hh|*.h)
-	                if test -f translation/orig/$file; then
-				echo $file >> translation/orig/changed_files
-			fi
-      		if test -f translation/patched/$file; then
-				echo $file >> translation/patched/changed_files
-       		fi
-			;;
-	esac
+for file in $changedfiles ; do
+    case $file in
+        *.ui|*.rc)
+            if test -f translation/orig/$file; then
+                $EXTRACTRC translation/orig/$file | grep -v 'i18n("");' >> translation/orig/rc.cpp
+            fi
+            if test -f translation/patched/$file; then
+                $EXTRACTRC translation/patched/$file | grep -v 'i18n("");' >> translation/patched/rc.cpp
+            fi
+        ;;
+        *.cpp|*.cc|*.hh|*.h)
+            if test -f translation/orig/$file; then
+                echo $file >> translation/orig/changed_files
+            fi
+            if test -f translation/patched/$file; then
+                echo $file >> translation/patched/changed_files
+            fi
+        ;;
+    esac
 done
 cd $pwd/translation/orig
-podir=$PWD/.. extract_messages
+extract_messages ../orig.po
 #/usr/bin/xgettext --force-po --from-code=UTF-8 -C  -ci18n -ki18n -ktr -ktr2i18n -kI18N_NOOP -kI18N_NOOP2 -kaliasLocale -o ../orig.po `sort -u changed_files`
-sed -e 's,Content-Type: text/plain\; charset=CHARSET,Content-Type: text/plain; charset=UTF-8,' ../orig.po > t && mv t ../orig.po
+sed -i -e 's,Content-Type: text/plain\; charset=CHARSET,Content-Type: text/plain; charset=UTF-8,' ../orig.po
 
 cd $pwd/translation/patched
-podir=$PWD/.. extract_messages
+extract_messages ../patched.po
 #/usr/bin/xgettext --force-po --from-code=UTF-8 -C  -ci18n -ki18n -ktr -ktr2i18n -kI18N_NOOP -kI18N_NOOP2 -kaliasLocale -o ../patched.po `sort -u changed_files`
-#sed -e 's,Content-Type: text/plain\; charset=CHARSET,Content-Type: text/plain; charset=UTF-8,' ../patched.po > t && mv t ../patched.po
+sed -i -e 's,Content-Type: text/plain\; charset=CHARSET,Content-Type: text/plain; charset=UTF-8,' ../patched.po
 
 cd $pwd/translation
 msgcomm --force-po -o diff.po -u orig.po patched.po
 cppfile=$pwd/`basename $spec`.cpp
+set +e
 msgcomm --omit-header --no-wrap --stringtable-output --more-than=1 diff.po patched.po | sed -e 's," = ".*$,",; s,^"\(.*\)$,i18n("\1);,' | grep -v '^/\* Flag:' | grep -v '^/\* Comment:' > $cppfile
+set -e
 if ! test -s $cppfile; then
 	rm $cppfile
 	echo "no strings"
@@ -86,3 +105,4 @@ else
 fi
 
 test "$debug" = 0 && rm -rf $pwd/translation
+exit 0
