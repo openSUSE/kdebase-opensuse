@@ -1,0 +1,285 @@
+#: kcmsmserver.cpp:134
+msgid "The new window manager will be used when KDE is started the next time."
+msgstr ""
+
+#: kcmsmserver.cpp:135
+msgid "Window manager change"
+msgstr ""
+
+#: kcmsmserver.cpp:169
+msgid "KWin (KDE default)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file smserverconfigdlg.ui line 130
+#: rc.cpp:52
+msgid "Window Manager"
+msgstr ""
+
+#: kdmshutdown.cpp:546 kdmshutdown.cpp:563
+msgid "&Suspend Computer"
+msgstr ""
+
+#: kdmshutdown.cpp:753
+msgid "Suspend Computer"
+msgstr ""
+
+#: shutdowndlg.cpp:567
+#, kde-format
+msgid "Log out in 1 second."
+msgid_plural "Log out in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shutdowndlg.cpp:570
+#, kde-format
+msgid "Turn off computer in 1 second."
+msgid_plural "Turn off computer in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shutdowndlg.cpp:573
+#, kde-format
+msgid "Reboot computer in 1 second."
+msgid_plural "Reboot computer in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n: tag string
+#. i18n: file ./oxygen/config/oxygenconfig.ui line 22
+#: rc.cpp:33
+msgid ""
+"When enabled, this option makes the window titlebar use same colors as "
+"window contents, instead of using system titlebar colors."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./oxygen/config/oxygenconfig.ui line 25
+#: rc.cpp:36
+msgid "Blend titlebar colors with window contents"
+msgstr ""
+
+#: desktop.cpp:360
+msgid "Add Panel"
+msgstr ""
+
+#: desktop.cpp:380
+msgid "Leave..."
+msgstr ""
+
+#: iconloader.cpp:72
+msgid "Trashcan"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 34
+#: rc.cpp:3
+msgid "Wallpaper"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 58
+#: rc.cpp:6
+msgid "Image"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 138
+#: rc.cpp:24
+msgid "Author:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 161
+#: rc.cpp:30
+msgid "E-Mail:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 184
+#: rc.cpp:36
+msgid "License:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 368
+#: rc.cpp:57
+msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 459
+#: rc.cpp:69
+msgid "Desktop Theme"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 473
+#: rc.cpp:72
+msgid "Theme:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 495
+#: rc.cpp:75
+msgid "Desktop Icons"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file BackgroundDialog.ui line 507
+#: rc.cpp:78
+msgid "&Show desktop icons"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file clockConfig.ui line 113
+#: rc.cpp:30
+msgid "Show &seconds"
+msgstr ""
+
+#: ui/flipscrollview.cpp:146
+msgid "All Applications"
+msgstr ""
+
+#: ui/launcher.cpp:571
+#, kde-format
+msgid "User&nbsp;<b>%1</b>&nbsp;on&nbsp;<b>%2</b>"
+msgstr ""
+
+#: core/leavemodel.cpp:43
+msgid "Save Session"
+msgstr ""
+
+#: core/leavemodel.cpp:44
+msgid "Save current session for next login"
+msgstr ""
+
+#: core/applicationmodel.cpp:291
+msgid "New Applications"
+msgstr ""
+
+#: core/systemmodel.cpp:92
+msgid "Administration"
+msgstr ""
+
+#: core/searchmodel.cpp:282
+#, kde-format
+msgid "%1 = %2"
+msgstr ""
+
+#: applet/applet.cpp:104 simpleapplet/simpleapplet.cpp:192
+msgid "Menu Editor"
+msgstr ""
+
+#: applet/applet.cpp:110
+msgid "Switch to Classic Menu Style"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:198
+msgid "Switch to Kickoff Menu Style"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:256
+msgid "Standard"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:264
+msgid "Format:"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:268
+msgid "Name Only"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:269
+msgid "Description Only"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:270
+msgid "Name (Description)"
+msgstr ""
+
+#: simpleapplet/simpleapplet.cpp:271
+msgid "Description (Name)"
+msgstr ""
+
+#: pager.cpp:167
+msgid "Desktop Number"
+msgstr ""
+
+#: pager.cpp:168
+msgid "Desktop Name"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file pagerConfig.ui line 25
+#: rc.cpp:9
+msgid "Displayed text:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file pagerConfig.ui line 35
+#: rc.cpp:12
+msgid "Display window &icons"
+msgstr ""
+
+#: panel.cpp:95
+msgid "Remove this Panel"
+msgstr ""
+
+#: panel.cpp:108
+msgid "transform-move"
+msgstr ""
+
+#: panel.cpp:116
+#, kde-format
+msgid "Start Move of %1"
+msgstr ""
+
+#: panel.cpp:127
+#, kde-format
+msgid "Stop Move of %1"
+msgstr ""
+
+#: panel.cpp:377
+msgid "Do you really want to remove this panel?"
+msgstr ""
+
+#: panel.cpp:378
+msgid "Remove Panel"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file tasksConfig.ui line 36
+#: rc.cpp:9
+msgid "Show only tasks from the current screen"
+msgstr ""
+
+#: dashboardview.cpp:94
+msgid "Plasma Dashboard"
+msgstr ""
+
+#: main.cpp:91
+msgid "Try to find a solution to the given savegame"
+msgstr ""
+
+#: pwidget.cpp:453
+msgid "Calculating..."
+msgstr ""
+
+#: pwidget.cpp:463
+msgid "Timeout while playing - unknown if it can be won"
+msgstr ""
+
+#: kio/kfileitem.cpp:927
+#, kde-format
+msgid " (Points to %1)"
+msgstr ""
+
+#: kmixprefdlg.cpp:84
+msgid "Disable automatic startup on login"
+msgstr ""
+
+#: main.cpp:58
+msgid "Used by kmix_autostart.desktop"
+msgstr ""

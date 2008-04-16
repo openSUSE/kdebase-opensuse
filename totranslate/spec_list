@@ -11,9 +11,6 @@ kdebase4-runtime/oxygen-icon-theme.spec
 kdebase4-workspace/kdebase4-wallpapers.spec
 kdebase4-workspace/kdebase4-workspace.spec
 kdebase4-workspace-plasmoids/kdebase4-workspace-plasmoids.spec
-kdebindings4/kdebindings4.spec
-kdebindings4/python-kde4.spec
-kdebindings4/ruby-kde4.spec
 kdeedu4/kdeedu4-noarch.spec
 kdeedu4/kdeedu4.spec
 kdegames4/kdegames4-carddecks.spec
@@ -26,10 +23,11 @@ kdesdk4/kdesdk4.spec
 kdetoys4/kdetoys4.spec
 kdeutils4/kdeutils4.spec
 kdewebdev4/kdewebdev4.spec
+plasma-theme-aya/plasma-theme-aya.spec
+kdebindings4/kdebindings4.spec
+kdebindings4/python-kde4.spec
+kdebindings4/ruby-kde4.spec
 kfax/kfax.spec
 kgrab/kgrab.spec
 kgraphviewer/kgraphviewer.spec
 kiconedit/kiconedit.spec
-kmldonkey/kmldonkey.spec
-kpovmodeler/kpovmodeler.spec
-plasma-theme-aya/plasma-theme-aya.spec

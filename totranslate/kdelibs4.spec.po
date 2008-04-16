@@ -1,0 +1,4 @@
+#: kio/kfileitem.cpp:927
+#, kde-format
+msgid " (Points to %1)"
+msgstr ""

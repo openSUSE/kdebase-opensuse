@@ -1,9 +1,8 @@
 #!/bin/bash
 # vim: sw=4 et
 
-debug=1
+debug=0
 set -e
-set -x
 
 SUSE_VERSION=1100
 export EXTRACTRC=/usr/bin/extractrc
@@ -92,16 +91,13 @@ sed -i -e 's,Content-Type: text/plain\; charset=CHARSET,Content-Type: text/plain
 
 cd $pwd/translation
 msgcomm --force-po -o diff.po -u orig.po patched.po
-cppfile=$pwd/`basename $spec`.cpp
-set +e
-msgcomm --omit-header --no-wrap --stringtable-output --more-than=1 diff.po patched.po | sed -e 's," = ".*$,",; s,^"\(.*\)$,i18n("\1);,' | grep -v '^/\* Flag:' | grep -v '^/\* Comment:' > $cppfile
-set -e
-if ! test -s $cppfile; then
-	rm $cppfile
+potfile=$pwd/`basename $spec`.po
+msgcomm --omit-header --no-wrap --more-than=1 diff.po patched.po > $potfile
+if ! test -s $potfile; then
+	rm $potfile
 	echo "no strings"
 else
-      num=`grep i18n $cppfile | wc -l`
-      echo "$num strings: $cppfile"
+      msgfmt --statistics $potfile
 fi
 
 test "$debug" = 0 && rm -rf $pwd/translation

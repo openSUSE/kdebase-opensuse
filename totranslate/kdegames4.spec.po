@@ -1,0 +1,11 @@
+#: main.cpp:91
+msgid "Try to find a solution to the given savegame"
+msgstr ""
+
+#: pwidget.cpp:453
+msgid "Calculating..."
+msgstr ""
+
+#: pwidget.cpp:463
+msgid "Timeout while playing - unknown if it can be won"
+msgstr ""
