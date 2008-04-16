@@ -11,4 +11,4 @@ for s in $(<spec_list); do
     fi
     ./extract_strings.sh /work/SRC/all/KDE/$s
 done
-msgcat *.po > kde4-openSUSE.pot
+msgcat -s *.po > kde4-openSUSE.pot
