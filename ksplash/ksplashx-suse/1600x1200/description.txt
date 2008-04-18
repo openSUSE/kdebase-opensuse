@@ -1,3 +1,17 @@
+SCALE ON
 IMAGE 0 0 background.png
-IMAGE_REL CC 5 0 CC title.png
+SCALEX OFF
+SCALEY ON
+IMAGE_REL CC 0 0 CC stripe.png
+SCALE OFF
+IMAGE_REL RT -15 15 CC kde-logo.png
+IMAGE_REL CC 0 0 CC progress0.png
+WAIT_STATE kded
+IMAGE_REL CC 0 0 CC progress1.png
+WAIT_STATE kcminit
+IMAGE_REL CC 0 0 CC progress2.png
+WAIT_STATE wm
+IMAGE_REL CC 0 0 CC progress3.png
+WAIT_STATE desktop
+IMAGE_REL CC 0 0 CC progress4.png
 WAIT_STATE ready
