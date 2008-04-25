@@ -1,0 +1,8 @@
+[KdmGreeterTheme]
+Encoding=UTF-8
+Greeter=suse4.xml
+Name=openSUSE 10.3
+Description=Default openSUSE 10.3 Theme
+Author=Jakub Steiner
+Copyright=(c) 2007 Novell, Inc.
+Screenshot=screenshot.png
