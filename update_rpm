@@ -14,7 +14,7 @@ else
 fi
 pushd kdebase4-openSUSE/po
 ./fill_po.sh
-popd ../..
+popd
 
 # remove non-released stuff
 for f in update_rpm totranslate/*.sh; do
