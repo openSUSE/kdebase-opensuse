@@ -15,11 +15,12 @@ for lang in $LANGS; do
         if test -f  "$MY_LCN_CHECKOUT/$lang/po/$i.$lang.po"; then
             mkdir -p $lang
             cp -p $MY_LCN_CHECKOUT/$lang/po/$i.$lang.po $lang/$i.po
-            PO_LIST="$PO_LIST $lang/$i.po"
+            PO_LIST="$PO_LIST $i.po"
             echo "done"
         else
             echo "missing"
         fi
     done
-    echo "gettext_process_po_files($lang ALL INSTALL_DESTINATION \${LOCALE_INSTALL_DIR} $PO_LIST )" >> CMakeLists.txt
+    echo "gettext_process_po_files($lang ALL INSTALL_DESTINATION \${LOCALE_INSTALL_DIR} $PO_LIST )" >> $lang/CMakeLists.txt
+    echo "add_subdirectory($lang)" >> CMakeLists.txt
 done
