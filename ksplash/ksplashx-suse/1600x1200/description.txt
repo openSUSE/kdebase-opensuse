@@ -6,7 +6,7 @@ IMAGE_REL CC 0 0 CC stripe.png
 SCALE OFF
 IMAGE_REL RT -15 15 CC kde-logo.png
 IMAGE_REL CC 0 0 CC progress0.png
-WAIT_STATE kded
+WAIT_STATE initial
 IMAGE_REL CC 0 0 CC progress1.png
 WAIT_STATE kcminit
 IMAGE_REL CC 0 0 CC progress2.png
