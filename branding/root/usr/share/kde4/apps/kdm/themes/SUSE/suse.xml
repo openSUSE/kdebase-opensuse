@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE greeter SYSTEM "greeter.dtd">
 <greeter>
-  <style all-highlight-color="#73ba25">
 <!-- first we take care of the background stuff -->
   <item type="pixmap" id="background">
     <normal file="Background.jpg" alpha="1"/>
@@ -18,7 +17,7 @@
     <pos x="12%" y="10%" width="22%" height="70%"/>
     <fixed id="fixeduser">
       <item type="list" id="userlist">
-        <style text-color="#ffffff" highlight-color="#264c03"/>
+        <style text-color="#ffffff" highlighted-text-color="#000000" highlight-color="#73ba25" />
         <pos x="0" y="0" width="100%" height="100%"/>
         <normal color="#ffffff" alpha="0"/>
         <show type="userlist"/>
