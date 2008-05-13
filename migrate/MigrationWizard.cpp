@@ -20,9 +20,11 @@
 
 
 #include "MigrationWizard.h"
+#include "AppsList.h"
 
 #include <QtGui/QLabel>
 #include <QtGui/QVBoxLayout>
+#include <QtGui/QListWidget>
 
 #include <klocale.h>
 
@@ -40,8 +42,8 @@ static QWizardPage* createIntroPage(QWidget* parent)
         i18n("On openSUSE, KDE 3 and KDE 4 use different "
              "configuration folders, to avoid their "
              "configuration to be mixed. By completing this "
-             " wizard, your existing KDE 3 configuration will "
-             " be converted for KDE 4."));
+             "wizard, your existing KDE 3 configuration will "
+             "be converted for KDE 4."));
 
     lbl->setWordWrap(true);
 
@@ -80,33 +82,14 @@ static QWizardPage* createServicesPage(QWidget* parent)
     layout->addWidget(lbl);
 
     lbl->setText(
-        i18n("The following KDE3 services have been detected"
+        i18n("The following KDE3 services have been detected "
              "for migration:"
             ));
 
     lbl->setWordWrap(true);
 
-    page->setLayout(layout);
-
-    return page;
-}
-
-static QWizardPage* createAppsPage(QWidget* parent)
-{
-    // Page1: Intro
-    QWizardPage* page = new QWizardPage(parent);
-    page->setTitle(i18n("KDE 3 Appls Migration"));
-
-    QLabel* lbl = new QLabel(page);
-    QVBoxLayout* layout = new QVBoxLayout();
-    layout->addWidget(lbl);
-
-    lbl->setText(
-        i18n("The following KDE3 applications have been deteced"
-             "for migration:"
-             ));
-
-    lbl->setWordWrap(true);
+    QListWidget* lw = new QListWidget(page);
+    layout->addWidget(lw);
 
     page->setLayout(layout);
 
@@ -132,12 +115,51 @@ static QWizardPage* createProgressPage(QWidget* parent)
 }
 
 
+// -----------------------------------------------------------------------------
+
+MigrationAppsPage::MigrationAppsPage(QWidget* _parent)
+    : QWizardPage(_parent)
+{
+    setTitle(i18n("KDE 3 Application Migration"));
+
+    QLabel* lbl = new QLabel(this);
+    QVBoxLayout* layout = new QVBoxLayout();
+    layout->addWidget(lbl);
+
+    lbl->setText(
+        i18n("The following KDE3 applications have been detected "
+             "for migration:"
+             ));
+
+    lbl->setWordWrap(true);
+
+    mAppsWidget = new QListWidget(this);
+    layout->addWidget(mAppsWidget);
+
+    setLayout(layout);
+}
+
+void MigrationAppsPage::initializePage()
+{
+    AppList a;
+    a.generateAppList();
+
+    for (QList<AppListItem>::const_iterator it=a.appLists.begin();
+         it != a.appLists.end(); ++it) {
+        QListWidgetItem* item = new QListWidgetItem(it->appName, mAppsWidget);
+
+        item->setCheckState(Qt::Checked);
+    }
+}
+
+// -----------------------------------------------------------------------------
+
 MigrationWizard::MigrationWizard()
 {
     //----  setup the pages
     addPage(createIntroPage(this));
-    addPage(createServicesPage(this));
-    addPage(createAppsPage(this));
+    //addPage(createServicesPage(this));
+    addPage((appsPage = new MigrationAppsPage(this)));
     addPage(createProgressPage(this));
     addPage(createCompletePage(this));
 

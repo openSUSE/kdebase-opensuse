@@ -4,6 +4,7 @@ include_directories(
 
 set(kde4migrate_SRCS
     MigrationWizard.cpp
+    AppsList.cpp
     main.cpp
 )
 

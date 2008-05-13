@@ -18,33 +18,27 @@
 
 */
 
-#ifndef MigrationWizard_h
-#define MigrationWizard_h
+#ifndef APPSLIST_H
+#define APPSLIST_H
 
-#include <QtGui/QWizard>
+class AppListItem {
 
-class QListWidget;
-
-class MigrationAppsPage : public QWizardPage
-{
 public:
 
-    MigrationAppsPage(QWidget* parent);
-
-    virtual void initializePage();
-
-private:
-    QListWidget* mAppsWidget;
+    QString dir;
+    QString appName;
 };
 
-class MigrationWizard : public QWizard
-{
-public:
-    MigrationWizard();
-    ~MigrationWizard();
+class AppList {
 
-private:
-    MigrationAppsPage* appsPage;
+public:
+    AppList();
+
+    QList<AppListItem> appLists;
+
+//private:
+    void generateAppList();
+
 };
 
 #endif
