@@ -18,6 +18,14 @@ KDM_USERS=""
 KDM_GREETSTRING=""
 
 ## Type:        string
+## Default: 
+#
+# Defines extra Server Arguments given to the kdm display manager when
+# starting a local display. Useful to override e.g. the -dpi setting.
+# 
+DISPLAYMANAGER_KDM_LOCALARGS=""
+
+## Type:        string
 ## Default:     SUSE
 #
 # Define the theme to be used by kdm. If empty, the traditional login
