@@ -218,6 +218,10 @@ msgstr ""
 msgid "Description (Name)"
 msgstr ""
 
+#: lockout.cpp:41
+msgid "Swap Button Order"
+msgstr ""
+
 #: pager.cpp:167
 msgid "Desktop Number"
 msgstr ""
