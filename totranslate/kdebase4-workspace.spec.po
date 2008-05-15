@@ -1,3 +1,11 @@
+#: main.cpp:103
+msgid "Failed to set system date/time/timezone."
+msgstr ""
+
+#: main.cpp:103
+msgid "Date/Time Error"
+msgstr ""
+
 #: kcmsmserver.cpp:134
 msgid "The new window manager will be used when KDE is started the next time."
 msgstr ""
@@ -16,29 +24,29 @@ msgstr ""
 msgid "Window Manager"
 msgstr ""
 
-#: kdmshutdown.cpp:546 kdmshutdown.cpp:563
+#: kdmshutdown.cpp:530 kdmshutdown.cpp:547
 msgid "&Suspend Computer"
 msgstr ""
 
-#: kdmshutdown.cpp:753
+#: kdmshutdown.cpp:737
 msgid "Suspend Computer"
 msgstr ""
 
-#: shutdowndlg.cpp:567
+#: shutdowndlg.cpp:569
 #, kde-format
 msgid "Log out in 1 second."
 msgid_plural "Log out in %1 seconds."
 msgstr[0] ""
 msgstr[1] ""
 
-#: shutdowndlg.cpp:570
+#: shutdowndlg.cpp:572
 #, kde-format
 msgid "Turn off computer in 1 second."
 msgid_plural "Turn off computer in %1 seconds."
 msgstr[0] ""
 msgstr[1] ""
 
-#: shutdowndlg.cpp:573
+#: shutdowndlg.cpp:575
 #, kde-format
 msgid "Reboot computer in 1 second."
 msgid_plural "Reboot computer in %1 seconds."
@@ -47,26 +55,26 @@ msgstr[1] ""
 
 #. i18n: tag string
 #. i18n: file ./oxygen/config/oxygenconfig.ui line 22
-#: rc.cpp:33
+#: rc.cpp:6
 msgid "When enabled, this option makes the window titlebar use same colors as window contents, instead of using system titlebar colors."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./oxygen/config/oxygenconfig.ui line 25
-#: rc.cpp:36
+#: rc.cpp:9
 msgid "Blend titlebar colors with window contents"
 msgstr ""
 
-#: desktop.cpp:360
+#: backgrounddialog.cpp:639
+msgid "Enable shadow"
+msgstr ""
+
+#: desktop.cpp:367
 msgid "Add Panel"
 msgstr ""
 
-#: desktop.cpp:380
+#: desktop.cpp:387
 msgid "Leave..."
-msgstr ""
-
-#: iconloader.cpp:72
-msgid "Trashcan"
 msgstr ""
 
 #. i18n: tag string
@@ -129,6 +137,11 @@ msgstr ""
 msgid "&Show desktop icons"
 msgstr ""
 
+#: devicenotifier.cpp:147
+#, kde-format
+msgid "<font color=\"%1\">Recently plugged devices:</font>"
+msgstr ""
+
 #. i18n: tag string
 #. i18n: file clockConfig.ui line 113
 #: rc.cpp:30
@@ -152,12 +165,12 @@ msgstr ""
 msgid "Save current session for next login"
 msgstr ""
 
-#: core/applicationmodel.cpp:291
-msgid "New Applications"
-msgstr ""
-
 #: core/systemmodel.cpp:92
 msgid "Administration"
+msgstr ""
+
+#: core/applicationmodel.cpp:291
+msgid "New Applications"
 msgstr ""
 
 #: core/searchmodel.cpp:282
@@ -165,39 +178,43 @@ msgstr ""
 msgid "%1 = %2"
 msgstr ""
 
-#: applet/applet.cpp:104 simpleapplet/simpleapplet.cpp:192
+#: applet/applet.cpp:97 simpleapplet/simpleapplet.cpp:165
+msgid "Show Application Launcher"
+msgstr ""
+
+#: applet/applet.cpp:110 simpleapplet/simpleapplet.cpp:198
 msgid "Menu Editor"
 msgstr ""
 
-#: applet/applet.cpp:110
+#: applet/applet.cpp:116
 msgid "Switch to Classic Menu Style"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:198
+#: simpleapplet/simpleapplet.cpp:204
 msgid "Switch to Kickoff Menu Style"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:256
+#: simpleapplet/simpleapplet.cpp:262
 msgid "Standard"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:264
+#: simpleapplet/simpleapplet.cpp:270
 msgid "Format:"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:268
+#: simpleapplet/simpleapplet.cpp:274
 msgid "Name Only"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:269
+#: simpleapplet/simpleapplet.cpp:275
 msgid "Description Only"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:270
+#: simpleapplet/simpleapplet.cpp:276
 msgid "Name (Description)"
 msgstr ""
 
-#: simpleapplet/simpleapplet.cpp:271
+#: simpleapplet/simpleapplet.cpp:277
 msgid "Description (Name)"
 msgstr ""
 
