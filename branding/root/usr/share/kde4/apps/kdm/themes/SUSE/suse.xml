@@ -182,7 +182,7 @@
         </box>
       </item>
       <item type="rect" id="admin_button" button="true">
-        <show type="halt" modes="console"/>
+	      <!--       <show type="halt" modes="console"/>  bnc#295794 -->
         <pos y="50%" width="box" height="100%" anchor="w"/>
         <box xpadding="0" spacing="2" orientation="horizontal">
           <item type="pixmap">
