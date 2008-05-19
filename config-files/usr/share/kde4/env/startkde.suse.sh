@@ -109,8 +109,22 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
           cp /usr/share/kde4/config/SuSE/default/myComputer.desktop $HOME/Desktop/
     fi
 
-    if [ ! -e "$HOME/Desktop/live-installer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/live-installer.desktop" -a -e "/usr/share/applications/YaST2/live-installer.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/live-installer.desktop $HOME/Desktop/
+    if test -e /usr/share/applications/YaST2/live-installer.desktop ; then
+      if [ ! -e "$HOME/Desktop/live-installer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/live-installer.desktop" ]; then
+            cp /usr/share/kde4/config/SuSE/default/live-installer.desktop $HOME/Desktop/
+      fi
+      if [ -e /usr/share/kde4/config/SuSE/default/kdedrc.live ]; then
+            mkdir -p $HOME/.kde4/share/config
+            cp /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
+      fi
+      if test -e /usr/share/kde4/config/SuSE/default/opensuseupdater-autostart.desktop.live ; then
+            mkdir -p $HOME/.config/autostart
+            cp -a /usr/share/kde4/config/SuSE/default/opensuseupdater-autostart.desktop.live $HOME/.config/autostart/opensuseupdater-autostart.desktop
+      fi
+      if test -e /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live ; then
+            mkdir -p $HOME/.config/autostart
+            cp -a /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live $HOME/.config/autostart/beagled-autostart.desktop
+      fi
     fi
 
     if [ ! -e "$HOME/.kde4/share/apps/konqueror/bookmarks.xml" -a -e "/usr/share/kde4/config/SuSE/default/bookmarks.xml" ]; then
