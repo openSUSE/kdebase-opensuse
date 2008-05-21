@@ -65,6 +65,10 @@ msgstr ""
 msgid "Blend titlebar colors with window contents"
 msgstr ""
 
+#: oxygen/oxygenclient.cpp:87
+msgid "Ozone"
+msgstr ""
+
 #: backgrounddialog.cpp:639
 msgid "Enable shadow"
 msgstr ""

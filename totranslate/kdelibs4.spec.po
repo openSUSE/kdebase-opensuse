@@ -1,3 +1,19 @@
+#: kdeui/sonnet/dialog.cpp:157
+msgid "Spell check stopped."
+msgstr ""
+
+#: kdeui/sonnet/dialog.cpp:165
+msgid "Spell check canceled."
+msgstr ""
+
+#: kdeui/sonnet/dialog.cpp:300
+msgid "Spell check complete."
+msgstr ""
+
+#: kdeui/widgets/ktextedit.cpp:447
+msgid "Nothing to spell check."
+msgstr ""
+
 #: kio/kfileitem.cpp:927
 #, kde-format
 msgid " (Points to %1)"
