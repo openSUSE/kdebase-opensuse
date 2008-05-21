@@ -32,6 +32,26 @@ msgstr ""
 msgid "Suspend Computer"
 msgstr ""
 
+msgid "Suspend to Disk"
+msgstr ""
+
+msgid "Suspend to RAM"
+msgstr ""
+
+msgid "Standby"
+msgstr ""
+
+msgid "Pause without logging out"
+msgstr ""
+
+#: icon.cpp
+msgid "File Already Exists"
+msgstr ""
+
+#: icon.cpp
+msgid "Do you really want to delete this file?"
+msgstr ""
+
 #: shutdowndlg.cpp:569
 #, kde-format
 msgid "Log out in 1 second."
