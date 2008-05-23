@@ -18,6 +18,7 @@
 #include <qtextstream.h>
 #include <qdom.h>
 #include <QShowEvent>
+#include <qscrollbar.h>
 
 #include <kapplication.h>
 #include <kconfig.h>
@@ -168,7 +169,7 @@ void SUSEgreetings::showEvent(QShowEvent* e)
 
 void SUSEgreetings::adjustSize()
 {
-    if (Text->contentsRect().height() > 600) {
+    if (Text->verticalScrollBar()->isVisible()) {
         QFont font = Text->font();
         if (font.pixelSize() < 14)
             return;
