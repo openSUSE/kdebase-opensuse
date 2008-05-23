@@ -141,7 +141,9 @@ SUSEgreetings::SUSEgreetings()
     Text = new KTextBrowser( this, "TextView" );
     Text->setText( content );
     Text->setNotifyClick( true );
+    Text->setFrameStyle( QFrame::NoFrame );
     QHBoxLayout *top = new QHBoxLayout(this);
+    top->setContentsMargins( 0, 0, 0, 0 );
     top->addWidget(Text);
     setFixedSize( 800, 600 );
     top->activate();
@@ -166,7 +168,7 @@ void SUSEgreetings::showEvent(QShowEvent* e)
 
 void SUSEgreetings::adjustSize()
 {
-    if (Text->contentsRect().height() >= 598) {
+    if (Text->contentsRect().height() > 600) {
         QFont font = Text->font();
         if (font.pixelSize() < 14)
             return;
