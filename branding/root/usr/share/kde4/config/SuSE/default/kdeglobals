@@ -1,3 +1,6 @@
 [KDE URL Restrictions]
 rule_1=redirect,,help.opensuse.org,,irc,irc.opensuse.org,,true
 rule_count=1
+
+[WM]
+activeBackground=106,154,213
