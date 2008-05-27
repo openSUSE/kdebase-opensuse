@@ -18,28 +18,37 @@
 
 */
 
+#undef INTERACTIVE_WIZARD
 
 #include <qstring.h>
 
+#ifdef INTERACTIVE_WIZARD
 #include <kcmdlineargs.h>
 #include <kaboutdata.h>
 #include <kapplication.h>
 #include <klocale.h>
 
 #include "MigrationWizard.h"
+#else
+#include "QuickMigrate.h"
+#endif
 
 int main (int argc, char *argv[])
 {
+#ifdef INTERACTIVE_WIZARD
     KAboutData aboutData( "kde4-migrate", "", ki18n( "KDE4 Migrate" ), "0.1",
                         ki18n( "KDE4 Migrate" ), KAboutData::License_GPL,
                         ki18n( "(c) 2008, Novell, Inc." ) );
     aboutData.addAuthor( ki18n("Dirk Müller"), ki18n( "Author" ), "dmueller@suse.de" );
     KCmdLineArgs::init( argc, argv, &aboutData );
 
-    KApplication app;
+    QApplication app;
 
     MigrationWizard wizard;
     wizard.show();
 
     return app.exec();
+#else
+    return QuickMigrate().exec();
+#endif
 }

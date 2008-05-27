@@ -24,6 +24,7 @@
 #include "AppsList.h"
 
 const char* const blackList[] = {
+    "RecentDocuments",
     "default_desktop",
     "kbabel",
     "kbabeldict",
@@ -54,15 +55,16 @@ AppList::AppList()
 
 void AppList::generateAppList()
 {
-    // list all portable kde3 apps
+    appLists.clear();
 
+    // list all portable kde3 apps
     QDir kde3path( QDir::homePath() + "/.kde/share/apps");
 
     QByteArray kdehome = qgetenv("KDEHOME");
     if (kdehome.isEmpty())
         kdehome = QDir::homePath().toUtf8() + "/.kde4/";
 
-    QDir kde4path( QDir::homePath() + "/.kde/share/apps");
+    QDir kde4path( kdehome + "/share/apps");
 
     for (QStringListIterator it(kde3path.entryList()); it.hasNext();) {
         QByteArray app = QFile::encodeName(it.next());
