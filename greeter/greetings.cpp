@@ -45,7 +45,7 @@ SUSEgreetings::SUSEgreetings()
     if ( ! f.open(QIODevice::ReadOnly))
     {
 	// %1 = filename
-	content = i18n("Error loading %1").arg("greet_header.html");
+	content = i18n("Error loading %1", QLatin1String("greet_header.html"));
     }
     else
     {
@@ -62,7 +62,7 @@ SUSEgreetings::SUSEgreetings()
     if ( ! f.open(QIODevice::ReadOnly))
     {
 	// %1 = filename
-	 section_template = i18n("Error loading %1").arg("greet_section.html");
+	 section_template = i18n("Error loading %1", QLatin1String("greet_section.html"));
     }
     else
     {
@@ -78,13 +78,13 @@ SUSEgreetings::SUSEgreetings()
     if ( ! f.open(QIODevice::ReadOnly))
     {
 	// %1 = filename
-	content += i18n("Error loading %1").arg("greet.xml");
+	content += i18n("Error loading %1", QLatin1String("greet.xml"));
     }
     else
     {
         QDomDocument doc( "sections" );
         if ( !doc.setContent( &f )) {
-           content += i18n("Error loading %1").arg("greet.xml");
+           content += i18n("Error loading %1", QLatin1String("greet.xml"));
         }
         else {
            QDomElement docElem = doc.documentElement();
@@ -126,7 +126,7 @@ SUSEgreetings::SUSEgreetings()
     if ( ! f.open(QIODevice::ReadOnly))
     {
 	// %1 = filename
-	content = i18n("Error loading %1").arg("greet_footer.html");
+	content = i18n("Error loading %1", QLatin1String("greet_footer.html"));
     }
     else
     {
