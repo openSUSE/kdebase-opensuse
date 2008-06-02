@@ -31,6 +31,7 @@
 
 static const char* const migrate_list[] = {
     "share/apps/kabc/*.vcd",
+    "share/apps/akregator/data/feeds.opml",
     "share/apps/kcookiejar/cookies",
     "share/apps/kfile/bookmarks.xml",
     "share/apps/khtml/formcompletions",
