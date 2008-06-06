@@ -51,7 +51,6 @@ static const char* const migrate_list[] = {
     "share/config/kcmrandrrc",
     "share/config/kcminputrc",
     "share/config/kcmfonts",
-    "share/config/khotkeysrc",
     "share/config/kio_*rc",
     "share/config/klipperrc",
     "share/config/knoderc",
