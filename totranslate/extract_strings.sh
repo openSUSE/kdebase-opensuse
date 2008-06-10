@@ -4,7 +4,7 @@
 debug=0
 set -e
 
-SUSE_VERSION=1100
+SUSE_VERSION=1110
 export EXTRACTRC=/usr/bin/extractrc
 export XGETTEXT=/usr/bin/xgettext
 
