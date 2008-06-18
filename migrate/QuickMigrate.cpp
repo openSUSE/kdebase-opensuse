@@ -30,7 +30,7 @@
 #include <unistd.h>
 
 static const char* const migrate_list[] = {
-    "share/apps/kabc/*.vcd",
+    "share/apps/kabc/*.vcf",
     "share/apps/akregator/data/feeds.opml",
     "share/apps/kcookiejar/cookies",
     "share/apps/kfile/bookmarks.xml",
