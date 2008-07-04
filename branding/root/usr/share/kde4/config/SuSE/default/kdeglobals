@@ -4,3 +4,17 @@ rule_count=1
 
 [WM]
 activeBackground=106,154,213
+
+[Paths]
+Trash=$HOME/Desktop/Trash/
+Desktop=$HOME/Desktop/
+Documents=$HOME/Documents/
+
+[PreviewSettings]
+MaximumSize=3145728
+camera=true
+file=true
+fonts=true
+
+[Directories]
+dir_pixmap=/usr/share/pixmaps
