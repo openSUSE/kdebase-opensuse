@@ -112,6 +112,7 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
     if [ -e /usr/share/kde4/config/SuSE/default/kdeglobals ]; then
           mkdir -p $HOME/.kde4/share/config
           cp /usr/share/kde4/config/SuSE/default/kdeglobals $HOME/.kde4/share/config/kdeglobals
+          cp /usr/share/kde4/config/SuSE/default/kcminputrc $HOME/.kde4/share/config/kcminputrc
     fi
 
     if test -e /usr/share/applications/YaST2/live-installer.desktop ; then

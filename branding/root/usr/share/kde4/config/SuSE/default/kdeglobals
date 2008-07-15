@@ -18,3 +18,6 @@ fonts=true
 
 [Directories]
 dir_pixmap=/usr/share/pixmaps
+
+[KDE]
+ChangeCursor=true
