@@ -85,10 +85,6 @@ fi
 if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
     mkdir -p $HOME/Desktop
 
-    if [ ! -e "$HOME/Desktop/trash.desktop" -a -e "/usr/share/kde4/config/SuSE/default/trash.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/trash.desktop $HOME/Desktop/
-    fi
-
     if [ -e "/usr/bin/firefox" -a ! -e "$HOME/Desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop $HOME/Desktop/
     fi
