@@ -39,35 +39,28 @@ KRPMViewPart::KRPMViewPart( QWidget *parentWidget,
  : KParts::ReadOnlyPart( parent )
 {
   setComponentData( KRPMViewPart::componentData() );
-  setObjectName( name );
 
-  KGlobal::locale()->insertCatalog("krpmview");
+  KGlobal::locale()->insertCatalog(QLatin1String("krpmview"));
 
   // Create the tree widget, and set it as the part's widget
   box = new QWidget(parentWidget);
-  box->setObjectName( name );
 
   // button widget
   QWidget *bwidget    = new QWidget( box );
-  bwidget->setObjectName( "bwidget" );
   QVBoxLayout *Layout = new QVBoxLayout( bwidget );
   Layout->setSpacing( 6 );
-  Layout->setObjectName ("Layout");
   Layout->addItem( new QSpacerItem( 20, 20, QSizePolicy::Minimum, QSizePolicy::Expanding ) );
 
   QHBoxLayout *LayoutInner = new QHBoxLayout();
   LayoutInner->setSpacing( 6 );
-  LayoutInner->setObjectName("LayoutInner");
   LayoutInner->addItem( new QSpacerItem( 20, 20, QSizePolicy::Expanding, QSizePolicy::Minimum ) );
 
   PushButtonPackage = new QPushButton( bwidget );
-  PushButtonPackage->setObjectName("PushButtonPackage" );
   PushButtonPackage->setText( i18n( "Install Package with YaST" ) );
   LayoutInner->addWidget( PushButtonPackage );
   LayoutInner->addItem( new QSpacerItem( 20, 20, QSizePolicy::Expanding, QSizePolicy::Minimum ) );
 
   PushButtonDir = new QPushButton( bwidget );
-  PushButtonDir->setObjectName("PushButtonDir" );
   PushButtonDir->setEnabled(false);
   PushButtonDir->setText( i18n( "Use Directory as Source with YaST" ) );
   LayoutInner->addWidget( PushButtonDir );
@@ -114,7 +107,7 @@ KRPMViewPart::KRPMViewPart( QWidget *parentWidget,
   connect( PushButtonDir, SIGNAL(clicked()), this, SLOT(use_directory()) );
 
   // Action creation code will go here
-  setXMLFile( "krpmview.rc" );
+  setXMLFile( QLatin1String( "krpmview.rc") );
 }
 
 void KRPMViewPart::selectedTab(int t)
@@ -145,7 +138,7 @@ void KRPMViewPart::selectedTab(int t)
 
 QString KRPMViewPart::createDependencyList(const Header &h, const QString &caption, int TAGNAME, int TAGVERSION, int TAGFLAGS, bool strongState)
 {
-  QString result, temp;
+  QString result;
   void *tmpVoid = 0;
   int nEntries;
   bool captionAdded = false;
@@ -159,23 +152,21 @@ QString KRPMViewPart::createDependencyList(const Header &h, const QString &capti
      for (int i = 0; i < nEntries; i++){
         if (((flags[i] & RPMSENSE_STRONG) == RPMSENSE_STRONG) == strongState) {
           if (!captionAdded) {
-            result += "<h3>"+caption+"</h3>";
+            result += QLatin1String("<h3>")+caption+QLatin1String("</h3>");
             captionAdded = true;
           }
-          temp.sprintf("%s", files[i]);
-          result += temp;
-          temp.sprintf("%s", version[i]);
-          if (!temp.isEmpty()) {
-            result += " ";
+          result += QString::fromLatin1(files[i]);
+          if (version[i] && *version[i]) {
+            result += QLatin1String(" ");
             if (flags[i] & RPMSENSE_LESS)
-              result += "<";
+              result += QLatin1String("<");
             if (flags[i] & RPMSENSE_GREATER)
-              result += ">";
+              result += QLatin1String(">");
             if (flags[i] & RPMSENSE_EQUAL)
-              result += "=";
-            result += " " + temp;
+              result += QLatin1String("=");
+            result += QLatin1String(" ") + QString::fromLatin1(version[i]);
           }
-          result += "<br>";
+          result += QLatin1String("<br>");
        }
      }
   }
@@ -205,6 +196,15 @@ bool KRPMViewPart::openFile()
      return false;
   }
   rpmtsFree(ts);
+
+  const char *name;
+  const char *version;
+  const char *release;
+  const char *summary;
+  const char *description;
+  const char *url;
+  const char *vendor;
+
 
   headerNVR(h, &name, &version, &release);
   void *tmpVoid = 0;
@@ -237,7 +237,7 @@ bool KRPMViewPart::openFile()
       for (i = 0; i < numchangelog; i++)
         {
           time_t t = changelogtime[i];
-	  temp = changelogname[i];
+	  temp = QString::fromLatin1(changelogname[i]);
           temp.sprintf("* %.24s %s\n\n%s\n\n", ctime(&t), changelogname[i], changelogtext[i]);
           changelog += temp;
         }
@@ -252,19 +252,19 @@ bool KRPMViewPart::openFile()
   }
 
   if (headerGetEntry(h, RPMTAG_LICENSE, NULL, &tmpVoid, NULL))
-      technicaldata += i18n("License: %1\n").arg((const char *)(tmpVoid));
+      technicaldata += i18n("License: %1\n").arg(QLatin1String((const char *)(tmpVoid)));
 
   if (headerGetEntry(h, RPMTAG_GROUP, NULL, &tmpVoid, NULL))
-      technicaldata += i18n("RPM group: %1\n").arg((const char *)(tmpVoid));
+      technicaldata += i18n("RPM group: %1\n").arg(QLatin1String((const char *)(tmpVoid)));
 
   if (headerGetEntry(h, RPMTAG_DISTRIBUTION, NULL, &tmpVoid, NULL))
-      technicaldata += i18n("Distribution: %1\n").arg((const char *)(tmpVoid));
+      technicaldata += i18n("Distribution: %1\n").arg(QLatin1String((const char *)(tmpVoid)));
 
   if (headerGetEntry(h, RPMTAG_PACKAGER, NULL, &tmpVoid, NULL))
-      technicaldata += i18n("Packager: %1\n").arg((const char *)(tmpVoid));
+      technicaldata += i18n("Packager: %1\n").arg(QLatin1String((const char *)(tmpVoid)));
 
   if (headerGetEntry(h, RPMTAG_VENDOR, NULL, &tmpVoid, NULL))
-      technicaldata += i18n("Vendor: %1\n").arg((const char *)(tmpVoid));
+      technicaldata += i18n("Vendor: %1\n").arg(QLatin1String((const char *)(tmpVoid)));
 
   if (headerGetEntry(h, RPMTAG_BUILDTIME, NULL, &tmpVoid, NULL)) {
       const uint_32 * buildtime=(const uint_32 *)tmpVoid;
@@ -274,7 +274,7 @@ bool KRPMViewPart::openFile()
   }
 
   if (headerGetEntry(h, RPMTAG_BUILDHOST, NULL, &tmpVoid, NULL))
-      technicaldata += i18n("Build host: %1\n").arg((const char *)(tmpVoid));
+      technicaldata += i18n("Build host: %1\n").arg(QLatin1String((const char *)(tmpVoid)));
 
   if (headerGetEntry(h, RPMTAG_SIZE, NULL, &tmpVoid, NULL)) {
       const uint *size = (const uint *)tmpVoid;
@@ -282,7 +282,7 @@ bool KRPMViewPart::openFile()
       technicaldata += i18n("Size: %1\n").arg(temp);
   }
   if (headerGetEntry(h, RPMTAG_SOURCERPM, NULL, &tmpVoid, NULL))
-      technicaldata += i18n("Source RPM: %1\n").arg((const char *)(tmpVoid));
+      technicaldata += i18n("Source RPM: %1\n").arg(QLatin1String((const char *)(tmpVoid)));
 
   dependencies += createDependencyList(h, i18n("Provides"), RPMTAG_PROVIDENAME, RPMTAG_PROVIDEVERSION, RPMTAG_PROVIDEFLAGS, false);
 
@@ -303,11 +303,15 @@ bool KRPMViewPart::openFile()
   Fclose(fd);
 
   QString text;
-  text =  "<h2>" + Qt::convertFromPlainText(QString(name) + " - " + QString(summary)) + "</h2><h3>"
-          " Version: " + QString(version) + "-" + QString(release) + "</h3>";
-  text += "<p>" + i18n("Project Page: ") + "<a href=" + QString::fromLocal8Bit(url) + ">" + QString::fromLocal8Bit(url) + "</a>";
+  text =  QLatin1String("<h2>") + Qt::convertFromPlainText(QString::fromLatin1(name) +
+          QLatin1String(" - ") + QString::fromLatin1(summary)) +
+      QLatin1String("</h2><h3>") + 
+          QLatin1String(" Version: ") + QString::fromLatin1(version) 
+          + QLatin1String("-") + QString::fromLatin1(release) + QLatin1String("</h3>");
+  text += QLatin1String("<p>") + i18n("Project Page: ") + QLatin1String("<a href=") + QString::fromLocal8Bit(url) 
+      + QLatin1String(">") + QString::fromLocal8Bit(url) + QLatin1String("</a>");
 //  text += "<p>" + i18n("Vendor: ") + QStyleSheet::convertFromPlainText(QString::fromLocal8Bit(vendor));
-  text += "<p><p>";
+  text += QLatin1String("<p><p>");
   text += Qt::convertFromPlainText(QString::fromLocal8Bit(description));
   browserDescription->setText( text );
   browserDescription->setNotifyClick(true);
@@ -328,21 +332,25 @@ bool KRPMViewPart::openFile()
 
 void KRPMViewPart::urlClick(const QString &url)
 {
-  KRun::runUrl( url, "text/html", 0 );
+  KRun::runUrl( url, QLatin1String("text/html"), 0 );
 }
 
 void KRPMViewPart::install_package()
 {
   KProcess p;
-  p << "kdesu" << "-n" << "--nonewdcop" << "--" << "/usr/share/kde4/apps/krpmview/setup_temp_source" << localFilePath().toAscii();
+  p << QLatin1String("kdesu") << QLatin1String("-n") 
+      << QLatin1String("--nonewdcop") << QLatin1String("--") 
+      << QLatin1String("/usr/share/kde4/apps/krpmview/setup_temp_source") << localFilePath();
   p.start();
 }
 
 void KRPMViewPart::use_directory()
 {
   KProcess p;
-  p << "kdesu" << "-n" << "--" << "/usr/bin/kde_add_yast_source.sh";
-  p << KParts::ReadOnlyPart::url().path().left(KParts::ReadOnlyPart::url().path().lastIndexOf("/"));
+  p << QLatin1String("kdesu") << QLatin1String("-n") << QLatin1String("--") 
+      << QLatin1String("/usr/bin/kde_add_yast_source.sh");
+  p <<
+      KParts::ReadOnlyPart::url().path().left(KParts::ReadOnlyPart::url().path().lastIndexOf(QLatin1Char('/')));
 
   p.start();
 }

@@ -45,14 +45,6 @@ protected:
   // and return true on success, false on failure.
   virtual bool openFile();
 
-  const char *name;
-  const char *version;
-  const char *release;
-  const char *summary;
-  const char *description;
-  const char *url;
-  const char *vendor;
-
 protected slots:
   void urlClick(const QString &url);
   void install_package();
