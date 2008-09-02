@@ -195,7 +195,7 @@ void SUSEgreetings::urlClick(const QString &s){
     }
 
     if (url=="http://software.opensuse.org/")
-      url="http://software.opensuse.org/search?baseproject=openSUSE%3A11.0";
+      url="http://software.opensuse.org/search?baseproject=openSUSE%3A11.1";
 
     if ( url.startsWith( "/you" ) ) {
         KProcess::startDetached("kdesu", QStringList() << "/sbin/yast2" << "online_update");
