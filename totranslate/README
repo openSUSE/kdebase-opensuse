@@ -5,6 +5,9 @@ svn up
 rm -rf po
 mkdir po
 XGETTEXT=/usr/bin/xgettext ~/src/release-4.2/clean/kde-l10n/scripts/extract-messages.sh
+
+# submit to the CODE11-lcn
+# svn https://forgesvn1.novell.com/svn/suse-i18n/trunk/lcn
 cp po/*pot ~/src/CODE11-lcn/50-pots
 cd !$
 svn commit
