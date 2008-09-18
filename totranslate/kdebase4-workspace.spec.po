@@ -119,6 +119,21 @@ msgstr ""
 msgid "Suspend Computer"
 msgstr ""
 
+#: randrconfig.cpp:277
+msgid ""
+"Insufficient virtual size for the total screen size.\n"
+"The configured virtual size of your X server is insufficient for this setup. This configuration needs to be adjusted.\n"
+"Do you wish to run a tool to adjust the configuration?"
+msgstr ""
+
+#: randrconfig.cpp:285
+msgid "Configuration has been adjusted. Please restart your session for this change to take effect."
+msgstr ""
+
+#: randrconfig.cpp:288
+msgid "Changing configuration failed. Please adjust your xorg.conf manually."
+msgstr ""
+
 #. i18n: tag string
 #. i18n: file randrconfigbase.ui line 37
 #: rc.cpp:60
@@ -634,6 +649,18 @@ msgstr ""
 msgid ""
 "Sphere is deactivated after rotating the sphere with the mouse.\n"
 "Otherwise sphere will stay in the position."
+msgstr ""
+
+#: composite.cpp:466
+msgid "Empty"
+msgstr ""
+
+#: composite.cpp:469
+#, kde-format
+msgid ""
+"Compositing was too slow and has been suspended.\n"
+"If this was only a temporary problem, you can resume using the '%1' shortcut.\n"
+"You can also disable functionality checks in advanced compositing settings."
 msgstr ""
 
 #: core/leavemodel.cpp:83
