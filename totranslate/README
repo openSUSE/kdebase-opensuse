@@ -1,0 +1,19 @@
+simple-ccsm-kde:
+
+cd simple-ccsm-kde
+svn up
+rm -rf po
+mkdir po
+XGETTEXT=/usr/bin/xgettext ~/src/release-4.2/clean/kde-l10n/scripts/extract-messages.sh
+cp po/*pot ~/src/CODE11-lcn/50-pots
+cd !$
+svn commit
+
+susetranslations:
+
+cd totranslate
+edit spec_list
+./extract_all_strings.sh
+
+msgcat *.po > kde4-openSUSE.pot
+
