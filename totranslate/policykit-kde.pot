@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2008-05-21 11:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: authdialog.cpp:96
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the super user is required to perform this action."
+msgstr ""
+
+#: authdialog.cpp:100
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+
+#: authdialog.cpp:121
+msgid "Password for root"
+msgstr ""
+
+#: authdialog.cpp:123
+#, kde-format
+msgid "Password for user(%1)"
+msgstr ""
+
+#: authdialog.cpp:125
+msgid "Password"
+msgstr ""
+
+#: main.cpp:34 main.cpp:35
+msgid "PolicyKit-kde"
+msgstr ""
+
+#: main.cpp:36
+msgid "(c) 2005-2007, TUBITAK - UEKAE"
+msgstr ""
+
+#: main.cpp:37
+msgid "Gökçen Eraslan"
+msgstr ""
+
+#: main.cpp:37
+msgid "KDE 3 Code"
+msgstr ""
+
+#: main.cpp:38
+msgid "Dirk Müller"
+msgstr ""
+
+#: main.cpp:38
+msgid "Author"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 13
+#: rc.cpp:3
+msgid "Authentication Required"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 24
+#: rc.cpp:6
+msgid "Lock Icon Here"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 54
+#: rc.cpp:9
+msgid "<h3><b>Header is here! </b></h3>"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 67
+#: rc.cpp:12
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor "
+"sit amet, consectetuer adipiscing elit."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 84
+#: rc.cpp:15
+msgid "Remember authorization"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 112
+#: rc.cpp:18
+msgid "For this session only"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 123
+#: rc.cpp:21
+msgid "Select a user..."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file authdialogui.ui line 127
+#: rc.cpp:24
+msgid "Select User..."
+msgstr ""
+
+#: rc.cpp:25
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+#: rc.cpp:26
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""

@@ -1,4 +1,3 @@
-dragonplayer/dragonplayer.spec
 kde4-konqueror-plugins/kde4-konqueror-plugins.spec
 kdeaccessibility4/kdeaccessibility4-icons.spec
 kdeaccessibility4/kdeaccessibility4.spec
@@ -23,7 +22,7 @@ kdesdk4/kdesdk4.spec
 kdetoys4/kdetoys4.spec
 kdeutils4/kdeutils4.spec
 kdewebdev4/kdewebdev4.spec
-plasma-theme-aya/plasma-theme-aya.spec
+kde4-plasma-addons/kde4-plasma-addons.spec
 kdebindings4/kdebindings4.spec
 kdebindings4/python-kde4.spec
 kdebindings4/ruby-kde4.spec

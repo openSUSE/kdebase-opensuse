@@ -1,0 +1,85 @@
+#: componentchooserwm.cpp:87
+msgid "The new window manager will be used when KDE is started the next time."
+msgstr ""
+
+#: componentchooserwm.cpp:88 componentchooserwm.cpp:141
+msgid "Window manager change"
+msgstr ""
+
+#: componentchooserwm.cpp:101
+msgid ""
+"A new window manager is running.\n"
+"It is still recommended to restart this KDE session to make sure all running applications adjust for this change."
+msgstr ""
+
+#: componentchooserwm.cpp:104
+msgid "Window Manager Replaced"
+msgstr ""
+
+#: componentchooserwm.cpp:140
+msgid "Your running window manager will be now replaced with the configured one."
+msgstr ""
+
+#: componentchooserwm.cpp:149
+msgid "Config Window Manager Change"
+msgstr ""
+
+#: componentchooserwm.cpp:151
+msgid "&Accept Change"
+msgstr ""
+
+#: componentchooserwm.cpp:152
+msgid "&Revert to Previous"
+msgstr ""
+
+#: componentchooserwm.cpp:154
+msgid ""
+"The configured window manager has been launched.\n"
+"Please check it has started properly and confirm the change.\n"
+"The launch will be automatically reverted in 20 seconds."
+msgstr ""
+
+#: componentchooserwm.cpp:169
+msgid "The running window manager has been reverted to the default KDE window manager KWin."
+msgstr ""
+
+#: componentchooserwm.cpp:176
+msgid ""
+"The new window manager has failed to start.\n"
+"The running window manager has been reverted to the default KDE window manager KWin."
+msgstr ""
+
+#: componentchooserwm.cpp:297
+msgid "Running the configuration tool failed"
+msgstr ""
+
+#: ktimerdialog.cpp:166
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n: tag string
+#. i18n: file wmconfig_ui.ui line 41
+#: rc.cpp:80
+msgid "Use a different &window manager:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file wmconfig_ui.ui line 48
+#: rc.cpp:83
+msgid "&Use the default KDE window manager (KWin)"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file wmconfig_ui.ui line 76
+#: rc.cpp:86
+msgid "Configure"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file wmconfig_ui.ui line 85
+#: rc.cpp:89
+msgid "Note: Most window managers have their own configuration and do not follow KDE settings."
+msgstr ""

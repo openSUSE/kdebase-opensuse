@@ -1,307 +1,768 @@
-#: main.cpp:103
-msgid "Failed to set system date/time/timezone."
-msgstr ""
-
-#: main.cpp:103
-msgid "Date/Time Error"
-msgstr ""
-
-#: kcmsmserver.cpp:134
+#: componentchooserwm.cpp:87
 msgid "The new window manager will be used when KDE is started the next time."
 msgstr ""
 
-#: kcmsmserver.cpp:135
+#: componentchooserwm.cpp:88 componentchooserwm.cpp:141
 msgid "Window manager change"
 msgstr ""
 
-#: kcmsmserver.cpp:169
-msgid "KWin (KDE default)"
+#: componentchooserwm.cpp:101
+msgid ""
+"A new window manager is running.\n"
+"It is still recommended to restart this KDE session to make sure all running "
+"applications adjust for this change."
+msgstr ""
+
+#: componentchooserwm.cpp:104
+msgid "Window Manager Replaced"
+msgstr ""
+
+#: componentchooserwm.cpp:140
+msgid ""
+"Your running window manager will be now replaced with the configured one."
+msgstr ""
+
+#: componentchooserwm.cpp:149
+msgid "Config Window Manager Change"
+msgstr ""
+
+#: componentchooserwm.cpp:151
+msgid "&Accept Change"
+msgstr ""
+
+#: componentchooserwm.cpp:152
+msgid "&Revert to Previous"
+msgstr ""
+
+#: componentchooserwm.cpp:154
+msgid ""
+"The configured window manager has been launched.\n"
+"Please check it has started properly and confirm the change.\n"
+"The launch will be automatically reverted in 20 seconds."
+msgstr ""
+
+#: componentchooserwm.cpp:169
+msgid ""
+"The running window manager has been reverted to the default KDE window "
+"manager KWin."
+msgstr ""
+
+#: componentchooserwm.cpp:176
+msgid ""
+"The new window manager has failed to start.\n"
+"The running window manager has been reverted to the default KDE window "
+"manager KWin."
+msgstr ""
+
+#: componentchooserwm.cpp:297
+msgid "Running the configuration tool failed"
+msgstr ""
+
+#: ktimerdialog.cpp:166
+#, kde-format
+msgid "1 second remaining:"
+msgid_plural "%1 seconds remaining:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. i18n: tag string
+#. i18n: file wmconfig_ui.ui line 41
+#: rc.cpp:80
+msgid "Use a different &window manager:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file smserverconfigdlg.ui line 130
-#: rc.cpp:52
-msgid "Window Manager"
+#. i18n: file wmconfig_ui.ui line 48
+#: rc.cpp:83
+msgid "&Use the default KDE window manager (KWin)"
 msgstr ""
 
-#: kdmshutdown.cpp:530 kdmshutdown.cpp:547
+#. i18n: tag string
+#. i18n: file wmconfig_ui.ui line 76
+#: rc.cpp:86
+msgid "Configure"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file wmconfig_ui.ui line 85
+#: rc.cpp:89
+msgid ""
+"Note: Most window managers have their own configuration and do not follow "
+"KDE settings."
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./xcursor/themepage.ui line 31
+#: rc.cpp:137
+msgid "Select the cursor theme you want to use (hover preview to test cursor):"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file ./xcursor/themepage.ui line 45
+#: rc.cpp:143
+msgid "Install New Theme..."
+msgstr ""
+
+#: advanced.cpp:93 main.cpp:199
+msgid ""
+"Failed to activate desktop effects using the given configuration options. "
+"Settings will be reverted to their previous values.\n"
+"\n"
+"Check your X configuration. You may also consider changing advanced options, "
+"especially changing the compositing type."
+msgstr ""
+
+#: main.cpp:157 main.cpp:163
+msgid "No Effect"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file advanced.ui line 43
+#: rc.cpp:12 rc.cpp:141
+msgid "Keep window thumbnails"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file advanced.ui line 56
+#: rc.cpp:18 rc.cpp:147
+msgid "Only for shown  windows"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file advanced.ui line 72
+#: rc.cpp:24 rc.cpp:153
+msgid ""
+"Enabling this option allows compositing to be activated even if some of the "
+"internal checks fail. Doing so may make the whole desktop unusable and its "
+"use is not recommened. Use only if KWin refuses to activate compositing on a "
+"system that should be capable of compositing.\n"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file advanced.ui line 75
+#: rc.cpp:28 rc.cpp:157
+msgid "Disable functionality checks"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 75
+#: rc.cpp:88 rc.cpp:217
+msgid "Effect for window switching"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 88
+#: rc.cpp:91 rc.cpp:220
+msgid "Effect for desktop switching"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 112
+#: rc.cpp:97 rc.cpp:226
+msgid "Instant"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 117
+#: rc.cpp:100 rc.cpp:229
+msgid "Very fast"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 122
+#: rc.cpp:103 rc.cpp:232
+msgid "Fast"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 132
+#: rc.cpp:109 rc.cpp:238
+msgid "Slow"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 137
+#: rc.cpp:112 rc.cpp:241
+msgid "Very slow"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 142
+#: rc.cpp:115 rc.cpp:244
+msgid "Extremely slow"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file main.ui line 150
+#: rc.cpp:118 rc.cpp:247
+msgid "Animation speed"
+msgstr ""
+
+#: kdmshutdown.cpp:525 kdmshutdown.cpp:542
 msgid "&Suspend Computer"
 msgstr ""
 
-#: kdmshutdown.cpp:737
-msgid "Suspend Computer"
-msgstr ""
-
+#: kdmshutdown.cpp:528 core/leavemodel.cpp:93
 msgid "Suspend to Disk"
 msgstr ""
 
+#: kdmshutdown.cpp:532 core/leavemodel.cpp:98
 msgid "Suspend to RAM"
 msgstr ""
 
+#: kdmshutdown.cpp:536 core/leavemodel.cpp:88
 msgid "Standby"
 msgstr ""
 
-msgid "Pause without logging out"
+#: kdmshutdown.cpp:732
+msgid "Suspend Computer"
 msgstr ""
-
-#: icon.cpp
-msgid "File Already Exists"
-msgstr ""
-
-#: icon.cpp
-msgid "Do you really want to delete this file?"
-msgstr ""
-
-#: shutdowndlg.cpp:569
-#, kde-format
-msgid "Log out in 1 second."
-msgid_plural "Log out in %1 seconds."
-msgstr[0] ""
-msgstr[1] ""
-
-#: shutdowndlg.cpp:572
-#, kde-format
-msgid "Turn off computer in 1 second."
-msgid_plural "Turn off computer in %1 seconds."
-msgstr[0] ""
-msgstr[1] ""
-
-#: shutdowndlg.cpp:575
-#, kde-format
-msgid "Reboot computer in 1 second."
-msgid_plural "Reboot computer in %1 seconds."
-msgstr[0] ""
-msgstr[1] ""
 
 #. i18n: tag string
-#. i18n: file ./oxygen/config/oxygenconfig.ui line 22
-#: rc.cpp:6
+#. i18n: file randrconfigbase.ui line 37
+#: rc.cpp:60
+msgid "Identify Outputs"
+msgstr ""
+
+#: presentwindows_config.cpp:57 presentwindows.cpp:63
+#: effects/presentwindows_config.cpp:57 effects/presentwindows.cpp:63
+msgid "Toggle Present Windows (All desktops)"
+msgstr ""
+
+#: presentwindows_config.cpp:62 presentwindows.cpp:59
+#: effects/presentwindows_config.cpp:62 effects/presentwindows.cpp:59
+msgid "Toggle Present Windows (Current desktop)"
+msgstr ""
+
+#: cylinder_config.cpp:53 cube_config.cpp:53 sphere_config.cpp:53
+#: effects/cube_config.cpp:53 effects/cylinder_config.cpp:53
+#: effects/sphere_config.cpp:53
+msgid "Basic"
+msgstr ""
+
+#: cylinder_config.cpp:71 cube_config.cpp:71 sphere_config.cpp:71 cube.cpp:88
+#: effects/cube_config.cpp:71 effects/cube.cpp:88
+#: effects/cylinder_config.cpp:71 effects/sphere_config.cpp:71
+msgid "Desktop Cube"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 40
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 40
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 40
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 40
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 40
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 40
+#: rc.cpp:33 rc.cpp:132 rc.cpp:467 rc.cpp:632 rc.cpp:778 rc.cpp:949
+msgid "Background Color:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 53
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 53
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 53
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 53
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 53
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 53
+#: rc.cpp:36 rc.cpp:135 rc.cpp:470 rc.cpp:635 rc.cpp:781 rc.cpp:952
+msgid "Wallpaper:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 69
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 69
+#. i18n: tag string
+#. i18n: file presentwindows_config.ui line 104
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 69
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 69
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 69
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 104
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 69
+#: rc.cpp:39 rc.cpp:138 rc.cpp:389 rc.cpp:473 rc.cpp:638 rc.cpp:784 rc.cpp:904
+#: rc.cpp:955
+msgid "Activation"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 75
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 75
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 75
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 75
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 75
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 75
+#: rc.cpp:42 rc.cpp:141 rc.cpp:476 rc.cpp:641 rc.cpp:787 rc.cpp:958
+msgid "Screen edge:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 107
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 107
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 107
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 107
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 107
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 107
+#: rc.cpp:48 rc.cpp:147 rc.cpp:482 rc.cpp:647 rc.cpp:793 rc.cpp:964
+msgid "Display desktop name"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 114
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 114
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 114
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 114
+#: rc.cpp:51 rc.cpp:150 rc.cpp:796 rc.cpp:967
+msgid "Reflection"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 121
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 121
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 114
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 114
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 121
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 121
+#: rc.cpp:54 rc.cpp:153 rc.cpp:485 rc.cpp:650 rc.cpp:799 rc.cpp:970
+msgid "Rotation duration:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 169
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 169
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 162
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 162
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 169
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 169
+#: rc.cpp:63 rc.cpp:162 rc.cpp:494 rc.cpp:659 rc.cpp:808 rc.cpp:979
+msgid "Opacity"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 275
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 275
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 268
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 268
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 275
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 275
+#: rc.cpp:79 rc.cpp:178 rc.cpp:510 rc.cpp:675 rc.cpp:824 rc.cpp:995
+msgid "Caps"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 281
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 281
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 274
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 274
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 281
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 281
+#: rc.cpp:82 rc.cpp:181 rc.cpp:513 rc.cpp:678 rc.cpp:827 rc.cpp:998
+msgid "Show caps"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 288
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 288
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 281
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 281
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 288
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 288
+#: rc.cpp:85 rc.cpp:184 rc.cpp:516 rc.cpp:681 rc.cpp:830 rc.cpp:1001
+msgid "Cap Color:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 301
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 301
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 294
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 294
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 301
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 301
+#: rc.cpp:88 rc.cpp:187 rc.cpp:519 rc.cpp:684 rc.cpp:833 rc.cpp:1004
+msgid "Display image on caps"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 311
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 311
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 374
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 374
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 311
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 311
+#: rc.cpp:91 rc.cpp:190 rc.cpp:531 rc.cpp:696 rc.cpp:836 rc.cpp:1007
+msgid "Zoom"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 317
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 317
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 380
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 380
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 317
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 317
+#: rc.cpp:94 rc.cpp:193 rc.cpp:534 rc.cpp:699 rc.cpp:839 rc.cpp:1010
+msgid "Define how far away the object should appear"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 344
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 344
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 407
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 407
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 344
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 344
+#: rc.cpp:97 rc.cpp:196 rc.cpp:537 rc.cpp:702 rc.cpp:842 rc.cpp:1013
+msgid "Near"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 364
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 364
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 427
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 427
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 364
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 364
+#: rc.cpp:100 rc.cpp:199 rc.cpp:540 rc.cpp:705 rc.cpp:845 rc.cpp:1016
+msgid "Far"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 376
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 376
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 439
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 439
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 376
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 376
+#: rc.cpp:103 rc.cpp:202 rc.cpp:543 rc.cpp:708 rc.cpp:848 rc.cpp:1019
+msgid "Additional options"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 385
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 385
+#: rc.cpp:106 rc.cpp:851
+msgid "Show cube when desktop changed"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file cube_config.ui line 393
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 393
+#: rc.cpp:109 rc.cpp:854
 msgid ""
-"When enabled, this option makes the window titlebar use same colors as "
-"window contents, instead of using system titlebar colors."
+"Cube appears on all screens in a multi screen setup.\n"
+"If not set cube will appear on only one screen and scaled so that all "
+"screens fit on that screen."
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./oxygen/config/oxygenconfig.ui line 25
-#: rc.cpp:9
-msgid "Blend titlebar colors with window contents"
-msgstr ""
-
-#: oxygen/oxygenclient.cpp:87
-msgid "Ozone"
-msgstr ""
-
-#: backgrounddialog.cpp:639
-msgid "Enable shadow"
-msgstr ""
-
-#: desktop.cpp:367
-msgid "Add Panel"
-msgstr ""
-
-#: desktop.cpp:387
-msgid "Leave..."
+#. i18n: file cube_config.ui line 396
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 396
+#: rc.cpp:113 rc.cpp:858
+msgid "Span cube on all screens in multi screen setup"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 34
-#: rc.cpp:3
-msgid "Wallpaper"
+#. i18n: file cube_config.ui line 404
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 404
+#: rc.cpp:116 rc.cpp:861
+msgid ""
+"Cube is deactivated after rotating the cube with the mouse.\n"
+"Otherwise cube will stay in the position."
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 58
-#: rc.cpp:6
-msgid "Image"
+#. i18n: file cube_config.ui line 407
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 386
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 449
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 449
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 407
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 386
+#: rc.cpp:120 rc.cpp:209 rc.cpp:550 rc.cpp:715 rc.cpp:865 rc.cpp:1026
+msgid "Close after mouse dragging"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 138
-#: rc.cpp:24
-msgid "Author:"
+#. i18n: file cube_config.ui line 414
+#. i18n: tag string
+#. i18n: file cylinder_config.ui line 393
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 456
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 456
+#. i18n: tag string
+#. i18n: file ./cube_config.ui line 414
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 393
+#: rc.cpp:123 rc.cpp:212 rc.cpp:553 rc.cpp:718 rc.cpp:868 rc.cpp:1029
+msgid "Use for walk through desktop list"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 161
-#: rc.cpp:30
-msgid "E-Mail:"
+#. i18n: file cylinder_config.ui line 383
+#. i18n: tag string
+#. i18n: file ./cylinder_config.ui line 383
+#: rc.cpp:205 rc.cpp:1022
+msgid ""
+"Cylinder is deactivated after rotating the cylinder with the mouse.\n"
+"Otherwise cylinder will stay in the position."
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 184
-#: rc.cpp:36
-msgid "License:"
+#. i18n: file presentwindows_config.ui line 22
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 22
+#: rc.cpp:359 rc.cpp:874
+msgid "Rearrange &duration:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 368
-#: rc.cpp:57
-msgid "hh 'Hours' mm 'Mins' ss 'Secs'"
+#. i18n: file presentwindows_config.ui line 51
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 51
+#: rc.cpp:368 rc.cpp:883
+msgid "Display window &titles"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 459
-#: rc.cpp:69
-msgid "Desktop Theme"
+#. i18n: file presentwindows_config.ui line 65
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 65
+#: rc.cpp:374 rc.cpp:889
+msgid "Use for window &switching"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 473
-#: rc.cpp:72
-msgid "Theme:"
+#. i18n: file presentwindows_config.ui line 72
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 72
+#: rc.cpp:377 rc.cpp:892
+msgid "Layout mode:"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 495
-#: rc.cpp:75
-msgid "Desktop Icons"
+#. i18n: file presentwindows_config.ui line 83
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 83
+#: rc.cpp:380 rc.cpp:895
+msgid "Natural"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file BackgroundDialog.ui line 507
-#: rc.cpp:78
-msgid "&Show desktop icons"
-msgstr ""
-
-#: devicenotifier.cpp:147
-#, kde-format
-msgid "<font color=\"%1\">Recently plugged devices:</font>"
+#. i18n: file presentwindows_config.ui line 88
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 88
+#: rc.cpp:383 rc.cpp:898
+msgid "Regular grid"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file clockConfig.ui line 113
-#: rc.cpp:30
-msgid "Show &seconds"
+#. i18n: file presentwindows_config.ui line 93
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 93
+#: rc.cpp:386 rc.cpp:901
+msgid "Flexible grid"
 msgstr ""
 
-#: ui/flipscrollview.cpp:146
-msgid "All Applications"
+#. i18n: tag string
+#. i18n: file presentwindows_config.ui line 120
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 120
+#: rc.cpp:392 rc.cpp:907
+msgid "Active screen &edge (Current desktop):"
 msgstr ""
 
-#: ui/launcher.cpp:571
-#, kde-format
-msgid "User&nbsp;<b>%1</b>&nbsp;on&nbsp;<b>%2</b>"
+#. i18n: tag string
+#. i18n: file presentwindows_config.ui line 133
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 133
+#: rc.cpp:395 rc.cpp:910
+msgid "Active screen &edge (All desktops):"
 msgstr ""
 
-#: core/leavemodel.cpp:43
+#. i18n: tag string
+#. i18n: file presentwindows_config.ui line 149
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 149
+#: rc.cpp:398 rc.cpp:913
+msgid "Natural Layout Settings"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file presentwindows_config.ui line 155
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 155
+#: rc.cpp:401 rc.cpp:916
+msgid "Fill &gaps"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file presentwindows_config.ui line 177
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 177
+#: rc.cpp:404 rc.cpp:919
+msgid "Faster"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file presentwindows_config.ui line 221
+#. i18n: tag string
+#. i18n: file ./presentwindows_config.ui line 221
+#: rc.cpp:407 rc.cpp:922
+msgid "Nicer"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 307
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 307
+#: rc.cpp:522 rc.cpp:687
+msgid "Cap deformation:"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 340
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 340
+#: rc.cpp:525 rc.cpp:690
+msgid "Sphere"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 360
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 360
+#: rc.cpp:528 rc.cpp:693
+msgid "Plane"
+msgstr ""
+
+#. i18n: tag string
+#. i18n: file sphere_config.ui line 446
+#. i18n: tag string
+#. i18n: file ./sphere_config.ui line 446
+#: rc.cpp:546 rc.cpp:711
+msgid ""
+"Sphere is deactivated after rotating the sphere with the mouse.\n"
+"Otherwise sphere will stay in the position."
+msgstr ""
+
+#: core/leavemodel.cpp:83
 msgid "Save Session"
 msgstr ""
 
-#: core/leavemodel.cpp:44
+#: core/leavemodel.cpp:85
 msgid "Save current session for next login"
 msgstr ""
 
-#: core/systemmodel.cpp:92
+#: core/leavemodel.cpp:90 core/leavemodel.cpp:95 core/leavemodel.cpp:100
+msgid "Pause without logging out"
+msgstr ""
+
+#: core/systemmodel.cpp:90
 msgid "Administration"
 msgstr ""
 
-#: core/applicationmodel.cpp:291
+#: core/systemmodel.cpp:254
+msgid "System Information"
+msgstr ""
+
+#: core/applicationmodel.cpp:301
 msgid "New Applications"
 msgstr ""
 
-#: core/searchmodel.cpp:282
-#, kde-format
-msgid "%1 = %2"
-msgstr ""
-
-#: applet/applet.cpp:97 simpleapplet/simpleapplet.cpp:165
-msgid "Show Application Launcher"
-msgstr ""
-
-#: applet/applet.cpp:110 simpleapplet/simpleapplet.cpp:198
-msgid "Menu Editor"
-msgstr ""
-
-#: applet/applet.cpp:116
-msgid "Switch to Classic Menu Style"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:204
-msgid "Switch to Kickoff Menu Style"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:262
-msgid "Standard"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:270
-msgid "Format:"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:274
-msgid "Name Only"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:275
-msgid "Description Only"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:276
+#: simpleapplet/simpleapplet.cpp:281
+msgctxt "@item:inlistbox Format:"
 msgid "Name (Description)"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:277
-msgid "Description (Name)"
-msgstr ""
-
-#: lockout.cpp:41
-msgid "Swap Button Order"
-msgstr ""
-
-#: pager.cpp:167
-msgid "Desktop Number"
-msgstr ""
-
-#: pager.cpp:168
-msgid "Desktop Name"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 25
-#: rc.cpp:9
-msgid "Displayed text:"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file pagerConfig.ui line 35
-#: rc.cpp:12
-msgid "Display window &icons"
-msgstr ""
-
-#: panel.cpp:95
-msgid "Remove this Panel"
-msgstr ""
-
-#: panel.cpp:108
-msgid "transform-move"
-msgstr ""
-
-#: panel.cpp:116
-#, kde-format
-msgid "Start Move of %1"
-msgstr ""
-
-#: panel.cpp:127
-#, kde-format
-msgid "Stop Move of %1"
-msgstr ""
-
-#: panel.cpp:377
-msgid "Do you really want to remove this panel?"
-msgstr ""
-
-#: panel.cpp:378
-msgid "Remove Panel"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file tasksConfig.ui line 36
-#: rc.cpp:9
-msgid "Show only tasks from the current screen"
-msgstr ""
-
-#: dashboardview.cpp:94
-msgid "Plasma Dashboard"
 msgstr ""
 
 #: main.cpp:91
@@ -358,95 +819,4 @@ msgstr ""
 #, kde-format
 msgctxt "message sending failed using the named local account"
 msgid "Unable to Send Message on Account '%1'"
-msgstr ""
-
-#: authdialog.cpp:96
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as the super user is required to perform this action."
-msgstr ""
-
-#: authdialog.cpp:100
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication is required to perform this action."
-msgstr ""
-
-#: authdialog.cpp:121
-msgid "Password for root"
-msgstr ""
-
-#: authdialog.cpp:123
-#, kde-format
-msgid "Password for user(%1)"
-msgstr ""
-
-#: authdialog.cpp:125
-msgid "Password"
-msgstr ""
-
-#: main.cpp:34 main.cpp:35
-msgid "PolicyKit-kde"
-msgstr ""
-
-#: main.cpp:36
-msgid "(c) 2005-2007, TUBITAK - UEKAE"
-msgstr ""
-
-#: main.cpp:37
-msgid "Gökçen Eraslan"
-msgstr ""
-
-#: main.cpp:37
-msgid "KDE 3 Code"
-msgstr ""
-
-#: main.cpp:38
-msgid "Dirk Müller"
-msgstr ""
-
-#: main.cpp:38
-msgid "Author"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file authdialogui.ui line 13
-#: rc.cpp:3
-msgid "Authentication Required"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file authdialogui.ui line 24
-#: rc.cpp:6
-msgid "Lock Icon Here"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file authdialogui.ui line 54
-#: rc.cpp:9
-msgid "<h3><b>Header is here! </b></h3>"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file authdialogui.ui line 84
-#: rc.cpp:15
-msgid "Remember authorization"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file authdialogui.ui line 112
-#: rc.cpp:18
-msgid "For this session only"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file authdialogui.ui line 123
-#: rc.cpp:21
-msgid "Select a user..."
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file authdialogui.ui line 127
-#: rc.cpp:24
-msgid "Select User..."
 msgstr ""
