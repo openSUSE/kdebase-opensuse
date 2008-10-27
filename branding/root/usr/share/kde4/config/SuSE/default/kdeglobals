@@ -21,3 +21,6 @@ dir_pixmap=/usr/share/pixmaps
 
 [KDE]
 ChangeCursor=true
+
+[KFileDialog Settings]
+Breadcrumb Navigation=false
