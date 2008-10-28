@@ -1,0 +1,47 @@
+#: quicklauncher.cpp:295
+msgid "Add Icon..."
+msgstr ""
+
+#: quicklauncher.cpp:302
+msgid "Remove Icon"
+msgstr ""
+
+#. i18n: file: quicklauncherConfig.ui:5
+#. i18n: ectx: property (windowTitle), widget (QWidget, quicklauncherConfig)
+#. i18n: file: quicklauncherConfig.ui:8
+#. i18n: ectx: property (accessibleName), widget (QWidget, quicklauncherConfig)
+#: quicklauncher.cpp:315 rc.cpp:15 rc.cpp:18
+msgid "QuickLauncher Configuration"
+msgstr ""
+
+#. i18n: file: quicklauncherAdd.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, quicklauncherAdd)
+#. i18n: file: quicklauncherAdd.ui:16
+#. i18n: ectx: property (accessibleName), widget (QWidget, quicklauncherAdd)
+#: quicklauncher.cpp:336 rc.cpp:3 rc.cpp:6
+msgid "Add Shortcut"
+msgstr ""
+
+#. i18n: file: quicklauncherAdd.ui:22
+#. i18n: ectx: property (text), widget (QLabel, lblIcon1)
+#: rc.cpp:9
+msgid "New icon:"
+msgstr ""
+
+#. i18n: file: quicklauncherAdd.ui:29
+#. i18n: ectx: property (filter), widget (KUrlRequester, urlIcon)
+#: rc.cpp:12
+msgid "*.desktop"
+msgstr ""
+
+#. i18n: file: quicklauncherConfig.ui:15
+#. i18n: ectx: property (text), widget (QLabel, lblRowNums)
+#: rc.cpp:21
+msgid "Number of rows:"
+msgstr ""
+
+#. i18n: file: quicklauncherConfig.ui:25
+#. i18n: ectx: property (text), widget (QLabel, lblVisibleIcons)
+#: rc.cpp:24
+msgid "Visible icons:"
+msgstr ""

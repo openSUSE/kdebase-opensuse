@@ -65,42 +65,342 @@ msgid_plural "%1 seconds remaining:"
 msgstr[0] ""
 msgstr[1] ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 41
+#. i18n: file: wmconfig_ui.ui:41
+#. i18n: ectx: property (text), widget (QRadioButton, differentRB)
 #: rc.cpp:80
 msgid "Use a different &window manager:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 48
+#. i18n: file: wmconfig_ui.ui:48
+#. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
 #: rc.cpp:83
 msgid "&Use the default KDE window manager (KWin)"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 76
+#. i18n: file: wmconfig_ui.ui:76
+#. i18n: ectx: property (text), widget (QPushButton, configureButton)
 #: rc.cpp:86
 msgid "Configure"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 85
+#. i18n: file: wmconfig_ui.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:89
 msgid ""
 "Note: Most window managers have their own configuration and do not follow "
 "KDE settings."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file ./xcursor/themepage.ui line 31
-#: rc.cpp:137
-msgid "Select the cursor theme you want to use (hover preview to test cursor):"
+#: ViewManager.cpp:211
+#, kde-format
+msgid "Switch to Tab %1"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file ./xcursor/themepage.ui line 45
-#: rc.cpp:143
-msgid "Install New Theme..."
+#: ViewManager.cpp:907
+msgid "Unable to restore saved tabs. Possibly unsupported KDE 3 session data."
+msgstr ""
+
+#: folderview.cpp:429
+msgctxt "Sort Icons"
+msgid "Unsorted"
+msgstr ""
+
+#: folderview.cpp:435
+msgid "Top to Bottom"
+msgstr ""
+
+#: folderview.cpp:436
+msgid "Left to Right"
+msgstr ""
+
+#: folderview.cpp:473
+msgid "Display"
+msgstr ""
+
+#: folderview.cpp:1525
+msgid "Desktop Folder"
+msgstr ""
+
+#: folderview.cpp:1582
+msgid "&Refresh Desktop"
+msgstr ""
+
+#: folderview.cpp:1582
+msgid "&Refresh View"
+msgstr ""
+
+#: folderview.cpp:1615
+msgid "Align to Grid"
+msgstr ""
+
+#: folderview.cpp:1620
+msgctxt "Icons on the desktop"
+msgid "Lock in Place"
+msgstr ""
+
+#: folderview.cpp:1627
+msgctxt "Sort icons"
+msgid "By Name"
+msgstr ""
+
+#: folderview.cpp:1628
+msgctxt "Sort icons"
+msgid "By Size"
+msgstr ""
+
+#: folderview.cpp:1629
+msgctxt "Sort icons"
+msgid "By Type"
+msgstr ""
+
+#: folderview.cpp:1630
+msgctxt "Sort icons"
+msgid "By Date"
+msgstr ""
+
+#: folderview.cpp:1636
+msgctxt "Sort icons"
+msgid "Directories First"
+msgstr ""
+
+#: folderview.cpp:1641
+msgid "Sort Icons"
+msgstr ""
+
+#. #-#-#-#-#  kdebase4.spec.po  #-#-#-#-#
+#. i18n: file: folderviewDisplayConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, folderviewDisplayConfig)
+#. i18n: file: folderviewLocationConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, folderviewLocationConfig)
+#. #-#-#-#-#  quickaccess.po  #-#-#-#-#
+#. i18n: file: pluginwidgetbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, PluginWidgetBase)
+#. i18n: file: quickaccessConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (KTabWidget, QuickAccessConfig)
+#: rc.cpp:3 rc.cpp:122 rc.cpp:6
+msgid "Form"
+msgstr ""
+
+#. #-#-#-#-#  kdebase4.spec.po  #-#-#-#-#
+#. i18n: file: folderviewDisplayConfig.ui:27
+#. i18n: ectx: property (text), widget (QLabel, lblCustomLabel)
+#. #-#-#-#-#  quickaccess.po  #-#-#-#-#
+#. i18n: file: quickaccessConfig.ui:307
+#. i18n: ectx: property (text), widget (QLabel, customLabel)
+#: rc.cpp:6 rc.cpp:69
+msgid "Label:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:42
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, labelEdit)
+#: rc.cpp:9
+msgid ""
+"This edit field contains the label which is shown at the top of the applet.\n"
+"\n"
+"By default it contains the name of the place being shown in the applet, but "
+"if you prefer to have a custom label you can enter it here."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:51
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:14
+msgid "Icon Settings"
+msgstr ""
+
+#. #-#-#-#-#  kdebase4.spec.po  #-#-#-#-#
+#. i18n: file: folderviewDisplayConfig.ui:60
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#. #-#-#-#-#  quickaccess.po  #-#-#-#-#
+#. i18n: file: quickaccessConfig.ui:199
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:17 rc.cpp:33
+msgid "Icon size:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:98
+#. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
+#: rc.cpp:23
+msgid ""
+"Use this slider to increase or decrease the size of the icons in the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:139
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:29
+msgid "Text Settings"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:148
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:32
+msgid "Text color:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:163
+#. i18n: ectx: property (whatsThis), widget (KColorButton, colorButton)
+#: rc.cpp:35
+msgid ""
+"Click this button to choose the color which is used for the text labels in "
+"the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:38
+msgid "Number of lines:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:209
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, numLinesEdit)
+#: rc.cpp:41
+msgid ""
+"Use this control to choose how many lines of text will be shown below the "
+"icons."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:245
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
+#: rc.cpp:44
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/"
+"REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
+"\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-"
+"size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Check this option if you "
+"want the text labels to cast a shadow on the background.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\">Shadows help make the text "
+"easier to read by making it stand out more from the background.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; "
+"margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></"
+"p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
+"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
+"italic;\">Note that with dark text colors, this option will cause the text "
+"to glow with a bright halo, instead of casting a shadow.</span></p></body></"
+"html>"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:248
+#. i18n: ectx: property (text), widget (QCheckBox, drawShadows)
+#: rc.cpp:55
+msgid "Show text shadows"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:258
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:58
+msgid "Icon Arrangement"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:271
+#. i18n: ectx: property (text), widget (QLabel, flowLabel)
+#: rc.cpp:61
+msgid "Arrange icons:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:284
+#. i18n: ectx: property (whatsThis), widget (QComboBox, flowCombo)
+#: rc.cpp:64
+msgid ""
+"Use this control to choose if you want the icons to be arranged top to "
+"bottom starting on the left side of the view, or arranged left to right "
+"starting at the top of the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:291
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:67
+msgid "Sort icons:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:304
+#. i18n: ectx: property (whatsThis), widget (QComboBox, sortCombo)
+#: rc.cpp:70
+msgid ""
+"Use this control to choose the criteria by which the icons will be sorted in "
+"the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:330
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, alignToGrid)
+#: rc.cpp:73
+msgid ""
+"Check this option if you want the icons to be arranged in a grid.\n"
+"\n"
+"When this option is checked, icons will automatically snap to the nearest "
+"grid cell when you move them around in the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:333
+#. i18n: ectx: property (text), widget (QCheckBox, alignToGrid)
+#: rc.cpp:78
+msgid "Align icons in a grid"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:342
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, lockInPlace)
+#: rc.cpp:81
+msgid ""
+"Check this option if you do not want the icons to be moveable in the view.\n"
+"\n"
+"This option is useful if you want to avoid accidentally moving the icons "
+"while interacting with them."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:345
+#. i18n: ectx: property (text), widget (QCheckBox, lockInPlace)
+#: rc.cpp:86
+msgid "Lock icons in place"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:29
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:89
+msgid "Show All Files"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:34
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:92
+msgid "Show Files Matching"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:39
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:95
+msgid "Hide Files Matching"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:157
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
+#: rc.cpp:104
+msgid "Search file type"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:167
+#. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
+#: rc.cpp:107
+msgid "File types:"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:174
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
+#: rc.cpp:110
+msgid "File name pattern:"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:199
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
+#: rc.cpp:119
+msgid "Pattern filter"
 msgstr ""
 
 #: advanced.cpp:93 main.cpp:199
@@ -116,20 +416,20 @@ msgstr ""
 msgid "No Effect"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file advanced.ui line 43
+#. i18n: file: advanced.ui:43
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:12 rc.cpp:141
 msgid "Keep window thumbnails"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file advanced.ui line 56
+#. i18n: file: advanced.ui:56
+#. i18n: ectx: property (text), item, widget (QComboBox, windowThumbnails)
 #: rc.cpp:18 rc.cpp:147
 msgid "Only for shown  windows"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file advanced.ui line 72
+#. i18n: file: advanced.ui:72
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, disableChecks)
 #: rc.cpp:24 rc.cpp:153
 msgid ""
 "Enabling this option allows compositing to be activated even if some of the "
@@ -138,62 +438,62 @@ msgid ""
 "system that should be capable of compositing.\n"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file advanced.ui line 75
+#. i18n: file: advanced.ui:75
+#. i18n: ectx: property (text), widget (QCheckBox, disableChecks)
 #: rc.cpp:28 rc.cpp:157
 msgid "Disable functionality checks"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 75
+#. i18n: file: main.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: rc.cpp:88 rc.cpp:217
 msgid "Effect for window switching"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 88
+#. i18n: file: main.ui:88
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: rc.cpp:91 rc.cpp:220
 msgid "Effect for desktop switching"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 112
+#. i18n: file: main.ui:112
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
 #: rc.cpp:97 rc.cpp:226
 msgid "Instant"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 117
+#. i18n: file: main.ui:117
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
 #: rc.cpp:100 rc.cpp:229
 msgid "Very fast"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 122
+#. i18n: file: main.ui:122
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
 #: rc.cpp:103 rc.cpp:232
 msgid "Fast"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 132
+#. i18n: file: main.ui:132
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
 #: rc.cpp:109 rc.cpp:238
 msgid "Slow"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 137
+#. i18n: file: main.ui:137
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
 #: rc.cpp:112 rc.cpp:241
 msgid "Very slow"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 142
+#. i18n: file: main.ui:142
+#. i18n: ectx: property (text), item, widget (QComboBox, animationSpeedCombo)
 #: rc.cpp:115 rc.cpp:244
 msgid "Extremely slow"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file main.ui line 150
+#. i18n: file: main.ui:150
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: rc.cpp:118 rc.cpp:247
 msgid "Animation speed"
 msgstr ""
@@ -236,11 +536,32 @@ msgstr ""
 msgid "Changing configuration failed. Please adjust your xorg.conf manually."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file randrconfigbase.ui line 37
+#. i18n: file: randrconfigbase.ui:37
+#. i18n: ectx: property (text), widget (QPushButton, identifyOutputsButton)
 #: rc.cpp:60
 msgid "Identify Outputs"
 msgstr ""
+
+#: shutdowndlg.cpp:511
+#, kde-format
+msgid "Logging out in 1 second."
+msgid_plural "Logging out in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shutdowndlg.cpp:514
+#, kde-format
+msgid "Turning off computer in 1 second."
+msgid_plural "Turning off computer in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
+
+#: shutdowndlg.cpp:517
+#, kde-format
+msgid "Restarting computer in 1 second."
+msgid_plural "Restarting computer in %1 seconds."
+msgstr[0] ""
+msgstr[1] ""
 
 #: presentwindows_config.cpp:57 presentwindows.cpp:63
 #: effects/presentwindows_config.cpp:57 effects/presentwindows.cpp:63
@@ -252,519 +573,534 @@ msgstr ""
 msgid "Toggle Present Windows (Current desktop)"
 msgstr ""
 
-#: cylinder_config.cpp:53 cube_config.cpp:53 sphere_config.cpp:53
+#: cube.cpp:89 cube_config.cpp:71 cylinder_config.cpp:71 sphere_config.cpp:71
+#: effects/cube_config.cpp:71 effects/cube.cpp:89
+#: effects/cylinder_config.cpp:71 effects/sphere_config.cpp:71
+msgid "Desktop Cube"
+msgstr ""
+
+#: cube_config.cpp:53 cylinder_config.cpp:53 sphere_config.cpp:53
 #: effects/cube_config.cpp:53 effects/cylinder_config.cpp:53
 #: effects/sphere_config.cpp:53
 msgid "Basic"
 msgstr ""
 
-#: cylinder_config.cpp:71 cube_config.cpp:71 sphere_config.cpp:71 cube.cpp:88
-#: effects/cube_config.cpp:71 effects/cube.cpp:88
-#: effects/cylinder_config.cpp:71 effects/sphere_config.cpp:71
-msgid "Desktop Cube"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file cube_config.ui line 40
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 40
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 40
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 40
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 40
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 40
-#: rc.cpp:33 rc.cpp:132 rc.cpp:467 rc.cpp:632 rc.cpp:778 rc.cpp:949
+#. i18n: file: cube_config.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: cylinder_config.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: sphere_config.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: cube_config.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: cylinder_config.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: file: sphere_config.ui:40
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:33 rc.cpp:132 rc.cpp:467 rc.cpp:617 rc.cpp:762 rc.cpp:1082
 msgid "Background Color:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 53
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 53
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 53
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 53
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 53
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 53
-#: rc.cpp:36 rc.cpp:135 rc.cpp:470 rc.cpp:635 rc.cpp:781 rc.cpp:952
+#. i18n: file: cube_config.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: cylinder_config.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: sphere_config.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: cube_config.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: cylinder_config.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: sphere_config.ui:53
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:36 rc.cpp:135 rc.cpp:470 rc.cpp:620 rc.cpp:765 rc.cpp:1085
 msgid "Wallpaper:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 69
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 69
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 104
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 69
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 69
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 69
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 104
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 69
-#: rc.cpp:39 rc.cpp:138 rc.cpp:389 rc.cpp:473 rc.cpp:638 rc.cpp:784 rc.cpp:904
-#: rc.cpp:955
+#. i18n: file: cube_config.ui:69
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#. i18n: file: cylinder_config.ui:69
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#. i18n: file: presentwindows_config.ui:104
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: sphere_config.ui:69
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#. i18n: file: cube_config.ui:69
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#. i18n: file: cylinder_config.ui:69
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#. i18n: file: presentwindows_config.ui:104
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: sphere_config.ui:69
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
+#: rc.cpp:39 rc.cpp:138 rc.cpp:389 rc.cpp:473 rc.cpp:623 rc.cpp:768 rc.cpp:902
+#: rc.cpp:1088
 msgid "Activation"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 75
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 75
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 75
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 75
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 75
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 75
-#: rc.cpp:42 rc.cpp:141 rc.cpp:476 rc.cpp:641 rc.cpp:787 rc.cpp:958
+#. i18n: file: cube_config.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: cylinder_config.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: sphere_config.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: cube_config.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: cylinder_config.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: sphere_config.ui:75
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:42 rc.cpp:141 rc.cpp:476 rc.cpp:626 rc.cpp:771 rc.cpp:1091
 msgid "Screen edge:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 107
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 107
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 107
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 107
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 107
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 107
-#: rc.cpp:48 rc.cpp:147 rc.cpp:482 rc.cpp:647 rc.cpp:793 rc.cpp:964
+#. i18n: file: cube_config.ui:107
+#. i18n: ectx: property (text), widget (QCheckBox, displayDesktopNameBox)
+#. i18n: file: cylinder_config.ui:107
+#. i18n: ectx: property (text), widget (QCheckBox, displayDesktopNameBox)
+#. i18n: file: sphere_config.ui:107
+#. i18n: ectx: property (text), widget (QCheckBox, displayDesktopNameBox)
+#. i18n: file: cube_config.ui:107
+#. i18n: ectx: property (text), widget (QCheckBox, displayDesktopNameBox)
+#. i18n: file: cylinder_config.ui:107
+#. i18n: ectx: property (text), widget (QCheckBox, displayDesktopNameBox)
+#. i18n: file: sphere_config.ui:107
+#. i18n: ectx: property (text), widget (QCheckBox, displayDesktopNameBox)
+#: rc.cpp:48 rc.cpp:147 rc.cpp:482 rc.cpp:632 rc.cpp:777 rc.cpp:1097
 msgid "Display desktop name"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 114
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 114
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 114
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 114
-#: rc.cpp:51 rc.cpp:150 rc.cpp:796 rc.cpp:967
+#. i18n: file: cube_config.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, reflectionBox)
+#. i18n: file: cylinder_config.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, reflectionBox)
+#. i18n: file: cube_config.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, reflectionBox)
+#. i18n: file: cylinder_config.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, reflectionBox)
+#: rc.cpp:51 rc.cpp:150 rc.cpp:635 rc.cpp:780
 msgid "Reflection"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 121
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 121
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 114
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 114
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 121
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 121
-#: rc.cpp:54 rc.cpp:153 rc.cpp:485 rc.cpp:650 rc.cpp:799 rc.cpp:970
+#. i18n: file: cube_config.ui:121
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: cylinder_config.ui:121
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: sphere_config.ui:114
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: cube_config.ui:121
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: cylinder_config.ui:121
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: file: sphere_config.ui:114
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:54 rc.cpp:153 rc.cpp:485 rc.cpp:638 rc.cpp:783 rc.cpp:1100
 msgid "Rotation duration:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 169
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 169
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 162
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 162
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 169
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 169
-#: rc.cpp:63 rc.cpp:162 rc.cpp:494 rc.cpp:659 rc.cpp:808 rc.cpp:979
+#. i18n: file: cube_config.ui:169
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: file: cylinder_config.ui:169
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: file: sphere_config.ui:162
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: file: cube_config.ui:169
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: file: cylinder_config.ui:169
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#. i18n: file: sphere_config.ui:162
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
+#: rc.cpp:63 rc.cpp:162 rc.cpp:494 rc.cpp:647 rc.cpp:792 rc.cpp:1109
 msgid "Opacity"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 275
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 275
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 268
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 268
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 275
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 275
-#: rc.cpp:79 rc.cpp:178 rc.cpp:510 rc.cpp:675 rc.cpp:824 rc.cpp:995
+#. i18n: file: cube_config.ui:275
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: cylinder_config.ui:275
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: sphere_config.ui:268
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: cube_config.ui:275
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: cylinder_config.ui:275
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: file: sphere_config.ui:268
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:79 rc.cpp:178 rc.cpp:510 rc.cpp:663 rc.cpp:808 rc.cpp:1125
 msgid "Caps"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 281
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 281
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 274
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 274
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 281
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 281
-#: rc.cpp:82 rc.cpp:181 rc.cpp:513 rc.cpp:678 rc.cpp:827 rc.cpp:998
+#. i18n: file: cube_config.ui:281
+#. i18n: ectx: property (text), widget (QCheckBox, cubeCapsBox)
+#. i18n: file: cylinder_config.ui:281
+#. i18n: ectx: property (text), widget (QCheckBox, cubeCapsBox)
+#. i18n: file: sphere_config.ui:274
+#. i18n: ectx: property (text), widget (QCheckBox, cubeCapsBox)
+#. i18n: file: cube_config.ui:281
+#. i18n: ectx: property (text), widget (QCheckBox, cubeCapsBox)
+#. i18n: file: cylinder_config.ui:281
+#. i18n: ectx: property (text), widget (QCheckBox, cubeCapsBox)
+#. i18n: file: sphere_config.ui:274
+#. i18n: ectx: property (text), widget (QCheckBox, cubeCapsBox)
+#: rc.cpp:82 rc.cpp:181 rc.cpp:513 rc.cpp:666 rc.cpp:811 rc.cpp:1128
 msgid "Show caps"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 288
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 288
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 281
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 281
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 288
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 288
-#: rc.cpp:85 rc.cpp:184 rc.cpp:516 rc.cpp:681 rc.cpp:830 rc.cpp:1001
+#. i18n: file: cube_config.ui:288
+#. i18n: ectx: property (text), widget (QLabel, capColorLabel)
+#. i18n: file: cylinder_config.ui:288
+#. i18n: ectx: property (text), widget (QLabel, capColorLabel)
+#. i18n: file: sphere_config.ui:281
+#. i18n: ectx: property (text), widget (QLabel, capColorLabel)
+#. i18n: file: cube_config.ui:288
+#. i18n: ectx: property (text), widget (QLabel, capColorLabel)
+#. i18n: file: cylinder_config.ui:288
+#. i18n: ectx: property (text), widget (QLabel, capColorLabel)
+#. i18n: file: sphere_config.ui:281
+#. i18n: ectx: property (text), widget (QLabel, capColorLabel)
+#: rc.cpp:85 rc.cpp:184 rc.cpp:516 rc.cpp:669 rc.cpp:814 rc.cpp:1131
 msgid "Cap Color:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 301
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 301
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 294
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 294
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 301
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 301
-#: rc.cpp:88 rc.cpp:187 rc.cpp:519 rc.cpp:684 rc.cpp:833 rc.cpp:1004
+#. i18n: file: cube_config.ui:301
+#. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
+#. i18n: file: cylinder_config.ui:301
+#. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
+#. i18n: file: sphere_config.ui:294
+#. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
+#. i18n: file: cube_config.ui:301
+#. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
+#. i18n: file: cylinder_config.ui:301
+#. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
+#. i18n: file: sphere_config.ui:294
+#. i18n: ectx: property (text), widget (QCheckBox, capsImageBox)
+#: rc.cpp:88 rc.cpp:187 rc.cpp:519 rc.cpp:672 rc.cpp:817 rc.cpp:1134
 msgid "Display image on caps"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 311
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 311
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 374
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 374
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 311
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 311
-#: rc.cpp:91 rc.cpp:190 rc.cpp:531 rc.cpp:696 rc.cpp:836 rc.cpp:1007
+#. i18n: file: cube_config.ui:311
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: cylinder_config.ui:311
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: sphere_config.ui:374
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: cube_config.ui:311
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: cylinder_config.ui:311
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#. i18n: file: sphere_config.ui:374
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:91 rc.cpp:190 rc.cpp:531 rc.cpp:675 rc.cpp:820 rc.cpp:1146
 msgid "Zoom"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 317
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 317
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 380
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 380
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 317
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 317
-#: rc.cpp:94 rc.cpp:193 rc.cpp:534 rc.cpp:699 rc.cpp:839 rc.cpp:1010
+#. i18n: file: cube_config.ui:317
+#. i18n: ectx: property (toolTip), widget (QSlider, zPositionSlider)
+#. i18n: file: cylinder_config.ui:317
+#. i18n: ectx: property (toolTip), widget (QSlider, zPositionSlider)
+#. i18n: file: sphere_config.ui:380
+#. i18n: ectx: property (toolTip), widget (QSlider, zPositionSlider)
+#. i18n: file: cube_config.ui:317
+#. i18n: ectx: property (toolTip), widget (QSlider, zPositionSlider)
+#. i18n: file: cylinder_config.ui:317
+#. i18n: ectx: property (toolTip), widget (QSlider, zPositionSlider)
+#. i18n: file: sphere_config.ui:380
+#. i18n: ectx: property (toolTip), widget (QSlider, zPositionSlider)
+#: rc.cpp:94 rc.cpp:193 rc.cpp:534 rc.cpp:678 rc.cpp:823 rc.cpp:1149
 msgid "Define how far away the object should appear"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 344
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 344
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 407
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 407
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 344
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 344
-#: rc.cpp:97 rc.cpp:196 rc.cpp:537 rc.cpp:702 rc.cpp:842 rc.cpp:1013
+#. i18n: file: cube_config.ui:344
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: cylinder_config.ui:344
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: sphere_config.ui:407
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: cube_config.ui:344
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: cylinder_config.ui:344
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#. i18n: file: sphere_config.ui:407
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: rc.cpp:97 rc.cpp:196 rc.cpp:537 rc.cpp:681 rc.cpp:826 rc.cpp:1152
 msgid "Near"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 364
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 364
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 427
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 427
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 364
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 364
-#: rc.cpp:100 rc.cpp:199 rc.cpp:540 rc.cpp:705 rc.cpp:845 rc.cpp:1016
+#. i18n: file: cube_config.ui:364
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: file: cylinder_config.ui:364
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: file: sphere_config.ui:427
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: file: cube_config.ui:364
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: file: cylinder_config.ui:364
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: file: sphere_config.ui:427
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: rc.cpp:100 rc.cpp:199 rc.cpp:540 rc.cpp:684 rc.cpp:829 rc.cpp:1155
 msgid "Far"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 376
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 376
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 439
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 439
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 376
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 376
-#: rc.cpp:103 rc.cpp:202 rc.cpp:543 rc.cpp:708 rc.cpp:848 rc.cpp:1019
+#. i18n: file: cube_config.ui:376
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#. i18n: file: cylinder_config.ui:376
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#. i18n: file: sphere_config.ui:439
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#. i18n: file: cube_config.ui:376
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#. i18n: file: cylinder_config.ui:376
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#. i18n: file: sphere_config.ui:439
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_9)
+#: rc.cpp:103 rc.cpp:202 rc.cpp:543 rc.cpp:687 rc.cpp:832 rc.cpp:1158
 msgid "Additional options"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 385
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 385
-#: rc.cpp:106 rc.cpp:851
+#. i18n: file: cube_config.ui:385
+#. i18n: ectx: property (text), widget (QCheckBox, animateDesktopChangeBox)
+#: rc.cpp:106 rc.cpp:690
 msgid "Show cube when desktop changed"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 393
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 393
-#: rc.cpp:109 rc.cpp:854
+#. i18n: file: cube_config.ui:393
+#. i18n: ectx: property (toolTip), widget (QCheckBox, bigCubeBox)
+#: rc.cpp:109 rc.cpp:693
 msgid ""
 "Cube appears on all screens in a multi screen setup.\n"
 "If not set cube will appear on only one screen and scaled so that all "
 "screens fit on that screen."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 396
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 396
-#: rc.cpp:113 rc.cpp:858
+#. i18n: file: cube_config.ui:396
+#. i18n: ectx: property (text), widget (QCheckBox, bigCubeBox)
+#: rc.cpp:113 rc.cpp:697
 msgid "Span cube on all screens in multi screen setup"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 404
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 404
-#: rc.cpp:116 rc.cpp:861
+#. i18n: file: cube_config.ui:404
+#. i18n: ectx: property (toolTip), widget (QCheckBox, closeOnMouseReleaseBox)
+#: rc.cpp:116 rc.cpp:700
 msgid ""
 "Cube is deactivated after rotating the cube with the mouse.\n"
 "Otherwise cube will stay in the position."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 407
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 386
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 449
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 449
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 407
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 386
-#: rc.cpp:120 rc.cpp:209 rc.cpp:550 rc.cpp:715 rc.cpp:865 rc.cpp:1026
+#. i18n: file: cube_config.ui:407
+#. i18n: ectx: property (text), widget (QCheckBox, closeOnMouseReleaseBox)
+#. i18n: file: cylinder_config.ui:386
+#. i18n: ectx: property (text), widget (QCheckBox, closeOnMouseReleaseBox)
+#. i18n: file: sphere_config.ui:449
+#. i18n: ectx: property (text), widget (QCheckBox, closeOnMouseReleaseBox)
+#. i18n: file: cube_config.ui:407
+#. i18n: ectx: property (text), widget (QCheckBox, closeOnMouseReleaseBox)
+#. i18n: file: cylinder_config.ui:386
+#. i18n: ectx: property (text), widget (QCheckBox, closeOnMouseReleaseBox)
+#. i18n: file: sphere_config.ui:449
+#. i18n: ectx: property (text), widget (QCheckBox, closeOnMouseReleaseBox)
+#: rc.cpp:120 rc.cpp:209 rc.cpp:550 rc.cpp:704 rc.cpp:839 rc.cpp:1165
 msgid "Close after mouse dragging"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cube_config.ui line 414
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 393
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 456
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 456
-#. i18n: tag string
-#. i18n: file ./cube_config.ui line 414
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 393
-#: rc.cpp:123 rc.cpp:212 rc.cpp:553 rc.cpp:718 rc.cpp:868 rc.cpp:1029
+#. i18n: file: cube_config.ui:414
+#. i18n: ectx: property (text), widget (QCheckBox, walkThroughDesktopBox)
+#. i18n: file: cylinder_config.ui:393
+#. i18n: ectx: property (text), widget (QCheckBox, walkThroughDesktopBox)
+#. i18n: file: sphere_config.ui:456
+#. i18n: ectx: property (text), widget (QCheckBox, walkThroughDesktopBox)
+#. i18n: file: cube_config.ui:414
+#. i18n: ectx: property (text), widget (QCheckBox, walkThroughDesktopBox)
+#. i18n: file: cylinder_config.ui:393
+#. i18n: ectx: property (text), widget (QCheckBox, walkThroughDesktopBox)
+#. i18n: file: sphere_config.ui:456
+#. i18n: ectx: property (text), widget (QCheckBox, walkThroughDesktopBox)
+#: rc.cpp:123 rc.cpp:212 rc.cpp:553 rc.cpp:707 rc.cpp:842 rc.cpp:1168
 msgid "Use for walk through desktop list"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file cylinder_config.ui line 383
-#. i18n: tag string
-#. i18n: file ./cylinder_config.ui line 383
-#: rc.cpp:205 rc.cpp:1022
+#. i18n: file: cylinder_config.ui:383
+#. i18n: ectx: property (toolTip), widget (QCheckBox, closeOnMouseReleaseBox)
+#: rc.cpp:205 rc.cpp:835
 msgid ""
 "Cylinder is deactivated after rotating the cylinder with the mouse.\n"
 "Otherwise cylinder will stay in the position."
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 22
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 22
-#: rc.cpp:359 rc.cpp:874
+#. i18n: file: presentwindows_config.ui:22
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:359 rc.cpp:872
 msgid "Rearrange &duration:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 51
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 51
-#: rc.cpp:368 rc.cpp:883
+#. i18n: file: presentwindows_config.ui:51
+#. i18n: ectx: property (text), widget (QCheckBox, displayTitleBox)
+#: rc.cpp:368 rc.cpp:881
 msgid "Display window &titles"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 65
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 65
-#: rc.cpp:374 rc.cpp:889
+#. i18n: file: presentwindows_config.ui:65
+#. i18n: ectx: property (text), widget (QCheckBox, switchingBox)
+#: rc.cpp:374 rc.cpp:887
 msgid "Use for window &switching"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 72
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 72
-#: rc.cpp:377 rc.cpp:892
+#. i18n: file: presentwindows_config.ui:72
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:377 rc.cpp:890
 msgid "Layout mode:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 83
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 83
-#: rc.cpp:380 rc.cpp:895
+#. i18n: file: presentwindows_config.ui:83
+#. i18n: ectx: property (text), item, widget (QComboBox, layoutCombo)
+#: rc.cpp:380 rc.cpp:893
 msgid "Natural"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 88
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 88
-#: rc.cpp:383 rc.cpp:898
+#. i18n: file: presentwindows_config.ui:88
+#. i18n: ectx: property (text), item, widget (QComboBox, layoutCombo)
+#: rc.cpp:383 rc.cpp:896
 msgid "Regular grid"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 93
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 93
-#: rc.cpp:386 rc.cpp:901
+#. i18n: file: presentwindows_config.ui:93
+#. i18n: ectx: property (text), item, widget (QComboBox, layoutCombo)
+#: rc.cpp:386 rc.cpp:899
 msgid "Flexible grid"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 120
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 120
-#: rc.cpp:392 rc.cpp:907
+#. i18n: file: presentwindows_config.ui:120
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:392 rc.cpp:905
 msgid "Active screen &edge (Current desktop):"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 133
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 133
-#: rc.cpp:395 rc.cpp:910
+#. i18n: file: presentwindows_config.ui:133
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:395 rc.cpp:908
 msgid "Active screen &edge (All desktops):"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 149
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 149
-#: rc.cpp:398 rc.cpp:913
+#. i18n: file: presentwindows_config.ui:149
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:398 rc.cpp:911
 msgid "Natural Layout Settings"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 155
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 155
-#: rc.cpp:401 rc.cpp:916
+#. i18n: file: presentwindows_config.ui:155
+#. i18n: ectx: property (text), widget (QCheckBox, fillGapsBox)
+#: rc.cpp:401 rc.cpp:914
 msgid "Fill &gaps"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 177
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 177
-#: rc.cpp:404 rc.cpp:919
+#. i18n: file: presentwindows_config.ui:177
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: rc.cpp:404 rc.cpp:917
 msgid "Faster"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file presentwindows_config.ui line 221
-#. i18n: tag string
-#. i18n: file ./presentwindows_config.ui line 221
-#: rc.cpp:407 rc.cpp:922
+#. i18n: file: presentwindows_config.ui:221
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:407 rc.cpp:920
 msgid "Nicer"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 307
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 307
-#: rc.cpp:522 rc.cpp:687
+#. i18n: file: sphere_config.ui:307
+#. i18n: ectx: property (text), widget (QLabel, capDeformationLabel)
+#: rc.cpp:522 rc.cpp:1137
 msgid "Cap deformation:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 340
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 340
-#: rc.cpp:525 rc.cpp:690
+#. i18n: file: sphere_config.ui:340
+#. i18n: ectx: property (text), widget (QLabel, capDeformationSphereLabel)
+#: rc.cpp:525 rc.cpp:1140
 msgid "Sphere"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 360
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 360
-#: rc.cpp:528 rc.cpp:693
+#. i18n: file: sphere_config.ui:360
+#. i18n: ectx: property (text), widget (QLabel, capDeformationPlaneLabel)
+#: rc.cpp:528 rc.cpp:1143
 msgid "Plane"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file sphere_config.ui line 446
-#. i18n: tag string
-#. i18n: file ./sphere_config.ui line 446
-#: rc.cpp:546 rc.cpp:711
+#. i18n: file: sphere_config.ui:446
+#. i18n: ectx: property (toolTip), widget (QCheckBox, closeOnMouseReleaseBox)
+#: rc.cpp:546 rc.cpp:1161
 msgid ""
 "Sphere is deactivated after rotating the sphere with the mouse.\n"
 "Otherwise sphere will stay in the position."
 msgstr ""
 
-#: composite.cpp:466
+#: composite.cpp:487
 msgid "Empty"
 msgstr ""
 
-#: composite.cpp:469
+#: composite.cpp:490
 #, kde-format
 msgid ""
 "Compositing was too slow and has been suspended.\n"
 "If this was only a temporary problem, you can resume using the '%1' "
 "shortcut.\n"
 "You can also disable functionality checks in advanced compositing settings."
+msgstr ""
+
+#: wallpaper.cpp:124
+msgid "Unknown Wallpaper"
+msgstr ""
+
+#: battery.cpp:318
+msgid "Power Management"
+msgstr ""
+
+#: battery.cpp:347
+msgid "Screen Brightness"
+msgstr ""
+
+#: battery.cpp:377
+msgid "Power Profile"
+msgstr ""
+
+#: battery.cpp:475
+#, kde-format
+msgid "<b>Battery:</b> %1% (fully charged)"
+msgstr ""
+
+#: battery.cpp:477
+#, kde-format
+msgid "<b>Battery:</b> %1% (discharging)"
+msgstr ""
+
+#: battery.cpp:479
+#, kde-format
+msgid "<b>Battery:</b> %1% (charging)"
+msgstr ""
+
+#: battery.cpp:482
+msgctxt "Battery is not plugged in"
+msgid "<b>Battery:</b> not present"
+msgstr ""
+
+#: battery.cpp:486
+#, kde-format
+msgid "<b>Battery %1:</b> %2% (fully charged)"
+msgstr ""
+
+#: battery.cpp:488
+#, kde-format
+msgid "<b>Battery %1:</b> %2% (discharging)"
+msgstr ""
+
+#: battery.cpp:490
+#, kde-format
+msgid "<b>Battery %1:</b> %2% (charging)"
+msgstr ""
+
+#: battery.cpp:495
+msgid "<br /><b>AC Adapter:</b> Plugged in"
+msgstr ""
+
+#: battery.cpp:497
+msgid "<br /><b>AC Adapter:</b> Not plugged in"
 msgstr ""
 
 #: core/leavemodel.cpp:83
@@ -779,6 +1115,10 @@ msgstr ""
 msgid "Pause without logging out"
 msgstr ""
 
+#: core/applicationmodel.cpp:301
+msgid "New Applications"
+msgstr ""
+
 #: core/systemmodel.cpp:90
 msgid "Administration"
 msgstr ""
@@ -787,46 +1127,249 @@ msgstr ""
 msgid "System Information"
 msgstr ""
 
-#: core/applicationmodel.cpp:301
-msgid "New Applications"
-msgstr ""
-
 #: simpleapplet/simpleapplet.cpp:281
 msgctxt "@item:inlistbox Format:"
 msgid "Name (Description)"
 msgstr ""
 
-#: main.cpp:91
-msgid "Try to find a solution to the given savegame"
+#: lockout.cpp:50
+msgid "Alternate Button Order"
 msgstr ""
 
-#: pwidget.cpp:453
-msgid "Calculating..."
+#. #-#-#-#-#  quicklauncher.po  #-#-#-#-#
+#. i18n: file: quicklauncherConfig.ui:25
+#. i18n: ectx: property (text), widget (QLabel, lblVisibleIcons)
+#: ui/applet.cpp:239 rc.cpp:24
+msgid "Visible icons:"
 msgstr ""
 
-#: pwidget.cpp:463
-msgid "Timeout while playing - unknown if it can be won"
+#: ui/applet.cpp:240
+msgid "Hidden icons:"
 msgstr ""
 
-#: kdeui/sonnet/dialog.cpp:157
-msgid "Spell check stopped."
+#: panelcontroller.cpp:384
+msgid "Panel Alignment"
 msgstr ""
 
-#: kdeui/sonnet/dialog.cpp:165
-msgid "Spell check canceled."
+#: panelcontroller.cpp:409
+msgid "Visibility"
 msgstr ""
 
-#: kdeui/sonnet/dialog.cpp:300
-msgid "Spell check complete."
+#: panelcontroller.cpp:412
+msgid "Always visible"
 msgstr ""
 
-#: kdeui/widgets/ktextedit.cpp:447
-msgid "Nothing to spell check."
+#: panelcontroller.cpp:417
+msgid "Auto hide"
 msgstr ""
 
-#: kio/kfileitem.cpp:927
+#: panelcontroller.cpp:422
+msgid "Windows can cover"
+msgstr ""
+
+#: panelcontroller.cpp:429
+msgid "Screen Edge"
+msgstr ""
+
+#: panelcontroller.cpp:444
+msgid "More Settings"
+msgstr ""
+
+#: panelcontroller.cpp:900 panelcontroller.cpp:909
 #, kde-format
-msgid " (Points to %1)"
+msgid "Width: %1"
+msgstr ""
+
+#: panelcontroller.cpp:917 panelcontroller.cpp:926
+#, kde-format
+msgid "Height: %1"
+msgstr ""
+
+#. i18n: file: BackgroundDialog.ui:34
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: rc.cpp:3
+msgid "Desktop Activity"
+msgstr ""
+
+#: image.cpp:117 image.cpp:157
+msgid "Maxpect"
+msgstr ""
+
+#. i18n: file: imageconfig.ui:249
+#. i18n: ectx: property (text), widget (QPushButton, m_newStuff)
+#: rc.cpp:30
+msgid "Get New Wallpapers..."
+msgstr ""
+
+#. i18n: file: slideshowconfig.ui:28
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33
+msgid "Folders:"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:219
+msgid "Visit LibRaw project website"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:232
+msgid "Quality:"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:239
+msgid ""
+"<p><b>Quality (interpolation)</b><p>Select here the demosaicing RAW images "
+"decoding interpolation method. A demosaicing algorithm is a digital image "
+"process used to interpolate a complete image from the partial raw data "
+"received from the color-filtered image sensor internal to many digital "
+"cameras in form of a matrix of colored pixels. Also known as CFA "
+"interpolation or color reconstruction, another common spelling is "
+"demosaicing. There are 4 methods to demosaicing RAW images:<p><b>Bilinear</"
+"b>: use high-speed but low-quality bilinear interpolation (default - for "
+"slow computer). In this method, the red value of a non-red pixel is computed "
+"as the average of the adjacent red pixels, and similar for blue and green."
+"<p><b>VNG</b>: use Variable Number of Gradients interpolation. This method "
+"computes gradients near the pixel of interest and uses the lower gradients "
+"(representing smoother and more similar parts of the image) to make an "
+"estimate.<p><b>PPG</b>: use Patterned Pixel Grouping interpolation. Pixel "
+"Grouping uses assumptions about natural scenery in making estimates. It has "
+"fewer color artifacts on natural images than the Variable Number of "
+"Gradients method.<p><b>AHD</b>: use Adaptive Homogeneity-Directed "
+"interpolation. This method selects the direction of interpolation so as to "
+"maximize a homogeneity metric, thus typically minimizing color artifacts.<p>"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:269
+msgid "Median:"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:270
+msgid ""
+"<p><b>Median Filter</b><p>Set here the passes used by median filter applied "
+"after interpolation to Red-Green and Blue-Green channels."
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:276
+msgid "Demosaicing"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:284
+msgid "Method"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:286
+msgid "Default D65"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:287
+msgid "Camera"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:288
+msgid "Automatic"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:289
+msgid "Manual"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:291
+msgid ""
+"<p><b>White Balance</b><p>Configure the raw white balance :<p><b>Default "
+"D65</b>: Use a standard daylight D65 white balance (dcraw defaults)"
+"<p><b>Camera</b>: Use the white balance specified by the camera. If not "
+"available, reverts to default neutral white balance<p><b>Automatic</b>: "
+"Calculates an automatic white balance averaging the entire "
+"image<p><b>Manual</b>: Set a custom temperature and green level values"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:304
+msgid "T(K):"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:305
+msgid "<p><b>Temperature</b><p>Set here the color temperature in Kelvin."
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:357
+msgid "Black:"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:369
+msgid "White:"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:370
+msgid ""
+"<p><b>White point</b><p>Use a specific white point value to decode RAW "
+"pictures. If you set this option to off, the White Point value will be "
+"automatically computed.<p>"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:378
+msgid ""
+"<p><b>White point value</b><p>Specify specific white point value of the "
+"output image.<p>"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:408
+msgid "White Balance"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:461
+msgid "Corrections"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:469
+msgid "Camera Profile:"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:472
+msgid "Embedded"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:473 libkdcraw/dcrawsettingswidget.cpp:492
+msgid "Custom"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:475
+msgid ""
+"<p><b>Camera Profile</b><p>Select here the input color space used to decode "
+"RAW data.<p><b>None</b>: no input color profile is used during RAW decoding."
+"<p><b>Embedded</b>: use embedded color profile from RAW file if exist."
+"<p><b>Custom</b>: use a custom input color space profile."
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:483 libkdcraw/dcrawsettingswidget.cpp:513
+msgid "ICC Files (*.icc; *.icm)"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:485
+msgid "Workspace:"
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:494
+msgid ""
+"<p><b>Workspace</b><p>Select here the output color space used to decode RAW "
+"data.<p><b>Raw (linear)</b>: in this mode, no output color space is used "
+"during RAW decoding.<p><b>sRGB</b>: this is a RGB color space, created "
+"cooperatively by Hewlett-Packard and Microsoft. It is the best choice for "
+"images destined for the Web and portrait photography.<p><b>Adobe RGB</b>: "
+"this color space is an extended RGB color space, developed by Adobe. It is "
+"used for photography applications such as advertising and fine art."
+"<p><b>Wide Gamut</b>: this color space is an expanded version of the Adobe "
+"RGB color space.<p><b>Pro-Photo</b>: this color space is an RGB color space, "
+"developed by Kodak, that offers an especially large gamut designed for use "
+"with photographic outputs in mind.<p><b>Custom</b>: use a custom output "
+"color space profile."
+msgstr ""
+
+#: libkdcraw/dcrawsettingswidget.cpp:525
+msgid "Color Management"
+msgstr ""
+
+#: libkdcraw/rcombobox.cpp:72 libkdcraw/rnuminput.cpp:73
+#: libkdcraw/rnuminput.cpp:176
+msgid "Reset to default value"
 msgstr ""
 
 #: kmixprefdlg.cpp:84
@@ -837,17 +1380,204 @@ msgstr ""
 msgid "Used by kmix_autostart.desktop"
 msgstr ""
 
-#: protocols/groupwise/gwaccount.cpp:375
-#, kde-format
-msgctxt "Message Sending Failed using the named local account"
-msgid ""
-"Kopete was not able to send the last message sent on account '%1'.\n"
-"If possible, please send the console output from Kopete to "
-"<wstephenson@novell.com> for analysis."
+#: label.cpp:44
+msgid "Open"
 msgstr ""
 
-#: protocols/groupwise/gwaccount.cpp:375
-#, kde-format
-msgctxt "message sending failed using the named local account"
-msgid "Unable to Send Message on Account '%1'"
+#: popupdialog.cpp:87
+msgid "Sort by Name"
+msgstr ""
+
+#: popupdialog.cpp:90
+msgid "Sort by Size"
+msgstr ""
+
+#: popupdialog.cpp:93
+msgid "Sort by Last Modified"
+msgstr ""
+
+#: quickaccess.cpp:207
+msgid ""
+"Sorry, but the \"applications:\" KIO slave is not supported, because it will "
+"crash QuickAccess/Plasma..."
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, general)
+#: rc.cpp:9
+msgid "General"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:39
+#. i18n: ectx: property (text), widget (QLabel, selectLabel)
+#: rc.cpp:12
+msgid "Directory:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:62
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: rc.cpp:15
+msgid "Filters:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:104
+#. i18n: ectx: property (text), widget (QCheckBox, hiddenBox)
+#: rc.cpp:18
+msgid "Show hidden files"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, onlyDirsBox)
+#: rc.cpp:21
+msgid "Show only folders"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, navigationBox)
+#: rc.cpp:24
+msgid "Allow navigation"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, appearance)
+#: rc.cpp:27
+msgid "Appearance"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:30
+msgid "Custom icon:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:210
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:36
+msgid "16"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:215
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:39
+msgid "22"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:42
+msgid "32"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:225
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:45
+msgid "48"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:230
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:48
+msgid "64"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:235
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:51
+msgid "128"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:249
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:54
+msgid "View mode:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:260
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:57
+msgid "List Mode"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:265
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:60
+msgid "Icon Mode"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:275
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipBox)
+#: rc.cpp:63
+msgid "Show tooltips"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:282
+#. i18n: ectx: property (text), widget (QCheckBox, customLabelBox)
+#: rc.cpp:66
+msgid "Use a custom label"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:357
+#. i18n: ectx: attribute (title), widget (QWidget, preview)
+#: rc.cpp:72
+msgid "Preview"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:363
+#. i18n: ectx: property (text), widget (QCheckBox, previewBox)
+#: rc.cpp:75
+msgid "Show previews"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:377
+#. i18n: ectx: property (text), widget (QLabel, previewLabel1)
+#: rc.cpp:78
+msgid "Preview plugins:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:386
+#. i18n: ectx: property (text), widget (QLabel, previewLabel2)
+#: rc.cpp:81
+msgid "Here you can enable/disable the plugins."
+msgstr ""
+
+#: quicklauncher.cpp:295
+msgid "Add Icon..."
+msgstr ""
+
+#: quicklauncher.cpp:302
+msgid "Remove Icon"
+msgstr ""
+
+#. i18n: file: quicklauncherConfig.ui:5
+#. i18n: ectx: property (windowTitle), widget (QWidget, quicklauncherConfig)
+#. i18n: file: quicklauncherConfig.ui:8
+#. i18n: ectx: property (accessibleName), widget (QWidget, quicklauncherConfig)
+#: quicklauncher.cpp:315 rc.cpp:15 rc.cpp:18
+msgid "QuickLauncher Configuration"
+msgstr ""
+
+#. i18n: file: quicklauncherAdd.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, quicklauncherAdd)
+#. i18n: file: quicklauncherAdd.ui:16
+#. i18n: ectx: property (accessibleName), widget (QWidget, quicklauncherAdd)
+#: quicklauncher.cpp:336 rc.cpp:3 rc.cpp:6
+msgid "Add Shortcut"
+msgstr ""
+
+#. i18n: file: quicklauncherAdd.ui:22
+#. i18n: ectx: property (text), widget (QLabel, lblIcon1)
+#: rc.cpp:9
+msgid "New icon:"
+msgstr ""
+
+#. i18n: file: quicklauncherAdd.ui:29
+#. i18n: ectx: property (filter), widget (KUrlRequester, urlIcon)
+#: rc.cpp:12
+msgid "*.desktop"
+msgstr ""
+
+#. i18n: file: quicklauncherConfig.ui:15
+#. i18n: ectx: property (text), widget (QLabel, lblRowNums)
+#: rc.cpp:21
+msgid "Number of rows:"
 msgstr ""

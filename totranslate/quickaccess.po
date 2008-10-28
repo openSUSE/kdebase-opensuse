@@ -1,0 +1,179 @@
+#: label.cpp:44
+msgid "Open"
+msgstr ""
+
+#: popupdialog.cpp:87
+msgid "Sort by Name"
+msgstr ""
+
+#: popupdialog.cpp:90
+msgid "Sort by Size"
+msgstr ""
+
+#: popupdialog.cpp:93
+msgid "Sort by Last Modified"
+msgstr ""
+
+#: quickaccess.cpp:207
+msgid ""
+"Sorry, but the \"applications:\" KIO slave is not supported, because it will "
+"crash QuickAccess/Plasma..."
+msgstr ""
+
+#. i18n: file: pluginwidgetbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, PluginWidgetBase)
+#. i18n: file: quickaccessConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (KTabWidget, QuickAccessConfig)
+#: rc.cpp:3 rc.cpp:6
+msgid "Form"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, general)
+#: rc.cpp:9
+msgid "General"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:39
+#. i18n: ectx: property (text), widget (QLabel, selectLabel)
+#: rc.cpp:12
+msgid "Directory:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:62
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: rc.cpp:15
+msgid "Filters:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:104
+#. i18n: ectx: property (text), widget (QCheckBox, hiddenBox)
+#: rc.cpp:18
+msgid "Show hidden files"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, onlyDirsBox)
+#: rc.cpp:21
+msgid "Show only folders"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, navigationBox)
+#: rc.cpp:24
+msgid "Allow navigation"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, appearance)
+#: rc.cpp:27
+msgid "Appearance"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:30
+msgid "Custom icon:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:199
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33
+msgid "Icon size:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:210
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:36
+msgid "16"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:215
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:39
+msgid "22"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:220
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:42
+msgid "32"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:225
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:45
+msgid "48"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:230
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:48
+msgid "64"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:235
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:51
+msgid "128"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:249
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:54
+msgid "View mode:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:260
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:57
+msgid "List Mode"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:265
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:60
+msgid "Icon Mode"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:275
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipBox)
+#: rc.cpp:63
+msgid "Show tooltips"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:282
+#. i18n: ectx: property (text), widget (QCheckBox, customLabelBox)
+#: rc.cpp:66
+msgid "Use a custom label"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:307
+#. i18n: ectx: property (text), widget (QLabel, customLabel)
+#: rc.cpp:69
+msgid "Label:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:357
+#. i18n: ectx: attribute (title), widget (QWidget, preview)
+#: rc.cpp:72
+msgid "Preview"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:363
+#. i18n: ectx: property (text), widget (QCheckBox, previewBox)
+#: rc.cpp:75
+msgid "Show previews"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:377
+#. i18n: ectx: property (text), widget (QLabel, previewLabel1)
+#: rc.cpp:78
+msgid "Preview plugins:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:386
+#. i18n: ectx: property (text), widget (QLabel, previewLabel2)
+#: rc.cpp:81
+msgid "Here you can enable/disable the plugins."
+msgstr ""
