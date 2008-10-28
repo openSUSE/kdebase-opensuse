@@ -65,7 +65,7 @@ for file in $changedfiles ; do
             if test -f translation/orig/$file; then
                 $EXTRACTRC translation/orig/$file | grep -v 'i18n("");' >> translation/orig/rc.cpp
             fi
-            if test -f translation/patched/$file; then
+            if test -f translation/patched/$file -a -s translation/patched/$file; then
                 $EXTRACTRC translation/patched/$file | grep -v 'i18n("");' >> translation/patched/rc.cpp
             fi
         ;;
