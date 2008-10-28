@@ -60,26 +60,26 @@ msgid_plural "%1 seconds remaining:"
 msgstr[0] ""
 msgstr[1] ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 41
+#. i18n: file: wmconfig_ui.ui:41
+#. i18n: ectx: property (text), widget (QRadioButton, differentRB)
 #: rc.cpp:80
 msgid "Use a different &window manager:"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 48
+#. i18n: file: wmconfig_ui.ui:48
+#. i18n: ectx: property (text), widget (QRadioButton, kwinRB)
 #: rc.cpp:83
 msgid "&Use the default KDE window manager (KWin)"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 76
+#. i18n: file: wmconfig_ui.ui:76
+#. i18n: ectx: property (text), widget (QPushButton, configureButton)
 #: rc.cpp:86
 msgid "Configure"
 msgstr ""
 
-#. i18n: tag string
-#. i18n: file wmconfig_ui.ui line 85
+#. i18n: file: wmconfig_ui.ui:85
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: rc.cpp:89
 msgid "Note: Most window managers have their own configuration and do not follow KDE settings."
 msgstr ""

@@ -1,0 +1,269 @@
+#: ViewManager.cpp:211
+#, kde-format
+msgid "Switch to Tab %1"
+msgstr ""
+
+#: ViewManager.cpp:907
+msgid "Unable to restore saved tabs. Possibly unsupported KDE 3 session data."
+msgstr ""
+
+#: folderview.cpp:429
+msgctxt "Sort Icons"
+msgid "Unsorted"
+msgstr ""
+
+#: folderview.cpp:435
+msgid "Top to Bottom"
+msgstr ""
+
+#: folderview.cpp:436
+msgid "Left to Right"
+msgstr ""
+
+#: folderview.cpp:473
+msgid "Display"
+msgstr ""
+
+#: folderview.cpp:1525
+msgid "Desktop Folder"
+msgstr ""
+
+#: folderview.cpp:1582
+msgid "&Refresh Desktop"
+msgstr ""
+
+#: folderview.cpp:1582
+msgid "&Refresh View"
+msgstr ""
+
+#: folderview.cpp:1615
+msgid "Align to Grid"
+msgstr ""
+
+#: folderview.cpp:1620
+msgctxt "Icons on the desktop"
+msgid "Lock in Place"
+msgstr ""
+
+#: folderview.cpp:1627
+msgctxt "Sort icons"
+msgid "By Name"
+msgstr ""
+
+#: folderview.cpp:1628
+msgctxt "Sort icons"
+msgid "By Size"
+msgstr ""
+
+#: folderview.cpp:1629
+msgctxt "Sort icons"
+msgid "By Type"
+msgstr ""
+
+#: folderview.cpp:1630
+msgctxt "Sort icons"
+msgid "By Date"
+msgstr ""
+
+#: folderview.cpp:1636
+msgctxt "Sort icons"
+msgid "Directories First"
+msgstr ""
+
+#: folderview.cpp:1641
+msgid "Sort Icons"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, folderviewDisplayConfig)
+#. i18n: file: folderviewLocationConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, folderviewLocationConfig)
+#: rc.cpp:3 rc.cpp:122
+msgid "Form"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:27
+#. i18n: ectx: property (text), widget (QLabel, lblCustomLabel)
+#: rc.cpp:6
+msgid "Label:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:42
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, labelEdit)
+#: rc.cpp:9
+msgid ""
+"This edit field contains the label which is shown at the top of the applet.\n"
+"\n"
+"By default it contains the name of the place being shown in the applet, but if you prefer to have a custom label you can enter it here."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:51
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: rc.cpp:14
+msgid "Icon Settings"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:60
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: rc.cpp:17
+msgid "Icon size:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:98
+#. i18n: ectx: property (whatsThis), widget (QSlider, sizeSlider)
+#: rc.cpp:23
+msgid "Use this slider to increase or decrease the size of the icons in the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:139
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:29
+msgid "Text Settings"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:148
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:32
+msgid "Text color:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:163
+#. i18n: ectx: property (whatsThis), widget (KColorButton, colorButton)
+#: rc.cpp:35
+msgid "Click this button to choose the color which is used for the text labels in the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:188
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:38
+msgid "Number of lines:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:209
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, numLinesEdit)
+#: rc.cpp:41
+msgid "Use this control to choose how many lines of text will be shown below the icons."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:245
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, drawShadows)
+#: rc.cpp:44
+msgid ""
+"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:'Bitstream Vera Sans'; font-size:8pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Check this option if you want the text labels to cast a shadow on the background.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Shadows help make the text easier to read by making it stand out more from the background.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic;\">Note that with dark text colors, this option will cause the text to glow with a bright halo, instead of casting a shadow.</span></p></body></html>"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:248
+#. i18n: ectx: property (text), widget (QCheckBox, drawShadows)
+#: rc.cpp:55
+msgid "Show text shadows"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:258
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:58
+msgid "Icon Arrangement"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:271
+#. i18n: ectx: property (text), widget (QLabel, flowLabel)
+#: rc.cpp:61
+msgid "Arrange icons:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:284
+#. i18n: ectx: property (whatsThis), widget (QComboBox, flowCombo)
+#: rc.cpp:64
+msgid "Use this control to choose if you want the icons to be arranged top to bottom starting on the left side of the view, or arranged left to right starting at the top of the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:291
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:67
+msgid "Sort icons:"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:304
+#. i18n: ectx: property (whatsThis), widget (QComboBox, sortCombo)
+#: rc.cpp:70
+msgid "Use this control to choose the criteria by which the icons will be sorted in the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:330
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, alignToGrid)
+#: rc.cpp:73
+msgid ""
+"Check this option if you want the icons to be arranged in a grid.\n"
+"\n"
+"When this option is checked, icons will automatically snap to the nearest grid cell when you move them around in the view."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:333
+#. i18n: ectx: property (text), widget (QCheckBox, alignToGrid)
+#: rc.cpp:78
+msgid "Align icons in a grid"
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:342
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, lockInPlace)
+#: rc.cpp:81
+msgid ""
+"Check this option if you do not want the icons to be moveable in the view.\n"
+"\n"
+"This option is useful if you want to avoid accidentally moving the icons while interacting with them."
+msgstr ""
+
+#. i18n: file: folderviewDisplayConfig.ui:345
+#. i18n: ectx: property (text), widget (QCheckBox, lockInPlace)
+#: rc.cpp:86
+msgid "Lock icons in place"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:29
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:89
+msgid "Show All Files"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:34
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:92
+msgid "Show Files Matching"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:39
+#. i18n: ectx: property (text), item, widget (QComboBox, filterType)
+#: rc.cpp:95
+msgid "Hide Files Matching"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:157
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, searchMimetype)
+#: rc.cpp:104
+msgid "Search file type"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:167
+#. i18n: ectx: property (text), widget (QLabel, fileTypesLabel)
+#: rc.cpp:107
+msgid "File types:"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:174
+#. i18n: ectx: property (text), widget (QLabel, fileNameLabel)
+#: rc.cpp:110
+msgid "File name pattern:"
+msgstr ""
+
+#. i18n: file: folderviewFilterConfig.ui:199
+#. i18n: ectx: property (clickMessage), widget (KLineEdit, filterFilesPattern)
+#: rc.cpp:119
+msgid "Pattern filter"
+msgstr ""
