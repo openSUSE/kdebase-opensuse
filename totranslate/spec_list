@@ -1,18 +1,10 @@
-kde4-konqueror-plugins/kde4-konqueror-plugins.spec
-kdeaccessibility4/kdeaccessibility4-icons.spec
 kdeaccessibility4/kdeaccessibility4.spec
 kdeadmin4/kdeadmin4.spec
-kdeartwork4/kdeartwork4-noarch.spec
 kdeartwork4/kdeartwork4.spec
 kdebase4/kdebase4.spec
 kdebase4-runtime/kdebase4-runtime.spec
-kdebase4-runtime/oxygen-icon-theme.spec
-kdebase4-workspace/kdebase4-wallpapers.spec
 kdebase4-workspace/kdebase4-workspace.spec
-kdebase4-workspace-plasmoids/kdebase4-workspace-plasmoids.spec
-kdeedu4/kdeedu4-noarch.spec
 kdeedu4/kdeedu4.spec
-kdegames4/kdegames4-carddecks.spec
 kdegames4/kdegames4.spec
 kdegraphics4/kdegraphics4.spec
 kdelibs4/kdelibs4.spec
@@ -26,7 +18,3 @@ kde4-plasma-addons/kde4-plasma-addons.spec
 kdebindings4/kdebindings4.spec
 kdebindings4/python-kde4.spec
 kdebindings4/ruby-kde4.spec
-kfax/kfax.spec
-kgrab/kgrab.spec
-kgraphviewer/kgraphviewer.spec
-kiconedit/kiconedit.spec
