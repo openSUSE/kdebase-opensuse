@@ -137,7 +137,7 @@ SUSEgreetings::SUSEgreetings()
     }
     content.replace( "__ENJOY_OPENSUSE__", i18n("Have a lot of fun!"));
     content.replace( "__CLOSE__", i18n("CLOSE"));
-
+    content.replace( "__INTRODUCTION__", i18n("Show Introduction to KDE4"));
 
     Text = new KTextBrowser( this, "TextView" );
     Text->setText( content );
@@ -201,6 +201,10 @@ void SUSEgreetings::urlClick(const QString &s){
         KProcess::startDetached("kdesu", QStringList() << "/sbin/yast2" << "online_update");
     } else if ( url.startsWith( "irc://") ) {
         KProcess::startDetached("konversationircprotocolhandler", QStringList() << url);
+    } else if ( url.startsWith( "/introduction" ) ) {
+        // consider moving final version to help.o.o and translations
+        url="http://en.opensuse.org/KDE/Introduction_to_KDE4";
+        KProcess::startDetached("kfmclient", QStringList() << "openURL" << url);
     } else {
         KProcess::startDetached("kfmclient", QStringList() << "openURL" << url);
     }
