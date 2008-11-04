@@ -1,0 +1,11 @@
+#: showdashboard.cpp:54
+msgid "Show the Plasma Dashboard"
+msgstr ""
+
+#: showdesktop.cpp:57
+msgid "Show the Desktop"
+msgstr ""
+
+#: showdesktop.cpp:58
+msgid "Minimize all open windows and show the Desktop"
+msgstr ""

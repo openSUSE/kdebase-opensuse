@@ -1,3 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-30 16:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plasma.cpp:56
+msgid "Default Panel"
+msgstr ""
+
+#: plasma.cpp:57
+msgid "Empty Panel"
+msgstr ""
+
+#: plasma.cpp:58
+msgid "Do you want a panel with the default widgets or an empty panel?"
+msgstr ""
+
+#: kbstateapplet.cpp:56
+msgid "Shift"
+msgstr ""
+
+#: kbstateapplet.cpp:57
+msgid "Control"
+msgstr ""
+
+#: kbstateapplet.cpp:58
+msgid "Alt"
+msgstr ""
+
+#: kbstateapplet.cpp:59
+msgid "Win"
+msgstr ""
+
+#: kbstateapplet.cpp:60
+msgid "Meta"
+msgstr ""
+
+#: kbstateapplet.cpp:61
+msgid "Super"
+msgstr ""
+
+#: kbstateapplet.cpp:62
+msgid "Hyper"
+msgstr ""
+
+#: kbstateapplet.cpp:63
+msgid "Alt Graph"
+msgstr ""
+
+#: kbstateapplet.cpp:63
+msgid "æ"
+msgstr ""
+
+#: kbstateapplet.cpp:64
+msgid "Num Lock"
+msgstr ""
+
+#: kbstateapplet.cpp:64
+msgid "Num"
+msgstr ""
+
+#: kbstateapplet.cpp:65
+msgid "Caps Lock"
+msgstr ""
+
+#: kbstateapplet.cpp:66
+msgid "Scroll Lock"
+msgstr ""
+
+#: kbstateapplet.cpp:66
+msgid "Scroll"
+msgstr ""
+
+#: kbstateapplet.cpp:919
+msgid "Show Modifier Keys"
+msgstr ""
+
+#: kbstateapplet.cpp:921
+msgid "Show Lock Keys"
+msgstr ""
+
+#: kbstateapplet.cpp:923
+msgid "Show Mouse Status"
+msgstr ""
+
+#: kbstateapplet.cpp:925
+msgid "Show AccessX Status"
+msgstr ""
+
+#: showdashboard.cpp:54
+msgid "Show the Plasma Dashboard"
+msgstr ""
+
+#: showdesktop.cpp:57
+msgid "Show the Desktop"
+msgstr ""
+
+#: showdesktop.cpp:58
+msgid "Minimize all open windows and show the Desktop"
+msgstr ""
+
 #: componentchooserwm.cpp:87
 msgid "The new window manager will be used when KDE is started the next time."
 msgstr ""
@@ -1103,6 +1217,19 @@ msgstr ""
 msgid "<br /><b>AC Adapter:</b> Not plugged in"
 msgstr ""
 
+#: devicenotifier.cpp:303
+msgid "Device Notifier"
+msgstr ""
+
+#: devicenotifier.cpp:307
+#, kde-format
+msgid "Last plugged in device: %1"
+msgstr ""
+
+#: devicenotifier.cpp:312
+msgid "No devices plugged in"
+msgstr ""
+
 #: core/leavemodel.cpp:83
 msgid "Save Session"
 msgstr ""
@@ -1116,7 +1243,7 @@ msgid "Pause without logging out"
 msgstr ""
 
 #: core/applicationmodel.cpp:301
-msgid "New Applications"
+msgid "Recently Installed"
 msgstr ""
 
 #: core/systemmodel.cpp:90
@@ -1125,6 +1252,12 @@ msgstr ""
 
 #: core/systemmodel.cpp:254
 msgid "System Information"
+msgstr ""
+
+#: applet/applet.cpp:83
+msgid ""
+"Favorites, applications, computer places, recently used items and desktop "
+"sessions"
 msgstr ""
 
 #: simpleapplet/simpleapplet.cpp:281

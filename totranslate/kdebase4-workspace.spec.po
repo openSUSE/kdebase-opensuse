@@ -687,6 +687,19 @@ msgstr ""
 msgid "<br /><b>AC Adapter:</b> Not plugged in"
 msgstr ""
 
+#: devicenotifier.cpp:303
+msgid "Device Notifier"
+msgstr ""
+
+#: devicenotifier.cpp:307
+#, kde-format
+msgid "Last plugged in device: %1"
+msgstr ""
+
+#: devicenotifier.cpp:312
+msgid "No devices plugged in"
+msgstr ""
+
 #: core/leavemodel.cpp:83
 msgid "Save Session"
 msgstr ""
@@ -700,7 +713,7 @@ msgid "Pause without logging out"
 msgstr ""
 
 #: core/applicationmodel.cpp:301
-msgid "New Applications"
+msgid "Recently Installed"
 msgstr ""
 
 #: core/systemmodel.cpp:90
@@ -709,6 +722,10 @@ msgstr ""
 
 #: core/systemmodel.cpp:254
 msgid "System Information"
+msgstr ""
+
+#: applet/applet.cpp:83
+msgid "Favorites, applications, computer places, recently used items and desktop sessions"
 msgstr ""
 
 #: simpleapplet/simpleapplet.cpp:281

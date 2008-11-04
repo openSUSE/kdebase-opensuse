@@ -27,8 +27,3 @@ msgstr ""
 #: plasma.cpp:58
 msgid "Do you want a panel with the default widgets or an empty panel?"
 msgstr ""
-
-#: plasma.cpp:70
-msgid "Recently Installed"
-msgstr ""
-
