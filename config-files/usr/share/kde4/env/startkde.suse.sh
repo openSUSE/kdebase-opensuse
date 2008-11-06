@@ -119,9 +119,9 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
             mkdir -p $HOME/.kde4/share/config
             cp /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
       fi
-      if test -e /usr/share/kde4/config/SuSE/default/opensuseupdater-autostart.desktop.live ; then
+      if test -e /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live ; then
             mkdir -p $HOME/.config/autostart
-            cp -a /usr/share/kde4/config/SuSE/default/opensuseupdater-autostart.desktop.live $HOME/.config/autostart/opensuseupdater-autostart.desktop
+            cp -a /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live $HOME/.config/autostart/kupdateapplet-autostart.desktop
       fi
       if test -e /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live ; then
             mkdir -p $HOME/.config/autostart
