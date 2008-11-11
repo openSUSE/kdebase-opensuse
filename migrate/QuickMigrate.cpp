@@ -38,6 +38,7 @@ static const char* const migrate_list[] = {
     "share/apps/konqueror/bookmarks.xml",
     "share/apps/konsole/bookmarks.xml",
     "share/apps/kopete/contactlist.xml",
+    "share/apps/kopete/logs/*",
     "share/apps/krdc/bookmarks.xml",
     "share/apps/kwallet/*.kwl",
     "share/apps/RecentDocuments/*.desktop",
