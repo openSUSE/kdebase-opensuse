@@ -517,6 +517,50 @@ msgstr ""
 msgid "Pattern filter"
 msgstr ""
 
+#: panelcontroller.cpp:434
+msgid "Height"
+msgstr ""
+
+#: panelcontroller.cpp:434
+msgid "Left"
+msgstr ""
+
+#: panelcontroller.cpp:434
+msgid "Center"
+msgstr ""
+
+#: panelcontroller.cpp:434
+msgid "Right"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Location"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Small"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Large"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Deselect All"
+msgstr ""
+
+#: desktopsettings.cpp:434
+msgid "Slideshow"
+msgstr ""
+
+#: desktopsettings.cpp:434
+msgid "Image"
+msgstr ""
+
+#: desktopsettings.cpp:434
+msgid "Color:"
+msgstr ""
+
 #: advanced.cpp:93 main.cpp:199
 msgid ""
 "Failed to activate desktop effects using the given configuration options. "

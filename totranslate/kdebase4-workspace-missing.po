@@ -19,10 +19,6 @@ msgid "Location"
 msgstr ""
 
 #: folderview.cpp:434
-msgid "Label:"
-msgstr ""
-
-#: folderview.cpp:434
 msgid "Small"
 msgstr ""
 
