@@ -115,9 +115,9 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
       if [ ! -e "$HOME/Desktop/live-installer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/live-installer.desktop" ]; then
             cp /usr/share/kde4/config/SuSE/default/live-installer.desktop $HOME/Desktop/
       fi
-      if [ -e /usr/share/kde4/config/SuSE/default/kdedrc.live ]; then
+      if [ -e /usr/share/kde4/config/SuSE/default/lowspacesuse.live ]; then
             mkdir -p $HOME/.kde4/share/config
-            cp /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
+            cp /usr/share/kde4/config/SuSE/default/lowspacesuse.live $HOME/.kde4/share/config/lowspacesuse
       fi
       if test -e /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live ; then
             mkdir -p $HOME/.config/autostart
