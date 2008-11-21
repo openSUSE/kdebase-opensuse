@@ -105,9 +105,13 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
           cp /usr/share/kde4/config/SuSE/default/myComputer.desktop $HOME/Desktop/
     fi
 
-    if [ -e /usr/share/kde4/config/SuSE/default/kdeglobals ]; then
+    if [ ! -e $HOME/.kde4/share/config/kdeglobals -a -e /usr/share/kde4/config/SuSE/default/kdeglobals ]; then
           mkdir -p $HOME/.kde4/share/config
           cp /usr/share/kde4/config/SuSE/default/kdeglobals $HOME/.kde4/share/config/kdeglobals
+    fi
+
+    if [ ! -e $HOME/.kde4/share/config/kcminputrc -a -e /usr/share/kde4/config/SuSE/default/kcminputrc ]; then
+          mkdir -p $HOME/.kde4/share/config
           cp /usr/share/kde4/config/SuSE/default/kcminputrc $HOME/.kde4/share/config/kcminputrc
     fi
 
