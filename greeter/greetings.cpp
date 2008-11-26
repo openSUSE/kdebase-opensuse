@@ -202,8 +202,7 @@ void SUSEgreetings::urlClick(const QString &s){
     } else if ( url.startsWith( "irc://") ) {
         KProcess::startDetached("konversationircprotocolhandler", QStringList() << url);
     } else if ( url.startsWith( "/introduction" ) ) {
-        // consider moving final version to help.o.o and translations
-        url="http://en.opensuse.org/KDE/Introduction_to_KDE4";
+        url="http://help.opensuse.org/kde4/";
         KProcess::startDetached("kfmclient", QStringList() << "openURL" << url);
     } else {
         KProcess::startDetached("kfmclient", QStringList() << "openURL" << url);
