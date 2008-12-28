@@ -3,7 +3,7 @@
 opwd=$PWD
 tdir=`mktemp -d`
 cd $tdir || exit 1
-svn export https://svn.suse.de/svn/desktop/trunk/kdebase4-openSUSE
+svn export https://svn.suse.de/svn/desktop/branches/openSUSE_11_1_BRANCH/kdebase4-openSUSE
 if test -d "$MY_LCN_CHECKOUT"; then
   echo "Updating $MY_LCN_CHECKOUT"
   svn up $MY_LCN_CHECKOUT
