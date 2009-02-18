@@ -5,4 +5,4 @@ Icon=SUSEgreeter
 Terminal=false
 Name=SUSE
 X-KDE-autostart-after=plasma
-X-KDE-autostart-condition=SUSEgreeterrc:General:FirstLogin110:true
+X-KDE-autostart-condition=SUSEgreeterrc:General:FirstLogin112:true
