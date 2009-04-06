@@ -133,6 +133,10 @@ EOF
             mkdir -p $HOME/.kde4/share/config
             cp /usr/share/kde4/config/SuSE/default/lowspacesuse.live $HOME/.kde4/share/config/lowspacesuse
       fi
+      if [ -e /usr/share/kde4/config/SuSE/default/nepomukserverrc.live ]; then
+            mkdir -p $HOME/.kde4/share/config
+            cp /usr/share/kde4/config/SuSE/default/nepomukserverrc.live $HOME/.kde4/share/config/nepomukserverrc
+      fi
       if test -e /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live ; then
             mkdir -p $HOME/.config/autostart
             cp -a /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live $HOME/.config/autostart/kupdateapplet-autostart.desktop
