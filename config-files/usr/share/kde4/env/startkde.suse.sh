@@ -145,6 +145,10 @@ EOF
             mkdir -p $HOME/.config/autostart
             cp -a /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live $HOME/.config/autostart/beagled-autostart.desktop
       fi
+      if test -e /usr/share/kde4/config/SuSE/default/kdedrc.live ; then
+            mkdir -p $HOME/.kde4/share/config
+            cp -a /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
+      fi
     fi
 
     if [ ! -e "$HOME/.kde4/share/apps/konqueror/bookmarks.xml" -a -e "/usr/share/kde4/config/SuSE/default/bookmarks.xml" ]; then
