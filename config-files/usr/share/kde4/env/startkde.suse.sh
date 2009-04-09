@@ -125,32 +125,6 @@ EOF
           cp /usr/share/kde4/config/SuSE/default/kcminputrc $HOME/.kde4/share/config/kcminputrc
     fi
 
-    if test -e /usr/share/applications/YaST2/live-installer.desktop ; then
-      if [ ! -e "$HOME/Desktop/live-installer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/live-installer.desktop" ]; then
-            cp /usr/share/kde4/config/SuSE/default/live-installer.desktop $HOME/Desktop/
-      fi
-      if [ -e /usr/share/kde4/config/SuSE/default/lowspacesuse.live ]; then
-            mkdir -p $HOME/.kde4/share/config
-            cp /usr/share/kde4/config/SuSE/default/lowspacesuse.live $HOME/.kde4/share/config/lowspacesuse
-      fi
-      if [ -e /usr/share/kde4/config/SuSE/default/nepomukserverrc.live ]; then
-            mkdir -p $HOME/.kde4/share/config
-            cp /usr/share/kde4/config/SuSE/default/nepomukserverrc.live $HOME/.kde4/share/config/nepomukserverrc
-      fi
-      if test -e /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live ; then
-            mkdir -p $HOME/.config/autostart
-            cp -a /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live $HOME/.config/autostart/kupdateapplet-autostart.desktop
-      fi
-      if test -e /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live ; then
-            mkdir -p $HOME/.config/autostart
-            cp -a /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live $HOME/.config/autostart/beagled-autostart.desktop
-      fi
-      if test -e /usr/share/kde4/config/SuSE/default/kdedrc.live ; then
-            mkdir -p $HOME/.kde4/share/config
-            cp -a /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
-      fi
-    fi
-
     if [ ! -e "$HOME/.kde4/share/apps/konqueror/bookmarks.xml" -a -e "/usr/share/kde4/config/SuSE/default/bookmarks.xml" ]; then
           mkdir -p $HOME/.kde4/share/apps/konqueror
           cp /usr/share/kde4/config/SuSE/default/bookmarks.xml $HOME/.kde4/share/apps/konqueror/bookmarks.xml
