@@ -3,7 +3,8 @@
 opwd=$PWD
 tdir=`mktemp -d`
 cd $tdir || exit 1
-svn export https://svn.suse.de/svn/desktop/trunk/kdebase4-openSUSE
+git clone git://git.opensuse.org/projects/desktop/kdebase4-openSUSE.git
+rm -rf kdebase4-openSUSE/.git
 if test -d "$MY_LCN_CHECKOUT"; then
   echo "Updating $MY_LCN_CHECKOUT"
   svn up $MY_LCN_CHECKOUT
