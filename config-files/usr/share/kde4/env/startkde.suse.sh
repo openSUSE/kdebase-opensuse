@@ -87,22 +87,27 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
 
     if [ -e "/usr/bin/firefox" -a ! -e "$HOME/Desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop $HOME/Desktop/
+          chmod u+x $HOME/Desktop/MozillaFirefox.desktop
     fi
 
     if [ -e "/usr/bin/oofromtemplate" -a  ! -e "$HOME/Desktop/Office.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Office.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/Office.desktop $HOME/Desktop/
+	  chmod u+x $HOME/Desktop/Office.desktop
     fi
 
     if [ ! -e "$HOME/Desktop/SuSE.desktop" -a -e "/usr/share/kde4/config/SuSE/default/SuSE.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/SuSE.desktop $HOME/Desktop/
+	  chmod u+x $HOME/Desktop/SuSE.desktop
     fi
 
     if [ ! -e "$HOME/Desktop/Support.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Support.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/Support.desktop $HOME/Desktop/
+	  chmod u+x $HOME/Desktop/Support.desktop
     fi
 
     if [ ! -e "$HOME/Desktop/myComputer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/myComputer.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/myComputer.desktop $HOME/Desktop/
+	  chmod u+x $HOME/Desktop/myComputer.desktop
     fi
 
     if [ ! -e $HOME/.kde4/share/config/kdeglobals -a -e /usr/share/kde4/config/SuSE/default/kdeglobals ]; then
