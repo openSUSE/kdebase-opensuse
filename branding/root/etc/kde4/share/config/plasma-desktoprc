@@ -1,0 +1,4 @@
+[Defaults]
+wallpaper=/usr/share/wallpapers/openSUSE111-1600x1200.png
+plainClockColor=7,33,0
+containment=plaindesktop
