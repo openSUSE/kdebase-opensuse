@@ -6,6 +6,7 @@ if test -e /usr/share/applications/YaST2/live-installer.desktop ; then
    if [ ! -e "$HOME/Desktop/live-installer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/live-installer.desktop" ]; then
         mkdir -p $HOME/Desktop
         cp /usr/share/kde4/config/SuSE/default/live-installer.desktop $HOME/Desktop/
+        chmod u+x $HOME/Desktop/live-installer.desktop
    fi
 fi
 
