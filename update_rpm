@@ -5,7 +5,7 @@ tdir=`mktemp -d`
 cd $tdir || exit 1
 git clone git://git.opensuse.org/projects/desktop/kdebase4-openSUSE.git
 rm -rf kdebase4-openSUSE/.git
-svn export http://svn.opensuse.org/svn/kio_sysinfo/trunk kdebase4-openSUSE/sysinfo
+svn export https://svn.kde.org/home/kde/trunk/playground/base/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo
 if test -d "$MY_LCN_CHECKOUT"; then
   echo "Updating $MY_LCN_CHECKOUT"
   svn up $MY_LCN_CHECKOUT
