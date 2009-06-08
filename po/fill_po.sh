@@ -21,6 +21,8 @@ for lang in $LANGS; do
             echo "missing"
         fi
     done
-    echo "gettext_process_po_files($lang ALL INSTALL_DESTINATION \${LOCALE_INSTALL_DIR} $PO_LIST )" >> $lang/CMakeLists.txt
-    echo "add_subdirectory($lang)" >> CMakeLists.txt
+    if test -n "$PO_LIST"; then
+        echo "gettext_process_po_files($lang ALL INSTALL_DESTINATION \${LOCALE_INSTALL_DIR} $PO_LIST )" >> $lang/CMakeLists.txt
+        echo "add_subdirectory($lang)" >> CMakeLists.txt
+    fi
 done
