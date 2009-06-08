@@ -1,0 +1,6 @@
+[Proxy Settings]
+NoProxyFor=NO_PROXY
+ProxyType=4
+ftpProxy=FTP_PROXY
+httpProxy=HTTP_PROXY
+httpsProxy=HTTPS_PROXY
