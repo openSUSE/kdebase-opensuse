@@ -9,3 +9,4 @@ Path=$HOME
 Type=Application
 Terminal=0
 StartupNotify=false
+OnlyShowIn=KDE;

@@ -8,5 +8,5 @@ Icon=firefox
 Terminal=false
 MimeType=text/html;application/xhtml+xml
 Type=Application
-NotShowIn=GNOME;
+OnlyShowIn=KDE;
 
