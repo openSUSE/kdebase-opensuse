@@ -12,7 +12,6 @@ fi
 
 mkdir -p $HOME/.kde4/share/config
 cp -a /usr/share/kde4/config/SuSE/default/lowspacesuse.live $HOME/.kde4/share/config/lowspacesuse
-cp -a /usr/share/kde4/config/SuSE/default/nepomukserverrc.live $HOME/.kde4/share/config/nepomukserverrc
 cp -a /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
 
 mkdir -p $HOME/.config/autostart

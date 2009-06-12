@@ -130,6 +130,11 @@ EOF
           cp /usr/share/kde4/config/SuSE/default/kcminputrc $HOME/.kde4/share/config/kcminputrc
     fi
 
+    if [ ! -e $HOME/.kde4/share/config/nepomukserverrc -a -e /usr/share/kde4/config/SuSE/default/nepomukserverrc ]; then
+          mkdir -p $HOME/.kde4/share/config
+          cp /usr/share/kde4/config/SuSE/default/nepomukserverrc $HOME/.kde4/share/config/nepomukserverrc
+    fi
+
     if [ ! -e "$HOME/.kde4/share/apps/konqueror/bookmarks.xml" -a -e "/usr/share/kde4/config/SuSE/default/bookmarks.xml" ]; then
           mkdir -p $HOME/.kde4/share/apps/konqueror
           cp /usr/share/kde4/config/SuSE/default/bookmarks.xml $HOME/.kde4/share/apps/konqueror/bookmarks.xml
