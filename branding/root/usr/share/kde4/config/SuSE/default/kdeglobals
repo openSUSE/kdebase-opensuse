@@ -26,4 +26,4 @@ ChangeCursor=true
 Breadcrumb Navigation=false
 
 [General]
-BrowserApplication=firefox
+BrowserApplication=MozillaFirefox
