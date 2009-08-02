@@ -24,3 +24,6 @@ ChangeCursor=true
 
 [KFileDialog Settings]
 Breadcrumb Navigation=false
+
+[General]
+BrowserApplication=firefox
