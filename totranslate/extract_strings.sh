@@ -4,6 +4,8 @@
 debug=0
 set -e
 
+unset CDPATH
+
 SUSE_VERSION=1110
 export EXTRACTRC=/usr/bin/extractrc
 export XGETTEXT=/usr/bin/xgettext
