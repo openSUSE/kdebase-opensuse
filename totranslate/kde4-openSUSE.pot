@@ -1309,8 +1309,8 @@ msgctxt "@item:inlistbox Format:"
 msgid "Name (Description)"
 msgstr ""
 
-#: lockout.cpp:50
-msgid "Alternate Button Order"
+#: lockout.cpp:51
+msgid "Alternative button order"
 msgstr ""
 
 #. #-#-#-#-#  quicklauncher.po  #-#-#-#-#
