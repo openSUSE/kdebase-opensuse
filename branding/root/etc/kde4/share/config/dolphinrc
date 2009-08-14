@@ -1,5 +1,5 @@
 [General]
-EditableUrl=true
+EditableUrl=false
 ShowCopyMoveMenu=true
 
 [DetailsMode]

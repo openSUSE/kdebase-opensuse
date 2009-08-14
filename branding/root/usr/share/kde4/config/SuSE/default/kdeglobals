@@ -23,7 +23,7 @@ dir_pixmap=/usr/share/pixmaps
 ChangeCursor=true
 
 [KFileDialog Settings]
-Breadcrumb Navigation=false
+Breadcrumb Navigation=true
 
 [General]
 BrowserApplication=MozillaFirefox
