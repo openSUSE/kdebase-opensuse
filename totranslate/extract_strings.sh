@@ -9,7 +9,7 @@ unset CDPATH
 SUSE_VERSION=1120
 export EXTRACTRC=/usr/bin/extractrc
 export XGETTEXT=/usr/bin/xgettext
-EXTRACT-MESSAGES=/suse/dmueller/src/release-4.1/clean/kde-l10n/scripts/extract-messages.sh
+EXTRACT_MESSAGES=/suse/dmueller/src/release-4.1/clean/kde-l10n/scripts/extract-messages.sh
 
 test -f "$EXTRACTRC" || { echo "need $EXTRACTRC"; exit 1; }
 test -f "$XGETTEXT" || { echo "need $XGETTEXT"; exit 1; }
