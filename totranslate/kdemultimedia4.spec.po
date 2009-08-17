@@ -2,6 +2,6 @@
 msgid "Disable automatic startup on login"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:59
 msgid "Used by kmix_autostart.desktop"
 msgstr ""
