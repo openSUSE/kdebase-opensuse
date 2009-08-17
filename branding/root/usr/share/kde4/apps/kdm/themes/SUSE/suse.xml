@@ -156,7 +156,7 @@
         <pos y="50%" width="box" height="100%" anchor="w"/>
         <box xpadding="0" spacing="2" orientation="horizontal">
           <item type="label">
-            <normal font="Sans 12" color="#ffffff" alpha="0.5"/>
+            <normal font="Sans 12" color="#ffffff" alpha="1"/>
             <prelight font="Sans 12" color="#ffffff" alpha="1"/>
             <active font="Sans 12" color="#ffffff" alpha="1"/>
             <pos y="50%" anchor="w"/>
@@ -173,7 +173,7 @@
             <pos x="0" y="0" height="100%"/>
           </item>
           <item type="label">
-            <normal font="Sans 12" color="#ffffff" alpha="0.5"/>
+            <normal font="Sans 12" color="#ffffff" alpha="1"/>
             <prelight font="Sans 12" color="#ffffff" alpha="1"/>
             <active font="Sans 12" color="#ffffff" alpha="1"/>
             <pos y="50%" anchor="w"/>
@@ -191,7 +191,7 @@
             <show type="admin"/>
           </item>
           <item type="label">
-            <normal font="Sans 12" color="#ffffff" alpha="0.5"/>
+            <normal font="Sans 12" color="#ffffff" alpha="1"/>
             <prelight font="Sans 12" color="#ffffff" alpha="1"/>
             <active font="Sans 12" color="#ffffff" alpha="1"/>
             <pos y="50%" anchor="w"/>
@@ -210,7 +210,7 @@
             <pos x="0" y="0" height="100%"/>
           </item>
           <item type="label">
-            <normal font="Sans 12" color="#ffffff" alpha="0.5"/>
+            <normal font="Sans 12" color="#ffffff" alpha="1"/>
             <prelight font="Sans 12" color="#ffffff" alpha="1"/>
             <active font="Sans 12" color="#ffffff" alpha="1"/>
             <pos y="50%" anchor="w"/>
@@ -218,7 +218,7 @@
             <show modes="remote"/>
           </item>
           <item type="label">
-            <normal font="Sans 12" color="#ffffff" alpha="0.5"/>
+            <normal font="Sans 12" color="#ffffff" alpha="1"/>
             <prelight font="Sans 12" color="#ffffff" alpha="1"/>
             <active font="Sans 12" color="#ffffff" alpha="1"/>
             <pos y="50%" anchor="w"/>
