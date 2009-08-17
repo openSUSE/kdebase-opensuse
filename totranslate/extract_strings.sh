@@ -13,6 +13,7 @@ EXTRACT_MESSAGES=/suse/dmueller/src/release-4.1/clean/kde-l10n/scripts/extract-m
 
 test -f "$EXTRACTRC" || { echo "need $EXTRACTRC"; exit 1; }
 test -f "$XGETTEXT" || { echo "need $XGETTEXT"; exit 1; }
+test -f "$EXTRACT_MESSAGES" || { echo "need $EXTRACT_MESSAGES"; exit 1; }
 
 # call this script from totranslate
 
