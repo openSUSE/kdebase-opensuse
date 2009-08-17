@@ -41,15 +41,3 @@ msgstr ""
 #: desktopsettings.cpp:434
 msgid "Color:"
 msgstr ""
-
-#: desktopsettings.cpp:435
-msgid "Plasma Settings"
-msgstr ""
-
-#: desktopsettings.cpp:440
-msgid "Reduce menu depth:"
-msgstr ""
-
-#: desktopsettings.cpp:445
-msgid "Show 'Recently Installed':"
-msgstr ""

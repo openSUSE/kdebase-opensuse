@@ -6,6 +6,70 @@ msgstr ""
 msgid "Suspend Computer"
 msgstr ""
 
+#: outputconfig.cpp:373
+msgctxt "Automatic (native resolution)"
+msgid " (Auto)"
+msgstr ""
+
+#: randrconfig.cpp:315
+msgid ""
+"Insufficient virtual size for the total screen size.\n"
+"The configured virtual size of your X server is insufficient for this setup. This configuration needs to be adjusted.\n"
+"Do you wish to run a tool to adjust the configuration?"
+msgstr ""
+
+#: randrconfig.cpp:323
+msgid "Configuration has been adjusted. Please restart your session for this change to take effect."
+msgstr ""
+
+#: randrconfig.cpp:326
+msgid "Changing configuration failed. Please adjust your xorg.conf manually."
+msgstr ""
+
+#: randr.cpp:35
+msgid "Upside-down (180 degrees)"
+msgstr ""
+
+#: randr.cpp:39
+msgid "Mirror horizontally"
+msgstr ""
+
+#: randr.cpp:41
+msgid "Mirror vertically"
+msgstr ""
+
+#: randr.cpp:43 randr.cpp:74
+msgid "Unknown orientation"
+msgstr ""
+
+#: randr.cpp:48
+msgid "Not rotated"
+msgstr ""
+
+#: randr.cpp:50
+msgid "Rotated 90 degrees counterclockwise"
+msgstr ""
+
+#: randr.cpp:52
+msgid "Rotated 180 degrees counterclockwise"
+msgstr ""
+
+#: randr.cpp:54
+msgid "Rotated 270 degrees counterclockwise"
+msgstr ""
+
+#: randr.cpp:59
+msgid "Mirrored horizontally and vertically"
+msgstr ""
+
+#: randr.cpp:64
+msgid "Mirrored horizontally"
+msgstr ""
+
+#: randr.cpp:69
+msgid "Mirrored vertically"
+msgstr ""
+
 #: desktop.cpp:139
 msgid "Do you want a panel with the default widgets or an empty panel?"
 msgstr ""
@@ -18,24 +82,24 @@ msgstr ""
 msgid "Empty Panel"
 msgstr ""
 
-#: core/systemmodel.cpp:88
-msgid "Administration"
-msgstr ""
-
-#: core/systemmodel.cpp:265
-msgid "System Information"
-msgstr ""
-
-#: core/applicationmodel.cpp:316
-msgid "Recently Installed"
-msgstr ""
-
 #: simpleapplet/simpleapplet.cpp:448 applet/applet.cpp:184
 msgid "Show 'Recently Installed':"
 msgstr ""
 
 #: simpleapplet/simpleapplet.cpp:454 applet/applet.cpp:191
 msgid "Reduce menu depth:"
+msgstr ""
+
+#: core/applicationmodel.cpp:316
+msgid "Recently Installed"
+msgstr ""
+
+#: core/systemmodel.cpp:88
+msgid "Administration"
+msgstr ""
+
+#: core/systemmodel.cpp:265
+msgid "System Information"
 msgstr ""
 
 #. i18n: file: lockoutConfig.ui:33
@@ -58,7 +122,7 @@ msgstr ""
 msgid "Plasma Settings"
 msgstr ""
 
-#: ions/ion_envcan.cpp:1647 ions/ion_bbcukmet.cpp:960 ions/ion_noaa.cpp:544
+#: ions/ion_noaa.cpp:544 ions/ion_bbcukmet.cpp:960 ions/ion_envcan.cpp:1647
 #, kde-format
 msgctxt "Humidity in percent"
 msgid "%1%"
