@@ -8,13 +8,14 @@ kdeedu4/kdeedu4.spec
 kdegames4/kdegames4.spec
 kdegraphics4/kdegraphics4.spec
 kdelibs4/kdelibs4.spec
+kdelibs4-experimental/kdelibs4-experimental.spec
 kdemultimedia4/kdemultimedia4.spec
 kdenetwork4/kdenetwork4.spec
+kdepim4/kdepim4.spec
+kdepim4-runtime/kdepim4-runtime.spec
 kdesdk4/kdesdk4.spec
 kdetoys4/kdetoys4.spec
 kdeutils4/kdeutils4.spec
 kdewebdev4/kdewebdev4.spec
-kdebindings4/kdebindings4.spec
-kdebindings4/python-kde4.spec
-kdebindings4/ruby-kde4.spec
+konqueror-plugins/konqueror-plugins.spec
 plasma-addons/plasma-addons.spec
