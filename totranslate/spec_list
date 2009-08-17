@@ -14,7 +14,7 @@ kdesdk4/kdesdk4.spec
 kdetoys4/kdetoys4.spec
 kdeutils4/kdeutils4.spec
 kdewebdev4/kdewebdev4.spec
-kde4-plasma-addons/kde4-plasma-addons.spec
 kdebindings4/kdebindings4.spec
 kdebindings4/python-kde4.spec
 kdebindings4/ruby-kde4.spec
+plasma-addons/plasma-addons.spec
