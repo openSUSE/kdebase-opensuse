@@ -82,7 +82,12 @@ fi
 #
 # create SuSE defaults
 #
-if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
+if [ ! -e "$HOME/.skel/kdebase4.120" ]; then
+    if [ -e "/usr/bin/firefox" ]; then
+          gconftool-2 -s --type=string /desktop/gnome/url-handlers/http/command "/usr/bin/firefox \"%s\""
+          gconftool-2 -s --type=string /desktop/gnome/url-handlers/https/command "/usr/bin/firefox \"%s\""
+    fi
+
     mkdir -p $HOME/Desktop
 
     if [ -e "/usr/bin/firefox" -a ! -e "$HOME/Desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
@@ -146,7 +151,7 @@ EOF
     fi
 
     mkdir -p $HOME/.skel/
-    touch $HOME/.skel/kdebase4.110
+    touch $HOME/.skel/kdebase4.120
 fi
 
 # check if any rpms have been (un)installed since ksycoca
