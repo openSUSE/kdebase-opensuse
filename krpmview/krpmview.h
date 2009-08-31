@@ -22,9 +22,10 @@
 #include <qtabbar.h>
 #include <qpushbutton.h>
 
+#define _RPM_4_4_COMPAT 1
+
 #include <rpmlib.h>
 #include <rpm/rpmts.h>
-#include <rpm/misc.h>
 
 // Forward declarations, saves time compared to including the full headers
 class KAboutData;

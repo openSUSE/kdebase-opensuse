@@ -22,14 +22,11 @@
 #include <klocale.h>
 #include <time.h>
 #include <QTextDocument>
+#define _RPM_4_4_COMPAT 1
+#include <rpm/rpmlegacy.h>
 
 #include "krpmview.h"
 #include "krpmview_factory.h"
-
-extern "C" {
-  // from legacy.c from rpm sources
-  void expandFilelist(Header h);
-};
 
 // typedef KParts::GenericFactory<KRPMViewPart> KRPMViewFactory;
 K_EXPORT_COMPONENT_FACTORY( libkrpmview, KRPMViewFactory );
@@ -140,14 +137,14 @@ QString KRPMViewPart::createDependencyList(const Header &h, const QString &capti
 {
   QString result;
   void *tmpVoid = 0;
-  int nEntries;
+  rpm_count_t nEntries;
   bool captionAdded = false;
 
-  if (headerGetEntry(h, TAGNAME, NULL, &tmpVoid, &nEntries)) {
+  if (headerGetEntry(h, (rpmTag)TAGNAME, NULL, &tmpVoid, &nEntries)) {
      const char **files = (const char **)tmpVoid;
-     headerGetEntry(h, TAGVERSION, NULL, &tmpVoid, NULL);
+     headerGetEntry(h, (rpmTag)TAGVERSION, NULL, &tmpVoid, NULL);
      const char **version = (const char **)tmpVoid;
-     headerGetEntry(h, TAGFLAGS, NULL, &tmpVoid, NULL);
+     headerGetEntry(h, (rpmTag)TAGFLAGS, NULL, &tmpVoid, NULL);
      const uint *flags = (const uint *)tmpVoid;
      for (int i = 0; i < nEntries; i++){
         if (((flags[i] & RPMSENSE_STRONG) == RPMSENSE_STRONG) == strongState) {
@@ -176,8 +173,8 @@ QString KRPMViewPart::createDependencyList(const Header &h, const QString &capti
 bool KRPMViewPart::openFile()
 {
   QString changelog, filelist, temp, technicaldata, dependencies;
-  int nfiles;
-  int numchangelog;
+  rpm_count_t nfiles;
+  rpm_count_t numchangelog;
   int i;
   FD_t fd;
   Header h;
@@ -242,11 +239,14 @@ bool KRPMViewPart::openFile()
           changelog += temp;
         }
   }
-  expandFilelist(h);
-  if (headerGetEntry(h, RPMTAG_OLDFILENAMES, NULL, &tmpVoid, &nfiles)) {
+  if (headerGetEntry(h, RPMTAG_FILENAMES, NULL, &tmpVoid, &nfiles)) {
      const char **files = (const char **)tmpVoid;
+     headerGetEntry(h, RPMTAG_DIRNAMES, NULL, &tmpVoid, 0);
+     const char **dirs = (const char **)tmpVoid;
+     headerGetEntry(h, RPMTAG_DIRINDEXES, NULL, &tmpVoid, 0);
+     int *idx = (int *)tmpVoid;
      for (i = 0; i < nfiles; i++){
-        temp.sprintf("%s\n", files[i]);
+        temp.sprintf("%s%s\n", dirs[idx[i]], files[i]);
         filelist += temp;
      }
   }

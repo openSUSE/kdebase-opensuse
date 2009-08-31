@@ -16,7 +16,7 @@ set(krpmview_SRCS
 
 kde4_add_plugin(krpmview WITH_PREFIX ${krpmview_SRCS})
 
-target_link_libraries(krpmview -lrpm -lrpmio -lrpmdb ${KDE4_KHTML_LIBS} ${QT_QTGUI_LIBRARY})
+target_link_libraries(krpmview -lrpm -lrpmio ${KDE4_KHTML_LIBS} ${QT_QTGUI_LIBRARY})
 
 install(TARGETS krpmview DESTINATION ${PLUGIN_INSTALL_DIR})
 
