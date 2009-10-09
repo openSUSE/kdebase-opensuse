@@ -92,28 +92,29 @@ if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
 
     if [ -e "/usr/bin/firefox" -a ! -e "$desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop "$desktop/"
-          chmod u+x "$desktop/MozillaFirefox.desktop"
     fi
+    chmod u+x "$desktop/MozillaFirefox.desktop" 2>/dev/null
 
     if [ -e "/usr/bin/oofromtemplate" -a  ! -e "$desktop/Office.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Office.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/Office.desktop "$desktop/"
-	  chmod u+x "$desktop/Office.desktop"
     fi
+    chmod u+x "$desktop/Office.desktop" 2>/dev/null
 
     if [ ! -e "$desktop/SuSE.desktop" -a -e "/usr/share/kde4/config/SuSE/default/SuSE.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/SuSE.desktop "$desktop/"
-	  chmod u+x "$desktop/SuSE.desktop"
     fi
+    chmod u+x "$desktop/SuSE.desktop" 2>/dev/null
 
     if [ ! -e "$desktop/Support.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Support.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/Support.desktop "$desktop/"
-	  chmod u+x "$desktop/Support.desktop"
     fi
+    sed -i 's/^Icon=susehelpcenter$/Icon=Support/' "$desktop/Support.desktop"
+    chmod u+x "$desktop/Support.desktop" 2>/dev/null
 
     if [ ! -e "$desktop/myComputer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/myComputer.desktop" ]; then
           cp /usr/share/kde4/config/SuSE/default/myComputer.desktop "$desktop/"
-	  chmod u+x "$desktop/myComputer.desktop"
     fi
+    chmod u+x "$desktop/myComputer.desktop" 2>/dev/null
 
     if [ ! -e $HOME/.kde4/share/config/kdeglobals -a -e /usr/share/kde4/config/SuSE/default/kdeglobals ]; then
           mkdir -p $HOME/.kde4/share/config
