@@ -1,0 +1,6 @@
+[amarok]
+_k_friendly_name=Amarok
+next=Media Next,Meta+B,&Next Track
+play_pause=Media Play,Meta+C,P&lay/Pause
+prev=Media Previous,Meta+Z,Previous &Track
+stop=Media Stop,Meta+V,&Stop
