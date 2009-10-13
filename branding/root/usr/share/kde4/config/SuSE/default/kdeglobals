@@ -7,8 +7,6 @@ activeBackground=106,154,213
 
 [Paths]
 Trash=$HOME/Desktop/Trash/
-Desktop=$HOME/Desktop/
-Documents=$HOME/Documents/
 
 [PreviewSettings]
 MaximumSize=3145728

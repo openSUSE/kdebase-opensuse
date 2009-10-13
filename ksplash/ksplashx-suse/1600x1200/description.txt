@@ -1,5 +1,5 @@
 SCALE ON
-IMAGE 0 0 background.png
+BACKGROUND_IMAGE 0 0 background.png
 IMAGE_REL RT -15 15 CC kde-logo.png
 IMAGE_REL CC 0 -70 CC opensuse-logo.png
 IMAGE_REL CC 0 0 CC progress0.png

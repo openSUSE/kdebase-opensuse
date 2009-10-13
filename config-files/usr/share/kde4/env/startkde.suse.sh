@@ -1,5 +1,10 @@
 #!/bin/sh
 
+desktop="`xdg-user-dir DESKTOP 2>/dev/null`"
+if test -z "$desktop"; then
+    desktop=$HOME/Desktop
+fi
+
 #
 # do we run in a prelinked system ?
 #
@@ -82,38 +87,34 @@ fi
 #
 # create SuSE defaults
 #
-if [ ! -e "$HOME/.skel/kdebase4.120" ]; then
-    if [ -e "/usr/bin/firefox" ]; then
-          gconftool-2 -s --type=string /desktop/gnome/url-handlers/http/command "/usr/bin/firefox \"%s\""
-          gconftool-2 -s --type=string /desktop/gnome/url-handlers/https/command "/usr/bin/firefox \"%s\""
-    fi
+if [ ! -e "$HOME/.skel/kdebase4.110" ]; then
+    mkdir -p "$desktop"
 
-    mkdir -p $HOME/Desktop
-
-    if [ -e "/usr/bin/firefox" -a ! -e "$HOME/Desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop $HOME/Desktop/
-          chmod u+x $HOME/Desktop/MozillaFirefox.desktop
+    if [ -e "/usr/bin/firefox" -a ! -e "$desktop/MozillaFirefox.desktop" -a -e "/usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop" ]; then
+          cp /usr/share/kde4/config/SuSE/default/MozillaFirefox.desktop "$desktop/"
     fi
+    chmod u+x "$desktop/MozillaFirefox.desktop" 2>/dev/null
 
-    if [ -e "/usr/bin/oofromtemplate" -a  ! -e "$HOME/Desktop/Office.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Office.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/Office.desktop $HOME/Desktop/
-	  chmod u+x $HOME/Desktop/Office.desktop
+    if [ -e "/usr/bin/oofromtemplate" -a  ! -e "$desktop/Office.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Office.desktop" ]; then
+          cp /usr/share/kde4/config/SuSE/default/Office.desktop "$desktop/"
     fi
+    chmod u+x "$desktop/Office.desktop" 2>/dev/null
 
-    if [ ! -e "$HOME/Desktop/SuSE.desktop" -a -e "/usr/share/kde4/config/SuSE/default/SuSE.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/SuSE.desktop $HOME/Desktop/
-	  chmod u+x $HOME/Desktop/SuSE.desktop
+    if [ ! -e "$desktop/SuSE.desktop" -a -e "/usr/share/kde4/config/SuSE/default/SuSE.desktop" ]; then
+          cp /usr/share/kde4/config/SuSE/default/SuSE.desktop "$desktop/"
     fi
+    chmod u+x "$desktop/SuSE.desktop" 2>/dev/null
 
-    if [ ! -e "$HOME/Desktop/Support.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Support.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/Support.desktop $HOME/Desktop/
-	  chmod u+x $HOME/Desktop/Support.desktop
+    if [ ! -e "$desktop/Support.desktop" -a -e "/usr/share/kde4/config/SuSE/default/Support.desktop" ]; then
+          cp /usr/share/kde4/config/SuSE/default/Support.desktop "$desktop/"
     fi
+    sed -i 's/^Icon=susehelpcenter$/Icon=Support/' "$desktop/Support.desktop"
+    chmod u+x "$desktop/Support.desktop" 2>/dev/null
 
-    if [ ! -e "$HOME/Desktop/myComputer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/myComputer.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/myComputer.desktop $HOME/Desktop/
-	  chmod u+x $HOME/Desktop/myComputer.desktop
+    if [ ! -e "$desktop/myComputer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/myComputer.desktop" ]; then
+          cp /usr/share/kde4/config/SuSE/default/myComputer.desktop "$desktop/"
     fi
+    chmod u+x "$desktop/myComputer.desktop" 2>/dev/null
 
     if [ ! -e $HOME/.kde4/share/config/kdeglobals -a -e /usr/share/kde4/config/SuSE/default/kdeglobals ]; then
           mkdir -p $HOME/.kde4/share/config
@@ -150,8 +151,17 @@ EOF
           cp /usr/share/kde4/config/SuSE/default/feeds.opml $HOME/.kde4/share/apps/akregator/data/feeds.opml
     fi
 
+    documents="`xdg-user-dir DOCUMENTS 2>/dev/null`"
+    if test -z "$documents"; then
+        documents=$HOME/Documents
+    fi
+    mkdir -p "$documents"
+    if [ ! -e "$documents/.directory" -a -e "/usr/share/kde4/config/SuSE/default/documents.directory" ]; then
+          cp /usr/share/kde4/config/SuSE/default/documents.directory "$documents/.directory"
+    fi
+
     mkdir -p $HOME/.skel/
-    touch $HOME/.skel/kdebase4.120
+    touch $HOME/.skel/kdebase4.110
 fi
 
 # check if any rpms have been (un)installed since ksycoca
