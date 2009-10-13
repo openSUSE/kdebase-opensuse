@@ -28,7 +28,7 @@ cp -a /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live $HOME/.
 /usr/bin/kbuildsycoca4
 /usr/bin/nspluginscan
 # this also has quite a big cost during the first startup
-/usr/lib/kde4/libexec/kconf_update
+/usr/lib*/kde4/libexec/kconf_update
 # create the final ksycoca
 /usr/bin/kbuildsycoca4
 
