@@ -5,6 +5,7 @@ tdir=`mktemp -d`
 cd $tdir || exit 1
 git clone git://gitorious.org/opensuse/kdebase4-opensuse.git
 mv kdebase4-opensuse kdebase4-openSUSE
+( cd kdebase4-opensuse; git checkout openSUSE_11_2_BRANCH )
 rm -rf kdebase4-openSUSE/.git
 svn export svn://anonsvn.kde.org/home/kde/trunk/playground/base/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo
 if test -d "$MY_LCN_CHECKOUT"; then
