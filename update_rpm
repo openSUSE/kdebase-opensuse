@@ -8,6 +8,7 @@ if test -d "$MY_KDEBASE4_OPENSUSE_CHECKOUT"; then
     pushd kdebase4-openSUSE
     git checkout -f master
     git pull
+    git clean -x -d -f
     popd
 else
     git clone git://gitorious.org/opensuse/kdebase4-opensuse.git
