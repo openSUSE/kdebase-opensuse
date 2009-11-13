@@ -20,7 +20,7 @@ else
     popd
 fi
 rm -rf kdebase4-openSUSE/.git
-svn export svn://anonsvn.kde.org/home/kde/trunk/playground/base/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo
+svn export svn://anonsvn.kde.org/home/kde/branches/opensuse/11.2/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo
 if test -d "$MY_LCN_CHECKOUT"; then
   echo "Updating $MY_LCN_CHECKOUT"
   svn up $MY_LCN_CHECKOUT
