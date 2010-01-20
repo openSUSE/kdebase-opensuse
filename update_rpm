@@ -21,13 +21,13 @@ else
 fi
 rm -rf kdebase4-openSUSE/.git
 svn export svn://anonsvn.kde.org/home/kde/branches/opensuse/11.2/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo
-if test -d "$MY_LCN_CHECKOUT"; then
-  echo "Updating $MY_LCN_CHECKOUT"
-  svn up $MY_LCN_CHECKOUT
+if test -d "$MY_LCN_CHECKOUT_112"; then
+  echo "Updating $MY_LCN_CHECKOUT_112"
+  svn up $MY_LCN_CHECKOUT_112
 else
-  echo "No \$MY_LCN_CHECKOUT set, will checkout temporarly"
-  svn export https://forgesvn1.novell.com/svn/suse-i18n/trunk/lcn
-  export MY_LCN_CHECKOUT=$PWD/lcn
+  echo "No \$MY_LCN_CHECKOUT_112 set, will checkout temporarly"
+  svn export https://svn.berlios.de/svnroot/repos/opensuse-i18n/branches/openSUSE-11_2-Branch/lcn
+  export MY_LCN_CHECKOUT_112=$PWD/lcn
 fi
 pushd kdebase4-openSUSE/po
 ./fill_po.sh
