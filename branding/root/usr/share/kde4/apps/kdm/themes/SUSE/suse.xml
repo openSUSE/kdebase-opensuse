@@ -100,7 +100,7 @@
                 <normal color="#FFFFFF" font="Sans 12"/>
                 <stock type="password-label"/>
               </item>
-              <item type="label" id="pam-message">
+              <item type="label" id="pam-prompt">
                 <show type="plugin-specific-generic"/>
                 <pos anchor="nw" x="100%"/>
                 <normal color="#FFFFFF" font="Sans 12"/>
@@ -115,7 +115,7 @@
                     <show type="!plugin-specific-generic"/>
                     <pos anchor="nw" x="0" height="24" width="250"/>
                   </item>
-                  <item type="entry" id="pam-prompt">
+                  <item type="entry" id="user-pw-entry">
                     <show type="plugin-specific-generic"/>
                     <pos anchor="nw" x="0" height="24" width="250"/>
                   </item>
@@ -124,6 +124,12 @@
                     <normal file="enter.png"/>
                   </item>
                 </fixed>
+              </item>
+              <item type="label" id="pam-message">
+                <show type="plugin-specific-generic"/>
+                <pos anchor="nw" x="100%"/>
+                <normal color="#FFFFFF" font="Sans 12"/>
+                <text>Some informational text shown here</text>
               </item>
               <item type="rect" id="plugin-specific-winbind">
                 <show type="plugin-specific-winbind"/>
