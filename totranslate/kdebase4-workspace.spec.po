@@ -1,129 +1,23 @@
-#: kdmshutdown.cpp:533 kdmshutdown.cpp:550
+#: kdmshutdown.cpp:532 kdmshutdown.cpp:549
 msgid "&Suspend Computer"
 msgstr ""
 
-#: kdmshutdown.cpp:731
+#: kdmshutdown.cpp:730
 msgid "Suspend Computer"
 msgstr ""
 
-#: outputconfig.cpp:373
-msgctxt "Automatic (native resolution)"
-msgid " (Auto)"
+#: kgreet_generic.cpp:197
+msgid "Password: "
 msgstr ""
 
-#: randrconfig.cpp:315
-msgid ""
-"Insufficient virtual size for the total screen size.\n"
-"The configured virtual size of your X server is insufficient for this setup. This configuration needs to be adjusted.\n"
-"Do you wish to run a tool to adjust the configuration?"
+#: kgreet_generic.cpp:198
+msgid "Password or swipe finger: "
 msgstr ""
 
-#: randrconfig.cpp:323
-msgid "Configuration has been adjusted. Please restart your session for this change to take effect."
-msgstr ""
-
-#: randrconfig.cpp:326
-msgid "Changing configuration failed. Please adjust your xorg.conf manually."
-msgstr ""
-
-#: randr.cpp:35
-msgid "Upside-down (180 degrees)"
-msgstr ""
-
-#: randr.cpp:39
-msgid "Mirror horizontally"
-msgstr ""
-
-#: randr.cpp:41
-msgid "Mirror vertically"
-msgstr ""
-
-#: randr.cpp:43 randr.cpp:74
-msgid "Unknown orientation"
-msgstr ""
-
-#: randr.cpp:48
-msgid "Not rotated"
-msgstr ""
-
-#: randr.cpp:50
-msgid "Rotated 90 degrees counterclockwise"
-msgstr ""
-
-#: randr.cpp:52
-msgid "Rotated 180 degrees counterclockwise"
-msgstr ""
-
-#: randr.cpp:54
-msgid "Rotated 270 degrees counterclockwise"
-msgstr ""
-
-#: randr.cpp:59
-msgid "Mirrored horizontally and vertically"
-msgstr ""
-
-#: randr.cpp:64
-msgid "Mirrored horizontally"
-msgstr ""
-
-#: randr.cpp:69
-msgid "Mirrored vertically"
-msgstr ""
-
-#: desktop.cpp:139
-msgid "Do you want a panel with the default widgets or an empty panel?"
-msgstr ""
-
-#: desktop.cpp:140
-msgid "Default Panel"
-msgstr ""
-
-#: desktop.cpp:140
-msgid "Empty Panel"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:448 applet/applet.cpp:184
-msgid "Show 'Recently Installed':"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:454 applet/applet.cpp:191
-msgid "Reduce menu depth:"
-msgstr ""
-
-#: core/applicationmodel.cpp:316
-msgid "Recently Installed"
-msgstr ""
-
-#: core/systemmodel.cpp:88
+#: core/systemmodel.cpp:84
 msgid "Administration"
 msgstr ""
 
-#: core/systemmodel.cpp:265
+#: core/systemmodel.cpp:230
 msgid "System Information"
-msgstr ""
-
-#. i18n: file: lockoutConfig.ui:33
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_alternate_button_order)
-#: rc.cpp:12 rc.cpp:24
-msgid "Alternative button order"
-msgstr ""
-
-#: panelcontroller.cpp:955 panelcontroller.cpp:965
-#, kde-format
-msgid "Width: %1"
-msgstr ""
-
-#: panelcontroller.cpp:975 panelcontroller.cpp:986
-#, kde-format
-msgid "Height: %1"
-msgstr ""
-
-#: plasmaapp.cpp:972
-msgid "Plasma Settings"
-msgstr ""
-
-#: ions/ion_noaa.cpp:544 ions/ion_bbcukmet.cpp:960 ions/ion_envcan.cpp:1647
-#, kde-format
-msgctxt "Humidity in percent"
-msgid "%1%"
 msgstr ""

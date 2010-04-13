@@ -1,0 +1,22 @@
+#: App.cpp:120
+msgid ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Feedback:\n"
+"amarok@kde.org"
+msgstr ""
+
+#: EngineController.cpp:287
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr ""
+
+#: EngineController.cpp:289
+msgctxt "@action:button"
+msgid "Restart Later"
+msgstr ""
+
+#: EngineController.cpp:291
+msgid "The necessary support has been successfully installed. It may be necessary to restart the application for the support to be activated."
+msgstr ""

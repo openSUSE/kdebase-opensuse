@@ -16,31 +16,284 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: outputconfig.cpp:373
-msgctxt "Automatic (native resolution)"
-msgid " (Auto)"
+#: plasma.cpp:56
+msgid "Default Panel"
 msgstr ""
 
-#: ions/ion_noaa.cpp:544 ions/ion_bbcukmet.cpp:960 ions/ion_envcan.cpp:1647
-#, kde-format
-msgctxt "Humidity in percent"
-msgid "%1%"
+#: plasma.cpp:57
+msgid "Empty Panel"
 msgstr ""
 
-#: kdmshutdown.cpp:533 kdmshutdown.cpp:550
+#: plasma.cpp:58
+msgid "Do you want a panel with the default widgets or an empty panel?"
+msgstr ""
+
+#: App.cpp:120
+msgid ""
+"IRC:\n"
+"irc.freenode.net - #amarok, #amarok.de, #amarok.es, #amarok.fr\n"
+"\n"
+"Feedback:\n"
+"amarok@kde.org"
+msgstr ""
+
+#: EngineController.cpp:287
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr ""
+
+#: EngineController.cpp:289
+msgctxt "@action:button"
+msgid "Restart Later"
+msgstr ""
+
+#: EngineController.cpp:291
+msgid ""
+"The necessary support has been successfully installed. It may be necessary "
+"to restart the application for the support to be activated."
+msgstr ""
+
+#: panelcontroller.cpp:434
+msgid "Height"
+msgstr ""
+
+#: panelcontroller.cpp:434
+msgid "Left"
+msgstr ""
+
+#: panelcontroller.cpp:434
+msgid "Center"
+msgstr ""
+
+#: panelcontroller.cpp:434
+msgid "Right"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Location"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Small"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Large"
+msgstr ""
+
+#: folderview.cpp:434
+msgid "Deselect All"
+msgstr ""
+
+#: desktopsettings.cpp:434
+msgid "Slideshow"
+msgstr ""
+
+#: desktopsettings.cpp:434
+msgid "Image"
+msgstr ""
+
+#: desktopsettings.cpp:434
+msgid "Color:"
+msgstr ""
+
+#: kdmshutdown.cpp:532 kdmshutdown.cpp:549
 msgid "&Suspend Computer"
 msgstr ""
 
-#. i18n: file: quicklauncherAdd.ui:29
-#. i18n: ectx: property (filter), widget (KUrlRequester, urlIcon)
-#: rc.cpp:12
-msgid "*.desktop"
+#: kdmshutdown.cpp:730
+msgid "Suspend Computer"
 msgstr ""
 
-#. i18n: file: quickaccessConfig.ui:235
-#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
-#: rc.cpp:51
-msgid "128"
+#: kgreet_generic.cpp:197
+msgid "Password: "
+msgstr ""
+
+#: kgreet_generic.cpp:198
+msgid "Password or swipe finger: "
+msgstr ""
+
+#: core/systemmodel.cpp:84
+msgid "Administration"
+msgstr ""
+
+#: core/systemmodel.cpp:230
+msgid "System Information"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:49
+#, kde-format
+msgid ""
+"<qt><p>The application or utility <b>%1</b> is required but it does not "
+"appear to be installed.</p><p>Do you want to try to install it?</p></qt>"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:51 suseinstall/ksuseinstall.cpp:124
+#: suseinstall/ksuseinstall.cpp:174
+msgid "Install Additional Software"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:111
+#, kde-format
+msgid ""
+"<qt><p>There is no specialized application for files of the type <b>%1</b>.</"
+"p><p>The file can be opened in a more generic application as file type <b>%"
+"2</b>, or you can try to install a specialized application for file type <b>%"
+"1</b>.</p><p>Do you want to try to install a specialized application?</p>"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:118
+#, kde-format
+msgid ""
+"<qt><p>There is no application installed that can open files of the type <b>%"
+"1</b>.</p><p>Do you want to try to install one?</p></qt>"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:122
+msgctxt "@action:button"
+msgid "Install"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:175
+msgid "Checking for additional software to install"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:277
+#, kde-format
+msgctxt "added text is URL"
+msgid ""
+"<qt><p>Some of the software to install could not be found in the currently "
+"enabled software repositories.It may be located in other repositories.</"
+"p><p>See %1 for details.</p><p>Do you want to configure your repositories "
+"now?</p></qt>"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:285
+#, kde-format
+msgctxt "added text is URL"
+msgid ""
+"<qt><p>The software to install could not be found in the currently enabled "
+"software repositories.It may be located in other repositories.</p><p>See %1 "
+"for details.</p><p>Do you want to configure your repositories?</p></qt>"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:291
+msgid "Configure Software Repositories"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:507
+msgid "Select package to install"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:512
+msgid ""
+"There are several alternatives.\n"
+"\n"
+"Please select which package to install."
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:515
+msgid "Package name"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:515
+msgid "Summary"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:515
+msgid "Version"
+msgstr ""
+
+#: kmixprefdlg.cpp:84
+msgid "Disable automatic startup on login"
+msgstr ""
+
+#: main.cpp:59
+msgid "Used by kmix_autostart.desktop"
+msgstr ""
+
+#: label.cpp:44
+msgid "Open"
+msgstr ""
+
+#: popupdialog.cpp:87
+msgid "Sort by Name"
+msgstr ""
+
+#: popupdialog.cpp:90
+msgid "Sort by Size"
+msgstr ""
+
+#: popupdialog.cpp:93
+msgid "Sort by Last Modified"
+msgstr ""
+
+#: quickaccess.cpp:207
+msgid ""
+"Sorry, but the \"applications:\" KIO slave is not supported, because it will "
+"crash QuickAccess/Plasma..."
+msgstr ""
+
+#. i18n: file: pluginwidgetbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, PluginWidgetBase)
+#. i18n: file: quickaccessConfig.ui:13
+#. i18n: ectx: property (windowTitle), widget (KTabWidget, QuickAccessConfig)
+#: rc.cpp:3 rc.cpp:6
+msgid "Form"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:28
+#. i18n: ectx: attribute (title), widget (QWidget, general)
+#: rc.cpp:9
+msgid "General"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:39
+#. i18n: ectx: property (text), widget (QLabel, selectLabel)
+#: rc.cpp:12
+msgid "Directory:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:62
+#. i18n: ectx: property (text), widget (QLabel, filterLabel)
+#: rc.cpp:15
+msgid "Filters:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:104
+#. i18n: ectx: property (text), widget (QCheckBox, hiddenBox)
+#: rc.cpp:18
+msgid "Show hidden files"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:111
+#. i18n: ectx: property (text), widget (QCheckBox, onlyDirsBox)
+#: rc.cpp:21
+msgid "Show only folders"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:118
+#. i18n: ectx: property (text), widget (QCheckBox, navigationBox)
+#: rc.cpp:24
+msgid "Allow navigation"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:147
+#. i18n: ectx: attribute (title), widget (QWidget, appearance)
+#: rc.cpp:27
+msgid "Appearance"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:170
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:30
+msgid "Custom icon:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:199
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:33
+msgid "Icon size:"
 msgstr ""
 
 #. i18n: file: quickaccessConfig.ui:210
@@ -73,492 +326,10 @@ msgstr ""
 msgid "64"
 msgstr ""
 
-#: quicklauncher.cpp:295
-msgid "Add Icon..."
-msgstr ""
-
-#. i18n: file: quicklauncherAdd.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, quicklauncherAdd)
-#. i18n: file: quicklauncherAdd.ui:16
-#. i18n: ectx: property (accessibleName), widget (QWidget, quicklauncherAdd)
-#: quicklauncher.cpp:336 rc.cpp:3 rc.cpp:6
-msgid "Add Shortcut"
-msgstr ""
-
-#: core/systemmodel.cpp:88
-msgid "Administration"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:118
-#. i18n: ectx: property (text), widget (QCheckBox, navigationBox)
-#: rc.cpp:24
-msgid "Allow navigation"
-msgstr ""
-
-#: kbstateapplet.cpp:58
-msgid "Alt"
-msgstr ""
-
-#: kbstateapplet.cpp:63
-msgid "Alt Graph"
-msgstr ""
-
-#. i18n: file: lockoutConfig.ui:33
-#. i18n: ectx: property (text), widget (QCheckBox, checkBox_alternate_button_order)
-#: rc.cpp:12 rc.cpp:24
-msgid "Alternative button order"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:147
-#. i18n: ectx: attribute (title), widget (QWidget, appearance)
-#: rc.cpp:27
-msgid "Appearance"
-msgstr ""
-
-#: weatherstation.cpp:54
-msgid "CURRENT WEATHER"
-msgstr ""
-
-#: kbstateapplet.cpp:65
-msgid "Caps Lock"
-msgstr ""
-
-#: panelcontroller.cpp:434
-msgid "Center"
-msgstr ""
-
-#: randrconfig.cpp:326
-msgid "Changing configuration failed. Please adjust your xorg.conf manually."
-msgstr ""
-
-#: desktopsettings.cpp:434
-msgid "Color:"
-msgstr ""
-
-#: randrconfig.cpp:323
-msgid ""
-"Configuration has been adjusted. Please restart your session for this change "
-"to take effect."
-msgstr ""
-
-#: kbstateapplet.cpp:57
-msgid "Control"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:170
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:30
-msgid "Custom icon:"
-msgstr ""
-
-#: plasma.cpp:56 folderview.cpp:1493 desktop.cpp:140
-msgid "Default Panel"
-msgstr ""
-
-#: folderview.cpp:434
-msgid "Deselect All"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:39
-#. i18n: ectx: property (text), widget (QLabel, selectLabel)
-#: rc.cpp:12
-msgid "Directory:"
-msgstr ""
-
-#: kmixprefdlg.cpp:84
-msgid "Disable automatic startup on login"
-msgstr ""
-
-#: plasma.cpp:58 folderview.cpp:1492 desktop.cpp:139
-msgid "Do you want a panel with the default widgets or an empty panel?"
-msgstr ""
-
-#: plasma.cpp:57 folderview.cpp:1493 desktop.cpp:140
-msgid "Empty Panel"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:62
-#. i18n: ectx: property (text), widget (QLabel, filterLabel)
-#: rc.cpp:15
-msgid "Filters:"
-msgstr ""
-
-#. i18n: file: pluginwidgetbase.ui:13
-#. i18n: ectx: property (windowTitle), widget (QWidget, PluginWidgetBase)
-#. i18n: file: quickaccessConfig.ui:13
-#. i18n: ectx: property (windowTitle), widget (KTabWidget, QuickAccessConfig)
-#: rc.cpp:3 rc.cpp:6
-msgid "Form"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:28
-#. i18n: ectx: attribute (title), widget (QWidget, general)
-#: rc.cpp:9
-msgid "General"
-msgstr ""
-
-#: weatherstation.cpp:56
-msgid "HUMIDITY"
-msgstr ""
-
-#: panelcontroller.cpp:434
-msgid "Height"
-msgstr ""
-
-#: panelcontroller.cpp:975 panelcontroller.cpp:986
-#, kde-format
-msgid "Height: %1"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:386
-#. i18n: ectx: property (text), widget (QLabel, previewLabel2)
-#: rc.cpp:81
-msgid "Here you can enable/disable the plugins."
-msgstr ""
-
-#: kbstateapplet.cpp:62
-msgid "Hyper"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:265
-#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
-#: rc.cpp:60
-msgid "Icon Mode"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:199
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:33
-msgid "Icon size:"
-msgstr ""
-
-#: desktopsettings.cpp:434
-msgid "Image"
-msgstr ""
-
-#: randrconfig.cpp:315
-msgid ""
-"Insufficient virtual size for the total screen size.\n"
-"The configured virtual size of your X server is insufficient for this setup. "
-"This configuration needs to be adjusted.\n"
-"Do you wish to run a tool to adjust the configuration?"
-msgstr ""
-
-#: mainwindow.cpp:556
-msgctxt ""
-"window title when in full screen mode (for example displayed in tasklist)"
-msgid "KDE Remote Desktop Client (Full Screen)"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:307
-#. i18n: ectx: property (text), widget (QLabel, customLabel)
-#: rc.cpp:69
-msgid "Label:"
-msgstr ""
-
-#: folderview.cpp:434
-msgid "Large"
-msgstr ""
-
-#: panelcontroller.cpp:434
-msgid "Left"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:260
-#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
-#: rc.cpp:57
-msgid "List Mode"
-msgstr ""
-
-#: folderview.cpp:434
-msgid "Location"
-msgstr ""
-
-#: kbstateapplet.cpp:60
-msgid "Meta"
-msgstr ""
-
-#: mainwindow.cpp:800
-msgid "Minimize Full Screen Window"
-msgstr ""
-
-#: showdesktop.cpp:58
-msgid "Minimize all open windows and show the Desktop"
-msgstr ""
-
-#: randr.cpp:39
-msgid "Mirror horizontally"
-msgstr ""
-
-#: randr.cpp:41
-msgid "Mirror vertically"
-msgstr ""
-
-#: randr.cpp:64
-msgid "Mirrored horizontally"
-msgstr ""
-
-#: randr.cpp:59
-msgid "Mirrored horizontally and vertically"
-msgstr ""
-
-#: randr.cpp:69
-msgid "Mirrored vertically"
-msgstr ""
-
-#. i18n: file: quicklauncherAdd.ui:22
-#. i18n: ectx: property (text), widget (QLabel, lblIcon1)
-#: rc.cpp:9
-msgid "New icon:"
-msgstr ""
-
-#: randr.cpp:48
-msgid "Not rotated"
-msgstr ""
-
-#: kbstateapplet.cpp:64
-msgid "Num"
-msgstr ""
-
-#: kbstateapplet.cpp:64
-msgid "Num Lock"
-msgstr ""
-
-#. i18n: file: quicklauncherConfig.ui:15
-#. i18n: ectx: property (text), widget (QLabel, lblRowNums)
-#: rc.cpp:21
-msgid "Number of rows:"
-msgstr ""
-
-#: weatherstation.cpp:55 weatherstation.cpp:63
-msgid "OUTDOOR TEMP"
-msgstr ""
-
-#: label.cpp:44
-msgid "Open"
-msgstr ""
-
-#. i18n: This and other all-caps messages are pieces of text shown on
-#. an LCD-like image mimicking a electronic weather station display.
-#. If weather station displays in your country are always in English,
-#. you may want to consider leaving these strings in English too,
-#. to achieve a more realistic feeling.
-#: weatherstation.cpp:53
-msgid "PRESSURE"
-msgstr ""
-
-#: plasmaapp.cpp:972
-msgid "Plasma Settings"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:357
-#. i18n: ectx: attribute (title), widget (QWidget, preview)
-#: rc.cpp:72
-msgid "Preview"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:377
-#. i18n: ectx: property (text), widget (QLabel, previewLabel1)
-#: rc.cpp:78
-msgid "Preview plugins:"
-msgstr ""
-
-#. i18n: file: quicklauncherConfig.ui:5
-#. i18n: ectx: property (windowTitle), widget (QWidget, quicklauncherConfig)
-#. i18n: file: quicklauncherConfig.ui:8
-#. i18n: ectx: property (accessibleName), widget (QWidget, quicklauncherConfig)
-#: quicklauncher.cpp:315 rc.cpp:15 rc.cpp:18
-msgid "QuickLauncher Configuration"
-msgstr ""
-
-#: core/applicationmodel.cpp:316
-msgid "Recently Installed"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:454 applet/applet.cpp:191
-msgid "Reduce menu depth:"
-msgstr ""
-
-#: quicklauncher.cpp:302
-msgid "Remove Icon"
-msgstr ""
-
-#: panelcontroller.cpp:434
-msgid "Right"
-msgstr ""
-
-#: randr.cpp:52
-msgid "Rotated 180 degrees counterclockwise"
-msgstr ""
-
-#: randr.cpp:54
-msgid "Rotated 270 degrees counterclockwise"
-msgstr ""
-
-#: randr.cpp:50
-msgid "Rotated 90 degrees counterclockwise"
-msgstr ""
-
-#: kbstateapplet.cpp:66
-msgid "Scroll"
-msgstr ""
-
-#: kbstateapplet.cpp:66
-msgid "Scroll Lock"
-msgstr ""
-
-#: kbstateapplet.cpp:56
-msgid "Shift"
-msgstr ""
-
-#: simpleapplet/simpleapplet.cpp:448 applet/applet.cpp:184
-msgid "Show 'Recently Installed':"
-msgstr ""
-
-#: kbstateapplet.cpp:925
-msgid "Show AccessX Status"
-msgstr ""
-
-#: kbstateapplet.cpp:921
-msgid "Show Lock Keys"
-msgstr ""
-
-#: kbstateapplet.cpp:919
-msgid "Show Modifier Keys"
-msgstr ""
-
-#: kbstateapplet.cpp:923
-msgid "Show Mouse Status"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:104
-#. i18n: ectx: property (text), widget (QCheckBox, hiddenBox)
-#: rc.cpp:18
-msgid "Show hidden files"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:111
-#. i18n: ectx: property (text), widget (QCheckBox, onlyDirsBox)
-#: rc.cpp:21
-msgid "Show only folders"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:363
-#. i18n: ectx: property (text), widget (QCheckBox, previewBox)
-#: rc.cpp:75
-msgid "Show previews"
-msgstr ""
-
-#: showdesktop.cpp:57
-msgid "Show the Desktop"
-msgstr ""
-
-#: showdashboard.cpp:54
-msgid "Show the Plasma Dashboard"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:275
-#. i18n: ectx: property (text), widget (QCheckBox, tooltipBox)
-#: rc.cpp:63
-msgid "Show tooltips"
-msgstr ""
-
-#: desktopsettings.cpp:434
-msgid "Slideshow"
-msgstr ""
-
-#: folderview.cpp:434
-msgid "Small"
-msgstr ""
-
-#: quickaccess.cpp:207
-msgid ""
-"Sorry, but the \"applications:\" KIO slave is not supported, because it will "
-"crash QuickAccess/Plasma..."
-msgstr ""
-
-#: popupdialog.cpp:93
-msgid "Sort by Last Modified"
-msgstr ""
-
-#: popupdialog.cpp:87
-msgid "Sort by Name"
-msgstr ""
-
-#: popupdialog.cpp:90
-msgid "Sort by Size"
-msgstr ""
-
-#: kbstateapplet.cpp:61
-msgid "Super"
-msgstr ""
-
-#: kdmshutdown.cpp:731
-msgid "Suspend Computer"
-msgstr ""
-
-#: mainwindow.cpp:189 mainwindow.cpp:547
-msgid "Switch to Full Screen Mode"
-msgstr ""
-
-#: mainwindow.cpp:772
-msgid "Switch to Window Mode"
-msgstr ""
-
-#: core/systemmodel.cpp:265
-msgid "System Information"
-msgstr ""
-
-#: kio_sftp.cpp:557
-#, kde-format
-msgid ""
-"The authenticity of host %1 can't be established.\n"
-"The key fingerprint is: %2\n"
-"Are you sure you want to continue connecting?"
-msgstr ""
-
-#: kio_sftp.cpp:545
-#, kde-format
-msgid ""
-"The host key for the server %1 has changed.\n"
-"This could either mean that DNS SPOOFING is happening or the IP address for "
-"the host and its host key have changed at the same time.\n"
-"The fingerprint for the key sent by the remote host is:\n"
-" %2\n"
-"Please contact your system administrator.\n"
-"%3"
-msgstr ""
-
-#: kio_sftp.cpp:534
-#, kde-format
-msgid ""
-"The host key for this server was not found but an other type of key exists.\n"
-"An attacker might change the default server key to confuse your client into "
-"thinking the key does not exist\n"
-"Please contact your system administrator.\n"
-"%1"
-msgstr ""
-
-#: randr.cpp:43 randr.cpp:74
-msgid "Unknown orientation"
-msgstr ""
-
-#: randr.cpp:35
-msgid "Upside-down (180 degrees)"
-msgstr ""
-
-#. i18n: file: quickaccessConfig.ui:282
-#. i18n: ectx: property (text), widget (QCheckBox, customLabelBox)
-#: rc.cpp:66
-msgid "Use a custom label"
-msgstr ""
-
-#: kio_sftp.cpp:184
-msgid "Use the username input field to answer this question!"
-msgstr ""
-
-#: main.cpp:59
-msgid "Used by kmix_autostart.desktop"
+#. i18n: file: quickaccessConfig.ui:235
+#. i18n: ectx: property (text), item, widget (QComboBox, iconSizeCombo)
+#: rc.cpp:51
+msgid "128"
 msgstr ""
 
 #. i18n: file: quickaccessConfig.ui:249
@@ -567,25 +338,56 @@ msgstr ""
 msgid "View mode:"
 msgstr ""
 
-#. i18n: file: quicklauncherConfig.ui:25
-#. i18n: ectx: property (text), widget (QLabel, lblVisibleIcons)
-#: rc.cpp:24
-msgid "Visible icons:"
+#. i18n: file: quickaccessConfig.ui:260
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:57
+msgid "List Mode"
 msgstr ""
 
-#: weatherstation.cpp:57
-msgid "WIND"
+#. i18n: file: quickaccessConfig.ui:265
+#. i18n: ectx: property (text), item, widget (QComboBox, viewModeCombo)
+#: rc.cpp:60
+msgid "Icon Mode"
 msgstr ""
 
-#: panelcontroller.cpp:955 panelcontroller.cpp:965
-#, kde-format
-msgid "Width: %1"
+#. i18n: file: quickaccessConfig.ui:275
+#. i18n: ectx: property (text), widget (QCheckBox, tooltipBox)
+#: rc.cpp:63
+msgid "Show tooltips"
 msgstr ""
 
-#: kbstateapplet.cpp:59
-msgid "Win"
+#. i18n: file: quickaccessConfig.ui:282
+#. i18n: ectx: property (text), widget (QCheckBox, customLabelBox)
+#: rc.cpp:66
+msgid "Use a custom label"
 msgstr ""
 
-#: kbstateapplet.cpp:63
-msgid "æ"
+#. i18n: file: quickaccessConfig.ui:307
+#. i18n: ectx: property (text), widget (QLabel, customLabel)
+#: rc.cpp:69
+msgid "Label:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:357
+#. i18n: ectx: attribute (title), widget (QWidget, preview)
+#: rc.cpp:72
+msgid "Preview"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:363
+#. i18n: ectx: property (text), widget (QCheckBox, previewBox)
+#: rc.cpp:75
+msgid "Show previews"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:377
+#. i18n: ectx: property (text), widget (QLabel, previewLabel1)
+#: rc.cpp:78
+msgid "Preview plugins:"
+msgstr ""
+
+#. i18n: file: quickaccessConfig.ui:386
+#. i18n: ectx: property (text), widget (QLabel, previewLabel2)
+#: rc.cpp:81
+msgid "Here you can enable/disable the plugins."
 msgstr ""
