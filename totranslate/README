@@ -16,6 +16,12 @@ susetranslations:
 
 cd totranslate
 edit spec_list
+    ( basically, run this and throw out all that we're not responsible for:
+    for package in `osc ls KDE:KDE4:Factory:Desktop`; do
+        osc ls KDE:KDE4:Factory:Desktop/$package | grep -q -e \.diff$ -e \.patch && echo $package/$package.spec
+    done
+    )
+make sure your checkouts of the packages in spec_list are up to date
 ./extract_all_strings.sh
 
 msgcat *.po > kde4-openSUSE.pot

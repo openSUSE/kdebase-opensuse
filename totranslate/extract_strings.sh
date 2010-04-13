@@ -9,7 +9,7 @@ unset CDPATH
 SUSE_VERSION=1120
 export EXTRACTRC=/usr/bin/extractrc
 export XGETTEXT=/usr/bin/xgettext
-EXTRACT_MESSAGES=/suse/dmueller/src/release-4.1/clean/kde-l10n/scripts/extract-messages.sh
+EXTRACT_MESSAGES=$HOME/cvs/KDE/l10n-kde4/scripts/extract-messages.sh
 
 test -f "$EXTRACTRC" || { echo "need $EXTRACTRC"; exit 1; }
 test -f "$XGETTEXT" || { echo "need $XGETTEXT"; exit 1; }
@@ -27,7 +27,10 @@ extract_messages()
 
     $EXTRACT_MESSAGES
 
+    shopt -q nullglob || resetnullglob=1
+    shopt -s nullglob
     msgcat $podir/*.pot > $1
+    test -z "$resetnullglob" || shopt -u nullglob
 
     test "$debug" = 0 && rm -rf $podir
 
@@ -51,7 +54,7 @@ source=$(cd translation/source && pwd)
 spec=$source/`basename $spec`
 
 export RPM_BUILD_DIR=$pwd/translation/orig
-rpmbuild --eval "%define _builddir $pwd/translation/orig" -bp --nodeps --eval "%define _sourcedir $source" --eval "%define suse_version $SUSE_VERSION" --eval "%define ___build_pre patch() { echo \"$@\"; } " $spec > $pwd/translation/orig.log 2>&1
+rpmbuild --eval "%define _builddir $pwd/translation/orig" -bp --nodeps --eval "%define _sourcedir $source" --eval "%define suse_version $SUSE_VERSION" --eval "%define __patch echo " $spec > $pwd/translation/orig.log 2>&1
 export RPM_BUILD_DIR=$pwd/translation/patched
 rpmbuild --eval "%define _builddir $pwd/translation/patched" -bp --nodeps --eval "%define _sourcedir $source" --eval "%define suse_version $SUSE_VERSION" $spec > $pwd/translation/patched.log 2>&1
 
