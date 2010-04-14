@@ -37,20 +37,35 @@ msgid ""
 "amarok@kde.org"
 msgstr ""
 
-#: EngineController.cpp:287
+#: EngineController.cpp:287 backend-xine/xinemediawidget.cpp:841
 msgctxt "@action:button"
 msgid "Restart Now"
 msgstr ""
 
-#: EngineController.cpp:289
+#: EngineController.cpp:289 backend-xine/xinemediawidget.cpp:843
 msgctxt "@action:button"
 msgid "Restart Later"
 msgstr ""
 
-#: EngineController.cpp:291
+#: EngineController.cpp:291 backend-xine/xinemediawidget.cpp:845
 msgid ""
 "The necessary support has been successfully installed. It may be necessary "
 "to restart the application for the support to be activated."
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:829 suseinstall/ksuseinstall.cpp:122
+msgctxt "@action:button"
+msgid "Install"
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:831
+msgid ""
+"Kaffeine currently cannot play some file formats. Do you want to install "
+"additional support?"
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:832
+msgid "Install Additional Codecs"
 msgstr ""
 
 #: panelcontroller.cpp:434
@@ -147,11 +162,6 @@ msgstr ""
 msgid ""
 "<qt><p>There is no application installed that can open files of the type <b>%"
 "1</b>.</p><p>Do you want to try to install one?</p></qt>"
-msgstr ""
-
-#: suseinstall/ksuseinstall.cpp:122
-msgctxt "@action:button"
-msgid "Install"
 msgstr ""
 
 #: suseinstall/ksuseinstall.cpp:175

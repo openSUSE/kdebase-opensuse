@@ -1,0 +1,26 @@
+#: backend-xine/xinemediawidget.cpp:829
+msgctxt "@action:button"
+msgid "Install"
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:831
+msgid "Kaffeine currently cannot play some file formats. Do you want to install additional support?"
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:832
+msgid "Install Additional Codecs"
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:841
+msgctxt "@action:button"
+msgid "Restart Now"
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:843
+msgctxt "@action:button"
+msgid "Restart Later"
+msgstr ""
+
+#: backend-xine/xinemediawidget.cpp:845
+msgid "The necessary support has been successfully installed. It may be necessary to restart the application for the support to be activated."
+msgstr ""
