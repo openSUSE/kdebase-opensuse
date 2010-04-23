@@ -46,8 +46,8 @@ int main(int argc, char *argv[])
   // first, reset the startup from true (see desktop file in share/autostart) to false
   KConfig SUSEgreeterrc("SUSEgreeterrc");
   KConfigGroup grp = SUSEgreeterrc.group("General");
-  bool ktip = (grp.readEntry("FirstLogin112", true) );
-  grp.writeEntry("FirstLogin112", false);
+  bool ktip = (grp.readEntry("FirstLogin113", true) );
+  grp.writeEntry("FirstLogin113", false);
   grp.sync();
 
   SUSEgreetings greeter;

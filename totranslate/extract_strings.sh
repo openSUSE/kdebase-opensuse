@@ -6,7 +6,7 @@ set -e
 
 unset CDPATH
 
-SUSE_VERSION=1120
+SUSE_VERSION=1130
 export EXTRACTRC=/usr/bin/extractrc
 export XGETTEXT=/usr/bin/xgettext
 EXTRACT_MESSAGES=$HOME/cvs/KDE/l10n-kde4/scripts/extract-messages.sh
