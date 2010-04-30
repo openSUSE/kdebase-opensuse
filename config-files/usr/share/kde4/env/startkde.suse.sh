@@ -26,37 +26,6 @@ if [ -f /usr/share/hotkey-setup/hotkey-setup.xmodmap ]; then
   xmodmap /usr/share/hotkey-setup/hotkey-setup.xmodmap
 fi
 
-#
-# Do we have a special Gtk theming for our Qt widget theme ?
-#
-if [ ! -e $HOME/.no-qtrc-to-gtkrc-mapping ]; then
-
-  SUSE_VERSION="`cat /etc/SuSE-release | sed -n 's/VERSION = //p'`"
-
-    # Defaults for openSUSE 10.3
-    GTK2_SYSCONFDIR=/etc
-    GTK2_DATADIR=/usr/share/themes/
-
-  # use general gtk-qt-engine
-  if [ -e "$GTK2_DATADIR/Qt/gtk-2.0/gtkrc" ] ; then
-    GTK2_THEME_RC="$GTK2_DATADIR/Qt/gtk-2.0/gtkrc"
-  else
-    # use QtCurve engine
-    if [ -e "$GTK2_DATADIR/QtCurve/gtk-2.0/gtkrc" ] ; then
-       GTK2_THEME_RC="$GTK2_DATADIR/QtCurve/gtk-2.0/gtkrc"
-    fi
-  fi
-
-  # GTK2
-  # NOTE: ~/.gtkrc-2.0-kde is added later (in latest KDE only)
-  if [ "$GTK2_RC_FILES" ]; then
-    export GTK2_RC_FILES="$GTK2_RC_FILES:$GTK2_THEME_RC:$HOME/.gtkrc-2.0-qtengine:$HOME/.gtkrc-2.0"
-  else
-    export GTK2_RC_FILES="$GTK2_SYSCONFDIR/gtk-2.0/gtkrc:$GTK2_THEME_RC:$HOME/.gtkrc-2.0-qtengine:$HOME/.gtkrc-2.0"
-  fi
-
-fi
-
 if [ -r /etc/sysconfig/windowmanager ]; then
   # Do the user want the SuSE theme ?
   source /etc/sysconfig/windowmanager
