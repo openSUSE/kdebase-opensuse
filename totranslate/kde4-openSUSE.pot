@@ -53,7 +53,7 @@ msgid ""
 "to restart the application for the support to be activated."
 msgstr ""
 
-#: backend-xine/xinemediawidget.cpp:829 suseinstall/ksuseinstall.cpp:122
+#: backend-xine/xinemediawidget.cpp:829 suseinstall/ksuseinstall.cpp:145
 msgctxt "@action:button"
 msgid "Install"
 msgstr ""
@@ -132,23 +132,49 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-#: core/systemmodel.cpp:230
+#: core/systemmodel.cpp:231
 msgid "System Information"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:49
+#: core/applicationmodel.cpp:318
+msgid "Recently Installed"
+msgstr ""
+
+#. i18n: file: applet/kickoffConfig.ui:126
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: simpleapplet/simpleapplet.cpp:512 rc.cpp:17
+msgid "Show 'Recently Installed':"
+msgstr ""
+
+#. i18n: file: applet/kickoffConfig.ui:113
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: simpleapplet/simpleapplet.cpp:518 rc.cpp:14
+msgid "Reduce menu depth:"
+msgstr ""
+
+#: panelcontroller.cpp:597 panelcontroller.cpp:607
+#, kde-format
+msgid "Width: %1"
+msgstr ""
+
+#: panelcontroller.cpp:617 panelcontroller.cpp:628
+#, kde-format
+msgid "Height: %1"
+msgstr ""
+
+#: suseinstall/ksuseinstall.cpp:51
 #, kde-format
 msgid ""
 "<qt><p>The application or utility <b>%1</b> is required but it does not "
 "appear to be installed.</p><p>Do you want to try to install it?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:51 suseinstall/ksuseinstall.cpp:124
-#: suseinstall/ksuseinstall.cpp:174
+#: suseinstall/ksuseinstall.cpp:53 suseinstall/ksuseinstall.cpp:146
+#: suseinstall/ksuseinstall.cpp:198
 msgid "Install Additional Software"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:111
+#: suseinstall/ksuseinstall.cpp:134
 #, kde-format
 msgid ""
 "<qt><p>There is no specialized application for files of the type <b>%1</b>.</"
@@ -157,18 +183,18 @@ msgid ""
 "1</b>.</p><p>Do you want to try to install a specialized application?</p>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:118
+#: suseinstall/ksuseinstall.cpp:141
 #, kde-format
 msgid ""
 "<qt><p>There is no application installed that can open files of the type <b>%"
 "1</b>.</p><p>Do you want to try to install one?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:175
+#: suseinstall/ksuseinstall.cpp:199
 msgid "Checking for additional software to install"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:277
+#: suseinstall/ksuseinstall.cpp:301
 #, kde-format
 msgctxt "added text is URL"
 msgid ""
@@ -178,7 +204,7 @@ msgid ""
 "now?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:285
+#: suseinstall/ksuseinstall.cpp:309
 #, kde-format
 msgctxt "added text is URL"
 msgid ""
@@ -187,30 +213,30 @@ msgid ""
 "for details.</p><p>Do you want to configure your repositories?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:291
+#: suseinstall/ksuseinstall.cpp:315
 msgid "Configure Software Repositories"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:507
+#: suseinstall/ksuseinstall.cpp:537
 msgid "Select package to install"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:512
+#: suseinstall/ksuseinstall.cpp:542
 msgid ""
 "There are several alternatives.\n"
 "\n"
 "Please select which package to install."
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:515
+#: suseinstall/ksuseinstall.cpp:545
 msgid "Package name"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:515
+#: suseinstall/ksuseinstall.cpp:545
 msgid "Summary"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:515
+#: suseinstall/ksuseinstall.cpp:545
 msgid "Version"
 msgstr ""
 

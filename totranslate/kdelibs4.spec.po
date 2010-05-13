@@ -1,67 +1,67 @@
-#: suseinstall/ksuseinstall.cpp:49
+#: suseinstall/ksuseinstall.cpp:51
 #, kde-format
 msgid "<qt><p>The application or utility <b>%1</b> is required but it does not appear to be installed.</p><p>Do you want to try to install it?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:51 suseinstall/ksuseinstall.cpp:124
-#: suseinstall/ksuseinstall.cpp:174
+#: suseinstall/ksuseinstall.cpp:53 suseinstall/ksuseinstall.cpp:146
+#: suseinstall/ksuseinstall.cpp:198
 msgid "Install Additional Software"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:111
+#: suseinstall/ksuseinstall.cpp:134
 #, kde-format
 msgid "<qt><p>There is no specialized application for files of the type <b>%1</b>.</p><p>The file can be opened in a more generic application as file type <b>%2</b>, or you can try to install a specialized application for file type <b>%1</b>.</p><p>Do you want to try to install a specialized application?</p>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:118
+#: suseinstall/ksuseinstall.cpp:141
 #, kde-format
 msgid "<qt><p>There is no application installed that can open files of the type <b>%1</b>.</p><p>Do you want to try to install one?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:122
+#: suseinstall/ksuseinstall.cpp:145
 msgctxt "@action:button"
 msgid "Install"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:175
+#: suseinstall/ksuseinstall.cpp:199
 msgid "Checking for additional software to install"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:277
+#: suseinstall/ksuseinstall.cpp:301
 #, kde-format
 msgctxt "added text is URL"
 msgid "<qt><p>Some of the software to install could not be found in the currently enabled software repositories.It may be located in other repositories.</p><p>See %1 for details.</p><p>Do you want to configure your repositories now?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:285
+#: suseinstall/ksuseinstall.cpp:309
 #, kde-format
 msgctxt "added text is URL"
 msgid "<qt><p>The software to install could not be found in the currently enabled software repositories.It may be located in other repositories.</p><p>See %1 for details.</p><p>Do you want to configure your repositories?</p></qt>"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:291
+#: suseinstall/ksuseinstall.cpp:315
 msgid "Configure Software Repositories"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:507
+#: suseinstall/ksuseinstall.cpp:537
 msgid "Select package to install"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:512
+#: suseinstall/ksuseinstall.cpp:542
 msgid ""
 "There are several alternatives.\n"
 "\n"
 "Please select which package to install."
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:515
+#: suseinstall/ksuseinstall.cpp:545
 msgid "Package name"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:515
+#: suseinstall/ksuseinstall.cpp:545
 msgid "Summary"
 msgstr ""
 
-#: suseinstall/ksuseinstall.cpp:515
+#: suseinstall/ksuseinstall.cpp:545
 msgid "Version"
 msgstr ""

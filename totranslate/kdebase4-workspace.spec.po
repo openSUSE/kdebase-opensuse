@@ -18,6 +18,32 @@ msgstr ""
 msgid "Administration"
 msgstr ""
 
-#: core/systemmodel.cpp:230
+#: core/systemmodel.cpp:231
 msgid "System Information"
+msgstr ""
+
+#: core/applicationmodel.cpp:318
+msgid "Recently Installed"
+msgstr ""
+
+#. i18n: file: applet/kickoffConfig.ui:126
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: simpleapplet/simpleapplet.cpp:512 rc.cpp:17
+msgid "Show 'Recently Installed':"
+msgstr ""
+
+#. i18n: file: applet/kickoffConfig.ui:113
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: simpleapplet/simpleapplet.cpp:518 rc.cpp:14
+msgid "Reduce menu depth:"
+msgstr ""
+
+#: panelcontroller.cpp:597 panelcontroller.cpp:607
+#, kde-format
+msgid "Width: %1"
+msgstr ""
+
+#: panelcontroller.cpp:617 panelcontroller.cpp:628
+#, kde-format
+msgid "Height: %1"
 msgstr ""
