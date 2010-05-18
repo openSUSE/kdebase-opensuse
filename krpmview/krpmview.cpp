@@ -239,8 +239,12 @@ bool KRPMViewPart::openFile()
           changelog += temp;
         }
   }
-  if (headerGetEntry(h, RPMTAG_FILENAMES, NULL, &tmpVoid, &nfiles)) {
-     const char **files = (const char **)tmpVoid;
+  const char **files = NULL;
+  if (headerGetEntry(h, RPMTAG_FILENAMES, NULL, &tmpVoid, &nfiles))
+     files = (const char **)tmpVoid;
+  else if (headerGetEntry(h, RPMTAG_BASENAMES, NULL, &tmpVoid, &nfiles))
+     files = (const char **)tmpVoid;
+  if (files != NULL ) {
      headerGetEntry(h, RPMTAG_DIRNAMES, NULL, &tmpVoid, 0);
      const char **dirs = (const char **)tmpVoid;
      headerGetEntry(h, RPMTAG_DIRINDEXES, NULL, &tmpVoid, 0);
