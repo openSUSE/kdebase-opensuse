@@ -133,6 +133,15 @@ EOF
     touch $HOME/.skel/kdebase4.120
 fi
 
+# workaround for bnc#551333, bnc#601392
+if [ ! -e "$HOME/.skel/kdebase4firefox.120" ]; then
+    if [ -e "/usr/bin/firefox" ]; then
+          gconftool-2 -s --type=string /desktop/gnome/url-handlers/http/command "/usr/bin/firefox \"%s\""
+          gconftool-2 -s --type=string /desktop/gnome/url-handlers/https/command "/usr/bin/firefox \"%s\""
+    fi
+    touch $HOME/.skel/kdebase4firefox.120
+fi
+
 # check if any rpms have been (un)installed since ksycoca
 # had been built, if yes, trigger ksycoca rebuild immediatelly
 # instead of delayed
