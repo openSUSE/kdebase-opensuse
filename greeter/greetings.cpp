@@ -34,7 +34,7 @@
 /**** SUSEgreetings ****/
 
 SUSEgreetings::SUSEgreetings()
-    : QDialog(0, Qt::FramelessWindowHint | Qt::CustomizeWindowHint )
+    : QDialog(0, Qt::FramelessWindowHint)
 {
     QFile f;
     QString content;
