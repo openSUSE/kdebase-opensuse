@@ -105,8 +105,7 @@ SUSEgreetings::SUSEgreetings()
 				section.replace("__TITLE__", i18n(e2.text().toAscii()) );
                             }
                             else if (e2.tagName()=="text") {
-				QString dummy = e2.text().replace('<',"&lt;").replace('>',"&gt;");
-				section.replace("__TEXT__", i18n(dummy.toAscii()).replace("&lt;","<").replace("&gt;",">"));
+				section.replace("__TEXT__", i18n(e2.text().toAscii()));
                             }
                          }
                          ex = ex.nextSibling();
