@@ -34,7 +34,10 @@
 /**** SUSEgreetings ****/
 
 SUSEgreetings::SUSEgreetings()
-    : QDialog(0, Qt::FramelessWindowHint)
+    // the Qt implementation is a bit broken, the frameless hint also disables
+    // closing of the window altogether, so add the close button hint in order
+    // to enable Alt+F4, and the button itself actually won't be shown with KWin anyway
+    : QDialog(0, Qt::FramelessWindowHint | Qt::WindowCloseButtonHint)
 {
     QFile f;
     QString content;
