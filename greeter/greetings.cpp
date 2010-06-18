@@ -166,10 +166,10 @@ void SUSEgreetings::showEvent(QShowEvent* e)
 {
     QDialog::showEvent(e);
 
-    adjustSize();
+    adjustFontSize();
 }
 
-void SUSEgreetings::adjustSize()
+void SUSEgreetings::adjustFontSize()
 {
     if (Text->verticalScrollBar()->isVisible()) {
         QFont font = Text->font();
@@ -179,7 +179,7 @@ void SUSEgreetings::adjustSize()
         font.setPixelSize(font.pixelSize()-1);
         Text->setFont(font);
 
-        QTimer::singleShot(0, this, SLOT(adjustSize()));
+        QTimer::singleShot(0, this, SLOT(adjustFontSize()));
     }
 }
 

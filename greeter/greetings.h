@@ -29,7 +29,7 @@ protected:
 
 protected slots:
     void urlClick( const QString& );
-    void adjustSize();
+    void adjustFontSize();
     void resetCursor();
 
 private:
