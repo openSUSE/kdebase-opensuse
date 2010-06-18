@@ -142,6 +142,19 @@ if [ ! -e "$HOME/.skel/kdebase4firefox.120" ]; then
     touch $HOME/.skel/kdebase4firefox.120
 fi
 
+# workaround for bnc#614748
+if [ ! -e "$HOME/.skel/kdebase4.wallpapercache.113" ]; then
+    if [ -n "$KDEVARTMP" ]; then
+        wallpapercache="$KDEVARTMP/plasma-wallpapers"
+    else
+        wallpapercache="/var/tmp/kdecache-$USER/plasma-wallpapers"
+    fi
+    if [ -e $wallpapercache ]; then
+        rm -rf $wallpapercache
+    fi
+    touch $HOME/.skel/kdebase4.wallpapercache.113
+fi
+
 # check if any rpms have been (un)installed since ksycoca
 # had been built, if yes, trigger ksycoca rebuild immediatelly
 # instead of delayed

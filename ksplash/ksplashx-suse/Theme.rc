@@ -1,7 +1,7 @@
 [KSplash Theme: ksplashx-suse]
-Name = openSUSE 11.2
-Description = KDE openSUSE 11.2 Splash
+Name = openSUSE 11.3
+Description = KDE openSUSE 11.3 Splash
 Version = 1.0
-Author = The Oxygen Project <kde-artists@kde.org>
+Author = Jakub Steiner
 #Homepage = http://plasma.kde.org
 Engine = KSplashX
