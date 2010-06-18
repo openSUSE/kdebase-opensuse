@@ -52,14 +52,14 @@ int main(int argc, char *argv[])
 
   SUSEgreetings greeter;
   a.setTopWidget(&greeter);
-  greeter.move( -10000, -10000 );
-  greeter.show();
+  greeter.adjustSize();
 
   QDesktopWidget *dsk = kapp->desktop();
   QRect scr = dsk->screenGeometry( dsk->screenNumber( QPoint( 0, 0 ) ) );
   QRect grt( 0, 0, greeter.width(), greeter.height() );
   grt.moveCenter( scr.center() );
   greeter.setGeometry( grt );
+  greeter.show();
 
   int ret = a.exec();
   if(ktip){ // only run if we set this to true in the constructor. then SUSEgreeter didn't run before
