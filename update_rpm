@@ -6,23 +6,28 @@ cd $tdir || exit 1
 if test -d "$MY_KDEBASE4_OPENSUSE_CHECKOUT"; then
     cp -aR "$MY_KDEBASE4_OPENSUSE_CHECKOUT" kdebase4-openSUSE
     pushd kdebase4-openSUSE
-    git checkout -f master
+    git branch openSUSE_11_3_BRANCH origin/openSUSE_11_3_BRANCH
+    git checkout -f openSUSE_11_3_BRANCH
     git pull || exit 1
     git clean -x -d -f
     popd
 else
     git clone git://gitorious.org/opensuse/kdebase4-opensuse.git || exit 1
     mv kdebase4-opensuse kdebase4-openSUSE
+    pushd kdebase4-openSUSE
+    git branch openSUSE_11_3_BRANCH origin/openSUSE_11_3_BRANCH
+    git checkout -f openSUSE_11_3_BRANCH
+    popd
 fi
 rm -rf kdebase4-openSUSE/.git
-svn export svn://anonsvn.kde.org/home/kde/trunk/playground/base/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo || exit 1
-if test -d "$MY_LCN_CHECKOUT"; then
-  echo "Updating $MY_LCN_CHECKOUT"
-  svn up $MY_LCN_CHECKOUT || exit 1
+svn export svn://anonsvn.kde.org/home/kde/branches/opensuse/11.3/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo || exit 1
+if test -d "$MY_LCN_CHECKOUT_113"; then
+  echo "Updating $MY_LCN_CHECKOUT_113"
+  svn up $MY_LCN_CHECKOUT_113 || exit 1
 else
-  echo "No \$MY_LCN_CHECKOUT set, will checkout temporarly"
-  svn export https://svn.berlios.de/svnroot/repos/opensuse-i18n/trunk/lcn || exit 1
-  export MY_LCN_CHECKOUT=$PWD/lcn
+  echo "No \$MY_LCN_CHECKOUT_113 set, will checkout temporarly"
+  svn export https://svn.berlios.de/svnroot/repos/opensuse-i18n/branches/openSUSE-11_3-Branch/lcn || exit 1
+  export MY_LCN_CHECKOUT_113=$PWD/lcn
 fi
 pushd kdebase4-openSUSE/po
 ./fill_po.sh
