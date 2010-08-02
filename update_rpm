@@ -8,7 +8,7 @@ if test -d "$MY_KDEBASE4_OPENSUSE_CHECKOUT"; then
     pushd kdebase4-openSUSE
     git branch openSUSE_11_3_BRANCH origin/openSUSE_11_3_BRANCH
     git checkout -f openSUSE_11_3_BRANCH
-    git pull || exit 1
+    git pull git://gitorious.org/opensuse/kdebase4-opensuse.git openSUSE_11_3_BRANCH || exit 1
     git clean -x -d -f
     popd
 else
