@@ -343,7 +343,7 @@ void KRPMViewPart::install_package()
 {
   KProcess p;
   p << QLatin1String("kdesu") << QLatin1String("-n") 
-      << QLatin1String("--nonewdcop") << QLatin1String("--") 
+      << QLatin1String("--") 
       << QLatin1String("/usr/share/kde4/apps/krpmview/setup_temp_source") << localFilePath();
   p.execute();
 }
