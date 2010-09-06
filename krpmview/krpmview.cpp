@@ -343,7 +343,7 @@ void KRPMViewPart::install_package()
 {
   KProcess p;
   p << QLatin1String("kdesu") << QLatin1String("-n") 
-      << QLatin1String("--") 
+      << QLatin1String("--attach") << QString::number(widget()->window()->winId()) << QLatin1String("--") 
       << QLatin1String("/usr/share/kde4/apps/krpmview/setup_temp_source") << localFilePath();
   p.execute();
 }
@@ -351,7 +351,8 @@ void KRPMViewPart::install_package()
 void KRPMViewPart::use_directory()
 {
   KProcess p;
-  p << QLatin1String("kdesu") << QLatin1String("-n") << QLatin1String("--") 
+  p << QLatin1String("kdesu") << QLatin1String("-n")
+      << QLatin1String("--attach") << QString::number(widget()->window()->winId()) << QLatin1String("--") 
       << QLatin1String("/usr/bin/kde_add_yast_source.sh");
   p <<
       KParts::ReadOnlyPart::url().path().left(KParts::ReadOnlyPart::url().path().lastIndexOf(QLatin1Char('/')));
