@@ -345,7 +345,7 @@ void KRPMViewPart::install_package()
   p << QLatin1String("kdesu") << QLatin1String("-n") 
       << QLatin1String("--nonewdcop") << QLatin1String("--") 
       << QLatin1String("/usr/share/kde4/apps/krpmview/setup_temp_source") << localFilePath();
-  p.start();
+  p.execute();
 }
 
 void KRPMViewPart::use_directory()
@@ -356,7 +356,7 @@ void KRPMViewPart::use_directory()
   p <<
       KParts::ReadOnlyPart::url().path().left(KParts::ReadOnlyPart::url().path().lastIndexOf(QLatin1Char('/')));
 
-  p.start();
+  p.execute();
 }
 
 KAboutData* KRPMViewPart::createAboutData()
