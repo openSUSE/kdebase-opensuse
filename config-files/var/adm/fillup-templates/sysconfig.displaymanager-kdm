@@ -32,3 +32,13 @@ DISPLAYMANAGER_KDM_LOCALARGS=""
 # window is used (which lacks some features)
 # 
 DISPLAYMANAGER_KDM_THEME="SUSE"
+
+## Type:	yesno
+## Default:	yes
+#
+# Allow local access of the user root to your display manager. Note
+# that root can never login if DISPLAYMANAGER_SHUTDOWN is "auto" and
+# System/Security/Permissions/PERMISSION_SECURITY is "paranoid".
+# This settings currently works only with KDM.
+#
+DISPLAYMANAGER_ROOT_LOGIN_LOCAL="yes"
