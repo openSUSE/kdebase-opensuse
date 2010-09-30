@@ -1,28 +1,28 @@
-simple-ccsm-kde:
+Any package from which to extract translations (e.g. simple-ccsm-kde):
 
 cd simple-ccsm-kde
 svn up
 rm -rf po
 mkdir po
-XGETTEXT=/usr/bin/xgettext ~/src/release-4.2/clean/kde-l10n/scripts/extract-messages.sh
+XGETTEXT=/usr/bin/xgettext $KDE_CHECKOUT/kde-l10n/scripts/extract-messages.sh
 
-# submit to the CODE11-lcn
-# svn https://forgesvn1.novell.com/svn/suse-i18n/trunk/lcn
-cp po/*pot ~/src/CODE11-lcn/50-pots
+# submit to novell translations svn
+# svn https://svn.berlios.de/svnroot/repos/opensuse-i18n/trunk/lcn
+cp po/*pot $MY_LCN_CHECKOUT/50-pot
 cd !$
 svn commit
 
-susetranslations:
+
+susetranslations (the ones in this directory):
 
 cd totranslate
 edit spec_list
     ( basically, run this and throw out all that we're not responsible for:
-    for package in `osc ls KDE:KDE4:Factory:Desktop`; do
-        osc ls KDE:KDE4:Factory:Desktop/$package | grep -q -e \.diff$ -e \.patch && echo $package/$package.spec
+    for package in `osc ls KDE:Distro:Factory`; do
+        osc ls KDE:Distro:Factory/$package | grep -q -e \.diff$ -e \.patch && echo $package/$package.spec
     done
     )
 make sure your checkouts of the packages in spec_list are up to date
 ./extract_all_strings.sh
 
 msgcat *.po > kde4-openSUSE.pot
-
