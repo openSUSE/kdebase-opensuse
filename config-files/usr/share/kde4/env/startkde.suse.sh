@@ -129,6 +129,20 @@ EOF
           cp /usr/share/kde4/config/SuSE/default/documents.directory "$documents/.directory"
     fi
 
+    # by default restrict strigi to index xdg-user-dir folders
+    if [ !-e $HOME/.kde4/share/config/nepomukstrigirc -a -x $(which xdg-user-dir) ]; then
+        for i in DESKTOP DOWNLOAD TEMPLATES PUBLICSHARE DOCUMENTS MUSIC PICTURES VIDEOS;
+        do
+            strigi_paths="${strigi_paths},$(xdg-user-dir $i)"
+        done
+
+        strigi_paths=${strigi_paths:1}
+        sedcommand="s,$HOME,\$HOME,g"
+        strigi_paths=$(echo $strigi_paths|sed $sedcommand)
+
+        echo -e "[General]\nfolders[\$e]=$strigi_paths" > $HOME/.kde4/share/config/nepomukstrigirc
+    fi
+
     mkdir -p $HOME/.skel/
     touch $HOME/.skel/kdebase4.120
 fi
