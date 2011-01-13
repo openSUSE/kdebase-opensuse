@@ -15,6 +15,11 @@ if test -e /usr/share/applications/YaST2/live-installer.desktop ; then
    fi
 fi
 
+# hack to get plasma to evaluate user-local plasma updates
+echo "export KDEDIRS=/usr:$HOME/.kde4/share" >> $HOME/.profile
+mkdir -p $HOME/.kde4/share/apps/plasma-desktop/updates
+cp -a /usr/share/kde4/config/SuSE/default/clock-no-events.js.live $HOME/.kde4/share/apps/plasma-desktop/updates/clock-no-events.js
+
 mkdir -p $HOME/.kde4/share/config
 cp -a /usr/share/kde4/config/SuSE/default/lowspacesuse.live $HOME/.kde4/share/config/lowspacesuse
 cp -a /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
