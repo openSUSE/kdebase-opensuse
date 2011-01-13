@@ -20,6 +20,7 @@ cp -a /usr/share/kde4/config/SuSE/default/lowspacesuse.live $HOME/.kde4/share/co
 cp -a /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
 cp -a /usr/share/kde4/config/SuSE/default/kwalletrc.live $HOME/.kde4/share/config/kwalletrc
 cp -a /usr/share/kde4/config/SuSE/default/krunnerrc.live $HOME/.kde4/share/config/krunnerrc
+cp -a /usr/share/kde4/config/SuSE/default/nepomukserverrc.live $HOME/.kde4/share/config/nepomukserverrc
 #cp -a /usr/share/kde4/config/SuSE/default/kcmnspluginrc.live $HOME/.kde4/share/config/kcmnspluginrc
 
 mkdir -p $HOME/.kde4/share/apps/kwallet
