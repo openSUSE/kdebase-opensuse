@@ -26,8 +26,7 @@ mkdir -p $HOME/.kde4/share/apps/kwallet
 cp -a /usr/share/kde4/config/SuSE/default/kwallet.kwl.live $HOME/.kde4/share/apps/kwallet/kwallet.kwl
 
 mkdir -p $HOME/.config/autostart
-cp -a /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live $HOME/.config/autostart/kupdateapplet-autostart.desktop
-cp -a /usr/share/kde4/config/SuSE/default/beagled-autostart.desktop.live $HOME/.config/autostart/beagled-autostart.desktop
+
 
 # 11.2 - disabled, see bnc#536545
 # first generate ksycoca, it will be used by nsplugincan
