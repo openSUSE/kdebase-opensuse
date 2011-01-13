@@ -18,7 +18,11 @@ fi
 mkdir -p $HOME/.kde4/share/config
 cp -a /usr/share/kde4/config/SuSE/default/lowspacesuse.live $HOME/.kde4/share/config/lowspacesuse
 cp -a /usr/share/kde4/config/SuSE/default/kdedrc.live $HOME/.kde4/share/config/kdedrc
+cp -a /usr/share/kde4/config/SuSE/default/kwalletrc.live $HOME/.kde4/share/config/kwalletrc
 #cp -a /usr/share/kde4/config/SuSE/default/kcmnspluginrc.live $HOME/.kde4/share/config/kcmnspluginrc
+
+mkdir -p $HOME/.kde4/share/apps/kwallet
+cp -a /usr/share/kde4/config/SuSE/default/kwallet.kwl.live $HOME/.kde4/share/apps/kwallet/kwallet.kwl
 
 mkdir -p $HOME/.config/autostart
 cp -a /usr/share/kde4/config/SuSE/default/kupdateapplet-autostart.desktop.live $HOME/.config/autostart/kupdateapplet-autostart.desktop
