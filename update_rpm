@@ -33,6 +33,6 @@ for f in update_rpm totranslate/*.sh; do
     rm kdebase4-openSUSE/$f
 done
 
-tar -cvj -f $opwd/kdebase4-openSUSE-11.3.tar.bz2 kdebase4-openSUSE
+tar -cvj -f $opwd/kdebase4-openSUSE-11.4.tar.bz2 kdebase4-openSUSE
 cd /
 rm -rf $tdir
