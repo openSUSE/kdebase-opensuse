@@ -1,0 +1,9 @@
+[Automatic Touchpad control]
+IdleTime=0.8
+SwitchOffOnKeyboardActivity=true
+
+[General]
+TouchpadStateAtStartup=OnState
+
+[Tapping]
+OneFingerButton=LeftMouseButton
