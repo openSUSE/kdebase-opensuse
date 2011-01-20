@@ -1,9 +1,9 @@
 [Basic Settings]
 Configured repositories=main
-Start Nepomuk=true
+Start Nepomuk=false
 
 [Service-nepomukstrigiservice]
-autostart=true
+autostart=false
 
 [main Settings]
 Storage Dir[$e]=$HOME/.kde4/share/apps/nepomuk/repository/main/
