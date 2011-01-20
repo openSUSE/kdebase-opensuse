@@ -2,8 +2,9 @@
 IdleTime=0.8
 SwitchOffOnKeyboardActivity=true
 
-[General]
-TouchpadStateAtStartup=OnState
+[Scrolling]
+CoastingSpeed=15
+HorizontalScrollingDistance=1
 
 [Tapping]
 OneFingerButton=LeftMouseButton
