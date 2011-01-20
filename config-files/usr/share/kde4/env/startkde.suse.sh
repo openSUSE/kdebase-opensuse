@@ -130,7 +130,7 @@ EOF
     fi
 
     # by default restrict strigi to index xdg-user-dir folders
-    if [ !-e $HOME/.kde4/share/config/nepomukstrigirc -a -x $(which xdg-user-dir) ]; then
+    if [ ! -e $HOME/.kde4/share/config/nepomukstrigirc -a -x $(which xdg-user-dir) ]; then
         for i in DESKTOP DOWNLOAD TEMPLATES PUBLICSHARE DOCUMENTS MUSIC PICTURES VIDEOS;
         do
             strigi_paths="${strigi_paths},$(xdg-user-dir $i)"
