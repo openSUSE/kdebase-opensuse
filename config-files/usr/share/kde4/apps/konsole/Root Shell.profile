@@ -1,5 +1,6 @@
 [General]
 Command=su -
+Icon=utilities-terminal_su
 Name=Root Shell
 Parent=FALLBACK/
 
