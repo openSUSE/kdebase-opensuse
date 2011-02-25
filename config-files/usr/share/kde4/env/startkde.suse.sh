@@ -85,16 +85,6 @@ if [ ! -e "$HOME/.skel/kdebase4.120" ]; then
     fi
     chmod u+x "$desktop/myComputer.desktop" 2>/dev/null
 
-    if [ ! -e $HOME/.kde4/share/config/kcminputrc -a -e /usr/share/kde4/config/SuSE/default/kcminputrc ]; then
-          mkdir -p $HOME/.kde4/share/config
-          cp /usr/share/kde4/config/SuSE/default/kcminputrc $HOME/.kde4/share/config/kcminputrc
-    fi
-
-    if [ ! -e $HOME/.kde4/share/config/nepomukserverrc -a -e /usr/share/kde4/config/SuSE/default/nepomukserverrc ]; then
-          mkdir -p $HOME/.kde4/share/config
-          cp /usr/share/kde4/config/SuSE/default/nepomukserverrc $HOME/.kde4/share/config/nepomukserverrc
-    fi
-
     if [ ! -e "$HOME/.kde4/share/apps/konqueror/bookmarks.xml" -a -e "/usr/share/kde4/config/SuSE/default/bookmarks.xml" ]; then
           mkdir -p $HOME/.kde4/share/apps/konqueror
           cp /usr/share/kde4/config/SuSE/default/bookmarks.xml $HOME/.kde4/share/apps/konqueror/bookmarks.xml
