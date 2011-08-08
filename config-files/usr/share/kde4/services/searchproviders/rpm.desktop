@@ -3,6 +3,6 @@ Charset=
 Hidden=false
 Keys=rpm
 Name=openSUSE Build Service
-Query=http://software.opensuse.org/search?baseproject=openSUSE%3A11.3&p=1&q=\\{@}
+Query=http://software.opensuse.org/search?baseproject=openSUSE%3A11.4&p=1&q=\\{@}
 ServiceTypes=SearchProvider
 Type=Service
