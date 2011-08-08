@@ -6,7 +6,7 @@ cd $tdir || exit 1
 if test -d "$MY_KDEBASE4_OPENSUSE_CHECKOUT"; then
     cp -aR "$MY_KDEBASE4_OPENSUSE_CHECKOUT" kdebase4-openSUSE
     pushd kdebase4-openSUSE
-    git checkout -f master
+    git checkout -f openSUSE_11_4_BRANCH
     git pull || exit 1
     git clean -x -d -f
     popd
