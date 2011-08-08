@@ -24,7 +24,7 @@ if test -d "$MY_LCN_CHECKOUT"; then
   svn up $MY_LCN_CHECKOUT || exit 1
 else
   echo "No \$MY_LCN_CHECKOUT set, will checkout temporarly"
-  svn export https://svn.berlios.de/svnroot/repos/opensuse-i18n/trunk/lcn || exit 1
+  svn export https://svn.berlios.de/svnroot/repos/opensuse-i18n/branches/openSUSE-11_4-Branch/lcn || exit 1
   export MY_LCN_CHECKOUT=$PWD/lcn
 fi
 pushd kdebase4-openSUSE/po
