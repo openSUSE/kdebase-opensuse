@@ -12,7 +12,7 @@ if test -d "$MY_KDEBASE4_OPENSUSE_CHECKOUT"; then
     popd
 else
     git clone git://github.com/openSUSE/kdebase-opensuse.git || exit 1
-    mv kdebase4-opensuse kdebase4-openSUSE
+    mv kdebase-opensuse kdebase4-openSUSE
 fi
 rm -rf kdebase4-openSUSE/.git
 #svn export svn://anonsvn.kde.org/home/kde/trunk/playground/base/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo || exit 1
