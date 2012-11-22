@@ -38,7 +38,7 @@ ForegroundVisited=155,82,94
 
 [Colors:Selection]
 BackgroundAlternate=62,138,204
-BackgroundNormal=122,182,73
+BackgroundNormal=131,175,119
 DecorationFocus=93,153,45
 DecorationHover=111,153,38
 ForegroundActive=255,249,126
@@ -94,10 +94,11 @@ ForegroundVisited=155,82,94
 
 [General]
 ColorScheme=openSUSE
+Name=openSUSE
 shadeSortColumn=true
 
 [KDE]
-contrast=7
+contrast=5
 
 [WM]
 activeBackground=131,175,119
