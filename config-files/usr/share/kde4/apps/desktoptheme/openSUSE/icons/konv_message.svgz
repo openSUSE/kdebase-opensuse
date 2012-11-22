@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Karbon, part of Calligra: http://www.calligra.org/karbon -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24pt" height="24pt">
+<defs/>
+<g id="layer1">
+  <g id="konv_message" transform="translate(-0.781248, -0.781255)" fill="none">
+   <rect id="help-faq" transform="matrix(1.25 0 0 1.25 0.78125 0.78125)" fill="#000000" opacity="0.00000000000" width="19.20000000000pt" height="19.20000000000pt"/>
+   <g id="g9311" transform="translate(3.527, 3.52701)" fill="none">
+    <path id="rect6389" transform="matrix(0.932203 0 0 0.932203 2 5.69968)" fill="none" stroke="#5d992d" stroke-width="2.14545465000" stroke-linecap="round" stroke-linejoin="round" d="M7.87271 14.0312L2 14.0312C0.892 14.0312 0 13.1392 0 12.0312L0 2C0 0.892 0.892 0 2 0L14 0C15.108 0 16 0.892 16 2L16 12.0312C16 13.1392 15.108 14.0312 14 14.0312L12.1153 14.0312"/>
+    <path id="path6401" transform="matrix(0.932203 0 0 0.932203 9.45763 18.7797)" fill="none" stroke="#5d992d" stroke-width="2.14545465000" stroke-linecap="round" stroke-linejoin="round" d="M4 0L4 4L0 0"/>
+    <path id="path6414" transform="matrix(0.932203 0 0 0.932203 9.45763 2)" fill="none" stroke="#5d992d" stroke-width="2.14545465000" stroke-linecap="round" stroke-linejoin="round" d="M0 0L12 0C13.108 0 14 0.892 14 2L14 10C14 11.108 13.108 12 12 12"/>
+   </g>
+  </g>
+ </g>
+</svg>

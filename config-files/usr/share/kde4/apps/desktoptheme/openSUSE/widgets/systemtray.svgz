@@ -1,0 +1,624 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Karbon, part of Calligra: http://www.calligra.org/karbon -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.6pt" height="45.6pt">
+<defs>
+  <linearGradient id="gradient0" gradientTransform="translate(-5, 48.0097)" gradientUnits="objectBoundingBox" x1="0.38461538462" y1="-47.04125369398" x2="1.38461538462" y2="-47.04125369398" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient1" gradientTransform="translate(-5, 14)" gradientUnits="objectBoundingBox" x1="0.38461538462" y1="-13.34354163689" x2="1.38461538462" y2="-13.34354163689" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient2" gradientTransform="translate(-5, 48.0097)" gradientUnits="objectBoundingBox" x1="0.38461538462" y1="-47.04125369398" x2="1.38461538462" y2="-47.04125369398" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient3" gradientTransform="translate(-5, 14)" gradientUnits="objectBoundingBox" x1="0.38461538462" y1="-13.34354163689" x2="1.38461538462" y2="-13.34354163689" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient4" gradientTransform="translate(-16.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="1.04788496296" y1="24.12400600000" x2="1.04788496296" y2="3.12118580000" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient5" gradientTransform="translate(-43.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="11.82322300000" y1="6.03043075000" x2="11.82322300000" y2="0.78043067500" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient6" gradientTransform="translate(-12.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="3.07122075000" y1="6.03043075000" x2="3.07122075000" y2="0.78043067500" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient7" gradientTransform="translate(-16.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="1.04788496296" y1="24.12400600000" x2="1.04788496296" y2="3.12118580000" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient8" gradientTransform="translate(-43.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="11.82322300000" y1="6.03043075000" x2="11.82322300000" y2="0.78043067500" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+  <linearGradient id="gradient9" gradientTransform="translate(-12.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="3.07122075000" y1="6.03043075000" x2="3.07122075000" y2="0.78043067500" spreadMethod="pad">
+   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  </linearGradient>
+ </defs>
+<g id="layer0">
+  <g id="g2424" transform="" fill="none" display="none"/>
+  <g id="g2426" transform="" fill="none"/>
+  <g id="g3429" transform="" fill="none"/>
+  <g id="g19758" transform="" fill="none"/>
+  <g id="g3935" transform="" fill="none"/>
+  <g id="g8459" transform="" fill="none"/>
+  <g id="g28391" transform="" fill="none"/>
+  <g id="g28393" transform="" fill="none"/>
+  <g id="g28395" transform="" fill="none"/>
+  <g id="g6598" transform="" fill="none"/>
+  <g id="g6640" transform="" fill="none"/>
+  <g id="g6716" transform="" fill="none"/>
+  <g id="g6850" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text6990" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-34, 219)"/>
+  <rect id="hint-stretch-borders" transform="translate(15, 0)" fill="#4e9a06" width="1.59999792000pt" height="1.60000000000pt"/>
+  <text id="text2705" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-10.7223, 203.581)"/>
+  <g id="layer1-5" transform="" fill="none" display="none"/>
+  <g id="layer2-6" transform="" fill="none"/>
+  <g id="g2424-1" transform="" fill="none" display="none"/>
+  <g id="g2426-1" transform="" fill="none"/>
+  <g id="g3429-5" transform="" fill="none"/>
+  <g id="g19758-9" transform="" fill="none"/>
+  <g id="g3935-8" transform="" fill="none"/>
+  <g id="g8459-4" transform="" fill="none"/>
+  <g id="g28391-8" transform="" fill="none"/>
+  <g id="g28393-1" transform="" fill="none"/>
+  <g id="g28395-0" transform="" fill="none"/>
+  <g id="g6598-3" transform="" fill="none"/>
+  <g id="g6640-0" transform="" fill="none"/>
+  <g id="g6716-4" transform="" fill="none"/>
+  <g id="g6850-4" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text6990-4" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-196.668, 296.002)"/>
+  <g id="g3175" transform="" fill="none" display="none"/>
+  <g id="g3177" transform="" fill="none"/>
+  <g id="g3179" transform="" fill="none" display="none"/>
+  <g id="g3181" transform="" fill="none"/>
+  <g id="g3183" transform="" fill="none"/>
+  <g id="g3185" transform="" fill="none"/>
+  <g id="g3187" transform="" fill="none"/>
+  <g id="g3189" transform="" fill="none"/>
+  <g id="g3191" transform="" fill="none"/>
+  <g id="g3193" transform="" fill="none"/>
+  <g id="g3195" transform="" fill="none"/>
+  <g id="g3197" transform="" fill="none"/>
+  <g id="g3199" transform="" fill="none"/>
+  <g id="g3201" transform="" fill="none"/>
+  <g id="g3203" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text3205" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-237.668, 339.002)"/>
+  <text id="text2705-6" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-214.391, 323.582)"/>
+  <g id="g3922" transform="" fill="none" display="none"/>
+  <g id="g3387" transform="" fill="none"/>
+  <g id="g3389" transform="" fill="none" display="none"/>
+  <g id="g3391" transform="" fill="none"/>
+  <g id="g3393" transform="" fill="none"/>
+  <g id="g3395" transform="" fill="none"/>
+  <g id="g3397" transform="" fill="none"/>
+  <g id="g3399" transform="" fill="none"/>
+  <g id="g3401" transform="" fill="none"/>
+  <g id="g3403" transform="" fill="none"/>
+  <g id="g3405" transform="" fill="none"/>
+  <g id="g3407" transform="" fill="none"/>
+  <g id="g3409" transform="" fill="none"/>
+  <g id="g3411" transform="" fill="none"/>
+  <g id="g3413" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text3415" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-164.925, 1322.33)"/>
+  <g id="g5744" transform="" fill="none" display="none"/>
+  <g id="g5746" transform="" fill="none"/>
+  <g id="g5748" transform="" fill="none" display="none"/>
+  <g id="g5750" transform="" fill="none"/>
+  <g id="g5752" transform="" fill="none"/>
+  <g id="g5754" transform="" fill="none"/>
+  <g id="g5756" transform="" fill="none"/>
+  <g id="g5758" transform="" fill="none"/>
+  <g id="g5760" transform="" fill="none"/>
+  <g id="g5762" transform="" fill="none"/>
+  <g id="g5764" transform="" fill="none"/>
+  <g id="g5766" transform="" fill="none"/>
+  <g id="g5768" transform="" fill="none"/>
+  <g id="g5770" transform="" fill="none"/>
+  <g id="g5772" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text5774" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-1064.01, 1212.74)"/>
+  <g id="g3441" transform="" fill="none" display="none"/>
+  <g id="g3443" transform="" fill="none"/>
+  <g id="g3445" transform="" fill="none" display="none"/>
+  <g id="g3447" transform="" fill="none"/>
+  <g id="g3449" transform="" fill="none"/>
+  <g id="g3451" transform="" fill="none"/>
+  <g id="g3453" transform="" fill="none"/>
+  <g id="g3455" transform="" fill="none"/>
+  <g id="g3457" transform="" fill="none"/>
+  <g id="g3459" transform="" fill="none"/>
+  <g id="g3461" transform="" fill="none"/>
+  <g id="g3463" transform="" fill="none"/>
+  <g id="g3465" transform="" fill="none"/>
+  <g id="g3467" transform="" fill="none"/>
+  <g id="g3469" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text3471" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-924.293, 312.002)"/>
+  <g id="g3480" transform="" fill="none" display="none"/>
+  <g id="g2817" transform="" fill="none"/>
+  <g id="g2819" transform="" fill="none" display="none"/>
+  <g id="g2821" transform="" fill="none"/>
+  <g id="g2823" transform="" fill="none"/>
+  <g id="g2825" transform="" fill="none"/>
+  <g id="g2827" transform="" fill="none"/>
+  <g id="g2829" transform="" fill="none"/>
+  <g id="g2831" transform="" fill="none"/>
+  <g id="g2833" transform="" fill="none"/>
+  <g id="g2835" transform="" fill="none"/>
+  <g id="g2837" transform="" fill="none"/>
+  <g id="g2839" transform="" fill="none"/>
+  <g id="g2841" transform="" fill="none"/>
+  <g id="g2843" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text2845" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-981.495, 899.024)"/>
+  <g id="g3498" transform="" fill="none" display="none"/>
+  <g id="g3500" transform="" fill="none"/>
+  <g id="g3502" transform="" fill="none" display="none"/>
+  <g id="g3504" transform="" fill="none"/>
+  <g id="g3506" transform="" fill="none"/>
+  <g id="g3508" transform="" fill="none"/>
+  <g id="g3510" transform="" fill="none"/>
+  <g id="g3512" transform="" fill="none"/>
+  <g id="g3514" transform="" fill="none"/>
+  <g id="g3516" transform="" fill="none"/>
+  <g id="g3518" transform="" fill="none"/>
+  <g id="g3520" transform="" fill="none"/>
+  <g id="g3522" transform="" fill="none"/>
+  <g id="g3524" transform="" fill="none"/>
+  <g id="g3526" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text3528" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-1880.58, 789.427)"/>
+  <g id="g4763" transform="" fill="none" display="none"/>
+  <g id="g4765" transform="" fill="none"/>
+  <g id="g4767" transform="" fill="none" display="none"/>
+  <g id="g4769" transform="" fill="none"/>
+  <g id="g4771" transform="" fill="none"/>
+  <g id="g4773" transform="" fill="none"/>
+  <g id="g4775" transform="" fill="none"/>
+  <g id="g4777" transform="" fill="none"/>
+  <g id="g4779" transform="" fill="none"/>
+  <g id="g4781" transform="" fill="none"/>
+  <g id="g4783" transform="" fill="none"/>
+  <g id="g4785" transform="" fill="none"/>
+  <g id="g4787" transform="" fill="none"/>
+  <g id="g4789" transform="" fill="none"/>
+  <g id="g4791" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text4793" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-1167.89, 75.7697)"/>
+  <g id="g4239" transform="" fill="none">
+   <g id="g7784" transform="" fill="none"/>
+  </g>
+  <g id="g7786" transform="" fill="none" display="none"/>
+  <g id="g7788" transform="" fill="none"/>
+  <g id="g7790" transform="" fill="none" display="none"/>
+  <g id="g7792" transform="" fill="none"/>
+  <g id="g7794" transform="" fill="none"/>
+  <g id="g7796" transform="" fill="none"/>
+  <g id="g7798" transform="" fill="none"/>
+  <g id="g7800" transform="" fill="none"/>
+  <g id="g7802" transform="" fill="none"/>
+  <g id="g7804" transform="" fill="none"/>
+  <g id="g7806" transform="" fill="none"/>
+  <g id="g7808" transform="" fill="none"/>
+  <g id="g7810" transform="" fill="none"/>
+  <g id="g7812" transform="" fill="none"/>
+  <g id="g7814" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text7816" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(32.3317, -717.25)"/>
+  <g id="layer4" transform="" fill="none"/>
+  <g id="layer5" transform="" fill="none"/>
+  <rect id="rect1327" transform="translate(-808.032, -674.411)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
+  <rect id="rect2482" transform="translate(-843.159, -701.939)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
+  <g id="g4640" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g4646" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g4730" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g4748" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g5475" transform="" fill="none" display="none"/>
+  <g id="g5477" transform="" fill="none"/>
+  <g id="g5479" transform="" fill="none" display="none"/>
+  <g id="g5481" transform="" fill="none"/>
+  <g id="g5483" transform="" fill="none"/>
+  <g id="g5485" transform="" fill="none"/>
+  <g id="g5487" transform="" fill="none"/>
+  <g id="g5489" transform="" fill="none"/>
+  <g id="g5491" transform="" fill="none"/>
+  <g id="g5493" transform="" fill="none"/>
+  <g id="g5495" transform="" fill="none"/>
+  <g id="g5497" transform="" fill="none"/>
+  <g id="g5499" transform="" fill="none"/>
+  <g id="g5501" transform="" fill="none"/>
+  <g id="g5503" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text5505" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-5343.59, -878.5)"/>
+  <g id="g6557" transform="" fill="none" display="none"/>
+  <g id="g6559" transform="" fill="none"/>
+  <g id="g6561" transform="" fill="none" display="none"/>
+  <g id="g6563" transform="" fill="none"/>
+  <g id="g6565" transform="" fill="none"/>
+  <g id="g6567" transform="" fill="none"/>
+  <g id="g6569" transform="" fill="none"/>
+  <g id="g6571" transform="" fill="none"/>
+  <g id="g6573" transform="" fill="none"/>
+  <g id="g6575" transform="" fill="none"/>
+  <g id="g6577" transform="" fill="none"/>
+  <g id="g6579" transform="" fill="none"/>
+  <g id="g6581" transform="" fill="none"/>
+  <g id="g6583" transform="" fill="none"/>
+  <g id="g6585" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text6588" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-606.418, -227.187)"/>
+  <g id="g8959" transform="" fill="none" display="none"/>
+  <g id="g8961" transform="" fill="none"/>
+  <g id="g8963" transform="" fill="none" display="none"/>
+  <g id="g8965" transform="" fill="none"/>
+  <g id="g8967" transform="" fill="none"/>
+  <g id="g8969" transform="" fill="none"/>
+  <g id="g8971" transform="" fill="none"/>
+  <g id="g8973" transform="" fill="none"/>
+  <g id="g8975" transform="" fill="none"/>
+  <g id="g8977" transform="" fill="none"/>
+  <g id="g8979" transform="" fill="none"/>
+  <g id="g8981" transform="" fill="none"/>
+  <g id="g8983" transform="" fill="none"/>
+  <g id="g8985" transform="" fill="none"/>
+  <g id="g9072" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9074" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(2239.33, -1521)"/>
+  <text id="text7319" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-104.668, -424.25)"/>
+  <g id="g9024" transform="" fill="none" display="none"/>
+  <g id="g9026" transform="" fill="none"/>
+  <g id="g9028" transform="" fill="none" display="none"/>
+  <g id="g9030" transform="" fill="none"/>
+  <g id="g9032" transform="" fill="none"/>
+  <g id="g9034" transform="" fill="none"/>
+  <g id="g9036" transform="" fill="none"/>
+  <g id="g9038" transform="" fill="none"/>
+  <g id="g9040" transform="" fill="none"/>
+  <g id="g9042" transform="" fill="none"/>
+  <g id="g9044" transform="" fill="none"/>
+  <g id="g9046" transform="" fill="none"/>
+  <g id="g9048" transform="" fill="none"/>
+  <g id="g9050" transform="" fill="none"/>
+  <g id="g9052" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9054" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-149.425, 758.361)"/>
+  <g id="g9058" transform="" fill="none" display="none"/>
+  <g id="g9060" transform="" fill="none"/>
+  <g id="g9062" transform="" fill="none" display="none"/>
+  <g id="g9064" transform="" fill="none"/>
+  <g id="g9066" transform="" fill="none"/>
+  <g id="g9068" transform="" fill="none"/>
+  <g id="g9070" transform="" fill="none"/>
+  <g id="g9073" transform="" fill="none"/>
+  <g id="g9075" transform="" fill="none"/>
+  <g id="g9077" transform="" fill="none"/>
+  <g id="g9079" transform="" fill="none"/>
+  <g id="g9081" transform="" fill="none"/>
+  <g id="g9083" transform="" fill="none"/>
+  <g id="g9085" transform="" fill="none"/>
+  <g id="g9087" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9089" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-1048.51, 648.764)"/>
+  <g id="g9145" transform="" fill="none" display="none"/>
+  <g id="g9147" transform="" fill="none"/>
+  <g id="g9149" transform="" fill="none" display="none"/>
+  <g id="g9151" transform="" fill="none"/>
+  <g id="g9153" transform="" fill="none"/>
+  <g id="g9155" transform="" fill="none"/>
+  <g id="g9157" transform="" fill="none"/>
+  <g id="g9159" transform="" fill="none"/>
+  <g id="g9161" transform="" fill="none"/>
+  <g id="g9163" transform="" fill="none"/>
+  <g id="g9165" transform="" fill="none"/>
+  <g id="g9167" transform="" fill="none"/>
+  <g id="g9169" transform="" fill="none"/>
+  <g id="g9171" transform="" fill="none"/>
+  <g id="g9173" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9175" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-908.793, -251.972)"/>
+  <g id="g9179" transform="" fill="none" display="none"/>
+  <g id="g9181" transform="" fill="none"/>
+  <g id="g9183" transform="" fill="none" display="none"/>
+  <g id="g9185" transform="" fill="none"/>
+  <g id="g9187" transform="" fill="none"/>
+  <g id="g9189" transform="" fill="none"/>
+  <g id="g9191" transform="" fill="none"/>
+  <g id="g9193" transform="" fill="none"/>
+  <g id="g9195" transform="" fill="none"/>
+  <g id="g9197" transform="" fill="none"/>
+  <g id="g9199" transform="" fill="none"/>
+  <g id="g9201" transform="" fill="none"/>
+  <g id="g9203" transform="" fill="none"/>
+  <g id="g9205" transform="" fill="none"/>
+  <g id="g9207" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9209" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-965.995, 335.051)"/>
+  <g id="g9213" transform="" fill="none" display="none"/>
+  <g id="g9215" transform="" fill="none"/>
+  <g id="g9217" transform="" fill="none" display="none"/>
+  <g id="g9219" transform="" fill="none"/>
+  <g id="g9221" transform="" fill="none"/>
+  <g id="g9223" transform="" fill="none"/>
+  <g id="g9225" transform="" fill="none"/>
+  <g id="g9227" transform="" fill="none"/>
+  <g id="g9229" transform="" fill="none"/>
+  <g id="g9231" transform="" fill="none"/>
+  <g id="g9233" transform="" fill="none"/>
+  <g id="g9235" transform="" fill="none"/>
+  <g id="g9237" transform="" fill="none"/>
+  <g id="g9239" transform="" fill="none"/>
+  <g id="g9241" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9243" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-1865.08, 225.453)"/>
+  <g id="g9247" transform="" fill="none" display="none"/>
+  <g id="g9249" transform="" fill="none"/>
+  <g id="g9251" transform="" fill="none" display="none"/>
+  <g id="g9253" transform="" fill="none"/>
+  <g id="g9255" transform="" fill="none"/>
+  <g id="g9257" transform="" fill="none"/>
+  <g id="g9259" transform="" fill="none"/>
+  <g id="g9261" transform="" fill="none"/>
+  <g id="g9263" transform="" fill="none"/>
+  <g id="g9265" transform="" fill="none"/>
+  <g id="g9267" transform="" fill="none"/>
+  <g id="g9269" transform="" fill="none"/>
+  <g id="g9271" transform="" fill="none"/>
+  <g id="g9273" transform="" fill="none"/>
+  <g id="g9275" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9277" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-1152.39, -488.204)"/>
+  <g id="g9307" transform="" fill="none">
+   <g id="g9309" transform="" fill="none"/>
+  </g>
+  <g id="g9311" transform="" fill="none" display="none"/>
+  <g id="g9313" transform="" fill="none"/>
+  <g id="g9315" transform="" fill="none" display="none"/>
+  <g id="g9317" transform="" fill="none"/>
+  <g id="g9319" transform="" fill="none"/>
+  <g id="g9321" transform="" fill="none"/>
+  <g id="g9323" transform="" fill="none"/>
+  <g id="g9325" transform="" fill="none"/>
+  <g id="g9327" transform="" fill="none"/>
+  <g id="g9329" transform="" fill="none"/>
+  <g id="g9331" transform="" fill="none"/>
+  <g id="g9333" transform="" fill="none"/>
+  <g id="g9335" transform="" fill="none"/>
+  <g id="g9337" transform="" fill="none"/>
+  <g id="g9339" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9341" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(47.8317, -1281.22)"/>
+  <g id="g9345" transform="" fill="none"/>
+  <g id="g9347" transform="" fill="none"/>
+  <rect id="rect9349" transform="translate(-792.532, -1238.38)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
+  <rect id="rect9351" transform="translate(-827.659, -1265.91)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
+  <g id="g9353" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g9355" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g9357" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g9359" transform="" fill="none" opacity="0.40163933000"/>
+  <g id="g9361" transform="" fill="none" display="none"/>
+  <g id="g9363" transform="" fill="none"/>
+  <g id="g9365" transform="" fill="none" display="none"/>
+  <g id="g9367" transform="" fill="none"/>
+  <g id="g9369" transform="" fill="none"/>
+  <g id="g9371" transform="" fill="none"/>
+  <g id="g9373" transform="" fill="none"/>
+  <g id="g9375" transform="" fill="none"/>
+  <g id="g9377" transform="" fill="none"/>
+  <g id="g9379" transform="" fill="none"/>
+  <g id="g9381" transform="" fill="none"/>
+  <g id="g9383" transform="" fill="none"/>
+  <g id="g9385" transform="" fill="none"/>
+  <g id="g9387" transform="" fill="none"/>
+  <g id="g9389" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9391" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-5328.09, -1442.47)"/>
+  <g id="g9395" transform="" fill="none" display="none"/>
+  <g id="g9397" transform="" fill="none"/>
+  <g id="g9399" transform="" fill="none" display="none"/>
+  <g id="g9401" transform="" fill="none"/>
+  <g id="g9403" transform="" fill="none"/>
+  <g id="g9405" transform="" fill="none"/>
+  <g id="g9407" transform="" fill="none"/>
+  <g id="g9409" transform="" fill="none"/>
+  <g id="g9411" transform="" fill="none"/>
+  <g id="g9413" transform="" fill="none"/>
+  <g id="g9415" transform="" fill="none"/>
+  <g id="g9417" transform="" fill="none"/>
+  <g id="g9419" transform="" fill="none"/>
+  <g id="g9421" transform="" fill="none"/>
+  <g id="g9423" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9425" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-590.918, -791.161)"/>
+  <g id="g9429" transform="" fill="none" display="none"/>
+  <g id="g9431" transform="" fill="none"/>
+  <g id="g9433" transform="" fill="none" display="none"/>
+  <g id="g9435" transform="" fill="none"/>
+  <g id="g9437" transform="" fill="none"/>
+  <g id="g9439" transform="" fill="none"/>
+  <g id="g9441" transform="" fill="none"/>
+  <g id="g9443" transform="" fill="none"/>
+  <g id="g9445" transform="" fill="none"/>
+  <g id="g9447" transform="" fill="none"/>
+  <g id="g9449" transform="" fill="none"/>
+  <g id="g9451" transform="" fill="none"/>
+  <g id="g9453" transform="" fill="none"/>
+  <g id="g9455" transform="" fill="none"/>
+  <g id="g9457" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text9459" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(2254.83, -2084.97)"/>
+  <text id="text9463" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-89.1683, -988.223)"/>
+  <g id="g4418" transform="" fill="none" display="none"/>
+  <g id="layer2-0" transform="" fill="none"/>
+  <g id="g2424-9" transform="" fill="none" display="none"/>
+  <g id="g2426-9" transform="" fill="none"/>
+  <g id="g3429-4" transform="" fill="none"/>
+  <g id="g19758-5" transform="" fill="none"/>
+  <g id="g3935-1" transform="" fill="none"/>
+  <g id="g8459-0" transform="" fill="none"/>
+  <g id="g28391-3" transform="" fill="none"/>
+  <g id="g28393-7" transform="" fill="none"/>
+  <g id="g28395-8" transform="" fill="none"/>
+  <g id="g6598-8" transform="" fill="none"/>
+  <g id="g6640-6" transform="" fill="none"/>
+  <g id="g6716-0" transform="" fill="none"/>
+  <g id="g6850-46" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text6990-7" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(298.555, -229.858)"/>
+  <g id="g5909" transform="" fill="none" display="none"/>
+  <g id="g5911" transform="" fill="none"/>
+  <g id="g5913" transform="" fill="none" display="none"/>
+  <g id="g5915" transform="" fill="none"/>
+  <g id="g5917" transform="" fill="none"/>
+  <g id="g5919" transform="" fill="none"/>
+  <g id="g5921" transform="" fill="none"/>
+  <g id="g5923" transform="" fill="none"/>
+  <g id="g5925" transform="" fill="none"/>
+  <g id="g5927" transform="" fill="none"/>
+  <g id="g5929" transform="" fill="none"/>
+  <g id="g5931" transform="" fill="none"/>
+  <g id="g5933" transform="" fill="none"/>
+  <g id="g5935" transform="" fill="none"/>
+  <g id="g5937" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text5939" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(242.333, -608.959)"/>
+  <g id="g4240" transform="" fill="none" display="none"/>
+  <g id="g4242" transform="" fill="none"/>
+  <g id="g4244" transform="" fill="none" display="none"/>
+  <g id="g4246" transform="" fill="none"/>
+  <g id="g4248" transform="" fill="none"/>
+  <g id="g4250" transform="" fill="none"/>
+  <g id="g4252" transform="" fill="none"/>
+  <g id="g4254" transform="" fill="none"/>
+  <g id="g4256" transform="" fill="none"/>
+  <g id="g4258" transform="" fill="none"/>
+  <g id="g4260" transform="" fill="none"/>
+  <g id="g4262" transform="" fill="none"/>
+  <g id="g4264" transform="" fill="none"/>
+  <g id="g4266" transform="" fill="none"/>
+  <g id="g4268" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text4270" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-223.787, -297.102)"/>
+  <g id="g4418-7" transform="" fill="none" display="none"/>
+  <g id="layer2-5" transform="" fill="none"/>
+  <g id="g2424-4" transform="" fill="none" display="none"/>
+  <g id="g2426-4" transform="" fill="none"/>
+  <g id="g3429-6" transform="" fill="none"/>
+  <g id="g19758-0" transform="" fill="none"/>
+  <g id="g3935-5" transform="" fill="none"/>
+  <g id="g8459-5" transform="" fill="none"/>
+  <g id="g28391-39" transform="" fill="none"/>
+  <g id="g28393-15" transform="" fill="none"/>
+  <g id="g28395-04" transform="" fill="none"/>
+  <g id="g6598-9" transform="" fill="none"/>
+  <g id="g6640-67" transform="" fill="none"/>
+  <g id="g6716-43" transform="" fill="none"/>
+  <g id="g6850-0" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text6990-9" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(274.555, -213.858)"/>
+  <g id="g5909-0" transform="" fill="none" display="none"/>
+  <g id="g5911-4" transform="" fill="none"/>
+  <g id="g5913-5" transform="" fill="none" display="none"/>
+  <g id="g5915-8" transform="" fill="none"/>
+  <g id="g5917-2" transform="" fill="none"/>
+  <g id="g5919-8" transform="" fill="none"/>
+  <g id="g5921-6" transform="" fill="none"/>
+  <g id="g5923-8" transform="" fill="none"/>
+  <g id="g5925-5" transform="" fill="none"/>
+  <g id="g5927-3" transform="" fill="none"/>
+  <g id="g5929-4" transform="" fill="none"/>
+  <g id="g5931-0" transform="" fill="none"/>
+  <g id="g5933-1" transform="" fill="none"/>
+  <g id="g5935-7" transform="" fill="none"/>
+  <g id="g5937-7" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text5939-8" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(218.333, -592.959)"/>
+  <g id="g4240-8" transform="" fill="none" display="none"/>
+  <g id="g4242-9" transform="" fill="none"/>
+  <g id="g4244-7" transform="" fill="none" display="none"/>
+  <g id="g4246-8" transform="" fill="none"/>
+  <g id="g4248-3" transform="" fill="none"/>
+  <g id="g4250-9" transform="" fill="none"/>
+  <g id="g4252-7" transform="" fill="none"/>
+  <g id="g4254-2" transform="" fill="none"/>
+  <g id="g4256-5" transform="" fill="none"/>
+  <g id="g4258-0" transform="" fill="none"/>
+  <g id="g4260-2" transform="" fill="none"/>
+  <g id="g4262-4" transform="" fill="none"/>
+  <g id="g4264-8" transform="" fill="none"/>
+  <g id="g4266-0" transform="" fill="none"/>
+  <g id="g4268-6" transform="" fill="none" opacity="0.45945943000"/>
+  <text id="text4270-2" fill="#000000" x="0.00000000000pt" y="24.00000000000pt" transform="translate(-247.787, -281.102)"/>
+  <g id="expander-left" transform="translate(1.37153, 38.8826)" fill="none">
+   <path id="path4080" transform="translate(1.92555, 1.64396)" fill="#5d992d" fill-rule="evenodd" d="M1.20708 0.00107092C1.17728 0.00507092 1.15368 0.0179709 1.12948 0.0375709L0.0685 0.874721C0.0276 0.906721 0 0.956321 0 1.00719C0 1.05809 0.0277 1.10767 0.0685 1.13966L1.12948 1.9768C1.17978 2.015 1.24566 2.0187 1.30306 1.9905C1.36036 1.9624 1.39846 1.9079 1.39896 1.84432L1.39896 0.170031C1.3993 0.122831 1.37636 0.0795309 1.33956 0.0467009C1.30336 0.0144009 1.25436 -0.00469908 1.20708 0.00100092Z"/>
+   <rect id="rect4088" transform="translate(0.625, 0.625)" fill="none" opacity="0.45333330000" width="3.20000000000pt" height="3.23758888000pt"/>
+  </g>
+  <g id="expander-up" transform="translate(6.39019, 33.8826)" fill="none">
+   <path id="path4104" transform="matrix(0 1 -1 0 3.62021 1.92555)" fill="#5d992d" fill-rule="evenodd" d="M1.20708 0.00107092C1.17728 0.00507092 1.15368 0.0179709 1.12948 0.0375709L0.0685 0.874721C0.0276 0.906721 0 0.956321 0 1.00719C0 1.05809 0.0277 1.10767 0.0685 1.13966L1.12948 1.9768C1.17978 2.015 1.24566 2.0187 1.30306 1.9905C1.36036 1.9624 1.39846 1.9079 1.39896 1.84432L1.39896 0.170031C1.3993 0.122831 1.37636 0.0795309 1.33956 0.0467009C1.30336 0.0144009 1.25436 -0.00469908 1.20708 0.00100092Z"/>
+   <rect id="rect4107" transform="matrix(0 1 -1 0 4.60634 0.625)" fill="none" opacity="0.45333330000" width="3.20000000000pt" height="3.18507192000pt"/>
+  </g>
+  <g id="expander-down" transform="translate(6.37153, 44.8826)" fill="none">
+   <path id="path4116" transform="matrix(0 -1 -1 0 3.62954 3.32445)" fill="#5d992d" fill-rule="evenodd" d="M1.20708 0.00107092C1.17728 0.00507092 1.15368 0.0179709 1.12948 0.0375709L0.0685 0.874721C0.0276 0.906721 0 0.956321 0 1.00719C0 1.05809 0.0277 1.10767 0.0685 1.13966L1.12948 1.9768C1.17978 2.015 1.24566 2.0187 1.30306 1.9905C1.36036 1.9624 1.39846 1.9079 1.39896 1.84432L1.39896 0.170031C1.3993 0.122831 1.37636 0.0795309 1.33956 0.0467009C1.30336 0.0144009 1.25436 -0.00469908 1.20708 0.00100092Z"/>
+   <rect id="rect4118" transform="matrix(0 -1 -1 0 4.625 4.625)" fill="none" opacity="0.45333330000" width="3.20000000000pt" height="3.20000000000pt"/>
+  </g>
+  <g id="expander-right" transform="translate(11.3715, 38.8826)" fill="none">
+   <path id="path4126" transform="matrix(-1 0 0 1 3.32445 1.62681)" fill="#5d992d" fill-rule="evenodd" d="M1.20708 0.00107092C1.17728 0.00507092 1.15368 0.0179709 1.12948 0.0375709L0.0685 0.874721C0.0276 0.906721 0 0.956321 0 1.00719C0 1.05809 0.0277 1.10767 0.0685 1.13966L1.12948 1.9768C1.17978 2.015 1.24566 2.0187 1.30306 1.9905C1.36036 1.9624 1.39846 1.9079 1.39896 1.84432L1.39896 0.170031C1.3993 0.122831 1.37636 0.0795309 1.33956 0.0467009C1.30336 0.0144009 1.25436 -0.00469908 1.20708 0.00100092Z"/>
+   <rect id="rect4128" transform="matrix(-1 0 0 1 4.625 0.625)" fill="none" opacity="0.45333330000" width="3.20000000000pt" height="3.21014864000pt"/>
+  </g>
+  <g id="center" transform="translate(28.375, 9.375)" fill="none">
+   <rect id="rect3497" transform="matrix(1 0 0 -1 0.625 13.625)" fill="#131718" opacity="0.50000000000" width="21.60000000000pt" height="10.40000000000pt"/>
+  </g>
+  <g id="bottom" transform="translate(28.375, 22.3751)" fill="none">
+   <rect id="rect3505" transform="matrix(1 0 0 -0.999866 0.625 4.62492)" fill="#131718" opacity="0.50000000000" width="21.60000000000pt" height="3.20042992000pt"/>
+   <rect id="rect3507" transform="matrix(1 0 0 -0.999866 0.625 4.62438)" fill="#485a61" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  </g>
+  <g id="bottomright" transform="translate(55.375, 22.375)" fill="none">
+   <path id="path3511" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.50000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
+   <path id="path3513" transform="matrix(1 0 0 -1 0.625001 4.625)" fill="#485a61" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  </g>
+  <g id="right" transform="translate(55.3819, 9.375)" fill="none">
+   <rect id="rect3517" transform="matrix(0 -1 -0.988992 0 4.61812 13.625)" fill="#131718" opacity="0.50000000000" width="10.40000000000pt" height="3.23561856000pt"/>
+   <rect id="rect3519" transform="matrix(0 -1 -0.988992 0 4.61266 13.625)" fill="url(#gradient0)" opacity="0.80000000000" width="10.40000000000pt" height="0.80780160000pt"/>
+  </g>
+  <g id="left" transform="translate(24.3822, 9.375)" fill="none">
+   <rect id="rect3535" transform="matrix(0 -1 -0.98841 0 4.61776 13.625)" fill="#131718" opacity="0.50000000000" width="10.40000000000pt" height="3.23752216000pt"/>
+   <rect id="rect3537" transform="matrix(0 -1 -0.98841 0 1.61776 13.625)" fill="url(#gradient1)" opacity="0.80000000000" width="10.40000000000pt" height="0.80938032000pt"/>
+  </g>
+  <g id="bottomleft" transform="translate(24.3763, 22.375)" fill="none">
+   <path id="path3541" transform="matrix(0.998001 0 0 -1 0.623749 4.625)" fill="#131718" opacity="0.50000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
+   <path id="path3543" transform="matrix(0.998001 0 0 -1 0.631744 4.625)" fill="#485a61" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  </g>
+  <g id="lastelements-center" transform="translate(28.375, 35.375)" fill="none">
+   <rect id="rect3416" transform="matrix(1 0 0 -1 0.625 13.625)" fill="#131718" opacity="0.50000000000" width="21.60000000000pt" height="10.40000000000pt"/>
+  </g>
+  <g id="lastelements-bottom" transform="translate(28.375, 48.3751)" fill="none">
+   <rect id="rect3424" transform="matrix(1 0 0 -0.999866 0.625 4.62492)" fill="#131718" opacity="0.50000000000" width="21.60000000000pt" height="3.20042992000pt"/>
+   <rect id="rect3426" transform="matrix(1 0 0 -0.999866 0.625 4.62438)" fill="#485a61" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  </g>
+  <g id="lastelements-bottomright" transform="translate(55.375, 48.375)" fill="none">
+   <path id="path3430" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.50000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
+   <path id="path3432" transform="matrix(1 0 0 -1 0.625001 4.625)" fill="#485a61" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  </g>
+  <g id="lastelements-right" transform="translate(55.3819, 35.375)" fill="none">
+   <rect id="rect3436" transform="matrix(0 -1 -0.988992 0 4.61812 13.625)" fill="#131718" opacity="0.50000000000" width="10.40000000000pt" height="3.23561856000pt"/>
+   <rect id="rect3438" transform="matrix(0 -1 -0.988992 0 4.61266 13.625)" fill="url(#gradient2)" opacity="0.80000000000" width="10.40000000000pt" height="0.80780160000pt"/>
+  </g>
+  <g id="lastelements-left" transform="translate(24.3822, 35.375)" fill="none">
+   <rect id="rect3454" transform="matrix(0 -1 -0.98841 0 4.61776 13.625)" fill="#131718" opacity="0.50000000000" width="10.40000000000pt" height="3.23752216000pt"/>
+   <rect id="rect3456" transform="matrix(0 -1 -0.98841 0 1.61776 13.625)" fill="url(#gradient3)" opacity="0.80000000000" width="10.40000000000pt" height="0.80938032000pt"/>
+  </g>
+  <g id="lastelements-bottomleft" transform="translate(24.3763, 48.375)" fill="none">
+   <path id="path3460" transform="matrix(0.998001 0 0 -1 0.623749 4.625)" fill="#131718" opacity="0.50000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
+   <path id="path3462" transform="matrix(0.998001 0 0 -1 0.631744 4.625)" fill="#485a61" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  </g>
+  <g id="top" transform="translate(28.375, 5.37468)" fill="none">
+   <rect id="rect4692" transform="matrix(1 0 0 0.999866 0.625 0.624916)" fill="#131718" opacity="0.50000000000" width="21.60000000000pt" height="3.20042992000pt"/>
+   <rect id="rect4694" transform="matrix(1 0 0 0.999866 0.625 0.625453)" fill="url(#gradient4)" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  </g>
+  <g id="topright" transform="translate(55.375, 5.3746)" fill="none">
+   <path id="path4698" transform="translate(0.625, 0.625)" fill="#131718" opacity="0.50000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
+   <path id="path4700" transform="translate(0.625001, 0.625)" fill="url(#gradient5)" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  </g>
+  <g id="topleft" transform="translate(24.3763, 5.3746)" fill="none">
+   <path id="path4704" transform="matrix(0.998001 0 0 1 0.623749 0.625)" fill="#131718" opacity="0.50000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
+   <path id="path4706" transform="matrix(0.998001 0 0 1 0.631744 0.625)" fill="url(#gradient6)" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  </g>
+  <g id="lastelements-top" transform="translate(28.375, 31.3747)" fill="none">
+   <rect id="rect5506" transform="matrix(1 0 0 0.999866 0.625 0.624916)" fill="#131718" opacity="0.50000000000" width="21.60000000000pt" height="3.20042992000pt"/>
+   <rect id="rect5508" transform="matrix(1 0 0 0.999866 0.625 0.625453)" fill="url(#gradient7)" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  </g>
+  <g id="lastelements-topright" transform="translate(55.375, 31.3746)" fill="none">
+   <path id="path5512" transform="translate(0.625, 0.625)" fill="#131718" opacity="0.50000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
+   <path id="path5514" transform="translate(0.625001, 0.625)" fill="url(#gradient8)" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  </g>
+  <g id="lastelements-topleft" transform="translate(24.3763, 31.3746)" fill="none">
+   <path id="path5518" transform="matrix(0.998001 0 0 1 0.623749 0.625)" fill="#131718" opacity="0.50000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
+   <path id="path5520" transform="matrix(0.998001 0 0 1 0.631744 0.625)" fill="url(#gradient9)" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  </g>
+ </g>
+</svg>

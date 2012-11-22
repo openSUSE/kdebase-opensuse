@@ -1,7 +1,3 @@
-[KDE URL Restrictions]
-rule_1=redirect,,help.opensuse.org,,irc,irc.opensuse.org,,true
-rule_count=1
-
 [ColorEffects:Disabled]
 Color=112,111,110
 ColorAmount=0
@@ -93,11 +89,12 @@ ForegroundPositive=41,94,25
 ForegroundVisited=155,82,94
 
 [General]
-ColorScheme=openSUSE
+ColorScheme=Ordinary Green 3
+Name=Ordinary Green 3
 shadeSortColumn=true
 
 [KDE]
-contrast=7
+contrast=5
 
 [WM]
 activeBackground=131,175,119
@@ -106,25 +103,3 @@ activeForeground=255,255,255
 inactiveBackground=213,209,207
 inactiveBlend=213,209,207
 inactiveForeground=20,19,18
-
-[Paths]
-Trash=$HOME/Desktop/Trash/
-
-[PreviewSettings]
-MaximumSize=3145728
-camera=true
-file=true
-fonts=true
-
-[Directories]
-dir_pixmap=/usr/share/pixmaps
-
-[KDE]
-ChangeCursor=true
-
-[KFileDialog Settings]
-Breadcrumb Navigation=true
-
-[General]
-BrowserApplication=firefox
-ColorScheme=openSUSE

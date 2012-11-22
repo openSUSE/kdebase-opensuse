@@ -5,7 +5,7 @@ set(greeter_SRCS main.cpp greetings.cpp)
 
 kde4_add_executable(SUSEgreeter ${greeter_SRCS})
 
-target_link_libraries(SUSEgreeter ${KDE4_KDEUI_LIBS})
+target_link_libraries(SUSEgreeter ${KDE4_KDEUI_LIBS} ${QT_QTXML_LIBRARY})
 
 install(TARGETS SUSEgreeter DESTINATION ${BIN_INSTALL_DIR})
 
