@@ -1,713 +1,556 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <!-- Created using Karbon, part of Calligra: http://www.calligra.org/karbon -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28pt" height="104.8pt">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.4pt" height="88pt">
 <defs>
-  <linearGradient id="gradient0" gradientTransform="translate(-5, 48.0097)" gradientUnits="objectBoundingBox" x1="0.07692310769" y1="-47.55154334926" x2="1.92307692308" y2="-47.55154334926" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient0" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
   </linearGradient>
-  <linearGradient id="gradient1" gradientTransform="translate(-5, 14)" gradientUnits="objectBoundingBox" x1="0.07692310769" y1="-13.83774688270" x2="1.69230769231" y2="-13.83774688270" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient1" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.00000000000" y1="14.50000000000" x2="7.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
   </linearGradient>
-  <linearGradient id="gradient2" gradientTransform="translate(-16.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="1.04788496296" y1="24.12400600000" x2="1.04788496296" y2="0.12078322000" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient2" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
   </linearGradient>
-  <linearGradient id="gradient3" gradientTransform="translate(-43.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="11.82322300000" y1="6.03043075000" x2="11.82322300000" y2="0.03043075000" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient3" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
   </linearGradient>
-  <linearGradient id="gradient4" gradientTransform="translate(-12.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="3.07122075000" y1="6.03043075000" x2="3.07122075000" y2="0.03043075000" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient4" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
   </linearGradient>
-  <linearGradient id="gradient5" gradientTransform="translate(-5, 48.0097)" gradientUnits="objectBoundingBox" x1="0.38461538462" y1="-47.04125369398" x2="1.38461538462" y2="-47.04125369398" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient5" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
   </linearGradient>
-  <linearGradient id="gradient6" gradientTransform="translate(-5, 14)" gradientUnits="objectBoundingBox" x1="0.38461538462" y1="-13.34354163689" x2="1.38461538462" y2="-13.34354163689" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient6" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="18.25000000000" x2="7.14285714286" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
   </linearGradient>
-  <linearGradient id="gradient7" gradientTransform="translate(-16.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="1.04788496296" y1="24.12400600000" x2="1.04788496296" y2="3.12118580000" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient7" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
   </linearGradient>
-  <linearGradient id="gradient8" gradientTransform="translate(-43.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="11.82322300000" y1="6.03043075000" x2="11.82322300000" y2="0.78043067500" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <linearGradient id="gradient8" gradientTransform="translate(-7, -7)" gradientUnits="objectBoundingBox" x1="2.00000000000" y1="0.42857142857" x2="2.00000000000" y2="2.57142857143" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
   </linearGradient>
-  <linearGradient id="gradient9" gradientTransform="translate(-12.2929, -3.12132)" gradientUnits="objectBoundingBox" x1="3.07122075000" y1="6.03043075000" x2="3.07122075000" y2="0.78043067500" spreadMethod="pad">
-   <stop stop-color="#485a61" offset="0.00000000000" stop-opacity="1.00000000000"/>
-   <stop stop-color="#485a61" offset="1.00000000000" stop-opacity="0.30200656138"/>
+  <radialGradient id="gradient9" gradientTransform="matrix(2 0 0 2 -60 -117)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#000000" offset="0.71428573132" stop-opacity="0.11764705882"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient10" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.50000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <radialGradient id="gradient11" gradientTransform="matrix(2 0 0 2 -60 -117)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#000000" offset="0.71428573132" stop-opacity="0.11764705882"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient12" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.50000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient13" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.50000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient14" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.50000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <radialGradient id="gradient15" gradientTransform="matrix(2 0 0 2 -60 -117)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#000000" offset="0.71428573132" stop-opacity="0.11764705882"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <radialGradient id="gradient16" gradientTransform="matrix(2 0 0 2 -60 -117)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="1.00000000000"/>
+   <stop stop-color="#000000" offset="0.71428573132" stop-opacity="0.11764705882"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <radialGradient id="gradient17" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient18" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient19" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient20" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient21" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient22" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient23" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient24" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient25" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.00000000000" y1="14.50000000000" x2="7.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient26" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient27" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient28" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient29" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient30" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient31" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="18.25000000000" x2="7.14285714286" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient32" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient33" gradientTransform="translate(-7, -7)" gradientUnits="objectBoundingBox" x1="2.00000000000" y1="0.42857142857" x2="2.00000000000" y2="2.57142857143" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient34" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient35" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient36" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient37" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient38" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient39" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient40" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient41" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient42" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.00000000000" y1="14.50000000000" x2="7.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient43" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient44" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient45" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient46" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient47" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient48" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="18.25000000000" x2="7.14285714286" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <linearGradient id="gradient49" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient50" gradientTransform="translate(-7, -7)" gradientUnits="objectBoundingBox" x1="2.00000000000" y1="0.42857142857" x2="2.00000000000" y2="2.57142857143" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient51" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient52" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient53" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient54" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient55" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient56" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.47058823529"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.17647058824"/>
+  </linearGradient>
+  <radialGradient id="gradient57" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient58" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient59" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.00000000000" y1="14.50000000000" x2="7.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient60" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient61" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient62" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient63" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="5.85714285714" y1="15.00000000000" x2="8.00000000000" y2="15.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient64" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient65" gradientTransform="translate(-45, -58)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="18.25000000000" x2="7.14285714286" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient66" gradientTransform="translate(-45, -55)" gradientUnits="objectBoundingBox" x1="7.14285714286" y1="28.50000000000" x2="7.14285714286" y2="27.00000000000" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <linearGradient id="gradient67" gradientTransform="translate(-7, -7)" gradientUnits="objectBoundingBox" x1="2.00000000000" y1="0.42857142857" x2="2.00000000000" y2="2.57142857143" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <radialGradient id="gradient68" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient69" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.00000000000" y1="14.50000000000" x2="14.00000000000" y2="18.00000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <radialGradient id="gradient70" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient71" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </linearGradient>
+  <radialGradient id="gradient72" gradientTransform="matrix(2.28571 0 0 2.28571 -68.5714 -134.714)" gradientUnits="objectBoundingBox" cx="4.28571428571" cy="8.85714285714" fx="4.28571428571" fy="8.85714285714" r="0.35355339059" spreadMethod="pad">
+   <stop stop-color="#000000" offset="0.00000000000" stop-opacity="0.00000000000"/>
+   <stop stop-color="#000000" offset="1.00000000000" stop-opacity="0.00000000000"/>
+  </radialGradient>
+  <linearGradient id="gradient73" gradientTransform="translate(-52, -58)" gradientUnits="objectBoundingBox" x1="14.25000000000" y1="18.25000000000" x2="14.25000000000" y2="14.50000000000" spreadMethod="pad">
+   <stop stop-color="#ffffff" offset="0.00000000000" stop-opacity="0.17647058824"/>
+   <stop stop-color="#ffffff" offset="1.00000000000" stop-opacity="0.00000000000"/>
   </linearGradient>
  </defs>
 <g id="layer0">
-  <g id="g2424" transform="" fill="none" display="none"/>
-  <g id="g2426" transform="" fill="none"/>
-  <g id="g3429" transform="" fill="none"/>
-  <g id="g19758" transform="" fill="none"/>
-  <g id="g3935" transform="" fill="none"/>
-  <g id="g8459" transform="" fill="none"/>
-  <g id="g28391" transform="" fill="none"/>
-  <g id="g28393" transform="" fill="none"/>
-  <g id="g28395" transform="" fill="none"/>
-  <g id="g6598" transform="" fill="none"/>
-  <g id="g6640" transform="" fill="none"/>
-  <g id="g6716" transform="" fill="none"/>
-  <g id="g6850" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text6990" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(1, 245.75)"><tspan></tspan></text>
-  <rect id="hint-stretch-borders" transform="translate(4.22259e-06, 0)" fill="#4e9a06" width="1.59999792000pt" height="1.60000000000pt"/>
-  <text id="text2705" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(24.2777, 230.331)"><tspan></tspan></text>
-  <g id="layer1-5" transform="" fill="none" display="none"/>
-  <g id="layer2-6" transform="" fill="none"/>
-  <g id="g2424-1" transform="" fill="none" display="none"/>
-  <g id="g2426-1" transform="" fill="none"/>
-  <g id="g3429-5" transform="" fill="none"/>
-  <g id="g19758-9" transform="" fill="none"/>
-  <g id="g3935-8" transform="" fill="none"/>
-  <g id="g8459-4" transform="" fill="none"/>
-  <g id="g28391-8" transform="" fill="none"/>
-  <g id="g28393-1" transform="" fill="none"/>
-  <g id="g28395-0" transform="" fill="none"/>
-  <g id="g6598-3" transform="" fill="none"/>
-  <g id="g6640-0" transform="" fill="none"/>
-  <g id="g6716-4" transform="" fill="none"/>
-  <g id="g6850-4" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text6990-4" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-161.668, 322.752)"><tspan></tspan></text>
-  <g id="g3175" transform="" fill="none" display="none"/>
-  <g id="g3177" transform="" fill="none"/>
-  <g id="g3179" transform="" fill="none" display="none"/>
-  <g id="g3181" transform="" fill="none"/>
-  <g id="g3183" transform="" fill="none"/>
-  <g id="g3185" transform="" fill="none"/>
-  <g id="g3187" transform="" fill="none"/>
-  <g id="g3189" transform="" fill="none"/>
-  <g id="g3191" transform="" fill="none"/>
-  <g id="g3193" transform="" fill="none"/>
-  <g id="g3195" transform="" fill="none"/>
-  <g id="g3197" transform="" fill="none"/>
-  <g id="g3199" transform="" fill="none"/>
-  <g id="g3201" transform="" fill="none"/>
-  <g id="g3203" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text3205" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-202.668, 365.752)"><tspan></tspan></text>
-  <text id="text2705-6" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-179.391, 350.332)"><tspan></tspan></text>
-  <g id="g3922" transform="" fill="none" display="none"/>
-  <g id="g3387" transform="" fill="none"/>
-  <g id="g3389" transform="" fill="none" display="none"/>
-  <g id="g3391" transform="" fill="none"/>
-  <g id="g3393" transform="" fill="none"/>
-  <g id="g3395" transform="" fill="none"/>
-  <g id="g3397" transform="" fill="none"/>
-  <g id="g3399" transform="" fill="none"/>
-  <g id="g3401" transform="" fill="none"/>
-  <g id="g3403" transform="" fill="none"/>
-  <g id="g3405" transform="" fill="none"/>
-  <g id="g3407" transform="" fill="none"/>
-  <g id="g3409" transform="" fill="none"/>
-  <g id="g3411" transform="" fill="none"/>
-  <g id="g3413" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text3415" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-129.925, 1349.08)"><tspan></tspan></text>
-  <g id="g5744" transform="" fill="none" display="none"/>
-  <g id="g5746" transform="" fill="none"/>
-  <g id="g5748" transform="" fill="none" display="none"/>
-  <g id="g5750" transform="" fill="none"/>
-  <g id="g5752" transform="" fill="none"/>
-  <g id="g5754" transform="" fill="none"/>
-  <g id="g5756" transform="" fill="none"/>
-  <g id="g5758" transform="" fill="none"/>
-  <g id="g5760" transform="" fill="none"/>
-  <g id="g5762" transform="" fill="none"/>
-  <g id="g5764" transform="" fill="none"/>
-  <g id="g5766" transform="" fill="none"/>
-  <g id="g5768" transform="" fill="none"/>
-  <g id="g5770" transform="" fill="none"/>
-  <g id="g5772" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text5774" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-1029.01, 1239.49)"><tspan></tspan></text>
-  <g id="g3441" transform="" fill="none" display="none"/>
-  <g id="g3443" transform="" fill="none"/>
-  <g id="g3445" transform="" fill="none" display="none"/>
-  <g id="g3447" transform="" fill="none"/>
-  <g id="g3449" transform="" fill="none"/>
-  <g id="g3451" transform="" fill="none"/>
-  <g id="g3453" transform="" fill="none"/>
-  <g id="g3455" transform="" fill="none"/>
-  <g id="g3457" transform="" fill="none"/>
-  <g id="g3459" transform="" fill="none"/>
-  <g id="g3461" transform="" fill="none"/>
-  <g id="g3463" transform="" fill="none"/>
-  <g id="g3465" transform="" fill="none"/>
-  <g id="g3467" transform="" fill="none"/>
-  <g id="g3469" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text3471" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-889.293, 338.752)"><tspan></tspan></text>
-  <g id="g3480" transform="" fill="none" display="none"/>
-  <g id="g2817" transform="" fill="none"/>
-  <g id="g2819" transform="" fill="none" display="none"/>
-  <g id="g2821" transform="" fill="none"/>
-  <g id="g2823" transform="" fill="none"/>
-  <g id="g2825" transform="" fill="none"/>
-  <g id="g2827" transform="" fill="none"/>
-  <g id="g2829" transform="" fill="none"/>
-  <g id="g2831" transform="" fill="none"/>
-  <g id="g2833" transform="" fill="none"/>
-  <g id="g2835" transform="" fill="none"/>
-  <g id="g2837" transform="" fill="none"/>
-  <g id="g2839" transform="" fill="none"/>
-  <g id="g2841" transform="" fill="none"/>
-  <g id="g2843" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text2845" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-946.495, 925.774)"><tspan></tspan></text>
-  <g id="g3498" transform="" fill="none" display="none"/>
-  <g id="g3500" transform="" fill="none"/>
-  <g id="g3502" transform="" fill="none" display="none"/>
-  <g id="g3504" transform="" fill="none"/>
-  <g id="g3506" transform="" fill="none"/>
-  <g id="g3508" transform="" fill="none"/>
-  <g id="g3510" transform="" fill="none"/>
-  <g id="g3512" transform="" fill="none"/>
-  <g id="g3514" transform="" fill="none"/>
-  <g id="g3516" transform="" fill="none"/>
-  <g id="g3518" transform="" fill="none"/>
-  <g id="g3520" transform="" fill="none"/>
-  <g id="g3522" transform="" fill="none"/>
-  <g id="g3524" transform="" fill="none"/>
-  <g id="g3526" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text3528" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-1845.58, 816.177)"><tspan></tspan></text>
-  <g id="g4763" transform="" fill="none" display="none"/>
-  <g id="g4765" transform="" fill="none"/>
-  <g id="g4767" transform="" fill="none" display="none"/>
-  <g id="g4769" transform="" fill="none"/>
-  <g id="g4771" transform="" fill="none"/>
-  <g id="g4773" transform="" fill="none"/>
-  <g id="g4775" transform="" fill="none"/>
-  <g id="g4777" transform="" fill="none"/>
-  <g id="g4779" transform="" fill="none"/>
-  <g id="g4781" transform="" fill="none"/>
-  <g id="g4783" transform="" fill="none"/>
-  <g id="g4785" transform="" fill="none"/>
-  <g id="g4787" transform="" fill="none"/>
-  <g id="g4789" transform="" fill="none"/>
-  <g id="g4791" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text4793" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-1132.89, 102.52)"><tspan></tspan></text>
-  <g id="g4239" transform="" fill="none">
-   <g id="g7784" transform="" fill="none"/>
+  <rect id="hint-stretch-borders" transform="translate(-38, -13)" fill="#4e9a06" opacity="0.87500000000" width="4.00000000000pt" height="4.00000000000pt"/>
+  <rect id="hint-margin" transform="translate(-31, -13)" fill="#4e9a06" width="4.80000000000pt" height="4.80000000000pt"/>
+  <g id="hover-topright" transform="translate(14.375, 0.375)" fill="none">
+   <path id="path4407" transform="translate(0.625, 1.61374)" fill="#ffffff" opacity="0.00000000000" d="M0 0L0 1.7175L1 1.7175C1.554 1.7175 2.08362 1.8125 2.5625 1.98586C3.04138 2.15923 3.48225 2.4 3.84375 2.71044C4.20525 3.02087 4.48562 3.39947 4.6875 3.81071C4.88938 4.22195 5 4.67676 5 5.15251L5 6.01126L7 6.01126L7 0Z"/>
+   <path id="rect3508" transform="translate(0.625, 1.625)" fill="#5d992d" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4409" transform="translate(0.625, 3.625)" fill="url(#gradient0)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4411" transform="translate(0.625, 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4413" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="g7786" transform="" fill="none" display="none"/>
-  <g id="g7788" transform="" fill="none"/>
-  <g id="g7790" transform="" fill="none" display="none"/>
-  <g id="g7792" transform="" fill="none"/>
-  <g id="g7794" transform="" fill="none"/>
-  <g id="g7796" transform="" fill="none"/>
-  <g id="g7798" transform="" fill="none"/>
-  <g id="g7800" transform="" fill="none"/>
-  <g id="g7802" transform="" fill="none"/>
-  <g id="g7804" transform="" fill="none"/>
-  <g id="g7806" transform="" fill="none"/>
-  <g id="g7808" transform="" fill="none"/>
-  <g id="g7810" transform="" fill="none"/>
-  <g id="g7812" transform="" fill="none"/>
-  <g id="g7814" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text7816" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(67.3317, -690.5)"><tspan></tspan></text>
-  <g id="layer4" transform="" fill="none"/>
-  <g id="layer5" transform="" fill="none"/>
-  <rect id="rect1327" transform="translate(-773.032, -646.411)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
-  <rect id="rect2482" transform="translate(-808.159, -673.939)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
-  <g id="g4640" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g4646" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g4730" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g4748" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g5475" transform="" fill="none" display="none"/>
-  <g id="g5477" transform="" fill="none"/>
-  <g id="g5479" transform="" fill="none" display="none"/>
-  <g id="g5481" transform="" fill="none"/>
-  <g id="g5483" transform="" fill="none"/>
-  <g id="g5485" transform="" fill="none"/>
-  <g id="g5487" transform="" fill="none"/>
-  <g id="g5489" transform="" fill="none"/>
-  <g id="g5491" transform="" fill="none"/>
-  <g id="g5493" transform="" fill="none"/>
-  <g id="g5495" transform="" fill="none"/>
-  <g id="g5497" transform="" fill="none"/>
-  <g id="g5499" transform="" fill="none"/>
-  <g id="g5501" transform="" fill="none"/>
-  <g id="g5503" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text5505" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-5308.59, -851.75)"><tspan></tspan></text>
-  <g id="g6557" transform="" fill="none" display="none"/>
-  <g id="g6559" transform="" fill="none"/>
-  <g id="g6561" transform="" fill="none" display="none"/>
-  <g id="g6563" transform="" fill="none"/>
-  <g id="g6565" transform="" fill="none"/>
-  <g id="g6567" transform="" fill="none"/>
-  <g id="g6569" transform="" fill="none"/>
-  <g id="g6571" transform="" fill="none"/>
-  <g id="g6573" transform="" fill="none"/>
-  <g id="g6575" transform="" fill="none"/>
-  <g id="g6577" transform="" fill="none"/>
-  <g id="g6579" transform="" fill="none"/>
-  <g id="g6581" transform="" fill="none"/>
-  <g id="g6583" transform="" fill="none"/>
-  <g id="g6585" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text6588" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-571.418, -200.437)"><tspan></tspan></text>
-  <g id="g8959" transform="" fill="none" display="none"/>
-  <g id="g8961" transform="" fill="none"/>
-  <g id="g8963" transform="" fill="none" display="none"/>
-  <g id="g8965" transform="" fill="none"/>
-  <g id="g8967" transform="" fill="none"/>
-  <g id="g8969" transform="" fill="none"/>
-  <g id="g8971" transform="" fill="none"/>
-  <g id="g8973" transform="" fill="none"/>
-  <g id="g8975" transform="" fill="none"/>
-  <g id="g8977" transform="" fill="none"/>
-  <g id="g8979" transform="" fill="none"/>
-  <g id="g8981" transform="" fill="none"/>
-  <g id="g8983" transform="" fill="none"/>
-  <g id="g8985" transform="" fill="none"/>
-  <g id="g9072" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9074" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(2274.33, -1494.25)"><tspan></tspan></text>
-  <text id="text7319" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-69.6683, -397.5)"><tspan></tspan></text>
-  <g id="g9024" transform="" fill="none" display="none"/>
-  <g id="g9026" transform="" fill="none"/>
-  <g id="g9028" transform="" fill="none" display="none"/>
-  <g id="g9030" transform="" fill="none"/>
-  <g id="g9032" transform="" fill="none"/>
-  <g id="g9034" transform="" fill="none"/>
-  <g id="g9036" transform="" fill="none"/>
-  <g id="g9038" transform="" fill="none"/>
-  <g id="g9040" transform="" fill="none"/>
-  <g id="g9042" transform="" fill="none"/>
-  <g id="g9044" transform="" fill="none"/>
-  <g id="g9046" transform="" fill="none"/>
-  <g id="g9048" transform="" fill="none"/>
-  <g id="g9050" transform="" fill="none"/>
-  <g id="g9052" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9054" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-114.425, 785.111)"><tspan></tspan></text>
-  <g id="g9058" transform="" fill="none" display="none"/>
-  <g id="g9060" transform="" fill="none"/>
-  <g id="g9062" transform="" fill="none" display="none"/>
-  <g id="g9064" transform="" fill="none"/>
-  <g id="g9066" transform="" fill="none"/>
-  <g id="g9068" transform="" fill="none"/>
-  <g id="g9070" transform="" fill="none"/>
-  <g id="g9073" transform="" fill="none"/>
-  <g id="g9075" transform="" fill="none"/>
-  <g id="g9077" transform="" fill="none"/>
-  <g id="g9079" transform="" fill="none"/>
-  <g id="g9081" transform="" fill="none"/>
-  <g id="g9083" transform="" fill="none"/>
-  <g id="g9085" transform="" fill="none"/>
-  <g id="g9087" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9089" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-1013.51, 675.514)"><tspan></tspan></text>
-  <g id="g9145" transform="" fill="none" display="none"/>
-  <g id="g9147" transform="" fill="none"/>
-  <g id="g9149" transform="" fill="none" display="none"/>
-  <g id="g9151" transform="" fill="none"/>
-  <g id="g9153" transform="" fill="none"/>
-  <g id="g9155" transform="" fill="none"/>
-  <g id="g9157" transform="" fill="none"/>
-  <g id="g9159" transform="" fill="none"/>
-  <g id="g9161" transform="" fill="none"/>
-  <g id="g9163" transform="" fill="none"/>
-  <g id="g9165" transform="" fill="none"/>
-  <g id="g9167" transform="" fill="none"/>
-  <g id="g9169" transform="" fill="none"/>
-  <g id="g9171" transform="" fill="none"/>
-  <g id="g9173" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9175" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-873.793, -225.222)"><tspan></tspan></text>
-  <g id="g9179" transform="" fill="none" display="none"/>
-  <g id="g9181" transform="" fill="none"/>
-  <g id="g9183" transform="" fill="none" display="none"/>
-  <g id="g9185" transform="" fill="none"/>
-  <g id="g9187" transform="" fill="none"/>
-  <g id="g9189" transform="" fill="none"/>
-  <g id="g9191" transform="" fill="none"/>
-  <g id="g9193" transform="" fill="none"/>
-  <g id="g9195" transform="" fill="none"/>
-  <g id="g9197" transform="" fill="none"/>
-  <g id="g9199" transform="" fill="none"/>
-  <g id="g9201" transform="" fill="none"/>
-  <g id="g9203" transform="" fill="none"/>
-  <g id="g9205" transform="" fill="none"/>
-  <g id="g9207" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9209" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-930.995, 361.801)"><tspan></tspan></text>
-  <g id="g9213" transform="" fill="none" display="none"/>
-  <g id="g9215" transform="" fill="none"/>
-  <g id="g9217" transform="" fill="none" display="none"/>
-  <g id="g9219" transform="" fill="none"/>
-  <g id="g9221" transform="" fill="none"/>
-  <g id="g9223" transform="" fill="none"/>
-  <g id="g9225" transform="" fill="none"/>
-  <g id="g9227" transform="" fill="none"/>
-  <g id="g9229" transform="" fill="none"/>
-  <g id="g9231" transform="" fill="none"/>
-  <g id="g9233" transform="" fill="none"/>
-  <g id="g9235" transform="" fill="none"/>
-  <g id="g9237" transform="" fill="none"/>
-  <g id="g9239" transform="" fill="none"/>
-  <g id="g9241" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9243" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-1830.08, 252.203)"><tspan></tspan></text>
-  <g id="g9247" transform="" fill="none" display="none"/>
-  <g id="g9249" transform="" fill="none"/>
-  <g id="g9251" transform="" fill="none" display="none"/>
-  <g id="g9253" transform="" fill="none"/>
-  <g id="g9255" transform="" fill="none"/>
-  <g id="g9257" transform="" fill="none"/>
-  <g id="g9259" transform="" fill="none"/>
-  <g id="g9261" transform="" fill="none"/>
-  <g id="g9263" transform="" fill="none"/>
-  <g id="g9265" transform="" fill="none"/>
-  <g id="g9267" transform="" fill="none"/>
-  <g id="g9269" transform="" fill="none"/>
-  <g id="g9271" transform="" fill="none"/>
-  <g id="g9273" transform="" fill="none"/>
-  <g id="g9275" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9277" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-1117.39, -461.454)"><tspan></tspan></text>
-  <g id="g9307" transform="" fill="none">
-   <g id="g9309" transform="" fill="none"/>
+  <g id="hover-top" transform="translate(7.375, 0.375)" fill="none">
+   <path id="path4417" transform="translate(0.625, 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4419" transform="translate(0.625, 3.625)" fill="url(#gradient1)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4421" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4423" transform="translate(0.625, 1.63445)" fill="url(#gradient2)" opacity="0.00000000000" d="M0 0.990546L7 0.990546L7 0L0 0Z"/>
+   <path id="path4340" transform="translate(0.625, 1.625)" fill="#5d992d" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="g9311" transform="" fill="none" display="none"/>
-  <g id="g9313" transform="" fill="none"/>
-  <g id="g9315" transform="" fill="none" display="none"/>
-  <g id="g9317" transform="" fill="none"/>
-  <g id="g9319" transform="" fill="none"/>
-  <g id="g9321" transform="" fill="none"/>
-  <g id="g9323" transform="" fill="none"/>
-  <g id="g9325" transform="" fill="none"/>
-  <g id="g9327" transform="" fill="none"/>
-  <g id="g9329" transform="" fill="none"/>
-  <g id="g9331" transform="" fill="none"/>
-  <g id="g9333" transform="" fill="none"/>
-  <g id="g9335" transform="" fill="none"/>
-  <g id="g9337" transform="" fill="none"/>
-  <g id="g9339" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9341" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(82.8317, -1254.47)"><tspan></tspan></text>
-  <g id="g9345" transform="" fill="none"/>
-  <g id="g9347" transform="" fill="none"/>
-  <rect id="rect9349" transform="translate(-757.532, -1210.38)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
-  <rect id="rect9351" transform="translate(-792.659, -1237.91)" fill="#ffffff" display="none" opacity="0.57786889000" width="0.80000000000pt" height="0.00000100000pt"/>
-  <g id="g9353" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g9355" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g9357" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g9359" transform="" fill="none" opacity="0.40163933000"/>
-  <g id="g9361" transform="" fill="none" display="none"/>
-  <g id="g9363" transform="" fill="none"/>
-  <g id="g9365" transform="" fill="none" display="none"/>
-  <g id="g9367" transform="" fill="none"/>
-  <g id="g9369" transform="" fill="none"/>
-  <g id="g9371" transform="" fill="none"/>
-  <g id="g9373" transform="" fill="none"/>
-  <g id="g9375" transform="" fill="none"/>
-  <g id="g9377" transform="" fill="none"/>
-  <g id="g9379" transform="" fill="none"/>
-  <g id="g9381" transform="" fill="none"/>
-  <g id="g9383" transform="" fill="none"/>
-  <g id="g9385" transform="" fill="none"/>
-  <g id="g9387" transform="" fill="none"/>
-  <g id="g9389" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9391" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-5293.09, -1415.72)"><tspan></tspan></text>
-  <g id="g9395" transform="" fill="none" display="none"/>
-  <g id="g9397" transform="" fill="none"/>
-  <g id="g9399" transform="" fill="none" display="none"/>
-  <g id="g9401" transform="" fill="none"/>
-  <g id="g9403" transform="" fill="none"/>
-  <g id="g9405" transform="" fill="none"/>
-  <g id="g9407" transform="" fill="none"/>
-  <g id="g9409" transform="" fill="none"/>
-  <g id="g9411" transform="" fill="none"/>
-  <g id="g9413" transform="" fill="none"/>
-  <g id="g9415" transform="" fill="none"/>
-  <g id="g9417" transform="" fill="none"/>
-  <g id="g9419" transform="" fill="none"/>
-  <g id="g9421" transform="" fill="none"/>
-  <g id="g9423" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9425" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-555.918, -764.411)"><tspan></tspan></text>
-  <g id="g9429" transform="" fill="none" display="none"/>
-  <g id="g9431" transform="" fill="none"/>
-  <g id="g9433" transform="" fill="none" display="none"/>
-  <g id="g9435" transform="" fill="none"/>
-  <g id="g9437" transform="" fill="none"/>
-  <g id="g9439" transform="" fill="none"/>
-  <g id="g9441" transform="" fill="none"/>
-  <g id="g9443" transform="" fill="none"/>
-  <g id="g9445" transform="" fill="none"/>
-  <g id="g9447" transform="" fill="none"/>
-  <g id="g9449" transform="" fill="none"/>
-  <g id="g9451" transform="" fill="none"/>
-  <g id="g9453" transform="" fill="none"/>
-  <g id="g9455" transform="" fill="none"/>
-  <g id="g9457" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text9459" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(2289.83, -2058.22)"><tspan></tspan></text>
-  <text id="text9463" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-54.1683, -961.473)"><tspan></tspan></text>
-  <g id="g4418" transform="" fill="none" display="none"/>
-  <g id="layer2-0" transform="" fill="none"/>
-  <g id="g2424-9" transform="" fill="none" display="none"/>
-  <g id="g2426-9" transform="" fill="none"/>
-  <g id="g3429-4" transform="" fill="none"/>
-  <g id="g19758-5" transform="" fill="none"/>
-  <g id="g3935-1" transform="" fill="none"/>
-  <g id="g8459-0" transform="" fill="none"/>
-  <g id="g28391-3" transform="" fill="none"/>
-  <g id="g28393-7" transform="" fill="none"/>
-  <g id="g28395-8" transform="" fill="none"/>
-  <g id="g6598-8" transform="" fill="none"/>
-  <g id="g6640-6" transform="" fill="none"/>
-  <g id="g6716-0" transform="" fill="none"/>
-  <g id="g6850-46" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text6990-7" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(333.555, -203.108)"><tspan></tspan></text>
-  <g id="g5909" transform="" fill="none" display="none"/>
-  <g id="g5911" transform="" fill="none"/>
-  <g id="g5913" transform="" fill="none" display="none"/>
-  <g id="g5915" transform="" fill="none"/>
-  <g id="g5917" transform="" fill="none"/>
-  <g id="g5919" transform="" fill="none"/>
-  <g id="g5921" transform="" fill="none"/>
-  <g id="g5923" transform="" fill="none"/>
-  <g id="g5925" transform="" fill="none"/>
-  <g id="g5927" transform="" fill="none"/>
-  <g id="g5929" transform="" fill="none"/>
-  <g id="g5931" transform="" fill="none"/>
-  <g id="g5933" transform="" fill="none"/>
-  <g id="g5935" transform="" fill="none"/>
-  <g id="g5937" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text5939" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(277.333, -582.209)"><tspan></tspan></text>
-  <g id="g4240" transform="" fill="none" display="none"/>
-  <g id="g4242" transform="" fill="none"/>
-  <g id="g4244" transform="" fill="none" display="none"/>
-  <g id="g4246" transform="" fill="none"/>
-  <g id="g4248" transform="" fill="none"/>
-  <g id="g4250" transform="" fill="none"/>
-  <g id="g4252" transform="" fill="none"/>
-  <g id="g4254" transform="" fill="none"/>
-  <g id="g4256" transform="" fill="none"/>
-  <g id="g4258" transform="" fill="none"/>
-  <g id="g4260" transform="" fill="none"/>
-  <g id="g4262" transform="" fill="none"/>
-  <g id="g4264" transform="" fill="none"/>
-  <g id="g4266" transform="" fill="none"/>
-  <g id="g4268" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text4270" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-188.787, -270.352)"><tspan></tspan></text>
-  <g id="g4418-7" transform="" fill="none" display="none"/>
-  <g id="layer2-5" transform="" fill="none"/>
-  <g id="g2424-4" transform="" fill="none" display="none"/>
-  <g id="g2426-4" transform="" fill="none"/>
-  <g id="g3429-6" transform="" fill="none"/>
-  <g id="g19758-0" transform="" fill="none"/>
-  <g id="g3935-5" transform="" fill="none"/>
-  <g id="g8459-5" transform="" fill="none"/>
-  <g id="g28391-39" transform="" fill="none"/>
-  <g id="g28393-15" transform="" fill="none"/>
-  <g id="g28395-04" transform="" fill="none"/>
-  <g id="g6598-9" transform="" fill="none"/>
-  <g id="g6640-67" transform="" fill="none"/>
-  <g id="g6716-43" transform="" fill="none"/>
-  <g id="g6850-0" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text6990-9" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(309.555, -187.108)"><tspan></tspan></text>
-  <g id="g5909-0" transform="" fill="none" display="none"/>
-  <g id="g5911-4" transform="" fill="none"/>
-  <g id="g5913-5" transform="" fill="none" display="none"/>
-  <g id="g5915-8" transform="" fill="none"/>
-  <g id="g5917-2" transform="" fill="none"/>
-  <g id="g5919-8" transform="" fill="none"/>
-  <g id="g5921-6" transform="" fill="none"/>
-  <g id="g5923-8" transform="" fill="none"/>
-  <g id="g5925-5" transform="" fill="none"/>
-  <g id="g5927-3" transform="" fill="none"/>
-  <g id="g5929-4" transform="" fill="none"/>
-  <g id="g5931-0" transform="" fill="none"/>
-  <g id="g5933-1" transform="" fill="none"/>
-  <g id="g5935-7" transform="" fill="none"/>
-  <g id="g5937-7" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text5939-8" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(253.333, -566.209)"><tspan></tspan></text>
-  <g id="g4240-8" transform="" fill="none" display="none"/>
-  <g id="g4242-9" transform="" fill="none"/>
-  <g id="g4244-7" transform="" fill="none" display="none"/>
-  <g id="g4246-8" transform="" fill="none"/>
-  <g id="g4248-3" transform="" fill="none"/>
-  <g id="g4250-9" transform="" fill="none"/>
-  <g id="g4252-7" transform="" fill="none"/>
-  <g id="g4254-2" transform="" fill="none"/>
-  <g id="g4256-5" transform="" fill="none"/>
-  <g id="g4258-0" transform="" fill="none"/>
-  <g id="g4260-2" transform="" fill="none"/>
-  <g id="g4262-4" transform="" fill="none"/>
-  <g id="g4264-8" transform="" fill="none"/>
-  <g id="g4266-0" transform="" fill="none"/>
-  <g id="g4268-6" transform="" fill="none" opacity="0.45945943000"/>
-  <text id="text4270-2" fill="#000000" font-family="Lato" font-size="9.50000000000pt" x="0.00000000000pt" y="25.00000000000pt" transform="translate(-212.787, -254.352)"><tspan></tspan></text>
-  <g id="focus-center" transform="translate(3.375, 11.375)" fill="none">
-   <rect id="rect3497" transform="matrix(1 0 0 -1 0.625 13.625)" fill="#131718" opacity="0.80000000000" width="21.60000000000pt" height="10.40000000000pt"/>
+  <g id="hover-right" transform="translate(14.375, 7.375)" fill="none">
+   <path id="path4437" transform="matrix(0 1 -1 0 5.625 0.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4439" transform="matrix(0 1 -1 0 4.625 0.625)" fill="url(#gradient3)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4441" transform="matrix(0 1 -1 0 4.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4443" transform="matrix(0 1 -1 0 7.625 0.625)" fill="#ffffff" opacity="0.00000000000" d="M0 2L7 2L7 0L0 0Z"/>
+   <path id="path4334" transform="matrix(0 1 -1 0 6.625 0.625)" fill="#5d992d" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="focus-bottom" transform="translate(3.375, 24.3751)" fill="none">
-   <rect id="rect3505" transform="matrix(1 0 0 -0.999866 0.625 4.62492)" fill="#131718" opacity="0.80000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect3507" transform="matrix(1 0 0 -0.999866 0.625 4.62438)" fill="#485a61" width="21.60000000000pt" height="0.80000000000pt"/>
+  <g id="hover-left" transform="translate(0.375, 7.375)" fill="none">
+   <path id="path4447" transform="matrix(0 1 1 0 2.625 0.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4449" transform="matrix(0 1 1 0 3.625 0.625)" fill="url(#gradient4)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4451" transform="matrix(0 1 1 0 3.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4453" transform="matrix(0 1 1 0 0.625 0.625)" fill="url(#gradient5)" opacity="0.00000000000" d="M0 2L7 2L7 0L0 0Z"/>
+   <path id="path4338" transform="matrix(0 1 1 0 1.625 0.625)" fill="#5d992d" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="focus-bottomright" transform="translate(30.375, 24.375)" fill="none">
-   <path id="path3511" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.80000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path3513" transform="matrix(1 0 0 -1 0.625001 4.625)" fill="#485a61" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  <g id="hover-bottom" transform="translate(7.375, 14.375)" fill="none">
+   <path id="path4457" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4459" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient6)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4461" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4463" transform="matrix(1 0 0 -1 0.625 6.65176)" fill="url(#gradient7)" opacity="0.00000000000" d="M0 1.02676L7 1.02676L7 0L0 0Z"/>
+   <path id="path4336" transform="matrix(1 0 0 -1 0.625 6.625)" fill="#5d992d" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="focus-right" transform="translate(30.3819, 11.375)" fill="none">
-   <rect id="rect3517" transform="matrix(0 -1 -0.988992 0 4.61812 13.625)" fill="#131718" opacity="0.80000000000" width="10.40000000000pt" height="3.23561856000pt"/>
-   <rect id="rect3519" transform="matrix(0 -1 -0.988992 0 4.61266 13.625)" fill="url(#gradient0)" width="10.40000000000pt" height="0.80780160000pt"/>
+  <path id="hover-center" transform="translate(8, 8)" fill="url(#gradient8)" opacity="0.00000000000" d="M0 0L7 0L7 7L0 7Z"/>
+  <g id="focus-topright" transform="translate(14.375, 87.375)" fill="none">
+   <path id="path4523" transform="translate(0.625, 2.61798)" fill="url(#gradient9)" opacity="0.00000000000" d="M0 0L0 1.43058L1 1.43058C1.554 1.43058 2.08362 1.5097 2.5625 1.65411C3.04138 1.79851 3.48225 1.99905 3.84375 2.25763C4.20525 2.51621 4.48562 2.83156 4.6875 3.17409C4.88938 3.51663 5 3.89546 5 4.29173L5 5.00702L7 5.00702L7 0Z"/>
+   <path id="path4525" transform="translate(0.625, 3.625)" fill="#131718" opacity="0.30000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4527" transform="translate(0.625, 2.625)" fill="#131718" opacity="0.80000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
   </g>
-  <g id="focus-left" transform="translate(-0.617752, 11.375)" fill="none">
-   <rect id="rect3535" transform="matrix(0 -1 -0.98841 0 4.61776 13.625)" fill="#131718" opacity="0.80000000000" width="10.40000000000pt" height="3.23752216000pt"/>
-   <rect id="rect3537" transform="matrix(0 -1 -0.98841 0 1.61776 13.625)" fill="url(#gradient1)" width="10.40000000000pt" height="0.80938032000pt"/>
+  <g id="focus-top" transform="translate(7.375, 87.375)" fill="none">
+   <path id="path4533" transform="translate(0.625, 2.625)" fill="#131718" opacity="0.80000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4535" transform="translate(0.625, 3.625)" fill="#131718" opacity="0.30000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4539" transform="translate(0.625, 2.59223)" fill="url(#gradient10)" opacity="0.00000000000" d="M0 0.0327715L7 0.0327715L7 0L0 0Z"/>
   </g>
-  <g id="focus-bottomleft" transform="translate(-0.623748, 24.375)" fill="none">
-   <path id="path3541" transform="matrix(0.998001 0 0 -1 0.623748 4.625)" fill="#131718" opacity="0.80000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path3543" transform="matrix(0.998001 0 0 -1 0.631743 4.625)" fill="#485a61" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  <g id="focus-topleft" transform="translate(0.375, 87.375)" fill="none">
+   <path id="path4543" transform="matrix(-1 0 0 1 7.625 2.61798)" fill="url(#gradient11)" opacity="0.00000000000" d="M0 0L0 1.43058L1 1.43058C1.554 1.43058 2.08362 1.5097 2.5625 1.65411C3.04138 1.79851 3.48225 1.99905 3.84375 2.25763C4.20525 2.51621 4.48562 2.83156 4.6875 3.17409C4.88938 3.51663 5 3.89546 5 4.29173L5 5.00702L7 5.00702L7 0Z"/>
+   <path id="path4545" transform="matrix(-1 0 0 1 7.625 3.625)" fill="#131718" opacity="0.30000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4547" transform="matrix(-1 0 0 1 7.625 2.625)" fill="#131718" opacity="0.80000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
   </g>
-  <g id="focus-top" transform="translate(3.375, 7.37468)" fill="none">
-   <rect id="rect4692" transform="matrix(1 0 0 0.999866 0.625 0.624916)" fill="#131718" opacity="0.80000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect4694" transform="matrix(1 0 0 0.999866 0.625 0.625453)" fill="url(#gradient2)" width="21.60000000000pt" height="0.80000000000pt"/>
+  <g id="focus-right" transform="translate(14.375, 94.375)" fill="none">
+   <path id="path4553" transform="matrix(0 1 -1 0 5.625 0.625)" fill="#131718" opacity="0.80000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4555" transform="matrix(0 1 -1 0 4.625 0.625)" fill="#131718" opacity="0.30000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4559" transform="matrix(0 1 -1 0 7.625 0.625)" fill="url(#gradient12)" opacity="0.00000000000" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="focus-topright" transform="translate(30.375, 7.3746)" fill="none">
-   <path id="path4698" transform="translate(0.625, 0.625)" fill="#131718" opacity="0.80000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path4700" transform="translate(0.625001, 0.625)" fill="url(#gradient3)" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  <g id="focus-left" transform="translate(0.375, 94.375)" fill="none">
+   <path id="path4563" transform="matrix(0 1 1 0 2.625 0.625)" fill="#131718" opacity="0.80000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4565" transform="matrix(0 1 1 0 3.625 0.625)" fill="#131718" opacity="0.30000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4569" transform="matrix(0 1 1 0 0.625 0.625)" fill="url(#gradient13)" opacity="0.00000000000" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="focus-topleft" transform="translate(-0.623748, 7.3746)" fill="none">
-   <path id="path4704" transform="matrix(0.998001 0 0 1 0.623748 0.625)" fill="#131718" opacity="0.80000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path4706" transform="matrix(0.998001 0 0 1 0.631743 0.625)" fill="url(#gradient4)" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  <g id="focus-bottom" transform="translate(7.375, 101.375)" fill="none">
+   <path id="path4573" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#131718" opacity="0.80000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4575" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.30000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4579" transform="matrix(1 0 0 -1 0.625 5.63811)" fill="url(#gradient14)" opacity="0.00000000000" d="M0 0.0131086L7 0.0131086L7 0L0 0Z"/>
   </g>
-  <g id="normal-center" transform="translate(3.375, 38.3754)" fill="none">
-   <g id="g6358" transform="" fill="none">
-    <rect id="rect6360" transform="matrix(1 0 0 -1 0.625 13.625)" fill="#131718" opacity="0.40000000000" width="21.60000000000pt" height="10.40000000000pt"/>
-   </g>
+  <g id="focus-bottomleft" transform="translate(0.375, 101.375)" fill="none">
+   <path id="path4583" transform="matrix(-1 0 0 -1 7.625 5.63811)" fill="url(#gradient15)" opacity="0.00000000000" d="M0 0L0 1.43232L1 1.43232C1.554 1.43232 2.08362 1.51154 2.5625 1.65612C3.04138 1.80069 3.48225 2.00148 3.84375 2.26037C4.20525 2.51927 4.48562 2.835 4.6875 3.17795C4.88938 3.52091 5 3.9002 5 4.29695L5 5.01311L7 5.01311L7 0Z"/>
+   <path id="path4585" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="#131718" opacity="0.30000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4587" transform="matrix(-1 0 0 -1 7.625 5.625)" fill="#131718" opacity="0.80000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
   </g>
-  <g id="normal-bottom" transform="translate(3.375, 51.3755)" fill="none">
-   <rect id="rect6364" transform="matrix(1 0 0 -0.999866 0.625 4.62492)" fill="#131718" opacity="0.40000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect6366" transform="matrix(1 0 0 -0.999866 0.625 4.62438)" fill="#485a61" opacity="0.40000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  <g id="focus-bottomright" transform="translate(14.375, 101.375)" fill="none">
+   <path id="path4593" transform="matrix(1 0 0 -1 0.625 5.63811)" fill="url(#gradient16)" opacity="0.00000000000" d="M0 0L0 1.43232L1 1.43232C1.554 1.43232 2.08362 1.51154 2.5625 1.65612C3.04138 1.80069 3.48225 2.00148 3.84375 2.26037C4.20525 2.51927 4.48562 2.835 4.6875 3.17795C4.88938 3.52091 5 3.9002 5 4.29695L5 5.01311L7 5.01311L7 0Z"/>
+   <path id="path4597" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#131718" opacity="0.80000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4595" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.30000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="normal-bottomright" transform="translate(30.375, 51.3754)" fill="none">
-   <path id="path6370" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.40000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path6372" transform="matrix(1 0 0 -1 0.625001 4.625)" fill="#485a61" opacity="0.40000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  <path id="focus-center" transform="translate(8, 95)" fill="#131718" opacity="0.30000000000" d="M0 0L7 0L7 7L0 7Z"/>
+  <g id="hover-topleft" transform="translate(0.375, 0.375)" fill="none">
+   <path id="path4352" transform="matrix(-1 0 0 1 7.625 1.61374)" fill="url(#gradient17)" opacity="0.00000000000" d="M0 0L0 1.7175L1 1.7175C1.554 1.7175 2.08362 1.8125 2.5625 1.98586C3.04138 2.15923 3.48225 2.4 3.84375 2.71044C4.20525 3.02087 4.48562 3.39947 4.6875 3.81071C4.88938 4.22195 5 4.67676 5 5.15251L5 6.01126L7 6.01126L7 0Z"/>
+   <path id="path4354" transform="matrix(-1 0 0 1 7.625 1.625)" fill="#5d992d" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4356" transform="matrix(-1 0 0 1 7.625 3.625)" fill="url(#gradient18)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4358" transform="matrix(-1 0 0 1 7.625 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4360" transform="matrix(-1 0 0 1 7.625 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="normal-right" transform="translate(30.3819, 38.3754)" fill="none">
-   <rect id="rect6376" transform="matrix(0 -1 -0.988992 0 4.61812 13.625)" fill="#131718" opacity="0.40000000000" width="10.40000000000pt" height="3.23561856000pt"/>
-   <rect id="rect6378" transform="matrix(0 -1 -0.988992 0 4.61266 13.625)" fill="url(#gradient5)" opacity="0.40000000000" width="10.40000000000pt" height="0.80780160000pt"/>
+  <g id="hover-bottomright" transform="translate(14.375, 14.375)" fill="none">
+   <path id="path4368" transform="matrix(1 0 0 -1 0.625 6.65176)" fill="url(#gradient19)" opacity="0.00000000000" d="M0 0L0 1.72193L1 1.72193C1.554 1.72193 2.08362 1.81717 2.5625 1.99098C3.04138 2.16479 3.48225 2.40618 3.84375 2.71742C4.20525 3.02866 4.48562 3.40824 4.6875 3.82053C4.88938 4.23283 5 4.68882 5 5.16579L5 6.02676L7 6.02676L7 0Z"/>
+   <path id="path4370" transform="matrix(1 0 0 -1 0.625 6.625)" fill="#5d992d" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4372" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient20)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4374" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4376" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="normal-left" transform="translate(-0.617752, 38.3754)" fill="none">
-   <rect id="rect6382" transform="matrix(0 -1 -0.98841 0 4.61776 13.625)" fill="#131718" opacity="0.40000000000" width="10.40000000000pt" height="3.23752216000pt"/>
-   <rect id="rect6384" transform="matrix(0 -1 -0.98841 0 1.61776 13.625)" fill="url(#gradient6)" opacity="0.40000000000" width="10.40000000000pt" height="0.80938032000pt"/>
+  <g id="hover-bottomleft" transform="translate(0.375, 14.375)" fill="none">
+   <path id="path4384" transform="matrix(-1 0 0 -1 7.625 6.63104)" fill="url(#gradient21)" opacity="0.00000000000" d="M0 0L0 1.71601L1 1.71601C1.554 1.71601 2.08362 1.81092 2.5625 1.98414C3.04138 2.15735 3.48225 2.39791 3.84375 2.70808C4.20525 3.01825 4.48562 3.39652 4.6875 3.8074C4.88938 4.21828 5 4.6727 5 5.14804L5 6.00604L7 6.00604L7 0Z"/>
+   <path id="path4386" transform="matrix(-1 0 0 -1 7.625 6.625)" fill="#5d992d" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4388" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="url(#gradient22)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4390" transform="matrix(-1 0 0 -1 7.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4392" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="normal-bottomleft" transform="translate(-0.623748, 51.3754)" fill="none">
-   <path id="path6388" transform="matrix(0.998001 0 0 -1 0.623748 4.625)" fill="#131718" opacity="0.40000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path6390" transform="matrix(0.998001 0 0 -1 0.631743 4.625)" fill="#485a61" opacity="0.40000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  <g id="attention-topright" transform="translate(14.375, 23.375)" fill="none">
+   <path id="path4400" transform="translate(0.625, 1.60852)" fill="url(#gradient23)" d="M0 0L0 1.71899L1 1.71899C1.554 1.71899 2.08362 1.81407 2.5625 1.98759C3.04138 2.1611 3.48225 2.40208 3.84375 2.71279C4.20525 3.0235 4.48562 3.40242 4.6875 3.81402C4.88938 4.22562 5 4.68082 5 5.15698L5 6.01648L7 6.01648L7 0Z"/>
+   <path id="path4402" transform="translate(0.625, 1.625)" fill="#91d007" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4404" transform="translate(0.625, 3.625)" fill="url(#gradient24)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4408" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="normal-top" transform="translate(3.375, 34.3751)" fill="none">
-   <rect id="rect6394" transform="matrix(1 0 0 0.999866 0.625 0.624916)" fill="#131718" opacity="0.40000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect6396" transform="matrix(1 0 0 0.999866 0.625 0.625453)" fill="url(#gradient7)" opacity="0.40000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  <g id="attention-top" transform="translate(7.375, 23.375)" fill="none">
+   <path id="path4414" transform="translate(0.625, 3.625)" fill="url(#gradient25)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4416" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4418" transform="translate(0.625, 1.60852)" fill="url(#gradient26)" d="M0 1.01648L7 1.01648L7 0L0 0Z"/>
+   <path id="path4420" transform="translate(0.625, 1.625)" fill="#91d007" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="normal-topright" transform="translate(30.375, 34.375)" fill="none">
-   <path id="path6400" transform="translate(0.625, 0.625)" fill="#131718" opacity="0.40000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path6402" transform="translate(0.625001, 0.625)" fill="url(#gradient8)" opacity="0.40000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  <g id="attention-right" transform="translate(14.375, 30.375)" fill="none">
+   <path id="path4426" transform="matrix(0 1 -1 0 4.625 0.625)" fill="url(#gradient27)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4428" transform="matrix(0 1 -1 0 4.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4430" transform="matrix(0 1 -1 0 7.625 0.625)" fill="url(#gradient28)" d="M0 2L7 2L7 0L0 0Z"/>
+   <path id="path4432" transform="matrix(0 1 -1 0 6.625 0.625)" fill="#91d007" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="normal-topleft" transform="translate(-0.623748, 34.375)" fill="none">
-   <path id="path6406" transform="matrix(0.998001 0 0 1 0.623748 0.625)" fill="#131718" opacity="0.40000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path6408" transform="matrix(0.998001 0 0 1 0.631743 0.625)" fill="url(#gradient9)" opacity="0.40000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  <g id="attention-left" transform="translate(0.375, 30.375)" fill="none">
+   <path id="path4438" transform="matrix(0 1 1 0 3.625 0.625)" fill="url(#gradient29)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4440" transform="matrix(0 1 1 0 3.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4442" transform="matrix(0 1 1 0 0.625 0.625)" fill="url(#gradient30)" d="M0 2L7 2L7 0L0 0Z"/>
+   <path id="path4444" transform="matrix(0 1 1 0 1.625 0.625)" fill="#91d007" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="minimized-center" transform="translate(3.375, 63.375)" fill="none">
-   <g id="g7614" transform="" fill="none">
-    <rect id="rect7616" transform="matrix(1 0 0 -1 0.625 13.625)" fill="#131718" opacity="0.10000000000" width="21.60000000000pt" height="10.40000000000pt"/>
-   </g>
+  <g id="attention-bottom" transform="translate(7.375, 37.375)" fill="none">
+   <path id="path4450" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient31)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4452" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4454" transform="matrix(1 0 0 -1 0.625 6.64654)" fill="url(#gradient32)" d="M0 1.02154L7 1.02154L7 0L0 0Z"/>
+   <path id="path4456" transform="matrix(1 0 0 -1 0.625 6.625)" fill="#91d007" d="M0 1L7 1L7 0L0 0Z"/>
   </g>
-  <g id="minimized-bottom" transform="translate(3.375, 76.3751)" fill="none">
-   <rect id="rect7620" transform="matrix(1 0 0 -0.999866 0.625 4.62492)" fill="#131718" opacity="0.10000000000" width="21.60000000000pt" height="3.20042992000pt"/>
+  <path id="attention-center" transform="translate(8, 31)" fill="url(#gradient33)" opacity="0.00000000000" d="M0 0L7 0L7 7L0 7Z"/>
+  <g id="attention-topleft" transform="translate(0.375, 23.375)" fill="none">
+   <path id="path4462" transform="matrix(-1 0 0 1 7.625 1.60852)" fill="url(#gradient34)" d="M0 0L0 1.71899L1 1.71899C1.554 1.71899 2.08362 1.81407 2.5625 1.98759C3.04138 2.1611 3.48225 2.40208 3.84375 2.71279C4.20525 3.0235 4.48562 3.40242 4.6875 3.81402C4.88938 4.22562 5 4.68082 5 5.15698L5 6.01648L7 6.01648L7 0Z"/>
+   <path id="path4464" transform="matrix(-1 0 0 1 7.625 1.625)" fill="#91d007" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4466" transform="matrix(-1 0 0 1 7.625 3.625)" fill="url(#gradient35)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4470" transform="matrix(-1 0 0 1 7.625 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="minimized-bottomright" transform="translate(30.375, 76.375)" fill="none">
-   <path id="path7626" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.10000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
+  <g id="attention-bottomright" transform="translate(14.375, 37.375)" fill="none">
+   <path id="path4474" transform="matrix(1 0 0 -1 0.625 6.64654)" fill="url(#gradient36)" d="M0 0L0 1.72044L1 1.72044C1.554 1.72044 2.08362 1.8156 2.5625 1.98926C3.04138 2.16292 3.48225 2.4041 3.84375 2.71507C4.20525 3.02604 4.48562 3.40528 4.6875 3.81723C4.88938 4.22917 5 4.68476 5 5.16132L5 6.02154L7 6.02154L7 0Z"/>
+   <path id="path4476" transform="matrix(1 0 0 -1 0.625 6.625)" fill="#91d007" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4478" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient37)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4482" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="minimized-bright" transform="translate(30.3819, 63.375)" fill="none">
-   <rect id="rect7632" transform="matrix(0 -1 -0.988992 0 4.61812 13.625)" fill="#131718" opacity="0.10000000000" width="10.40000000000pt" height="3.23561856000pt"/>
+  <g id="attention-bottomleft" transform="translate(0.375, 37.375)" fill="none">
+   <path id="path4486" transform="matrix(-1 0 0 -1 7.625 6.64654)" fill="url(#gradient38)" d="M0 0L0 1.72044L1 1.72044C1.554 1.72044 2.08362 1.8156 2.5625 1.98926C3.04138 2.16292 3.48225 2.4041 3.84375 2.71507C4.20525 3.02604 4.48562 3.40528 4.6875 3.81723C4.88938 4.22917 5 4.68476 5 5.16132L5 6.02154L7 6.02154L7 0Z"/>
+   <path id="path4488" transform="matrix(-1 0 0 -1 7.625 6.625)" fill="#91d007" d="M0 0L0 1L1 1C3.216 1 5 2.784 5 5L5 6L6 6L6 5C6 2.23 3.77 0 1 0Z"/>
+   <path id="path4490" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="url(#gradient39)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4494" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="minimized-left" transform="translate(-0.617752, 63.375)" fill="none">
-   <rect id="rect7638" transform="matrix(0 -1 -0.98841 0 4.61776 13.625)" fill="#131718" opacity="0.10000000000" width="10.40000000000pt" height="3.23752216000pt"/>
+  <g id="normal-topright" transform="translate(14.375, 45.375)" fill="none">
+   <path id="path4532" transform="translate(0.625, 2.59551)" fill="url(#gradient40)" d="M0 0L0 1.437L1 1.437C1.554 1.437 2.08362 1.51648 2.5625 1.66153C3.04138 1.80658 3.48225 2.00803 3.84375 2.26776C4.20525 2.5275 4.48562 2.84427 4.6875 3.18834C4.88938 3.53242 5 3.91295 5 4.311L5 5.02949L7 5.02949L7 0Z"/>
+   <path id="path4536" transform="translate(0.625, 3.625)" fill="url(#gradient41)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4538" transform="translate(0.625, 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4540" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="minimized-bottomleft" transform="translate(-0.623748, 76.375)" fill="none">
-   <path id="path7644" transform="matrix(0.998001 0 0 -1 0.623748 4.625)" fill="#131718" opacity="0.10000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
+  <g id="normal-top" transform="translate(7.375, 45.375)" fill="none">
+   <path id="path4544" transform="translate(0.625, 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4546" transform="translate(0.625, 3.625)" fill="url(#gradient42)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4548" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4550" transform="translate(0.625, 2.62125)" fill="url(#gradient43)" d="M0 0.00374532L7 0.00374532L7 0L0 0Z"/>
   </g>
-  <g id="minimized-top" transform="translate(3.375, 59.3747)" fill="none">
-   <rect id="rect7650" transform="matrix(1 0 0 0.999866 0.625 0.624916)" fill="#131718" opacity="0.10000000000" width="21.60000000000pt" height="3.20042992000pt"/>
+  <g id="normal-right" transform="translate(14.375, 52.375)" fill="none">
+   <path id="path4556" transform="matrix(0 1 -1 0 5.625 0.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4558" transform="matrix(0 1 -1 0 4.625 0.625)" fill="url(#gradient44)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4560" transform="matrix(0 1 -1 0 4.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4562" transform="matrix(0 1 -1 0 7.625 0.625)" fill="url(#gradient45)" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="minimized-topright" transform="translate(30.375, 59.3746)" fill="none">
-   <path id="path7656" transform="translate(0.625, 0.625)" fill="#131718" opacity="0.10000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
+  <g id="normal-left" transform="translate(0.375, 52.375)" fill="none">
+   <path id="path4568" transform="matrix(0 1 1 0 2.625 0.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4570" transform="matrix(0 1 1 0 3.625 0.625)" fill="url(#gradient46)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4572" transform="matrix(0 1 1 0 3.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4574" transform="matrix(0 1 1 0 0.625 0.625)" fill="url(#gradient47)" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="minimized-topleft" transform="translate(-0.623748, 59.3746)" fill="none">
-   <path id="path7662" transform="matrix(0.998001 0 0 1 0.623748 0.625)" fill="#131718" opacity="0.10000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
+  <g id="normal-bottom" transform="translate(7.375, 59.375)" fill="none">
+   <path id="path4580" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4582" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient48)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4584" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4586" transform="matrix(1 0 0 -1 0.625 5.66713)" fill="url(#gradient49)" d="M0 0.0421348L7 0.0421348L7 0L0 0Z"/>
   </g>
-  <g id="hover-center" transform="translate(3.375, 88.375)" fill="none">
-   <g id="g8934" transform="" fill="none">
-    <rect id="rect8936" transform="matrix(1 0 0 -1 0.625 13.625)" fill="#131718" opacity="0.80000000000" width="21.60000000000pt" height="10.40000000000pt"/>
-   </g>
+  <path id="normal-center" transform="translate(8, 53)" fill="url(#gradient50)" opacity="0.00000000000" d="M0 0L7 0L7 7L0 7Z"/>
+  <g id="normal-topleft" transform="translate(0.375, 45.375)" fill="none">
+   <path id="path4594" transform="matrix(-1 0 0 1 7.625 2.59551)" fill="url(#gradient51)" d="M0 0L0 1.437L1 1.437C1.554 1.437 2.08362 1.51648 2.5625 1.66153C3.04138 1.80658 3.48225 2.00803 3.84375 2.26776C4.20525 2.5275 4.48562 2.84427 4.6875 3.18834C4.88938 3.53242 5 3.91295 5 4.311L5 5.02949L7 5.02949L7 0Z"/>
+   <path id="path4598" transform="matrix(-1 0 0 1 7.625 3.625)" fill="url(#gradient52)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4600" transform="matrix(-1 0 0 1 7.625 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4602" transform="matrix(-1 0 0 1 7.625 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="hover-bottom" transform="translate(3.375, 101.375)" fill="none">
-   <rect id="rect8940" transform="matrix(1 0 0 -0.999866 0.625 4.62492)" fill="#131718" opacity="0.80000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect8942" transform="matrix(1 0 0 -0.999866 0.625 4.62438)" fill="#5d992d" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  <g id="normal-bottomright" transform="translate(14.375, 59.375)" fill="none">
+   <path id="path4606" transform="matrix(1 0 0 -1 0.625 5.64139)" fill="url(#gradient53)" d="M0 0L0 1.43325L1 1.43325C1.554 1.43325 2.08362 1.51253 2.5625 1.6572C3.04138 1.80187 3.48225 2.00279 3.84375 2.26185C4.20525 2.52091 4.48562 2.83685 4.6875 3.18003C4.88938 3.52321 5 3.90275 5 4.29976L5 5.01639L7 5.01639L7 0Z"/>
+   <path id="path4610" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient54)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4612" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4614" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="hover-bottomright" transform="translate(30.375, 101.375)" fill="none">
-   <path id="path8946" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#131718" opacity="0.80000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path8948" transform="matrix(1 0 0 -1 0.625001 4.625)" fill="#5d992d" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  <g id="normal-bottomleft" transform="translate(0.375, 59.375)" fill="none">
+   <path id="path4618" transform="matrix(-1 0 0 -1 7.625 5.64139)" fill="url(#gradient55)" d="M0 0L0 1.43325L1 1.43325C1.554 1.43325 2.08362 1.51253 2.5625 1.6572C3.04138 1.80187 3.48225 2.00279 3.84375 2.26185C4.20525 2.52091 4.48562 2.83685 4.6875 3.18003C4.88938 3.52321 5 3.90275 5 4.29976L5 5.01639L7 5.01639L7 0Z"/>
+   <path id="path4622" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="url(#gradient56)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4624" transform="matrix(-1 0 0 -1 7.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.40000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4626" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="hover-right" transform="translate(30.3819, 88.375)" fill="none">
-   <rect id="rect8952" transform="matrix(0 -1 -0.988992 0 4.61812 13.625)" fill="#131718" opacity="0.80000000000" width="10.40000000000pt" height="3.23561856000pt"/>
-   <rect id="rect8954" transform="matrix(0 -1 -0.988992 0 4.61266 13.625)" fill="#5d992d" opacity="0.80000000000" width="10.40000000000pt" height="0.80780160000pt"/>
+  <g id="minimized-topright" transform="translate(14.375, 66.375)" fill="none">
+   <path id="path4700" transform="translate(0.625, 0.625)" fill="url(#gradient57)" d="M0 0L0 2L1 2C1.554 2 2.08362 2.11062 2.5625 2.3125C3.04138 2.51438 3.48225 2.79475 3.84375 3.15625C4.20525 3.51775 4.48562 3.95862 4.6875 4.4375C4.88938 4.91638 5 5.446 5 6L5 7L7 7L7 0Z"/>
+   <path id="path4702" transform="translate(0.625, 3.625)" fill="url(#gradient58)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4704" transform="translate(0.625, 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4706" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="hover-left" transform="translate(-0.617752, 88.375)" fill="none">
-   <rect id="rect8958" transform="matrix(0 -1 -0.98841 0 4.61776 13.625)" fill="#131718" opacity="0.80000000000" width="10.40000000000pt" height="3.23752216000pt"/>
-   <rect id="rect8960" transform="matrix(0 -1 -0.98841 0 1.61776 13.625)" fill="#5d992d" opacity="0.80000000000" width="10.40000000000pt" height="0.80938032000pt"/>
+  <g id="minimized-top" transform="translate(7.375, 66.375)" fill="none">
+   <path id="path4710" transform="translate(0.625, 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4712" transform="translate(0.625, 3.625)" fill="url(#gradient59)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4714" transform="translate(0.625, 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4716" transform="translate(0.625, 0.625)" fill="url(#gradient60)" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="hover-bottomleft" transform="translate(-0.623748, 101.375)" fill="none">
-   <path id="path8964" transform="matrix(0.998001 0 0 -1 0.623748 4.625)" fill="#131718" opacity="0.80000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path8966" transform="matrix(0.998001 0 0 -1 0.631743 4.625)" fill="#5d992d" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  <g id="minimized-right" transform="translate(14.375, 73.375)" fill="none">
+   <path id="path4720" transform="matrix(0 1 -1 0 5.625 0.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4722" transform="matrix(0 1 -1 0 4.625 0.625)" fill="url(#gradient61)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4724" transform="matrix(0 1 -1 0 4.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4726" transform="matrix(0 1 -1 0 7.625 0.625)" fill="url(#gradient62)" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="hover-top" transform="translate(3.375, 84.3747)" fill="none">
-   <rect id="rect8970" transform="matrix(1 0 0 0.999866 0.625 0.624916)" fill="#131718" opacity="0.80000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect8972" transform="matrix(1 0 0 0.999866 0.625 0.625453)" fill="#5d992d" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
+  <g id="minimized-left" transform="translate(0.375, 73.375)" fill="none">
+   <path id="path4730" transform="matrix(0 1 1 0 2.625 0.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4732" transform="matrix(0 1 1 0 3.625 0.625)" fill="url(#gradient63)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4734" transform="matrix(0 1 1 0 3.625 0.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4736" transform="matrix(0 1 1 0 0.625 0.625)" fill="url(#gradient64)" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="hover-topright" transform="translate(30.375, 84.3746)" fill="none">
-   <path id="path8976" transform="translate(0.625, 0.625)" fill="#131718" opacity="0.80000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path8978" transform="translate(0.625001, 0.625)" fill="#5d992d" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
+  <g id="minimized-bottom" transform="translate(7.375, 80.375)" fill="none">
+   <path id="path4740" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4742" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient65)" opacity="0.00000000000" d="M0 0L7 0L7 4L0 4Z"/>
+   <path id="path4744" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L7 0L7 1L0 1Z"/>
+   <path id="path4746" transform="matrix(1 0 0 -1 0.625 7.625)" fill="url(#gradient66)" d="M0 2L7 2L7 0L0 0Z"/>
   </g>
-  <g id="hover-topleft" transform="translate(-0.623748, 84.3746)" fill="none">
-   <path id="path8982" transform="matrix(0.998001 0 0 1 0.623748 0.625)" fill="#131718" opacity="0.80000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path8984" transform="matrix(0.998001 0 0 1 0.631743 0.625)" fill="#5d992d" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  <path id="minimized-center" transform="translate(8, 74)" fill="url(#gradient67)" opacity="0.00000000000" d="M0 0L7 0L7 7L0 7Z"/>
+  <g id="minimized-topleft" transform="translate(0.375, 66.375)" fill="none">
+   <path id="path4752" transform="matrix(-1 0 0 1 7.625 0.625)" fill="url(#gradient68)" d="M0 0L0 2L1 2C1.554 2 2.08362 2.11062 2.5625 2.3125C3.04138 2.51438 3.48225 2.79475 3.84375 3.15625C4.20525 3.51775 4.48562 3.95862 4.6875 4.4375C4.88938 4.91638 5 5.446 5 6L5 7L7 7L7 0Z"/>
+   <path id="path4754" transform="matrix(-1 0 0 1 7.625 3.625)" fill="url(#gradient69)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4756" transform="matrix(-1 0 0 1 7.625 2.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4758" transform="matrix(-1 0 0 1 7.625 3.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="attention-center" transform="translate(3.375, 113.375)" fill="none" opacity="0.80000000000">
-   <g id="g12562" transform="" fill="none">
-    <rect id="rect12564" transform="matrix(1 0 0 -1 0.625 13.625)" fill="#5d992d" opacity="0.80000000000" width="21.60000000000pt" height="10.40000000000pt"/>
-   </g>
+  <g id="minimized-bottomright" transform="translate(14.375, 80.375)" fill="none">
+   <path id="path4762" transform="matrix(1 0 0 -1 0.625 7.625)" fill="url(#gradient70)" d="M0 0L0 2L1 2C1.554 2 2.08362 2.11062 2.5625 2.3125C3.04138 2.51438 3.48225 2.79475 3.84375 3.15625C4.20525 3.51775 4.48562 3.95862 4.6875 4.4375C4.88938 4.91638 5 5.446 5 6L5 7L7 7L7 0Z"/>
+   <path id="path4764" transform="matrix(1 0 0 -1 0.625 4.625)" fill="url(#gradient71)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4766" transform="matrix(1 0 0 -1 0.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4768" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
-  <g id="attention-bottom" transform="translate(3.375, 126.375)" fill="none" opacity="0.80000000000">
-   <rect id="rect12568" transform="matrix(1 0 0 -0.999866 0.625 4.62492)" fill="#5d992d" opacity="0.80000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect12570" transform="matrix(1 0 0 -0.999866 0.625 4.62438)" fill="#5d992d" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
-  </g>
-  <g id="attention-bottomright" transform="translate(30.375, 126.375)" fill="none" opacity="0.80000000000">
-   <path id="path12574" transform="matrix(1 0 0 -1 0.625 4.625)" fill="#5d992d" opacity="0.80000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path12576" transform="matrix(1 0 0 -1 0.625001 4.625)" fill="#5d992d" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
-  </g>
-  <g id="attention-right" transform="translate(30.3819, 113.375)" fill="none" opacity="0.80000000000">
-   <rect id="rect12580" transform="matrix(0 -1 -0.988992 0 4.61812 13.625)" fill="#5d992d" opacity="0.80000000000" width="10.40000000000pt" height="3.23561856000pt"/>
-   <rect id="rect12582" transform="matrix(0 -1 -0.988992 0 4.61266 13.625)" fill="#5d992d" opacity="0.80000000000" width="10.40000000000pt" height="0.80780160000pt"/>
-  </g>
-  <g id="attention-left" transform="translate(-0.617752, 113.375)" fill="none" opacity="0.80000000000">
-   <rect id="rect12586" transform="matrix(0 -1 -0.98841 0 4.61776 13.625)" fill="#5d992d" opacity="0.80000000000" width="10.40000000000pt" height="3.23752216000pt"/>
-   <rect id="rect12588" transform="matrix(0 -1 -0.98841 0 1.61776 13.625)" fill="#5d992d" opacity="0.80000000000" width="10.40000000000pt" height="0.80938032000pt"/>
-  </g>
-  <g id="attention-bottomleft" transform="translate(-0.623748, 126.375)" fill="none" opacity="0.80000000000">
-   <path id="path12592" transform="matrix(0.998001 0 0 -1 0.623748 4.625)" fill="#5d992d" opacity="0.80000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path12594" transform="matrix(0.998001 0 0 -1 0.631743 4.625)" fill="#5d992d" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
-  </g>
-  <g id="attention-top" transform="translate(3.375, 109.375)" fill="none" opacity="0.80000000000">
-   <rect id="rect12598" transform="matrix(1 0 0 0.999866 0.625 0.624916)" fill="#5d992d" opacity="0.80000000000" width="21.60000000000pt" height="3.20042992000pt"/>
-   <rect id="rect12600" transform="matrix(1 0 0 0.999866 0.625 0.625453)" fill="#5d992d" opacity="0.80000000000" width="21.60000000000pt" height="0.80000000000pt"/>
-  </g>
-  <g id="attention-topright" transform="translate(30.375, 109.375)" fill="none" opacity="0.80000000000">
-   <path id="path12604" transform="translate(0.625, 0.625)" fill="#5d992d" opacity="0.80000000000" d="M4 4L0 4L0 0C2.96698 0 3.95597 1.01372 4 4Z"/>
-   <path id="path12606" transform="translate(0.625001, 0.625)" fill="#5d992d" opacity="0.80000000000" d="M0 1L0 0C3 0 4 1 4 4L3 4C3 2 2 1 0 1Z"/>
-  </g>
-  <g id="attention-topleft" transform="translate(-0.623748, 109.375)" fill="none" opacity="0.80000000000">
-   <path id="path12610" transform="matrix(0.998001 0 0 1 0.623748 0.625)" fill="#5d992d" opacity="0.80000000000" d="M4.00801 0L4.00801 4L0 4C0.0079 1.01372 0.998911 0 4.00801 0Z"/>
-   <path id="path12612" transform="matrix(0.998001 0 0 1 0.631743 0.625)" fill="#5d992d" opacity="0.80000000000" d="M4 1L4 0C1 0 0 1 0 4L1 4C1 2 2 1 4 1Z"/>
+  <g id="minimized-bottomleft" transform="translate(0.375, 80.375)" fill="none">
+   <path id="path4772" transform="matrix(-1 0 0 -1 7.625 7.625)" fill="url(#gradient72)" d="M0 0L0 2L1 2C1.554 2 2.08362 2.11062 2.5625 2.3125C3.04138 2.51438 3.48225 2.79475 3.84375 3.15625C4.20525 3.51775 4.48562 3.95862 4.6875 4.4375C4.88938 4.91638 5 5.446 5 6L5 7L7 7L7 0Z"/>
+   <path id="path4774" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="url(#gradient73)" opacity="0.00000000000" d="M0 0L0 1L0 4L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
+   <path id="path4776" transform="matrix(-1 0 0 -1 7.625 5.625)" fill="#000000" fill-opacity="0.39215686275" opacity="0.01000000000" d="M0 0L0 1L1 1C2.662 1 4 2.338 4 4L4 5L5 5L5 4C5 1.784 3.216 0 1 0Z"/>
+   <path id="path4778" transform="matrix(-1 0 0 -1 7.625 4.625)" fill="#ffffff" fill-opacity="0.39215686275" opacity="0.00000000000" d="M0 0L0 1L1 1C2.108 1 3 1.892 3 3L3 4L4 4L4 3C4 1.338 2.662 0 1 0Z"/>
   </g>
  </g>
 </svg>

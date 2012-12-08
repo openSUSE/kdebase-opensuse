@@ -8,3 +8,4 @@ OuterColor=93,153,45
 
 [InactiveShadow]
 InnerColor=190,239,175
+UseOuterColor=true
