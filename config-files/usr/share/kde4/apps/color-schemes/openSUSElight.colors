@@ -89,8 +89,8 @@ ForegroundPositive=41,94,25
 ForegroundVisited=155,82,94
 
 [General]
-ColorScheme=openSUSElight.colors
-Name=openSUSElight.colors
+ColorScheme=openSUSElight
+Name=openSUSElight
 shadeSortColumn=true
 
 [KDE]

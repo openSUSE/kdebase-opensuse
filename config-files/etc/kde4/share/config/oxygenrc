@@ -4,7 +4,7 @@ ShowStripes=true
 
 [ActiveShadow]
 InnerColor=190,239,175
-OuterColor=93,153,45
+OuterColor=114,147,125
 
 [InactiveShadow]
 InnerColor=190,239,175
