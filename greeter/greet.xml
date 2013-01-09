@@ -1,6 +1,8 @@
 <?xml version='1.0' standalone='yes'?>
 <greeter>
 	<section>
+		<color name="background_color">#888888</color>
+		<color name="text_color">#00FFFF</color>
 		<title>openSUSE Project</title>
 		<icon>cr64-suse</icon>
 		<text>The &lt;a href="http://www.opensuse.org/"&gt;openSUSE project&lt;/a&gt; is a community program sponsored by &lt;a href="http://www.suse.com/"&gt;SUSE&lt;/a&gt;. Promoting the use of Linux everywhere, openSUSE.org provides free, easy access to the world's most usable Linux distribution, openSUSE. You'll find more information available in many languages on the &lt;a href="http://en.opensuse.org/"&gt;project wiki&lt;/a&gt;. For the latest news, visit our &lt;a href="http://news.opensuse.org/"&gt;openSUSE News&lt;/a&gt; portal.</text>
