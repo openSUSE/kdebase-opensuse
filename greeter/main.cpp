@@ -16,62 +16,63 @@
  ***************************************************************************/
 
 //#include "config.h"
-#include <kcmdlineargs.h>
-#include <kaboutdata.h>	
-#include <klocale.h>
+#include <KCmdLineArgs>
+#include <KAboutData>
+#include <KLocale>
 #include <greetings.h>
 #include <QDesktopWidget>
 
-#include <kglobal.h>
-#include <krun.h>
-#include <kapplication.h>
-#include <kconfig.h>
-#include <kconfiggroup.h>
+#include <KGlobal>
+#include <KRun>
+#include <KApplication>
+#include <KConfig>
+#include <KConfigGroup>
 
-int main(int argc, char *argv[])
+int main ( int argc, char *argv[] )
 {
 
-  KAboutData aboutData( "SUSEgreeter", 0, ki18n("SUSEgreeter"), "0.1", 
-    ki18n("SUSEgreeter"), KAboutData::License_GPL, ki18n("(c) 2001, Adrian Schroeter"));
-  aboutData.addAuthor(ki18n("Adrian Schroeter"), KLocalizedString(), "adrian@suse.de");
+     KAboutData aboutData ( "SUSEgreeter", 0, ki18n ( "SUSEgreeter" ), "0.1",
+                            ki18n ( "SUSEgreeter" ), KAboutData::License_GPL, ki18n ( "(c) 2001, Adrian Schroeter" ) );
+     aboutData.addAuthor ( ki18n ( "Adrian Schroeter" ), KLocalizedString(), "adrian@suse.de" );
 
-  KCmdLineArgs::init( argc, argv, &aboutData );
+     KCmdLineArgs::init ( argc, argv, &aboutData );
 
-  KLocale::setMainCatalog("SUSEgreeter");
+     KLocale::setMainCatalog ( "SUSEgreeter" );
 
-  KApplication a;
+     KApplication a;
 
-  KGlobal::locale()->insertCatalog(QString::fromLatin1("kpersonalizer"));
+     KGlobal::locale()->insertCatalog ( QString::fromLatin1 ( "kpersonalizer" ) );
 
-  // first, reset the startup from true (see desktop file in share/autostart) to false
-  KConfig SUSEgreeterrc("SUSEgreeterrc");
-  KConfigGroup grp = SUSEgreeterrc.group("General");
-  bool ktip = (grp.readEntry("FirstLogin113", true) );
-  grp.writeEntry("FirstLogin113", false);
-  grp.sync();
+     // first, reset the startup from true (see desktop file in share/autostart) to false
+     KConfig SUSEgreeterrc ( "SUSEgreeterrc" );
+     KConfigGroup grp = SUSEgreeterrc.group ( "General" );
+     bool ktip = ( grp.readEntry ( "FirstLogin113", true ) );
+     grp.writeEntry ( "FirstLogin113", false );
+     grp.sync();
 
-  SUSEgreetings greeter;
-  a.setTopWidget(&greeter);
-  greeter.adjustSize();
+     SUSEgreetings greeter;
+     a.setTopWidget ( &greeter );
+     greeter.adjustSize();
 
-  QDesktopWidget *dsk = kapp->desktop();
-  QRect scr = dsk->screenGeometry( dsk->screenNumber( QPoint( 0, 0 ) ) );
-  QRect grt( 0, 0, greeter.width(), greeter.height() );
-  grt.moveCenter( scr.center() );
-  greeter.setGeometry( grt );
-  greeter.show();
+     QDesktopWidget *dsk = kapp->desktop();
+     QRect scr = dsk->screenGeometry ( dsk->screenNumber ( QPoint ( 0, 0 ) ) );
+     QRect grt ( 0, 0, greeter.width(), greeter.height() );
+     grt.moveCenter ( scr.center() );
+     greeter.setGeometry ( grt );
+     greeter.setWindowOpacity(0.8);
+     greeter.show();
 
-  int ret = a.exec();
-  if(ktip){ // only run if we set this to true in the constructor. then SUSEgreeter didn't run before
-      // set the ktiprc file entry to true. The global one is set to false for starting SUSEgreeter
+     int ret = a.exec();
+     if ( ktip ) { // only run if we set this to true in the constructor. then SUSEgreeter didn't run before
+          // set the ktiprc file entry to true. The global one is set to false for starting SUSEgreeter
 #if 0
-      KConfig ktiprc("ktiprc");
-      KConfigGroup group = ktiprc.group("TipOfDay");
-      group.writeEntry("RunOnStart", true);
-      ktiprc.sync();
+          KConfig ktiprc ( "ktiprc" );
+          KConfigGroup group = ktiprc.group ( "TipOfDay" );
+          group.writeEntry ( "RunOnStart", true );
+          ktiprc.sync();
 #endif
 
 //      kapp->dcopClient()->send("kicker", "kicker", "showKMenu()", "");
-  }
-  return ret;
+     }
+     return ret;
 }
