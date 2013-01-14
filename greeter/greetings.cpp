@@ -123,6 +123,9 @@ SUSEgreetings::SUSEgreetings()
      content.replace ( "__ENJOY_OPENSUSE__", i18n ( "Have a lot of fun!" ) );
      content.replace ( "__CLOSE__", i18n ( "CLOSE" ) );
      content.replace ( "__INTRODUCTION__", i18n ( "Show Introduction to KDE4" ) );
+     setStyleSheet("background:transparent;");
+     setAttribute(Qt::WA_TranslucentBackground);
+     setWindowFlags(Qt::FramelessWindowHint);
 
      Text = new KTextBrowser ( this, "TextView" );     
      Text->setText ( content );
@@ -137,7 +140,7 @@ SUSEgreetings::SUSEgreetings()
      QFont font;
      font.setPixelSize ( 17 );
      font.setFamily ( "sans serif" );
-     Text->setFont ( font );     
+     Text->setFont ( font );
      Text->adjustSize();
 
      top->activate();

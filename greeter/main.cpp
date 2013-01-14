@@ -59,7 +59,6 @@ int main ( int argc, char *argv[] )
      QRect grt ( 0, 0, greeter.width(), greeter.height() );
      grt.moveCenter ( scr.center() );
      greeter.setGeometry ( grt );
-     greeter.setWindowOpacity(0.8);
      greeter.show();
 
      int ret = a.exec();
