@@ -80,10 +80,10 @@ if [ ! -e "$HOME/.skel/kdebase4.120" ]; then
     sed -i 's/^Icon=susehelpcenter$/Icon=Support/' "$desktop/Support.desktop"
     chmod u+x "$desktop/Support.desktop" 2>/dev/null
 
-    if [ ! -e "$desktop/myComputer.desktop" -a -e "/usr/share/kde4/config/SuSE/default/myComputer.desktop" ]; then
-          cp /usr/share/kde4/config/SuSE/default/myComputer.desktop "$desktop/"
+    if [ ! -e "$desktop/kinfocenter.desktop" -a -e "/usr/share/applications/kde4/kinfocenter.desktop" ]; then
+          cp /usr/share/applications/kde4/kinfocenter.desktop "$desktop/"
     fi
-    chmod u+x "$desktop/myComputer.desktop" 2>/dev/null
+    chmod u+x "$desktop/kinfocenter.desktop" 2>/dev/null
 
     if [ ! -e "$HOME/.kde4/share/apps/konqueror/bookmarks.xml" -a -e "/usr/share/kde4/config/SuSE/default/bookmarks.xml" ]; then
           mkdir -p $HOME/.kde4/share/apps/konqueror
