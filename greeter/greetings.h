@@ -7,33 +7,32 @@
 
 class KConfig;
 
-#include <qdialog.h>
-#include <qlabel.h>
-#include <qimage.h>
-#include <ktextbrowser.h>
+#include <QDialog>
+#include <QLabel>
+#include <QImage>
+#include <KTextBrowser>
 
 
-class SUSEgreetings : public QDialog
-{
-    Q_OBJECT
+class SUSEgreetings : public QDialog {
+     Q_OBJECT
 
 public:
-    SUSEgreetings();
-    ~SUSEgreetings();
+     SUSEgreetings();
+     ~SUSEgreetings();
 
-    int buttons();
-    QString quickHelp() const;
+     int buttons();
+     QString quickHelp() const;
 
 protected:
-    void showEvent(QShowEvent*);
+     void showEvent ( QShowEvent* );
 
 protected slots:
-    void urlClick( const QString& );
-    void adjustFontSize();
-    void resetCursor();
+     void urlClick ( const QString& );
+     void adjustFontSize();
+     void resetCursor();
 
 private:
-    KTextBrowser *Text;
+     KTextBrowser *Text;
 };
 
 #endif
