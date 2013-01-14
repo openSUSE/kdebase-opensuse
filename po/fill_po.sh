@@ -1,7 +1,8 @@
 #!/bin/bash
 # vim: sw=4 et
 
-SUBDIRS="kio_sysinfo krpmview SUSEgreeter kde4-openSUSE"
+# SUBDIRS="kio_sysinfo krpmview SUSEgreeter kde4-openSUSE"
+SUBDIRS="krpmview SUSEgreeter kde4-openSUSE"
 
 rm -f CMakeLists.txt
 echo "find_package(Gettext REQUIRED)" >> CMakeLists.txt
