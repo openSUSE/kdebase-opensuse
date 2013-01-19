@@ -8,7 +8,7 @@
 	<section>
 		<title>Community Support</title>
 		<icon>support</icon>
-   <text>openSUSE means participating fairly in Free and Open Source Software. We contribute to projects like the Linux kernel, GNU gcc, Samba, KDE and GNOME. Our tools are useful to all, like &lt;a href="http://openbuildservice.org"&gt;Open Build Service&lt;/a&gt;, &lt;a href="http://snapper.io"&gt;Snapper&lt;/a&gt;, and &lt;a href="http://openqa.opensuse.org/"&gt;openQA&lt;/a&gt;. openSUSE meets a wide range of needs thanks to initiatives like our Rolling Release &lt;a href="http://opensuse.org/Tumbleweed"&gt;Tumbleweed&lt;/a&gt; and the easy custom OS builder &lt;a href="http://susestudio.com"&gt;SUSE Studio&lt;/a&gt;.</text>
+   <text>openSUSE means participating fairly in Free and Open Source Software. We contribute to projects like the Linux kernel, GNU gcc, Samba, KDE and GNOME. Our tools are useful to all, like &lt;a href="http://openbuildservice.org"&gt;Open Build Service&lt;/a&gt;, the filesystem snapshot and recovery tool &lt;a href="http://snapper.io"&gt;Snapper&lt;/a&gt;, and the distribution testing tool &lt;a href="http://openqa.opensuse.org/"&gt;openQA&lt;/a&gt;. openSUSE meets a wide range of needs thanks to initiatives like our Rolling Release &lt;a href="http://opensuse.org/Tumbleweed"&gt;Tumbleweed&lt;/a&gt; and the easy custom OS builder &lt;a href="http://susestudio.com"&gt;SUSE Studio&lt;/a&gt;.</text>
 	</section>
 	<section>
 		<title>Build Service</title>
