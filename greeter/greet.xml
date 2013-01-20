@@ -8,11 +8,11 @@
 	<section>
 		<title>Community Support</title>
 		<icon>support</icon>
-   <text>openSUSE means participating fairly in Free and Open Source Software. We contribute to projects like the Linux kernel, GNU gcc, Samba, KDE and GNOME. Our tools are useful to all, like &lt;a href="http://openbuildservice.org"&gt;Open Build Service&lt;/a&gt;, &lt;a href="http://snapper.io"&gt;Snapper&lt;/a&gt;, and &lt;a href="http://openqa.opensuse.org/"&gt;openQA&lt;/a&gt;. openSUSE meets a wide range of needs thanks to initiatives like our Rolling Release &lt;a href="http://opensuse.org/Tumbleweed"&gt;Tumbleweed&lt;/a&gt; and the easy custom OS builder &lt;a href="http://susestudio.com"&gt;SUSE Studio&lt;/a&gt;.</text>
+   <text>openSUSE means participating fairly in Free and Open Source Software. We contribute to projects like the Linux kernel, GNU gcc, Samba, KDE and GNOME. Our tools are useful to all, like &lt;a href="http://openbuildservice.org"&gt;Open Build Service&lt;/a&gt;, the filesystem snapshot and recovery tool &lt;a href="http://snapper.io"&gt;Snapper&lt;/a&gt;, and the distribution testing tool &lt;a href="http://openqa.opensuse.org/"&gt;openQA&lt;/a&gt;. openSUSE meets a wide range of needs thanks to initiatives like our Rolling Release &lt;a href="http://opensuse.org/Tumbleweed"&gt;Tumbleweed&lt;/a&gt; and the easy custom OS builder &lt;a href="http://susestudio.com"&gt;SUSE Studio&lt;/a&gt;.</text>
 	</section>
 	<section>
 		<title>Build Service</title>
 		<icon>blueprint</icon>
-    <text> We want you to have a great openSUSE experience. Our &lt;a href="http://help.opensuse.org/"&gt;Online Help&lt;/a&gt; site provides a lot of information and you can find answers and ask questions on our &lt;a href="http://forums.opensuse.org/"&gt;openSUSE Forums&lt;/a&gt;. Look &lt;a href="https://en.opensuse.org/openSUSE:Communication_channels"&gt;here&lt;/a&gt; to find more openSUSE communication channels. </text>
+    <text> We want you to have a great openSUSE experience. Our &lt;a href="http://help.opensuse.org/"&gt;Online Help&lt;/a&gt; site provides a lot of information and you can find answers and ask questions on our &lt;a href="http://forums.opensuse.org/"&gt;openSUSE Forums&lt;/a&gt;. Look &lt;a href="https://en.opensuse.org/openSUSE:Communication_channels"&gt;here&lt;/a&gt; to find more openSUSE communication channels.</text>
 	</section>
 </greeter>
