@@ -123,6 +123,7 @@ SUSEgreetings::SUSEgreetings()
      content.replace ( "__ENJOY_OPENSUSE__", i18n ( "Have a lot of fun!" ) );
      content.replace ( "__CLOSE__", i18n ( "CLOSE" ) );
      content.replace ( "__INTRODUCTION__", i18n ( "Show Introduction to KDE4" ) );
+     content.replace ( "__INTROVIDEO__", i18n ( "Show Video Introduction to KDE4" ) );
      setStyleSheet("background:transparent;");
      setAttribute(Qt::WA_TranslucentBackground);
      setWindowFlags(Qt::FramelessWindowHint);
@@ -193,6 +194,9 @@ void SUSEgreetings::urlClick ( const QString &s )
      } else if ( url.startsWith ( "/introduction" ) ) {
           url="http://userbase.kde.org/";
           KProcess::startDetached ( "kfmclient", QStringList() << "openURL" << url );
+     } else if ( url.startsWith ( "/video" ) ) {
+          url="/usr/share/kde4/apps/SUSEgreeter/opensuse.webm";
+          KProcess::startDetached ( "dragon", QStringList() << url );
      } else {
           KProcess::startDetached ( "kfmclient", QStringList() << "openURL" << url );
      }
