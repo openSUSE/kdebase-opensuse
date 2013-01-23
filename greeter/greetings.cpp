@@ -196,7 +196,7 @@ void SUSEgreetings::urlClick ( const QString &s )
           KProcess::startDetached ( "kfmclient", QStringList() << "openURL" << url );
      } else if ( url.startsWith ( "/video" ) ) {
           url="/usr/share/kde4/apps/SUSEgreeter/opensuse.webm";
-          KProcess::startDetached ( "dragon", QStringList() << url );
+          KProcess::startDetached ( "kfmclient", QStringList() << "openURL" << url );
      } else {
           KProcess::startDetached ( "kfmclient", QStringList() << "openURL" << url );
      }
