@@ -6,13 +6,13 @@
 		<text>The &lt;a href="http://www.opensuse.org/"&gt;openSUSE project&lt;/a&gt; is a community program sponsored by &lt;a href="http://www.suse.com/"&gt;SUSE&lt;/a&gt;. Promoting the use of Linux everywhere, openSUSE.org provides free, easy access to the world's most usable Linux distribution, openSUSE. You'll find more information available in many languages on the &lt;a href="http://en.opensuse.org/"&gt;project wiki&lt;/a&gt;. For the latest news, visit our &lt;a href="http://news.opensuse.org/"&gt;openSUSE News&lt;/a&gt; portal.</text>
 	</section>
 	<section>
-		<title>Build Service</title>
-		<icon>blueprint</icon>
+		<title>Community Support</title>
+		<icon>support</icon>
 		<text>The openSUSE community are helpful people. Various ways exist to contact other openSUSE members, ask questions, discuss openSUSE and Linux. The official &lt;a href="http://forums.opensuse.org/"&gt;openSUSE Forums&lt;/a&gt; are very accessible. Other ways including online chat are described on our &lt;a href="http://help.opensuse.org/"&gt;Online Help&lt;/a&gt; site.</text>
 	</section>
 	<section>
-		<title>Community Support</title>
-		<icon>support</icon>
+		<title>Build Service</title>
+		<icon>blueprint</icon>
 		<text>The &lt;a href="http://en.opensuse.org/Build_Service"&gt;openSUSE Build Service&lt;/a&gt; is an open and complete distribution development platform. It provides software developers with a tool to compile, release and publish their software for a broad user audience. For non-developers it offers a large collection of easy to install software packages. Just visit the &lt;a href="http://software.opensuse.org/"&gt;openSUSE Software&lt;/a&gt; site.</text>
 	</section>
 </greeter>
