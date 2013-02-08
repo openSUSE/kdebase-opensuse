@@ -19,4 +19,3 @@ install(FILES SUSEgreeter.desktop DESTINATION ${AUTOSTART_INSTALL_DIR})
 install( FILES SUSEgreeter.desktop DESTINATION  ${XDG_APPS_INSTALL_DIR} )
 
 add_subdirectory( pics )
-add_subdirectory( video )
