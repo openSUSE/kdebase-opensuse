@@ -1,2 +1,6 @@
 [Desktops]
 Number=2
+
+[Compositing]
+Enabled=true
+GraphicsSystem=raster
