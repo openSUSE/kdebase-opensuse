@@ -15,7 +15,6 @@ else
     mv kdebase-opensuse kdebase4-openSUSE
 fi
 rm -rf kdebase4-openSUSE/.git
-#svn export svn://anonsvn.kde.org/home/kde/trunk/playground/base/kio_sysinfo kdebase4-openSUSE/sysinfo/kio_sysinfo || exit 1
 if test -d "$MY_LCN_CHECKOUT"; then
   echo "Updating $MY_LCN_CHECKOUT"
   svn up $MY_LCN_CHECKOUT || exit 1
