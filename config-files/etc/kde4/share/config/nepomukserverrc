@@ -2,12 +2,8 @@
 Configured repositories=main
 Start Nepomuk=true
 
-[Service-nepomukstrigiservice]
-autostart=false
-
 [Service-nepomukfileindexer]
 autostart=false
 
 [main Settings]
 Used Soprano Backend=virtuosobackend
-rebuilt index for type indexing=true
