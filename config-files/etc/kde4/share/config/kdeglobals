@@ -96,6 +96,7 @@ ForegroundVisited=155,82,94
 ColorScheme=openSUSE
 Name=openSUSE
 shadeSortColumn=true
+BrowserApplication=firefox
 
 [KDE]
 contrast=5
@@ -125,7 +126,3 @@ ChangeCursor=true
 
 [KFileDialog Settings]
 Breadcrumb Navigation=true
-
-[General]
-BrowserApplication=firefox
-ColorScheme=openSUSE
