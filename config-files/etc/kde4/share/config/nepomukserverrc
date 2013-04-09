@@ -7,3 +7,4 @@ autostart=false
 
 [main Settings]
 Used Soprano Backend=virtuosobackend
+Maximum memory=20
