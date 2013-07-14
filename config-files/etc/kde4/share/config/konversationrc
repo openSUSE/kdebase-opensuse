@@ -9,3 +9,6 @@ Port=8001
 AutoJoinChannels=Channel 0
 ServerList=Server 0
 Name=openSUSE IRC
+
+[General Options]
+ShowTrayIcon=true
