@@ -1,0 +1,4 @@
+[Plugin-org.kde.kactivitymanager.resourcescoring]
+blocked-by-default=true
+keep-history-for=0
+what-to-remember=2
