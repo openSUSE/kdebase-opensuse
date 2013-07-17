@@ -5,6 +5,7 @@ for (var i in panelIds) {
         if (widget.type == "digital-clock") {
             widget.currentConfigGroup = new Array();
             widget.writeConfig('showEvents', 'false');
+            widget.writeConfig('displayEvents', 'false');
             widget.reloadConfig();
         }
     }
