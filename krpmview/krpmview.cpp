@@ -147,7 +147,7 @@ QString KRPMViewPart::createDependencyList(const Header &h, const QString &capti
      headerGetEntry(h, (rpmTag)TAGFLAGS, NULL, &tmpVoid, NULL);
      const uint *flags = (const uint *)tmpVoid;
      for (int i = 0; i < nEntries; i++){
-        if (((flags[i] & RPMSENSE_STRONG) == RPMSENSE_STRONG) == strongState) {
+        if (((flags[i] & RPMSENSE_MISSINGOK) == RPMSENSE_MISSINGOK) == strongState) {
           if (!captionAdded) {
             result += QLatin1String("<h3>")+caption+QLatin1String("</h3>");
             captionAdded = true;
@@ -296,13 +296,13 @@ bool KRPMViewPart::openFile()
 
   dependencies += createDependencyList(h, i18n("Obsoletes"), RPMTAG_OBSOLETENAME, RPMTAG_OBSOLETEVERSION, RPMTAG_OBSOLETEFLAGS, false);
 
-  dependencies += createDependencyList(h, i18n("Recommends"), RPMTAG_SUGGESTSNAME, RPMTAG_SUGGESTSVERSION, RPMTAG_SUGGESTSFLAGS, true);
+  dependencies += createDependencyList(h, i18n("Recommends"), RPMTAG_SUGGESTNAME, RPMTAG_SUGGESTVERSION, RPMTAG_SUGGESTFLAGS, true);
 
-  dependencies += createDependencyList(h, i18n("Suggests"), RPMTAG_SUGGESTSNAME, RPMTAG_SUGGESTSVERSION, RPMTAG_SUGGESTSFLAGS, false);
+  dependencies += createDependencyList(h, i18n("Suggests"), RPMTAG_SUGGESTNAME, RPMTAG_SUGGESTVERSION, RPMTAG_SUGGESTFLAGS, false);
 
-  dependencies += createDependencyList(h, i18n("Enhances"), RPMTAG_ENHANCESNAME, RPMTAG_ENHANCESVERSION, RPMTAG_ENHANCESFLAGS, false);
+  dependencies += createDependencyList(h, i18n("Enhances"), RPMTAG_ENHANCENAME, RPMTAG_ENHANCEVERSION, RPMTAG_ENHANCEFLAGS, false);
 
-  dependencies += createDependencyList(h, i18n("Supplements"), RPMTAG_ENHANCESNAME, RPMTAG_ENHANCESVERSION, RPMTAG_ENHANCESFLAGS, true);
+  dependencies += createDependencyList(h, i18n("Supplements"), RPMTAG_ENHANCENAME, RPMTAG_ENHANCEVERSION, RPMTAG_ENHANCEFLAGS, true);
 
   Fclose(fd);
 
