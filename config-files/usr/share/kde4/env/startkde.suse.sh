@@ -115,7 +115,8 @@ if [ ! -e "$HOME/.skel/kdebase4.120" ]; then
         sedcommand="s,$HOME,\$HOME,g"
         strigi_paths=$(echo $strigi_paths|sed $sedcommand)
 
-        echo -e "[General]\nfolders[\$e]=$strigi_paths" > $HOME/.kde4/share/config/nepomukstrigirc
+        echo "[General]" > $HOME/.kde4/share/config/nepomukstrigirc
+        echo "folders[\$e]=$strigi_paths" >> $HOME/.kde4/share/config/nepomukstrigirc
     fi
 
     mkdir -p $HOME/.skel/
