@@ -111,7 +111,7 @@ if [ ! -e "$HOME/.skel/kdebase4.120" ]; then
             strigi_paths="${strigi_paths},$(xdg-user-dir $i)"
         done
 
-        strigi_paths=${strigi_paths:1}
+        strigi_paths=${strigi_paths#?}
         sedcommand="s,$HOME,\$HOME,g"
         strigi_paths=$(echo $strigi_paths|sed $sedcommand)
 
