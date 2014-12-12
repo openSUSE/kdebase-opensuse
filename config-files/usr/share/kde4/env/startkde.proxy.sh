@@ -1,4 +1,4 @@
-test -r /etc/sysconfig/proxy && source /etc/sysconfig/proxy
+test -r /etc/sysconfig/proxy && . /etc/sysconfig/proxy
 
 if test "$PROXY_ENABLED" = "no"; then
    unset HTTP_PROXY

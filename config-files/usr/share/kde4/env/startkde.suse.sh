@@ -28,7 +28,7 @@ fi
 
 if [ -r /etc/sysconfig/windowmanager ]; then
   # Do the user want the SuSE theme ?
-  source /etc/sysconfig/windowmanager
+  . /etc/sysconfig/windowmanager
 
   # Should we really enable FAM support for KDE ?
   export USE_FAM="$KDE_USE_FAM"
@@ -111,11 +111,12 @@ if [ ! -e "$HOME/.skel/kdebase4.120" ]; then
             strigi_paths="${strigi_paths},$(xdg-user-dir $i)"
         done
 
-        strigi_paths=${strigi_paths:1}
+        strigi_paths=${strigi_paths#?}
         sedcommand="s,$HOME,\$HOME,g"
         strigi_paths=$(echo $strigi_paths|sed $sedcommand)
 
-        echo -e "[General]\nfolders[\$e]=$strigi_paths" > $HOME/.kde4/share/config/nepomukstrigirc
+        echo "[General]" > $HOME/.kde4/share/config/nepomukstrigirc
+        echo "folders[\$e]=$strigi_paths" >> $HOME/.kde4/share/config/nepomukstrigirc
     fi
 
     mkdir -p $HOME/.skel/
