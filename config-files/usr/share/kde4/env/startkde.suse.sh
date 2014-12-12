@@ -28,7 +28,7 @@ fi
 
 if [ -r /etc/sysconfig/windowmanager ]; then
   # Do the user want the SuSE theme ?
-  source /etc/sysconfig/windowmanager
+  . /etc/sysconfig/windowmanager
 
   # Should we really enable FAM support for KDE ?
   export USE_FAM="$KDE_USE_FAM"
