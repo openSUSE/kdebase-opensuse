@@ -1,11 +1,12 @@
 #ifndef KRPMVIEW_H_INCLUDE_GUARD_
 #define KRPMVIEW_H_INCLUDE_GUARD_
 
-#include <kparts/factory.h>
-#include <kparts/part.h>
+#include <kcomponentdata.h>
+#include <kgenericfactory.h>
+#include <kparts/factory.h> 
 
 class KComponentData;
-class KAboutData;
+class K4AboutData;
 
 class KRPMViewFactory : public KParts::Factory
 {
@@ -13,7 +14,7 @@ class KRPMViewFactory : public KParts::Factory
         KRPMViewFactory();
         virtual ~KRPMViewFactory();
         static KComponentData *componentData();
-        static KAboutData *aboutData();
+        static K4AboutData *aboutData();
 
         virtual KParts::Part *createPartObject( QWidget *parentWidget,
                 QObject *parent, const char *name,
@@ -24,7 +25,7 @@ class KRPMViewFactory : public KParts::Factory
     private:
         static KRPMViewFactory *s_self;
         static KComponentData *s_instance;
-        static KAboutData *s_aboutData;
+        static K4AboutData *s_aboutData;
 };
 
 #endif

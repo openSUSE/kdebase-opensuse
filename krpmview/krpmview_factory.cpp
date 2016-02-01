@@ -1,8 +1,10 @@
-#include <kparts/factory.h>
-#include <kparts/part.h>
 #include <kgenericfactory.h>
-#include <kaboutdata.h>
+#include <k4aboutdata.h>
 #include <kdebug.h>
+#include <KParts/ReadWritePart>
+#include <KParts/ReadOnlyPart>
+#include <KParts/Part>
+#include <KComponentData>
 
 #include "krpmview.h"
 #include "krpmview_factory.h"
@@ -31,7 +33,7 @@ KComponentData *KRPMViewFactory::createInstance()
 
 KRPMViewFactory *KRPMViewFactory::s_self;
 KComponentData *KRPMViewFactory::s_instance;
-KAboutData *KRPMViewFactory::s_aboutData;
+K4AboutData *KRPMViewFactory::s_aboutData;
 
 KParts::Part *KRPMViewFactory::createPartObject( QWidget *parentWidget,
         QObject *parent,
@@ -76,7 +78,7 @@ KComponentData *KRPMViewFactory::componentData()
     return s_instance;
 }
 
-KAboutData *KRPMViewFactory::aboutData()
+K4AboutData *KRPMViewFactory::aboutData()
 {
     if ( !s_aboutData )
         s_aboutData = KRPMViewPart::createAboutData();

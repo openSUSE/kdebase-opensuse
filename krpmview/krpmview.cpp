@@ -18,12 +18,16 @@
 #include <qlayout.h>
 #include <kprocess.h>
 #include <krun.h>
-#include <kaboutdata.h>
-#include <klocale.h>
 #include <time.h>
 #include <QTextDocument>
+#include <ktextbrowser.h>
+
 #define _RPM_4_4_COMPAT 1
 #include <rpm/rpmlegacy.h>
+#include <KLocalizedString>
+#include <K4AboutData>
+#include <kcomponentdata.h>
+#include <kgenericfactory.h>
 
 #include "krpmview.h"
 #include "krpmview_factory.h"
@@ -36,8 +40,6 @@ KRPMViewPart::KRPMViewPart( QWidget *parentWidget,
  : KParts::ReadOnlyPart( parent )
 {
   setComponentData( KRPMViewPart::componentData() );
-
-  KGlobal::locale()->insertCatalog(QLatin1String("krpmview"));
 
   // Create the tree widget, and set it as the part's widget
   box = new QWidget(parentWidget);
@@ -344,7 +346,7 @@ void KRPMViewPart::install_package()
   KProcess p;
   p << QLatin1String("kdesu") << QLatin1String("-n") 
       << QLatin1String("--attach") << QString::number(widget()->window()->winId()) << QLatin1String("--") 
-      << QLatin1String("/usr/share/kde4/apps/krpmview/setup_temp_source") << localFilePath();
+      << QLatin1String("/usr/share/krpmview/setup_temp_source") << localFilePath();
   p.execute();
 }
 
@@ -360,12 +362,30 @@ void KRPMViewPart::use_directory()
   p.execute();
 }
 
-KAboutData* KRPMViewPart::createAboutData()
+K4AboutData* KRPMViewPart::createAboutData()
 {
-    KAboutData* about = new KAboutData( "krpmview", 0, ki18n("krpmview"),
+
+//
+//    KAboutData* aboutData = new KAboutData(
+//        QStringLiteral("krpmview"),
+//        xi18nc("@title", "<application>KDE RPM Viewer</application>"),
+//        "0.2",
+//        i18nc("@title", "View the content of RPM archives and use YaST to install them"),
+//        KAboutLicense::GPL,
+//        i18nc("@info:credit", "© 2003 Novell Inc."));
+//    aboutData->setOrganizationDomain(QByteArray("kde.org"));
+//    aboutData->setProductName(QByteArray("krpmview"));
+
+//    aboutData->addAuthor(i18nc("@info:credit", "Adrian Schröter"), i18nc("@info:credit", "Original Author"), QStringLiteral("adrian@suse.de"));
+//    aboutData->addAuthor(i18nc("@info:credit", "Raymond Wooninck"), i18nc("@info:credit", "Maintainer"), QStringLiteral("tittiatcoke@gmail.com"));
+//    aboutData->setHomepage(QStringLiteral("https://www.opensuse.org"));
+//
+//    return aboutData;
+
+    K4AboutData* about = new K4AboutData( "krpmview", 0, ki18n("krpmview"),
             "0.1",
             ki18n( "Viewer for RPM files"),
-            KAboutData::License_GPL,
+            K4AboutData::License_GPL,
             ki18n("(C) 2003 Novell Inc."),
             ki18n( "KRPMView views the content of RPM archives "
                        "and can use YaST to install them" ) );
@@ -375,6 +395,7 @@ KAboutData* KRPMViewPart::createAboutData()
                       "http://www.suse.de" );
 
     return about;
+
 }
 
 #include "krpmview.moc"

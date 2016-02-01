@@ -6,4 +6,4 @@ InitialPreference=7
 Icon=rpm
 Name=KRPMView
 ServiceTypes=KParts/ReadOnlyPart,Browser/View
-X-KDE-Library=libkrpmview
+X-KDE-Library=krpmview

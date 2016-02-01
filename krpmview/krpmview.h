@@ -17,15 +17,16 @@
 #ifndef __plugin_krpmview_h
 #define __plugin_krpmview_h
  
-#include <kparts/part.h>
-#include <ktextbrowser.h>
+#include <KTextBrowser>
 #include <qtabbar.h>
 #include <qpushbutton.h>
+#include <K4AboutData>
 
 #define _RPM_4_4_COMPAT 1
 
 #include <rpmlib.h>
 #include <rpm/rpmts.h>
+#include <KParts/ReadOnlyPart>
 
 // Forward declarations, saves time compared to including the full headers
 class KAboutData;
@@ -39,7 +40,7 @@ public:
   virtual ~KRPMViewPart() {}
 
   // Return information about the part
-  static KAboutData* createAboutData();
+  static K4AboutData* createAboutData();
 
 protected:
   // Open the file whose path is stored in the member variable m_file
